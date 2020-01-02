@@ -14,7 +14,7 @@ Theme.defaultProps = {
 }
 
 Theme.propTypes = {
-  theme: PropTypes.string,
+  theme: PropTypes.object,
   children: PropTypes.node,
 }
 
