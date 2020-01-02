@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components"
 import { colourPalette } from "brandColours"
 
 const Theme = props => (
-  <ThemeProvider theme={colourPalette[props.theme]}>
+  <ThemeProvider theme={props.theme || colourPalette.examplePalette}>
     <>{props.children}</>
   </ThemeProvider>
 )
