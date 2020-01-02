@@ -1,0 +1,95 @@
+version: 2
+jobs:
+  Unit-Tests:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: yarn install
+          command: yarn --frozen-lockfile
+      - run:
+          name: git config setting
+          command: |
+            git config --global -l
+            git config --global user.email circleci@circleci
+            git config --global user.name CircleCI
+      - run:
+          name: Run storybook
+          command: yarn storybook &
+      - run:
+          name: Lint
+          command: yarn lint
+      - run:
+          name: Unit tests
+          command: |
+            MAX_WORKERS=1
+            YARN_TEST_RUN="yarn test --maxWorkers=${MAX_WORKERS}"
+            ${YARN_TEST_RUN}
+      - run:
+          name: Codecov
+          command: yarn codecov
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: cache-{{ arch }}-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - project
+  Cypress-Tests:
+    docker:
+      - image: cypress/base:8
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: yarn install
+          command: yarn
+      - run:
+          name: Run Cypress Tests
+          command: |
+            yarn storybook &
+            yarn wait-on http://localhost:9009
+            yarn cypress run
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+  Design-system-publish-and-deploy:
+    docker:
+      - image: circleci/python:3.7-node
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: aws
+          command: sudo apt-get update && sudo apt-get install -y awscli
+      - run:
+          name: build
+          command: |
+            yarn run build
+            yarn run build-storybook
+workflows:
+  version: 2
+  Build:
+    jobs:
+      - Unit-Tests
+      - Cypress-Tests
+      - Design-system-publish-and-deploy:
+          requires:
+            - Unit-Tests
+            - Cypress-Tests
+          filters:
+            branches:
+              only:
+                - master
