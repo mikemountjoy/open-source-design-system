@@ -2,7 +2,7 @@
 
 exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
 <DateTimePickerContainer>
-  <t
+  <DatePicker
     allowSameDay={false}
     dateFormat="do MMM yyyy HH:mm"
     dateFormatCalendar="LLLL yyyy"
@@ -18,7 +18,19 @@ exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
     onBlur={[Function]}
     onCalendarClose={[Function]}
     onCalendarOpen={[Function]}
-    onChange={[MockFunction]}
+    onChange={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
     onClickOutside={[Function]}
     onFocus={[Function]}
     onInputClick={[Function]}

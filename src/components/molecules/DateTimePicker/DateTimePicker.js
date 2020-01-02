@@ -13,6 +13,8 @@ const Container = styled.div`
 `
 Container.displayName = "DateTimePickerContainer"
 
+DatePicker.displayName = "DatePicker"
+
 const DateTimePicker = props => {
   const { selectedDate, onChange, showTimeSelect, minDate, maxDate, ...others } = props
 
