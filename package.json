@@ -1,5 +1,5 @@
 {
-  "name": "open-source-design-system",
+  "name": "@crcdevops/open-source-design-system",
   "version": "1.0.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
