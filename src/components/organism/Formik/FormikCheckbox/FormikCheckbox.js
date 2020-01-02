@@ -44,7 +44,7 @@ CustomCheckbox.propTypes = {
   formik: PropTypes.object,
   id: PropTypes.string,
   name: PropTypes.string,
-  label: PropTypes.any, // due to complex react intl mock issue in examplePalette.
+  label: PropTypes.any,
   onChange: PropTypes.func,
   disabled: PropTypes.bool,
 }

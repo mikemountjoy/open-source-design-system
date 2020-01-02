@@ -62,7 +62,7 @@ const Box = props => {
 Box.displayName = "Box"
 
 Box.propTypes = {
-  title: PropTypes.any, // due to complex react intl mock issue in examplePalette.
+  title: PropTypes.any,
   children: PropTypes.node,
   id: PropTypes.string,
   className: PropTypes.string,

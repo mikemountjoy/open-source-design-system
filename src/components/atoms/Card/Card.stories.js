@@ -11,7 +11,7 @@ const src =
 stories.add("Standard style", context => {
   const text = {
     description: [
-      "The card component is the building block of the examplePalette brand. The style is simple and clear to help bring its contents forward. Cards are the top level container of most components.",
+      "The Card compoennt style is simple and clear to help bring its contents forward. Cards are the top level container of most components.",
       "This component doesn't have to have a header or footer.",
     ],
     dos: [

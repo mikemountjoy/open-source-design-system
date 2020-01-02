@@ -30,6 +30,7 @@ import { ListContainer, ListItem } from "molecules/List"
 import ListFilter from "molecules/ListFilter"
 import Modal from "molecules/Modal"
 import StepBar from "molecules/StepBar"
+import StepDescription from "molecules/StepDescription"
 import TimezoneSelect from "molecules/TimezoneSelect"
 
 // Organism components
@@ -87,6 +88,7 @@ export {
   ListFilter,
   Modal,
   StepBar,
+  StepDescription,
   TimezoneSelect,
   // ==================
   // Organism components
