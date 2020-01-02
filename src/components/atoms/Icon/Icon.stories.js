@@ -178,7 +178,7 @@ storiesOf("Icon", module)
         <Wrapper>
           <Icon
             name={select("Icon name", options.name, "check")}
-            color={[select("Icon colour", options.colour, "black")]}
+            color={select("Icon colour", options.colour, "black")}
             size={select("Icon size", options.size, "6x")}
             onClick={action("clicked")}
             rotateDegrees={number("rotate", 0)}
