@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading test should match last snapshot with a title 1`] = `
+<Heading__StyledHeading
+  as="h1"
+  level={1}
+  theme={
+    Object {
+      "action": Object {
+        "dark": Object {
+          "RGB": "0,47,108",
+          "hex": "#002F6C",
+          "on": "#FFFFFF",
+        },
+        "light": Object {
+          "RGB": "98,194,248",
+          "hex": "#62C2F8",
+          "on": "#FFFFFF",
+        },
+        "main": Object {
+          "RGB": "1,87,155",
+          "hex": "#01579B",
+          "on": "#FFFFFF",
+        },
+      },
+      "background": Object {
+        "RGB": "246,246,246",
+        "hex": "#F6F6F6",
+      },
+      "black": Object {
+        "main": Object {
+          "RGB": "39,39,39",
+          "hex": "#272727",
+          "on": "#FFFFFF",
+        },
+        "tint20": Object {
+          "RGB": "236,236,236",
+          "hex": "#ECECEC",
+          "on": "#272727",
+        },
+        "tint40": Object {
+          "RGB": "199,199,199",
+          "hex": "#C7C7C7",
+          "on": "#272727",
+        },
+        "tint60": Object {
+          "RGB": "160,160,160",
+          "hex": "#A0A0A0",
+          "on": "#FFFFFF",
+        },
+        "tint80": Object {
+          "RGB": "105,105,105",
+          "hex": "#696969",
+          "on": "#FFFFFF",
+        },
+      },
+      "complimentary": Object {
+        "dark": Object {
+          "RGB": "250,175,64",
+          "hex": "#FAAF40",
+          "on": "#272727",
+        },
+        "light": Object {
+          "RGB": "249,240,21",
+          "hex": "#F9F015",
+          "on": "#272727",
+        },
+        "main": Object {
+          "RGB": "253,216,53",
+          "hex": "#FDD835",
+          "on": "#272727",
+        },
+      },
+      "error": Object {
+        "dark": Object {
+          "RGB": "143,6,6",
+          "hex": "#8F0606",
+          "on": "#FFFFFF",
+        },
+        "main": Object {
+          "RGB": "220,16,16",
+          "hex": "#DC1010",
+          "on": "#FFFFFF",
+        },
+      },
+      "primary": Object {
+        "dark": Object {
+          "RGB": "11,102,54",
+          "hex": "#0B6636",
+          "on": "#FFFFFF",
+        },
+        "light": Object {
+          "RGB": "145,208,62",
+          "hex": "#91D03E",
+          "on": "#FFFFFF",
+        },
+        "main": Object {
+          "RGB": "1,145,68",
+          "hex": "#019144",
+          "on": "#FFFFFF",
+        },
+      },
+      "secondary": Object {
+        "dark": Object {
+          "RGB": "72,140,155",
+          "hex": "#488C9B",
+          "on": "#FFFFFF",
+        },
+        "light": Object {
+          "RGB": "162,235,252",
+          "hex": "#A2EBFC",
+          "on": "#272727",
+        },
+        "main": Object {
+          "RGB": "118,182,196",
+          "hex": "#76B6C4",
+          "on": "#FFFFFF",
+        },
+      },
+      "surface": Object {
+        "RGB": "255,255,255",
+        "hex": "#FFFFFF",
+        "on": "#272727",
+      },
+      "white": Object {
+        "RGB": "255,255,255",
+        "hex": "#FFFFFF",
+        "on": "#272727",
+      },
+    }
+  }
+>
+  Hello
+</Heading__StyledHeading>
+`;

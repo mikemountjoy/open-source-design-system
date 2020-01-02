@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the timezone Renderer matches last snapshot 1`] = `
+<TimezoneSelect
+  id="timezone"
+  isClearable={true}
+  name="timezone"
+  onChange={[Function]}
+  placeholder="Type to select a timezone..."
+  useFormik={false}
+/>
+`;

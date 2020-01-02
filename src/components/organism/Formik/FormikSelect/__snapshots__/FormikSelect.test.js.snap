@@ -1,0 +1,1833 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormikSelect Component Test Match last snapshot 1`] = `
+.c1 {
+  margin-bottom: 0.25rem;
+}
+
+.c0 > * + * {
+  margin-top: 1.5rem;
+}
+
+<Form
+  spacing={1.5}
+>
+  <Formik
+    enableReinitialize={true}
+    isInitialValid={false}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <StyledFormikForm
+      spacing={1.5}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "WrappedComponent": [Function],
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Form__StyledFormikForm-qfyxch-0",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "> * + *{margin-top:",
+                [Function],
+                "rem;}",
+              ],
+            },
+            "displayName": "StyledFormikForm",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Form__StyledFormikForm-qfyxch-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        spacing={1.5}
+      >
+        <FormikForm
+          className="c0"
+          spacing={1.5}
+        >
+          <Component
+            className="c0"
+            formik={
+              Object {
+                "dirty": false,
+                "errors": Object {},
+                "handleBlur": [Function],
+                "handleChange": [Function],
+                "handleReset": [Function],
+                "handleSubmit": [Function],
+                "initialValues": Object {},
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "registerField": [Function],
+                "resetForm": [Function],
+                "setError": [Function],
+                "setErrors": [Function],
+                "setFieldError": [Function],
+                "setFieldTouched": [Function],
+                "setFieldValue": [Function],
+                "setFormikState": [Function],
+                "setStatus": [Function],
+                "setSubmitting": [Function],
+                "setTouched": [Function],
+                "setValues": [Function],
+                "status": undefined,
+                "submitCount": 0,
+                "submitForm": [Function],
+                "touched": Object {},
+                "unregisterField": [Function],
+                "validate": undefined,
+                "validateField": [Function],
+                "validateForm": [Function],
+                "validateOnBlur": true,
+                "validateOnChange": true,
+                "validationSchema": undefined,
+                "values": Object {},
+              }
+            }
+            spacing={1.5}
+          >
+            <form
+              className="c0"
+              onReset={[Function]}
+              onSubmit={[Function]}
+              spacing={1.5}
+            >
+              <FormikSelect
+                id="testId"
+                name="name"
+                onChange={[MockFunction]}
+                options={
+                  Object {
+                    "bird": "Bird",
+                    "cat": "Cat",
+                    "dog": "Dog",
+                    "rabbit": "Rabbit",
+                  }
+                }
+              >
+                <CustomSelect
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {},
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "status": undefined,
+                      "submitCount": 0,
+                      "submitForm": [Function],
+                      "touched": Object {},
+                      "unregisterField": [Function],
+                      "validate": undefined,
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {},
+                    }
+                  }
+                  id="testId"
+                  name="name"
+                  onChange={[MockFunction]}
+                  options={
+                    Object {
+                      "bird": "Bird",
+                      "cat": "Cat",
+                      "dog": "Dog",
+                      "rabbit": "Rabbit",
+                    }
+                  }
+                >
+                  <div>
+                    <Select
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialValues": Object {},
+                          "isSubmitting": false,
+                          "isValid": false,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setError": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validate": undefined,
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validationSchema": undefined,
+                          "values": Object {},
+                        }
+                      }
+                      id="testId"
+                      name="name"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      options={
+                        Object {
+                          "bird": "Bird",
+                          "cat": "Cat",
+                          "dog": "Dog",
+                          "rabbit": "Rabbit",
+                        }
+                      }
+                    >
+                      <CustomSelect
+                        blacklistedOptions={Array []}
+                        formik={
+                          Object {
+                            "dirty": false,
+                            "errors": Object {},
+                            "handleBlur": [Function],
+                            "handleChange": [Function],
+                            "handleReset": [Function],
+                            "handleSubmit": [Function],
+                            "initialValues": Object {},
+                            "isSubmitting": false,
+                            "isValid": false,
+                            "isValidating": false,
+                            "registerField": [Function],
+                            "resetForm": [Function],
+                            "setError": [Function],
+                            "setErrors": [Function],
+                            "setFieldError": [Function],
+                            "setFieldTouched": [Function],
+                            "setFieldValue": [Function],
+                            "setFormikState": [Function],
+                            "setStatus": [Function],
+                            "setSubmitting": [Function],
+                            "setTouched": [Function],
+                            "setValues": [Function],
+                            "status": undefined,
+                            "submitCount": 0,
+                            "submitForm": [Function],
+                            "touched": Object {},
+                            "unregisterField": [Function],
+                            "validate": undefined,
+                            "validateField": [Function],
+                            "validateForm": [Function],
+                            "validateOnBlur": true,
+                            "validateOnChange": true,
+                            "validationSchema": undefined,
+                            "values": Object {},
+                          }
+                        }
+                        id="testId"
+                        name="name"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        options={
+                          Object {
+                            "bird": "Bird",
+                            "cat": "Cat",
+                            "dog": "Dog",
+                            "rabbit": "Rabbit",
+                          }
+                        }
+                        placeholder="Type to search from the dropdown list..."
+                        theme={
+                          Object {
+                            "action": Object {
+                              "dark": Object {
+                                "RGB": "0,47,108",
+                                "hex": "#002F6C",
+                                "on": "#FFFFFF",
+                              },
+                              "light": Object {
+                                "RGB": "98,194,248",
+                                "hex": "#62C2F8",
+                                "on": "#FFFFFF",
+                              },
+                              "main": Object {
+                                "RGB": "1,87,155",
+                                "hex": "#01579B",
+                                "on": "#FFFFFF",
+                              },
+                            },
+                            "background": Object {
+                              "RGB": "246,246,246",
+                              "hex": "#F6F6F6",
+                            },
+                            "black": Object {
+                              "main": Object {
+                                "RGB": "39,39,39",
+                                "hex": "#272727",
+                                "on": "#FFFFFF",
+                              },
+                              "tint20": Object {
+                                "RGB": "236,236,236",
+                                "hex": "#ECECEC",
+                                "on": "#272727",
+                              },
+                              "tint40": Object {
+                                "RGB": "199,199,199",
+                                "hex": "#C7C7C7",
+                                "on": "#272727",
+                              },
+                              "tint60": Object {
+                                "RGB": "160,160,160",
+                                "hex": "#A0A0A0",
+                                "on": "#FFFFFF",
+                              },
+                              "tint80": Object {
+                                "RGB": "105,105,105",
+                                "hex": "#696969",
+                                "on": "#FFFFFF",
+                              },
+                            },
+                            "complimentary": Object {
+                              "dark": Object {
+                                "RGB": "250,175,64",
+                                "hex": "#FAAF40",
+                                "on": "#272727",
+                              },
+                              "light": Object {
+                                "RGB": "249,240,21",
+                                "hex": "#F9F015",
+                                "on": "#272727",
+                              },
+                              "main": Object {
+                                "RGB": "253,216,53",
+                                "hex": "#FDD835",
+                                "on": "#272727",
+                              },
+                            },
+                            "error": Object {
+                              "dark": Object {
+                                "RGB": "143,6,6",
+                                "hex": "#8F0606",
+                                "on": "#FFFFFF",
+                              },
+                              "main": Object {
+                                "RGB": "220,16,16",
+                                "hex": "#DC1010",
+                                "on": "#FFFFFF",
+                              },
+                            },
+                            "primary": Object {
+                              "dark": Object {
+                                "RGB": "11,102,54",
+                                "hex": "#0B6636",
+                                "on": "#FFFFFF",
+                              },
+                              "light": Object {
+                                "RGB": "145,208,62",
+                                "hex": "#91D03E",
+                                "on": "#FFFFFF",
+                              },
+                              "main": Object {
+                                "RGB": "1,145,68",
+                                "hex": "#019144",
+                                "on": "#FFFFFF",
+                              },
+                            },
+                            "secondary": Object {
+                              "dark": Object {
+                                "RGB": "72,140,155",
+                                "hex": "#488C9B",
+                                "on": "#FFFFFF",
+                              },
+                              "light": Object {
+                                "RGB": "162,235,252",
+                                "hex": "#A2EBFC",
+                                "on": "#272727",
+                              },
+                              "main": Object {
+                                "RGB": "118,182,196",
+                                "hex": "#76B6C4",
+                                "on": "#FFFFFF",
+                              },
+                            },
+                            "surface": Object {
+                              "RGB": "255,255,255",
+                              "hex": "#FFFFFF",
+                              "on": "#272727",
+                            },
+                            "white": Object {
+                              "RGB": "255,255,255",
+                              "hex": "#FFFFFF",
+                              "on": "#272727",
+                            },
+                          }
+                        }
+                      >
+                        <label
+                          htmlFor="testId-select"
+                          id="testId"
+                        >
+                          <Title>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Select__Title-sc-118fi0l-0",
+                                    "isStatic": true,
+                                    "lastClassName": "c1",
+                                    "rules": Array [
+                                      "margin-bottom:0.25rem;",
+                                    ],
+                                  },
+                                  "displayName": "Title",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Select__Title-sc-118fi0l-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="c1"
+                              />
+                            </StyledComponent>
+                          </Title>
+                          <StateManager
+                            defaultInputValue=""
+                            defaultMenuIsOpen={false}
+                            defaultValue={null}
+                            id="testId-select"
+                            name="name"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            options={
+                              Array [
+                                Object {
+                                  "label": "Dog",
+                                  "value": "dog",
+                                },
+                                Object {
+                                  "label": "Cat",
+                                  "value": "cat",
+                                },
+                                Object {
+                                  "label": "Bird",
+                                  "value": "bird",
+                                },
+                                Object {
+                                  "label": "Rabbit",
+                                  "value": "rabbit",
+                                },
+                              ]
+                            }
+                            placeholder="Type to search from the dropdown list..."
+                            styles={
+                              Object {
+                                "clearIndicator": [Function],
+                                "control": [Function],
+                                "dropdownIndicator": [Function],
+                                "menuList": [Function],
+                                "multiValue": [Function],
+                                "multiValueLabel": [Function],
+                                "multiValueRemove": [Function],
+                                "option": [Function],
+                              }
+                            }
+                          >
+                            <Select
+                              backspaceRemovesValue={true}
+                              blurInputOnSelect={true}
+                              captureMenuScroll={false}
+                              closeMenuOnScroll={false}
+                              closeMenuOnSelect={true}
+                              components={Object {}}
+                              controlShouldRenderValue={true}
+                              escapeClearsValue={false}
+                              filterOption={[Function]}
+                              formatGroupLabel={[Function]}
+                              getOptionLabel={[Function]}
+                              getOptionValue={[Function]}
+                              id="testId-select"
+                              inputValue=""
+                              isDisabled={false}
+                              isLoading={false}
+                              isMulti={false}
+                              isOptionDisabled={[Function]}
+                              isRtl={false}
+                              isSearchable={true}
+                              loadingMessage={[Function]}
+                              maxMenuHeight={300}
+                              menuIsOpen={false}
+                              menuPlacement="bottom"
+                              menuPosition="absolute"
+                              menuShouldBlockScroll={false}
+                              menuShouldScrollIntoView={true}
+                              minMenuHeight={140}
+                              name="name"
+                              noOptionsMessage={[Function]}
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onInputChange={[Function]}
+                              onMenuClose={[Function]}
+                              onMenuOpen={[Function]}
+                              openMenuOnClick={true}
+                              openMenuOnFocus={false}
+                              options={
+                                Array [
+                                  Object {
+                                    "label": "Dog",
+                                    "value": "dog",
+                                  },
+                                  Object {
+                                    "label": "Cat",
+                                    "value": "cat",
+                                  },
+                                  Object {
+                                    "label": "Bird",
+                                    "value": "bird",
+                                  },
+                                  Object {
+                                    "label": "Rabbit",
+                                    "value": "rabbit",
+                                  },
+                                ]
+                              }
+                              pageSize={5}
+                              placeholder="Type to search from the dropdown list..."
+                              screenReaderStatus={[Function]}
+                              styles={
+                                Object {
+                                  "clearIndicator": [Function],
+                                  "control": [Function],
+                                  "dropdownIndicator": [Function],
+                                  "menuList": [Function],
+                                  "multiValue": [Function],
+                                  "multiValueLabel": [Function],
+                                  "multiValueRemove": [Function],
+                                  "option": [Function],
+                                }
+                              }
+                              tabIndex="0"
+                              tabSelectsValue={true}
+                              value={null}
+                            >
+                              <SelectContainer
+                                clearValue={[Function]}
+                                cx={[Function]}
+                                getStyles={[Function]}
+                                getValue={[Function]}
+                                hasValue={false}
+                                innerProps={
+                                  Object {
+                                    "id": "testId-select",
+                                    "onKeyDown": [Function],
+                                  }
+                                }
+                                isDisabled={false}
+                                isFocused={false}
+                                isMulti={false}
+                                isRtl={false}
+                                options={
+                                  Array [
+                                    Object {
+                                      "label": "Dog",
+                                      "value": "dog",
+                                    },
+                                    Object {
+                                      "label": "Cat",
+                                      "value": "cat",
+                                    },
+                                    Object {
+                                      "label": "Bird",
+                                      "value": "bird",
+                                    },
+                                    Object {
+                                      "label": "Rabbit",
+                                      "value": "rabbit",
+                                    },
+                                  ]
+                                }
+                                selectOption={[Function]}
+                                selectProps={
+                                  Object {
+                                    "backspaceRemovesValue": true,
+                                    "blurInputOnSelect": true,
+                                    "captureMenuScroll": false,
+                                    "closeMenuOnScroll": false,
+                                    "closeMenuOnSelect": true,
+                                    "components": Object {},
+                                    "controlShouldRenderValue": true,
+                                    "escapeClearsValue": false,
+                                    "filterOption": [Function],
+                                    "formatGroupLabel": [Function],
+                                    "getOptionLabel": [Function],
+                                    "getOptionValue": [Function],
+                                    "id": "testId-select",
+                                    "inputValue": "",
+                                    "isClearable": undefined,
+                                    "isDisabled": false,
+                                    "isLoading": false,
+                                    "isMulti": false,
+                                    "isOptionDisabled": [Function],
+                                    "isRtl": false,
+                                    "isSearchable": true,
+                                    "loadingMessage": [Function],
+                                    "maxMenuHeight": 300,
+                                    "menuIsOpen": false,
+                                    "menuPlacement": "bottom",
+                                    "menuPosition": "absolute",
+                                    "menuShouldBlockScroll": false,
+                                    "menuShouldScrollIntoView": true,
+                                    "minMenuHeight": 140,
+                                    "name": "name",
+                                    "noOptionsMessage": [Function],
+                                    "onBlur": [Function],
+                                    "onChange": [Function],
+                                    "onInputChange": [Function],
+                                    "onMenuClose": [Function],
+                                    "onMenuOpen": [Function],
+                                    "openMenuOnClick": true,
+                                    "openMenuOnFocus": false,
+                                    "options": Array [
+                                      Object {
+                                        "label": "Dog",
+                                        "value": "dog",
+                                      },
+                                      Object {
+                                        "label": "Cat",
+                                        "value": "cat",
+                                      },
+                                      Object {
+                                        "label": "Bird",
+                                        "value": "bird",
+                                      },
+                                      Object {
+                                        "label": "Rabbit",
+                                        "value": "rabbit",
+                                      },
+                                    ],
+                                    "pageSize": 5,
+                                    "placeholder": "Type to search from the dropdown list...",
+                                    "screenReaderStatus": [Function],
+                                    "styles": Object {
+                                      "clearIndicator": [Function],
+                                      "control": [Function],
+                                      "dropdownIndicator": [Function],
+                                      "menuList": [Function],
+                                      "multiValue": [Function],
+                                      "multiValueLabel": [Function],
+                                      "multiValueRemove": [Function],
+                                      "option": [Function],
+                                    },
+                                    "tabIndex": "0",
+                                    "tabSelectsValue": true,
+                                    "value": null,
+                                  }
+                                }
+                                setValue={[Function]}
+                                theme={
+                                  Object {
+                                    "borderRadius": 4,
+                                    "colors": Object {
+                                      "danger": "#DE350B",
+                                      "dangerLight": "#FFBDAD",
+                                      "neutral0": "hsl(0, 0%, 100%)",
+                                      "neutral10": "hsl(0, 0%, 90%)",
+                                      "neutral20": "hsl(0, 0%, 80%)",
+                                      "neutral30": "hsl(0, 0%, 70%)",
+                                      "neutral40": "hsl(0, 0%, 60%)",
+                                      "neutral5": "hsl(0, 0%, 95%)",
+                                      "neutral50": "hsl(0, 0%, 50%)",
+                                      "neutral60": "hsl(0, 0%, 40%)",
+                                      "neutral70": "hsl(0, 0%, 30%)",
+                                      "neutral80": "hsl(0, 0%, 20%)",
+                                      "neutral90": "hsl(0, 0%, 10%)",
+                                      "primary": "#2684FF",
+                                      "primary25": "#DEEBFF",
+                                      "primary50": "#B2D4FF",
+                                      "primary75": "#4C9AFF",
+                                    },
+                                    "spacing": Object {
+                                      "baseUnit": 4,
+                                      "controlHeight": 38,
+                                      "menuGutter": 8,
+                                    },
+                                  }
+                                }
+                              >
+                                <div
+                                  className="css-1pcexqc-container"
+                                  id="testId-select"
+                                  onKeyDown={[Function]}
+                                >
+                                  <Control
+                                    clearValue={[Function]}
+                                    cx={[Function]}
+                                    getStyles={[Function]}
+                                    getValue={[Function]}
+                                    hasValue={false}
+                                    innerProps={
+                                      Object {
+                                        "onMouseDown": [Function],
+                                        "onTouchEnd": [Function],
+                                      }
+                                    }
+                                    innerRef={[Function]}
+                                    isDisabled={false}
+                                    isFocused={false}
+                                    isMulti={false}
+                                    isRtl={false}
+                                    menuIsOpen={false}
+                                    options={
+                                      Array [
+                                        Object {
+                                          "label": "Dog",
+                                          "value": "dog",
+                                        },
+                                        Object {
+                                          "label": "Cat",
+                                          "value": "cat",
+                                        },
+                                        Object {
+                                          "label": "Bird",
+                                          "value": "bird",
+                                        },
+                                        Object {
+                                          "label": "Rabbit",
+                                          "value": "rabbit",
+                                        },
+                                      ]
+                                    }
+                                    selectOption={[Function]}
+                                    selectProps={
+                                      Object {
+                                        "backspaceRemovesValue": true,
+                                        "blurInputOnSelect": true,
+                                        "captureMenuScroll": false,
+                                        "closeMenuOnScroll": false,
+                                        "closeMenuOnSelect": true,
+                                        "components": Object {},
+                                        "controlShouldRenderValue": true,
+                                        "escapeClearsValue": false,
+                                        "filterOption": [Function],
+                                        "formatGroupLabel": [Function],
+                                        "getOptionLabel": [Function],
+                                        "getOptionValue": [Function],
+                                        "id": "testId-select",
+                                        "inputValue": "",
+                                        "isClearable": undefined,
+                                        "isDisabled": false,
+                                        "isLoading": false,
+                                        "isMulti": false,
+                                        "isOptionDisabled": [Function],
+                                        "isRtl": false,
+                                        "isSearchable": true,
+                                        "loadingMessage": [Function],
+                                        "maxMenuHeight": 300,
+                                        "menuIsOpen": false,
+                                        "menuPlacement": "bottom",
+                                        "menuPosition": "absolute",
+                                        "menuShouldBlockScroll": false,
+                                        "menuShouldScrollIntoView": true,
+                                        "minMenuHeight": 140,
+                                        "name": "name",
+                                        "noOptionsMessage": [Function],
+                                        "onBlur": [Function],
+                                        "onChange": [Function],
+                                        "onInputChange": [Function],
+                                        "onMenuClose": [Function],
+                                        "onMenuOpen": [Function],
+                                        "openMenuOnClick": true,
+                                        "openMenuOnFocus": false,
+                                        "options": Array [
+                                          Object {
+                                            "label": "Dog",
+                                            "value": "dog",
+                                          },
+                                          Object {
+                                            "label": "Cat",
+                                            "value": "cat",
+                                          },
+                                          Object {
+                                            "label": "Bird",
+                                            "value": "bird",
+                                          },
+                                          Object {
+                                            "label": "Rabbit",
+                                            "value": "rabbit",
+                                          },
+                                        ],
+                                        "pageSize": 5,
+                                        "placeholder": "Type to search from the dropdown list...",
+                                        "screenReaderStatus": [Function],
+                                        "styles": Object {
+                                          "clearIndicator": [Function],
+                                          "control": [Function],
+                                          "dropdownIndicator": [Function],
+                                          "menuList": [Function],
+                                          "multiValue": [Function],
+                                          "multiValueLabel": [Function],
+                                          "multiValueRemove": [Function],
+                                          "option": [Function],
+                                        },
+                                        "tabIndex": "0",
+                                        "tabSelectsValue": true,
+                                        "value": null,
+                                      }
+                                    }
+                                    setValue={[Function]}
+                                    theme={
+                                      Object {
+                                        "borderRadius": 4,
+                                        "colors": Object {
+                                          "danger": "#DE350B",
+                                          "dangerLight": "#FFBDAD",
+                                          "neutral0": "hsl(0, 0%, 100%)",
+                                          "neutral10": "hsl(0, 0%, 90%)",
+                                          "neutral20": "hsl(0, 0%, 80%)",
+                                          "neutral30": "hsl(0, 0%, 70%)",
+                                          "neutral40": "hsl(0, 0%, 60%)",
+                                          "neutral5": "hsl(0, 0%, 95%)",
+                                          "neutral50": "hsl(0, 0%, 50%)",
+                                          "neutral60": "hsl(0, 0%, 40%)",
+                                          "neutral70": "hsl(0, 0%, 30%)",
+                                          "neutral80": "hsl(0, 0%, 20%)",
+                                          "neutral90": "hsl(0, 0%, 10%)",
+                                          "primary": "#2684FF",
+                                          "primary25": "#DEEBFF",
+                                          "primary50": "#B2D4FF",
+                                          "primary75": "#4C9AFF",
+                                        },
+                                        "spacing": Object {
+                                          "baseUnit": 4,
+                                          "controlHeight": 38,
+                                          "menuGutter": 8,
+                                        },
+                                      }
+                                    }
+                                  >
+                                    <div
+                                      className="css-1shm9hh-control"
+                                      onMouseDown={[Function]}
+                                      onTouchEnd={[Function]}
+                                    >
+                                      <ValueContainer
+                                        clearValue={[Function]}
+                                        cx={[Function]}
+                                        getStyles={[Function]}
+                                        getValue={[Function]}
+                                        hasValue={false}
+                                        isDisabled={false}
+                                        isMulti={false}
+                                        isRtl={false}
+                                        options={
+                                          Array [
+                                            Object {
+                                              "label": "Dog",
+                                              "value": "dog",
+                                            },
+                                            Object {
+                                              "label": "Cat",
+                                              "value": "cat",
+                                            },
+                                            Object {
+                                              "label": "Bird",
+                                              "value": "bird",
+                                            },
+                                            Object {
+                                              "label": "Rabbit",
+                                              "value": "rabbit",
+                                            },
+                                          ]
+                                        }
+                                        selectOption={[Function]}
+                                        selectProps={
+                                          Object {
+                                            "backspaceRemovesValue": true,
+                                            "blurInputOnSelect": true,
+                                            "captureMenuScroll": false,
+                                            "closeMenuOnScroll": false,
+                                            "closeMenuOnSelect": true,
+                                            "components": Object {},
+                                            "controlShouldRenderValue": true,
+                                            "escapeClearsValue": false,
+                                            "filterOption": [Function],
+                                            "formatGroupLabel": [Function],
+                                            "getOptionLabel": [Function],
+                                            "getOptionValue": [Function],
+                                            "id": "testId-select",
+                                            "inputValue": "",
+                                            "isClearable": undefined,
+                                            "isDisabled": false,
+                                            "isLoading": false,
+                                            "isMulti": false,
+                                            "isOptionDisabled": [Function],
+                                            "isRtl": false,
+                                            "isSearchable": true,
+                                            "loadingMessage": [Function],
+                                            "maxMenuHeight": 300,
+                                            "menuIsOpen": false,
+                                            "menuPlacement": "bottom",
+                                            "menuPosition": "absolute",
+                                            "menuShouldBlockScroll": false,
+                                            "menuShouldScrollIntoView": true,
+                                            "minMenuHeight": 140,
+                                            "name": "name",
+                                            "noOptionsMessage": [Function],
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onInputChange": [Function],
+                                            "onMenuClose": [Function],
+                                            "onMenuOpen": [Function],
+                                            "openMenuOnClick": true,
+                                            "openMenuOnFocus": false,
+                                            "options": Array [
+                                              Object {
+                                                "label": "Dog",
+                                                "value": "dog",
+                                              },
+                                              Object {
+                                                "label": "Cat",
+                                                "value": "cat",
+                                              },
+                                              Object {
+                                                "label": "Bird",
+                                                "value": "bird",
+                                              },
+                                              Object {
+                                                "label": "Rabbit",
+                                                "value": "rabbit",
+                                              },
+                                            ],
+                                            "pageSize": 5,
+                                            "placeholder": "Type to search from the dropdown list...",
+                                            "screenReaderStatus": [Function],
+                                            "styles": Object {
+                                              "clearIndicator": [Function],
+                                              "control": [Function],
+                                              "dropdownIndicator": [Function],
+                                              "menuList": [Function],
+                                              "multiValue": [Function],
+                                              "multiValueLabel": [Function],
+                                              "multiValueRemove": [Function],
+                                              "option": [Function],
+                                            },
+                                            "tabIndex": "0",
+                                            "tabSelectsValue": true,
+                                            "value": null,
+                                          }
+                                        }
+                                        setValue={[Function]}
+                                        theme={
+                                          Object {
+                                            "borderRadius": 4,
+                                            "colors": Object {
+                                              "danger": "#DE350B",
+                                              "dangerLight": "#FFBDAD",
+                                              "neutral0": "hsl(0, 0%, 100%)",
+                                              "neutral10": "hsl(0, 0%, 90%)",
+                                              "neutral20": "hsl(0, 0%, 80%)",
+                                              "neutral30": "hsl(0, 0%, 70%)",
+                                              "neutral40": "hsl(0, 0%, 60%)",
+                                              "neutral5": "hsl(0, 0%, 95%)",
+                                              "neutral50": "hsl(0, 0%, 50%)",
+                                              "neutral60": "hsl(0, 0%, 40%)",
+                                              "neutral70": "hsl(0, 0%, 30%)",
+                                              "neutral80": "hsl(0, 0%, 20%)",
+                                              "neutral90": "hsl(0, 0%, 10%)",
+                                              "primary": "#2684FF",
+                                              "primary25": "#DEEBFF",
+                                              "primary50": "#B2D4FF",
+                                              "primary75": "#4C9AFF",
+                                            },
+                                            "spacing": Object {
+                                              "baseUnit": 4,
+                                              "controlHeight": 38,
+                                              "menuGutter": 8,
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <div
+                                          className="css-1hwfws3"
+                                        >
+                                          <Placeholder
+                                            clearValue={[Function]}
+                                            cx={[Function]}
+                                            getStyles={[Function]}
+                                            getValue={[Function]}
+                                            hasValue={false}
+                                            isDisabled={false}
+                                            isFocused={false}
+                                            isMulti={false}
+                                            isRtl={false}
+                                            key="placeholder"
+                                            options={
+                                              Array [
+                                                Object {
+                                                  "label": "Dog",
+                                                  "value": "dog",
+                                                },
+                                                Object {
+                                                  "label": "Cat",
+                                                  "value": "cat",
+                                                },
+                                                Object {
+                                                  "label": "Bird",
+                                                  "value": "bird",
+                                                },
+                                                Object {
+                                                  "label": "Rabbit",
+                                                  "value": "rabbit",
+                                                },
+                                              ]
+                                            }
+                                            selectOption={[Function]}
+                                            selectProps={
+                                              Object {
+                                                "backspaceRemovesValue": true,
+                                                "blurInputOnSelect": true,
+                                                "captureMenuScroll": false,
+                                                "closeMenuOnScroll": false,
+                                                "closeMenuOnSelect": true,
+                                                "components": Object {},
+                                                "controlShouldRenderValue": true,
+                                                "escapeClearsValue": false,
+                                                "filterOption": [Function],
+                                                "formatGroupLabel": [Function],
+                                                "getOptionLabel": [Function],
+                                                "getOptionValue": [Function],
+                                                "id": "testId-select",
+                                                "inputValue": "",
+                                                "isClearable": undefined,
+                                                "isDisabled": false,
+                                                "isLoading": false,
+                                                "isMulti": false,
+                                                "isOptionDisabled": [Function],
+                                                "isRtl": false,
+                                                "isSearchable": true,
+                                                "loadingMessage": [Function],
+                                                "maxMenuHeight": 300,
+                                                "menuIsOpen": false,
+                                                "menuPlacement": "bottom",
+                                                "menuPosition": "absolute",
+                                                "menuShouldBlockScroll": false,
+                                                "menuShouldScrollIntoView": true,
+                                                "minMenuHeight": 140,
+                                                "name": "name",
+                                                "noOptionsMessage": [Function],
+                                                "onBlur": [Function],
+                                                "onChange": [Function],
+                                                "onInputChange": [Function],
+                                                "onMenuClose": [Function],
+                                                "onMenuOpen": [Function],
+                                                "openMenuOnClick": true,
+                                                "openMenuOnFocus": false,
+                                                "options": Array [
+                                                  Object {
+                                                    "label": "Dog",
+                                                    "value": "dog",
+                                                  },
+                                                  Object {
+                                                    "label": "Cat",
+                                                    "value": "cat",
+                                                  },
+                                                  Object {
+                                                    "label": "Bird",
+                                                    "value": "bird",
+                                                  },
+                                                  Object {
+                                                    "label": "Rabbit",
+                                                    "value": "rabbit",
+                                                  },
+                                                ],
+                                                "pageSize": 5,
+                                                "placeholder": "Type to search from the dropdown list...",
+                                                "screenReaderStatus": [Function],
+                                                "styles": Object {
+                                                  "clearIndicator": [Function],
+                                                  "control": [Function],
+                                                  "dropdownIndicator": [Function],
+                                                  "menuList": [Function],
+                                                  "multiValue": [Function],
+                                                  "multiValueLabel": [Function],
+                                                  "multiValueRemove": [Function],
+                                                  "option": [Function],
+                                                },
+                                                "tabIndex": "0",
+                                                "tabSelectsValue": true,
+                                                "value": null,
+                                              }
+                                            }
+                                            setValue={[Function]}
+                                            theme={
+                                              Object {
+                                                "borderRadius": 4,
+                                                "colors": Object {
+                                                  "danger": "#DE350B",
+                                                  "dangerLight": "#FFBDAD",
+                                                  "neutral0": "hsl(0, 0%, 100%)",
+                                                  "neutral10": "hsl(0, 0%, 90%)",
+                                                  "neutral20": "hsl(0, 0%, 80%)",
+                                                  "neutral30": "hsl(0, 0%, 70%)",
+                                                  "neutral40": "hsl(0, 0%, 60%)",
+                                                  "neutral5": "hsl(0, 0%, 95%)",
+                                                  "neutral50": "hsl(0, 0%, 50%)",
+                                                  "neutral60": "hsl(0, 0%, 40%)",
+                                                  "neutral70": "hsl(0, 0%, 30%)",
+                                                  "neutral80": "hsl(0, 0%, 20%)",
+                                                  "neutral90": "hsl(0, 0%, 10%)",
+                                                  "primary": "#2684FF",
+                                                  "primary25": "#DEEBFF",
+                                                  "primary50": "#B2D4FF",
+                                                  "primary75": "#4C9AFF",
+                                                },
+                                                "spacing": Object {
+                                                  "baseUnit": 4,
+                                                  "controlHeight": 38,
+                                                  "menuGutter": 8,
+                                                },
+                                              }
+                                            }
+                                          >
+                                            <div
+                                              className="css-151xaom-placeholder"
+                                            >
+                                              Type to search from the dropdown list...
+                                            </div>
+                                          </Placeholder>
+                                          <Input
+                                            aria-autocomplete="list"
+                                            autoCapitalize="none"
+                                            autoComplete="off"
+                                            autoCorrect="off"
+                                            cx={[Function]}
+                                            getStyles={[Function]}
+                                            id="react-select-2-input"
+                                            innerRef={[Function]}
+                                            isDisabled={false}
+                                            isHidden={false}
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            selectProps={
+                                              Object {
+                                                "backspaceRemovesValue": true,
+                                                "blurInputOnSelect": true,
+                                                "captureMenuScroll": false,
+                                                "closeMenuOnScroll": false,
+                                                "closeMenuOnSelect": true,
+                                                "components": Object {},
+                                                "controlShouldRenderValue": true,
+                                                "escapeClearsValue": false,
+                                                "filterOption": [Function],
+                                                "formatGroupLabel": [Function],
+                                                "getOptionLabel": [Function],
+                                                "getOptionValue": [Function],
+                                                "id": "testId-select",
+                                                "inputValue": "",
+                                                "isClearable": undefined,
+                                                "isDisabled": false,
+                                                "isLoading": false,
+                                                "isMulti": false,
+                                                "isOptionDisabled": [Function],
+                                                "isRtl": false,
+                                                "isSearchable": true,
+                                                "loadingMessage": [Function],
+                                                "maxMenuHeight": 300,
+                                                "menuIsOpen": false,
+                                                "menuPlacement": "bottom",
+                                                "menuPosition": "absolute",
+                                                "menuShouldBlockScroll": false,
+                                                "menuShouldScrollIntoView": true,
+                                                "minMenuHeight": 140,
+                                                "name": "name",
+                                                "noOptionsMessage": [Function],
+                                                "onBlur": [Function],
+                                                "onChange": [Function],
+                                                "onInputChange": [Function],
+                                                "onMenuClose": [Function],
+                                                "onMenuOpen": [Function],
+                                                "openMenuOnClick": true,
+                                                "openMenuOnFocus": false,
+                                                "options": Array [
+                                                  Object {
+                                                    "label": "Dog",
+                                                    "value": "dog",
+                                                  },
+                                                  Object {
+                                                    "label": "Cat",
+                                                    "value": "cat",
+                                                  },
+                                                  Object {
+                                                    "label": "Bird",
+                                                    "value": "bird",
+                                                  },
+                                                  Object {
+                                                    "label": "Rabbit",
+                                                    "value": "rabbit",
+                                                  },
+                                                ],
+                                                "pageSize": 5,
+                                                "placeholder": "Type to search from the dropdown list...",
+                                                "screenReaderStatus": [Function],
+                                                "styles": Object {
+                                                  "clearIndicator": [Function],
+                                                  "control": [Function],
+                                                  "dropdownIndicator": [Function],
+                                                  "menuList": [Function],
+                                                  "multiValue": [Function],
+                                                  "multiValueLabel": [Function],
+                                                  "multiValueRemove": [Function],
+                                                  "option": [Function],
+                                                },
+                                                "tabIndex": "0",
+                                                "tabSelectsValue": true,
+                                                "value": null,
+                                              }
+                                            }
+                                            spellCheck="false"
+                                            tabIndex="0"
+                                            theme={
+                                              Object {
+                                                "borderRadius": 4,
+                                                "colors": Object {
+                                                  "danger": "#DE350B",
+                                                  "dangerLight": "#FFBDAD",
+                                                  "neutral0": "hsl(0, 0%, 100%)",
+                                                  "neutral10": "hsl(0, 0%, 90%)",
+                                                  "neutral20": "hsl(0, 0%, 80%)",
+                                                  "neutral30": "hsl(0, 0%, 70%)",
+                                                  "neutral40": "hsl(0, 0%, 60%)",
+                                                  "neutral5": "hsl(0, 0%, 95%)",
+                                                  "neutral50": "hsl(0, 0%, 50%)",
+                                                  "neutral60": "hsl(0, 0%, 40%)",
+                                                  "neutral70": "hsl(0, 0%, 30%)",
+                                                  "neutral80": "hsl(0, 0%, 20%)",
+                                                  "neutral90": "hsl(0, 0%, 10%)",
+                                                  "primary": "#2684FF",
+                                                  "primary25": "#DEEBFF",
+                                                  "primary50": "#B2D4FF",
+                                                  "primary75": "#4C9AFF",
+                                                },
+                                                "spacing": Object {
+                                                  "baseUnit": 4,
+                                                  "controlHeight": 38,
+                                                  "menuGutter": 8,
+                                                },
+                                              }
+                                            }
+                                            type="text"
+                                            value=""
+                                          >
+                                            <div
+                                              className="css-1g6gooi"
+                                            >
+                                              <AutosizeInput
+                                                aria-autocomplete="list"
+                                                autoCapitalize="none"
+                                                autoComplete="off"
+                                                autoCorrect="off"
+                                                className=""
+                                                disabled={false}
+                                                id="react-select-2-input"
+                                                injectStyles={true}
+                                                inputRef={[Function]}
+                                                inputStyle={
+                                                  Object {
+                                                    "background": 0,
+                                                    "border": 0,
+                                                    "color": "inherit",
+                                                    "fontSize": "inherit",
+                                                    "label": "input",
+                                                    "opacity": 1,
+                                                    "outline": 0,
+                                                    "padding": 0,
+                                                  }
+                                                }
+                                                minWidth={1}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onFocus={[Function]}
+                                                spellCheck="false"
+                                                tabIndex="0"
+                                                type="text"
+                                                value=""
+                                              >
+                                                <div
+                                                  className=""
+                                                  style={
+                                                    Object {
+                                                      "display": "inline-block",
+                                                    }
+                                                  }
+                                                >
+                                                  <input
+                                                    aria-autocomplete="list"
+                                                    autoCapitalize="none"
+                                                    autoComplete="off"
+                                                    autoCorrect="off"
+                                                    disabled={false}
+                                                    id="react-select-2-input"
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onFocus={[Function]}
+                                                    spellCheck="false"
+                                                    style={
+                                                      Object {
+                                                        "background": 0,
+                                                        "border": 0,
+                                                        "boxSizing": "content-box",
+                                                        "color": "inherit",
+                                                        "fontSize": "inherit",
+                                                        "label": "input",
+                                                        "opacity": 1,
+                                                        "outline": 0,
+                                                        "padding": 0,
+                                                        "width": "2px",
+                                                      }
+                                                    }
+                                                    tabIndex="0"
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                  <div
+                                                    style={
+                                                      Object {
+                                                        "height": 0,
+                                                        "left": 0,
+                                                        "overflow": "scroll",
+                                                        "position": "absolute",
+                                                        "top": 0,
+                                                        "visibility": "hidden",
+                                                        "whiteSpace": "pre",
+                                                      }
+                                                    }
+                                                  />
+                                                </div>
+                                              </AutosizeInput>
+                                            </div>
+                                          </Input>
+                                        </div>
+                                      </ValueContainer>
+                                      <IndicatorsContainer
+                                        clearValue={[Function]}
+                                        cx={[Function]}
+                                        getStyles={[Function]}
+                                        getValue={[Function]}
+                                        hasValue={false}
+                                        isDisabled={false}
+                                        isMulti={false}
+                                        isRtl={false}
+                                        options={
+                                          Array [
+                                            Object {
+                                              "label": "Dog",
+                                              "value": "dog",
+                                            },
+                                            Object {
+                                              "label": "Cat",
+                                              "value": "cat",
+                                            },
+                                            Object {
+                                              "label": "Bird",
+                                              "value": "bird",
+                                            },
+                                            Object {
+                                              "label": "Rabbit",
+                                              "value": "rabbit",
+                                            },
+                                          ]
+                                        }
+                                        selectOption={[Function]}
+                                        selectProps={
+                                          Object {
+                                            "backspaceRemovesValue": true,
+                                            "blurInputOnSelect": true,
+                                            "captureMenuScroll": false,
+                                            "closeMenuOnScroll": false,
+                                            "closeMenuOnSelect": true,
+                                            "components": Object {},
+                                            "controlShouldRenderValue": true,
+                                            "escapeClearsValue": false,
+                                            "filterOption": [Function],
+                                            "formatGroupLabel": [Function],
+                                            "getOptionLabel": [Function],
+                                            "getOptionValue": [Function],
+                                            "id": "testId-select",
+                                            "inputValue": "",
+                                            "isClearable": undefined,
+                                            "isDisabled": false,
+                                            "isLoading": false,
+                                            "isMulti": false,
+                                            "isOptionDisabled": [Function],
+                                            "isRtl": false,
+                                            "isSearchable": true,
+                                            "loadingMessage": [Function],
+                                            "maxMenuHeight": 300,
+                                            "menuIsOpen": false,
+                                            "menuPlacement": "bottom",
+                                            "menuPosition": "absolute",
+                                            "menuShouldBlockScroll": false,
+                                            "menuShouldScrollIntoView": true,
+                                            "minMenuHeight": 140,
+                                            "name": "name",
+                                            "noOptionsMessage": [Function],
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onInputChange": [Function],
+                                            "onMenuClose": [Function],
+                                            "onMenuOpen": [Function],
+                                            "openMenuOnClick": true,
+                                            "openMenuOnFocus": false,
+                                            "options": Array [
+                                              Object {
+                                                "label": "Dog",
+                                                "value": "dog",
+                                              },
+                                              Object {
+                                                "label": "Cat",
+                                                "value": "cat",
+                                              },
+                                              Object {
+                                                "label": "Bird",
+                                                "value": "bird",
+                                              },
+                                              Object {
+                                                "label": "Rabbit",
+                                                "value": "rabbit",
+                                              },
+                                            ],
+                                            "pageSize": 5,
+                                            "placeholder": "Type to search from the dropdown list...",
+                                            "screenReaderStatus": [Function],
+                                            "styles": Object {
+                                              "clearIndicator": [Function],
+                                              "control": [Function],
+                                              "dropdownIndicator": [Function],
+                                              "menuList": [Function],
+                                              "multiValue": [Function],
+                                              "multiValueLabel": [Function],
+                                              "multiValueRemove": [Function],
+                                              "option": [Function],
+                                            },
+                                            "tabIndex": "0",
+                                            "tabSelectsValue": true,
+                                            "value": null,
+                                          }
+                                        }
+                                        setValue={[Function]}
+                                        theme={
+                                          Object {
+                                            "borderRadius": 4,
+                                            "colors": Object {
+                                              "danger": "#DE350B",
+                                              "dangerLight": "#FFBDAD",
+                                              "neutral0": "hsl(0, 0%, 100%)",
+                                              "neutral10": "hsl(0, 0%, 90%)",
+                                              "neutral20": "hsl(0, 0%, 80%)",
+                                              "neutral30": "hsl(0, 0%, 70%)",
+                                              "neutral40": "hsl(0, 0%, 60%)",
+                                              "neutral5": "hsl(0, 0%, 95%)",
+                                              "neutral50": "hsl(0, 0%, 50%)",
+                                              "neutral60": "hsl(0, 0%, 40%)",
+                                              "neutral70": "hsl(0, 0%, 30%)",
+                                              "neutral80": "hsl(0, 0%, 20%)",
+                                              "neutral90": "hsl(0, 0%, 10%)",
+                                              "primary": "#2684FF",
+                                              "primary25": "#DEEBFF",
+                                              "primary50": "#B2D4FF",
+                                              "primary75": "#4C9AFF",
+                                            },
+                                            "spacing": Object {
+                                              "baseUnit": 4,
+                                              "controlHeight": 38,
+                                              "menuGutter": 8,
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <div
+                                          className="css-1wy0on6"
+                                        >
+                                          <IndicatorSeparator
+                                            clearValue={[Function]}
+                                            cx={[Function]}
+                                            getStyles={[Function]}
+                                            getValue={[Function]}
+                                            hasValue={false}
+                                            isDisabled={false}
+                                            isFocused={false}
+                                            isMulti={false}
+                                            isRtl={false}
+                                            options={
+                                              Array [
+                                                Object {
+                                                  "label": "Dog",
+                                                  "value": "dog",
+                                                },
+                                                Object {
+                                                  "label": "Cat",
+                                                  "value": "cat",
+                                                },
+                                                Object {
+                                                  "label": "Bird",
+                                                  "value": "bird",
+                                                },
+                                                Object {
+                                                  "label": "Rabbit",
+                                                  "value": "rabbit",
+                                                },
+                                              ]
+                                            }
+                                            selectOption={[Function]}
+                                            selectProps={
+                                              Object {
+                                                "backspaceRemovesValue": true,
+                                                "blurInputOnSelect": true,
+                                                "captureMenuScroll": false,
+                                                "closeMenuOnScroll": false,
+                                                "closeMenuOnSelect": true,
+                                                "components": Object {},
+                                                "controlShouldRenderValue": true,
+                                                "escapeClearsValue": false,
+                                                "filterOption": [Function],
+                                                "formatGroupLabel": [Function],
+                                                "getOptionLabel": [Function],
+                                                "getOptionValue": [Function],
+                                                "id": "testId-select",
+                                                "inputValue": "",
+                                                "isClearable": undefined,
+                                                "isDisabled": false,
+                                                "isLoading": false,
+                                                "isMulti": false,
+                                                "isOptionDisabled": [Function],
+                                                "isRtl": false,
+                                                "isSearchable": true,
+                                                "loadingMessage": [Function],
+                                                "maxMenuHeight": 300,
+                                                "menuIsOpen": false,
+                                                "menuPlacement": "bottom",
+                                                "menuPosition": "absolute",
+                                                "menuShouldBlockScroll": false,
+                                                "menuShouldScrollIntoView": true,
+                                                "minMenuHeight": 140,
+                                                "name": "name",
+                                                "noOptionsMessage": [Function],
+                                                "onBlur": [Function],
+                                                "onChange": [Function],
+                                                "onInputChange": [Function],
+                                                "onMenuClose": [Function],
+                                                "onMenuOpen": [Function],
+                                                "openMenuOnClick": true,
+                                                "openMenuOnFocus": false,
+                                                "options": Array [
+                                                  Object {
+                                                    "label": "Dog",
+                                                    "value": "dog",
+                                                  },
+                                                  Object {
+                                                    "label": "Cat",
+                                                    "value": "cat",
+                                                  },
+                                                  Object {
+                                                    "label": "Bird",
+                                                    "value": "bird",
+                                                  },
+                                                  Object {
+                                                    "label": "Rabbit",
+                                                    "value": "rabbit",
+                                                  },
+                                                ],
+                                                "pageSize": 5,
+                                                "placeholder": "Type to search from the dropdown list...",
+                                                "screenReaderStatus": [Function],
+                                                "styles": Object {
+                                                  "clearIndicator": [Function],
+                                                  "control": [Function],
+                                                  "dropdownIndicator": [Function],
+                                                  "menuList": [Function],
+                                                  "multiValue": [Function],
+                                                  "multiValueLabel": [Function],
+                                                  "multiValueRemove": [Function],
+                                                  "option": [Function],
+                                                },
+                                                "tabIndex": "0",
+                                                "tabSelectsValue": true,
+                                                "value": null,
+                                              }
+                                            }
+                                            setValue={[Function]}
+                                            theme={
+                                              Object {
+                                                "borderRadius": 4,
+                                                "colors": Object {
+                                                  "danger": "#DE350B",
+                                                  "dangerLight": "#FFBDAD",
+                                                  "neutral0": "hsl(0, 0%, 100%)",
+                                                  "neutral10": "hsl(0, 0%, 90%)",
+                                                  "neutral20": "hsl(0, 0%, 80%)",
+                                                  "neutral30": "hsl(0, 0%, 70%)",
+                                                  "neutral40": "hsl(0, 0%, 60%)",
+                                                  "neutral5": "hsl(0, 0%, 95%)",
+                                                  "neutral50": "hsl(0, 0%, 50%)",
+                                                  "neutral60": "hsl(0, 0%, 40%)",
+                                                  "neutral70": "hsl(0, 0%, 30%)",
+                                                  "neutral80": "hsl(0, 0%, 20%)",
+                                                  "neutral90": "hsl(0, 0%, 10%)",
+                                                  "primary": "#2684FF",
+                                                  "primary25": "#DEEBFF",
+                                                  "primary50": "#B2D4FF",
+                                                  "primary75": "#4C9AFF",
+                                                },
+                                                "spacing": Object {
+                                                  "baseUnit": 4,
+                                                  "controlHeight": 38,
+                                                  "menuGutter": 8,
+                                                },
+                                              }
+                                            }
+                                          >
+                                            <span
+                                              className="css-bgvzuu-indicatorSeparator"
+                                            />
+                                          </IndicatorSeparator>
+                                          <DropdownIndicator
+                                            clearValue={[Function]}
+                                            cx={[Function]}
+                                            getStyles={[Function]}
+                                            getValue={[Function]}
+                                            hasValue={false}
+                                            innerProps={
+                                              Object {
+                                                "aria-hidden": "true",
+                                                "onMouseDown": [Function],
+                                                "onTouchEnd": [Function],
+                                              }
+                                            }
+                                            isDisabled={false}
+                                            isFocused={false}
+                                            isMulti={false}
+                                            isRtl={false}
+                                            options={
+                                              Array [
+                                                Object {
+                                                  "label": "Dog",
+                                                  "value": "dog",
+                                                },
+                                                Object {
+                                                  "label": "Cat",
+                                                  "value": "cat",
+                                                },
+                                                Object {
+                                                  "label": "Bird",
+                                                  "value": "bird",
+                                                },
+                                                Object {
+                                                  "label": "Rabbit",
+                                                  "value": "rabbit",
+                                                },
+                                              ]
+                                            }
+                                            selectOption={[Function]}
+                                            selectProps={
+                                              Object {
+                                                "backspaceRemovesValue": true,
+                                                "blurInputOnSelect": true,
+                                                "captureMenuScroll": false,
+                                                "closeMenuOnScroll": false,
+                                                "closeMenuOnSelect": true,
+                                                "components": Object {},
+                                                "controlShouldRenderValue": true,
+                                                "escapeClearsValue": false,
+                                                "filterOption": [Function],
+                                                "formatGroupLabel": [Function],
+                                                "getOptionLabel": [Function],
+                                                "getOptionValue": [Function],
+                                                "id": "testId-select",
+                                                "inputValue": "",
+                                                "isClearable": undefined,
+                                                "isDisabled": false,
+                                                "isLoading": false,
+                                                "isMulti": false,
+                                                "isOptionDisabled": [Function],
+                                                "isRtl": false,
+                                                "isSearchable": true,
+                                                "loadingMessage": [Function],
+                                                "maxMenuHeight": 300,
+                                                "menuIsOpen": false,
+                                                "menuPlacement": "bottom",
+                                                "menuPosition": "absolute",
+                                                "menuShouldBlockScroll": false,
+                                                "menuShouldScrollIntoView": true,
+                                                "minMenuHeight": 140,
+                                                "name": "name",
+                                                "noOptionsMessage": [Function],
+                                                "onBlur": [Function],
+                                                "onChange": [Function],
+                                                "onInputChange": [Function],
+                                                "onMenuClose": [Function],
+                                                "onMenuOpen": [Function],
+                                                "openMenuOnClick": true,
+                                                "openMenuOnFocus": false,
+                                                "options": Array [
+                                                  Object {
+                                                    "label": "Dog",
+                                                    "value": "dog",
+                                                  },
+                                                  Object {
+                                                    "label": "Cat",
+                                                    "value": "cat",
+                                                  },
+                                                  Object {
+                                                    "label": "Bird",
+                                                    "value": "bird",
+                                                  },
+                                                  Object {
+                                                    "label": "Rabbit",
+                                                    "value": "rabbit",
+                                                  },
+                                                ],
+                                                "pageSize": 5,
+                                                "placeholder": "Type to search from the dropdown list...",
+                                                "screenReaderStatus": [Function],
+                                                "styles": Object {
+                                                  "clearIndicator": [Function],
+                                                  "control": [Function],
+                                                  "dropdownIndicator": [Function],
+                                                  "menuList": [Function],
+                                                  "multiValue": [Function],
+                                                  "multiValueLabel": [Function],
+                                                  "multiValueRemove": [Function],
+                                                  "option": [Function],
+                                                },
+                                                "tabIndex": "0",
+                                                "tabSelectsValue": true,
+                                                "value": null,
+                                              }
+                                            }
+                                            setValue={[Function]}
+                                            theme={
+                                              Object {
+                                                "borderRadius": 4,
+                                                "colors": Object {
+                                                  "danger": "#DE350B",
+                                                  "dangerLight": "#FFBDAD",
+                                                  "neutral0": "hsl(0, 0%, 100%)",
+                                                  "neutral10": "hsl(0, 0%, 90%)",
+                                                  "neutral20": "hsl(0, 0%, 80%)",
+                                                  "neutral30": "hsl(0, 0%, 70%)",
+                                                  "neutral40": "hsl(0, 0%, 60%)",
+                                                  "neutral5": "hsl(0, 0%, 95%)",
+                                                  "neutral50": "hsl(0, 0%, 50%)",
+                                                  "neutral60": "hsl(0, 0%, 40%)",
+                                                  "neutral70": "hsl(0, 0%, 30%)",
+                                                  "neutral80": "hsl(0, 0%, 20%)",
+                                                  "neutral90": "hsl(0, 0%, 10%)",
+                                                  "primary": "#2684FF",
+                                                  "primary25": "#DEEBFF",
+                                                  "primary50": "#B2D4FF",
+                                                  "primary75": "#4C9AFF",
+                                                },
+                                                "spacing": Object {
+                                                  "baseUnit": 4,
+                                                  "controlHeight": 38,
+                                                  "menuGutter": 8,
+                                                },
+                                              }
+                                            }
+                                          >
+                                            <div
+                                              aria-hidden="true"
+                                              className="css-ttep6f-indicatorContainer"
+                                              onMouseDown={[Function]}
+                                              onTouchEnd={[Function]}
+                                            >
+                                              <DownChevron>
+                                                <Svg
+                                                  size={20}
+                                                >
+                                                  <svg
+                                                    aria-hidden="true"
+                                                    className="css-19bqh2r"
+                                                    focusable="false"
+                                                    height={20}
+                                                    viewBox="0 0 20 20"
+                                                    width={20}
+                                                  >
+                                                    <path
+                                                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                                    />
+                                                  </svg>
+                                                </Svg>
+                                              </DownChevron>
+                                            </div>
+                                          </DropdownIndicator>
+                                        </div>
+                                      </IndicatorsContainer>
+                                    </div>
+                                  </Control>
+                                  <input
+                                    name="name"
+                                    type="hidden"
+                                    value=""
+                                  />
+                                </div>
+                              </SelectContainer>
+                            </Select>
+                          </StateManager>
+                        </label>
+                      </CustomSelect>
+                    </Select>
+                  </div>
+                </CustomSelect>
+              </FormikSelect>
+            </form>
+          </Component>
+        </FormikForm>
+      </StyledComponent>
+    </StyledFormikForm>
+  </Formik>
+</Form>
+`;

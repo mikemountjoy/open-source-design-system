@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxRenderer test match last snapshot 1`] = `
+<Checkbox
+  checked={true}
+  onChange={[Function]}
+/>
+`;

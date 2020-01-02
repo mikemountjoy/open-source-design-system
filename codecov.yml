@@ -1,0 +1,36 @@
+codecov:
+  notify:
+    require_ci_to_pass: yes
+  token: 81d7e4cb-d6e5-4ff2-b77c-fa96a7cd3fb4
+
+coverage:
+  precision: 3
+  round: down
+  range: '99.5...100'
+
+
+  status:
+    project: yes
+    patch: yes
+    changes: no
+
+parsers:
+  gcov:
+    branch_detection:
+      conditional: yes
+      loop: yes
+      method: no
+      macro: no
+
+comment:
+  layout: 'header, diff, sunburst, changes'
+  behavior: new
+  require_changes: false # If true: only post the comment if coverage changes
+  branches: null
+  flags: null
+  paths: null
+
+ignore:
+  - "src/components/organism/**"
+  - "./jestSetup.js"
+  - "./jestOverrides.js"

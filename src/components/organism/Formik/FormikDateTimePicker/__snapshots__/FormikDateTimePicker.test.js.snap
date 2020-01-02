@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormikDateTimePicker should match snapshot 1`] = `
+<Fragment>
+  <Label
+    htmlFor="date"
+  >
+    <div>
+      testing
+    </div>
+  </Label>
+  <DateTimePicker
+    id="date"
+    onChange={[MockFunction]}
+    selectedDate={1987-08-25T11:13:00.000Z}
+    showTimeSelect={true}
+  />
+</Fragment>
+`;
+
+exports[`error message should match snapshot 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "FormikDateTimePicker__ErrorMessage-ep3qoy-0",
+        "isStatic": false,
+        "rules": Array [
+          "font-weight:bold;color:",
+          [Function],
+          ";margin-top:0.5rem;",
+        ],
+      },
+      "displayName": "ErrorMessage",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "FormikDateTimePicker__ErrorMessage-ep3qoy-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  theme={
+    Object {
+      "error": Object {
+        "main": Object {
+          "hex": "#D00000",
+        },
+      },
+    }
+  }
+/>
+`;

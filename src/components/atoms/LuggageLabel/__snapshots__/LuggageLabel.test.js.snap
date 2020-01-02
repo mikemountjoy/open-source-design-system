@@ -1,0 +1,1660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LuggageLabel Component Test render snapshot 1`] = `
+.c2 {
+  display: none;
+}
+
+.c3 {
+  color: #FDD835;
+  cursor: pointer;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.c0:before,
+.c0:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0.85rem;
+  bottom: 100%;
+  border-bottom: 0.85rem solid #76B6C4;
+  border-left: 0.85rem solid transparent;
+  width: 5px;
+}
+
+.c0:before {
+  bottom: 100%;
+  top: 0;
+  border-bottom: 0.95rem solid #76B6C4;
+}
+
+.c0:after {
+  bottom: auto;
+  top: 0.95rem;
+  border-bottom: none;
+  border-top: 0.95rem solid #76B6C4;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  min-height: 1.9rem;
+  margin-left: 0.85rem;
+  background-color: #76B6C4;
+}
+
+.c1 svg {
+  vertical-align: text-bottom;
+  margin-left: 0.5rem;
+}
+
+<LuggageLabel
+  editMode={false}
+  iconColour="complimentary"
+  onClick={[MockFunction]}
+>
+  <StyledLuggageLabel
+    theme={
+      Object {
+        "action": Object {
+          "dark": Object {
+            "RGB": "0,47,108",
+            "hex": "#002F6C",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "98,194,248",
+            "hex": "#62C2F8",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,87,155",
+            "hex": "#01579B",
+            "on": "#FFFFFF",
+          },
+        },
+        "background": Object {
+          "RGB": "246,246,246",
+          "hex": "#F6F6F6",
+        },
+        "black": Object {
+          "main": Object {
+            "RGB": "39,39,39",
+            "hex": "#272727",
+            "on": "#FFFFFF",
+          },
+          "tint20": Object {
+            "RGB": "236,236,236",
+            "hex": "#ECECEC",
+            "on": "#272727",
+          },
+          "tint40": Object {
+            "RGB": "199,199,199",
+            "hex": "#C7C7C7",
+            "on": "#272727",
+          },
+          "tint60": Object {
+            "RGB": "160,160,160",
+            "hex": "#A0A0A0",
+            "on": "#FFFFFF",
+          },
+          "tint80": Object {
+            "RGB": "105,105,105",
+            "hex": "#696969",
+            "on": "#FFFFFF",
+          },
+        },
+        "complimentary": Object {
+          "dark": Object {
+            "RGB": "250,175,64",
+            "hex": "#FAAF40",
+            "on": "#272727",
+          },
+          "light": Object {
+            "RGB": "249,240,21",
+            "hex": "#F9F015",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "253,216,53",
+            "hex": "#FDD835",
+            "on": "#272727",
+          },
+        },
+        "error": Object {
+          "dark": Object {
+            "RGB": "143,6,6",
+            "hex": "#8F0606",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "220,16,16",
+            "hex": "#DC1010",
+            "on": "#FFFFFF",
+          },
+        },
+        "primary": Object {
+          "dark": Object {
+            "RGB": "11,102,54",
+            "hex": "#0B6636",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "145,208,62",
+            "hex": "#91D03E",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,145,68",
+            "hex": "#019144",
+            "on": "#FFFFFF",
+          },
+        },
+        "secondary": Object {
+          "dark": Object {
+            "RGB": "72,140,155",
+            "hex": "#488C9B",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "162,235,252",
+            "hex": "#A2EBFC",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "118,182,196",
+            "hex": "#76B6C4",
+            "on": "#FFFFFF",
+          },
+        },
+        "surface": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+        "white": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+      }
+    }
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "theme": Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            },
+          },
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "LuggageLabel__StyledLuggageLabel-sc-1lro7pp-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:inline-block;position:relative;color:",
+              [Function],
+              ";:before,:after{content:\\"\\";position:absolute;left:0;right:0.85rem;bottom:100%;border-bottom:0.85rem solid ",
+              [Function],
+              ";border-left:0.85rem solid transparent;width:5px;}:before{bottom:100%;top:0;border-bottom:0.95rem solid ",
+              [Function],
+              ";}:after{bottom:auto;top:0.95rem;border-bottom:none;border-top:0.95rem solid ",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "StyledLuggageLabel",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "LuggageLabel__StyledLuggageLabel-sc-1lro7pp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      theme={
+        Object {
+          "action": Object {
+            "dark": Object {
+              "RGB": "0,47,108",
+              "hex": "#002F6C",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "98,194,248",
+              "hex": "#62C2F8",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,87,155",
+              "hex": "#01579B",
+              "on": "#FFFFFF",
+            },
+          },
+          "background": Object {
+            "RGB": "246,246,246",
+            "hex": "#F6F6F6",
+          },
+          "black": Object {
+            "main": Object {
+              "RGB": "39,39,39",
+              "hex": "#272727",
+              "on": "#FFFFFF",
+            },
+            "tint20": Object {
+              "RGB": "236,236,236",
+              "hex": "#ECECEC",
+              "on": "#272727",
+            },
+            "tint40": Object {
+              "RGB": "199,199,199",
+              "hex": "#C7C7C7",
+              "on": "#272727",
+            },
+            "tint60": Object {
+              "RGB": "160,160,160",
+              "hex": "#A0A0A0",
+              "on": "#FFFFFF",
+            },
+            "tint80": Object {
+              "RGB": "105,105,105",
+              "hex": "#696969",
+              "on": "#FFFFFF",
+            },
+          },
+          "complimentary": Object {
+            "dark": Object {
+              "RGB": "250,175,64",
+              "hex": "#FAAF40",
+              "on": "#272727",
+            },
+            "light": Object {
+              "RGB": "249,240,21",
+              "hex": "#F9F015",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "253,216,53",
+              "hex": "#FDD835",
+              "on": "#272727",
+            },
+          },
+          "error": Object {
+            "dark": Object {
+              "RGB": "143,6,6",
+              "hex": "#8F0606",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "220,16,16",
+              "hex": "#DC1010",
+              "on": "#FFFFFF",
+            },
+          },
+          "primary": Object {
+            "dark": Object {
+              "RGB": "11,102,54",
+              "hex": "#0B6636",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "145,208,62",
+              "hex": "#91D03E",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,145,68",
+              "hex": "#019144",
+              "on": "#FFFFFF",
+            },
+          },
+          "secondary": Object {
+            "dark": Object {
+              "RGB": "72,140,155",
+              "hex": "#488C9B",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "162,235,252",
+              "hex": "#A2EBFC",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "118,182,196",
+              "hex": "#76B6C4",
+              "on": "#FFFFFF",
+            },
+          },
+          "surface": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+          "white": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+        }
+      }
+    >
+      <div
+        className="c0"
+      >
+        <StyledLabel
+          theme={
+            Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "_foldedDefaultProps": Object {
+                  "theme": Object {
+                    "action": Object {
+                      "dark": Object {
+                        "RGB": "0,47,108",
+                        "hex": "#002F6C",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "98,194,248",
+                        "hex": "#62C2F8",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,87,155",
+                        "hex": "#01579B",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "background": Object {
+                      "RGB": "246,246,246",
+                      "hex": "#F6F6F6",
+                    },
+                    "black": Object {
+                      "main": Object {
+                        "RGB": "39,39,39",
+                        "hex": "#272727",
+                        "on": "#FFFFFF",
+                      },
+                      "tint20": Object {
+                        "RGB": "236,236,236",
+                        "hex": "#ECECEC",
+                        "on": "#272727",
+                      },
+                      "tint40": Object {
+                        "RGB": "199,199,199",
+                        "hex": "#C7C7C7",
+                        "on": "#272727",
+                      },
+                      "tint60": Object {
+                        "RGB": "160,160,160",
+                        "hex": "#A0A0A0",
+                        "on": "#FFFFFF",
+                      },
+                      "tint80": Object {
+                        "RGB": "105,105,105",
+                        "hex": "#696969",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "complimentary": Object {
+                      "dark": Object {
+                        "RGB": "250,175,64",
+                        "hex": "#FAAF40",
+                        "on": "#272727",
+                      },
+                      "light": Object {
+                        "RGB": "249,240,21",
+                        "hex": "#F9F015",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "253,216,53",
+                        "hex": "#FDD835",
+                        "on": "#272727",
+                      },
+                    },
+                    "error": Object {
+                      "dark": Object {
+                        "RGB": "143,6,6",
+                        "hex": "#8F0606",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "220,16,16",
+                        "hex": "#DC1010",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "primary": Object {
+                      "dark": Object {
+                        "RGB": "11,102,54",
+                        "hex": "#0B6636",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "145,208,62",
+                        "hex": "#91D03E",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,145,68",
+                        "hex": "#019144",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "secondary": Object {
+                      "dark": Object {
+                        "RGB": "72,140,155",
+                        "hex": "#488C9B",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "162,235,252",
+                        "hex": "#A2EBFC",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "118,182,196",
+                        "hex": "#76B6C4",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "surface": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                    "white": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                  },
+                },
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "LuggageLabel__StyledLabel-sc-1lro7pp-1",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "display:flex;align-items:center;padding:0.25rem 1rem;border-radius:5px;min-height:1.9rem;margin-left:0.85rem;background-color:",
+                    [Function],
+                    ";svg{vertical-align:text-bottom;margin-left:0.5rem;}",
+                  ],
+                },
+                "displayName": "StyledLabel",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "LuggageLabel__StyledLabel-sc-1lro7pp-1",
+                "target": "label",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            theme={
+              Object {
+                "action": Object {
+                  "dark": Object {
+                    "RGB": "0,47,108",
+                    "hex": "#002F6C",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "98,194,248",
+                    "hex": "#62C2F8",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "1,87,155",
+                    "hex": "#01579B",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "background": Object {
+                  "RGB": "246,246,246",
+                  "hex": "#F6F6F6",
+                },
+                "black": Object {
+                  "main": Object {
+                    "RGB": "39,39,39",
+                    "hex": "#272727",
+                    "on": "#FFFFFF",
+                  },
+                  "tint20": Object {
+                    "RGB": "236,236,236",
+                    "hex": "#ECECEC",
+                    "on": "#272727",
+                  },
+                  "tint40": Object {
+                    "RGB": "199,199,199",
+                    "hex": "#C7C7C7",
+                    "on": "#272727",
+                  },
+                  "tint60": Object {
+                    "RGB": "160,160,160",
+                    "hex": "#A0A0A0",
+                    "on": "#FFFFFF",
+                  },
+                  "tint80": Object {
+                    "RGB": "105,105,105",
+                    "hex": "#696969",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "complimentary": Object {
+                  "dark": Object {
+                    "RGB": "250,175,64",
+                    "hex": "#FAAF40",
+                    "on": "#272727",
+                  },
+                  "light": Object {
+                    "RGB": "249,240,21",
+                    "hex": "#F9F015",
+                    "on": "#272727",
+                  },
+                  "main": Object {
+                    "RGB": "253,216,53",
+                    "hex": "#FDD835",
+                    "on": "#272727",
+                  },
+                },
+                "error": Object {
+                  "dark": Object {
+                    "RGB": "143,6,6",
+                    "hex": "#8F0606",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "220,16,16",
+                    "hex": "#DC1010",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "primary": Object {
+                  "dark": Object {
+                    "RGB": "11,102,54",
+                    "hex": "#0B6636",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "145,208,62",
+                    "hex": "#91D03E",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "1,145,68",
+                    "hex": "#019144",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "secondary": Object {
+                  "dark": Object {
+                    "RGB": "72,140,155",
+                    "hex": "#488C9B",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "162,235,252",
+                    "hex": "#A2EBFC",
+                    "on": "#272727",
+                  },
+                  "main": Object {
+                    "RGB": "118,182,196",
+                    "hex": "#76B6C4",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "surface": Object {
+                  "RGB": "255,255,255",
+                  "hex": "#FFFFFF",
+                  "on": "#272727",
+                },
+                "white": Object {
+                  "RGB": "255,255,255",
+                  "hex": "#FFFFFF",
+                  "on": "#272727",
+                },
+              }
+            }
+          >
+            <label
+              className="c1"
+            >
+              This is a label
+              <Icon
+                color="complimentary"
+                isVisible={false}
+                name="times"
+                onClick={[MockFunction]}
+              >
+                <IconWithTheme
+                  color="complimentary"
+                  isVisible={false}
+                  name="times"
+                  onClick={[MockFunction]}
+                  shade="main"
+                  size="sm"
+                  theme={
+                    Object {
+                      "action": Object {
+                        "dark": Object {
+                          "RGB": "0,47,108",
+                          "hex": "#002F6C",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "98,194,248",
+                          "hex": "#62C2F8",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "1,87,155",
+                          "hex": "#01579B",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "background": Object {
+                        "RGB": "246,246,246",
+                        "hex": "#F6F6F6",
+                      },
+                      "black": Object {
+                        "main": Object {
+                          "RGB": "39,39,39",
+                          "hex": "#272727",
+                          "on": "#FFFFFF",
+                        },
+                        "tint20": Object {
+                          "RGB": "236,236,236",
+                          "hex": "#ECECEC",
+                          "on": "#272727",
+                        },
+                        "tint40": Object {
+                          "RGB": "199,199,199",
+                          "hex": "#C7C7C7",
+                          "on": "#272727",
+                        },
+                        "tint60": Object {
+                          "RGB": "160,160,160",
+                          "hex": "#A0A0A0",
+                          "on": "#FFFFFF",
+                        },
+                        "tint80": Object {
+                          "RGB": "105,105,105",
+                          "hex": "#696969",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "complimentary": Object {
+                        "dark": Object {
+                          "RGB": "250,175,64",
+                          "hex": "#FAAF40",
+                          "on": "#272727",
+                        },
+                        "light": Object {
+                          "RGB": "249,240,21",
+                          "hex": "#F9F015",
+                          "on": "#272727",
+                        },
+                        "main": Object {
+                          "RGB": "253,216,53",
+                          "hex": "#FDD835",
+                          "on": "#272727",
+                        },
+                      },
+                      "error": Object {
+                        "dark": Object {
+                          "RGB": "143,6,6",
+                          "hex": "#8F0606",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "220,16,16",
+                          "hex": "#DC1010",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "primary": Object {
+                        "dark": Object {
+                          "RGB": "11,102,54",
+                          "hex": "#0B6636",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "145,208,62",
+                          "hex": "#91D03E",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "1,145,68",
+                          "hex": "#019144",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "secondary": Object {
+                        "dark": Object {
+                          "RGB": "72,140,155",
+                          "hex": "#488C9B",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "162,235,252",
+                          "hex": "#A2EBFC",
+                          "on": "#272727",
+                        },
+                        "main": Object {
+                          "RGB": "118,182,196",
+                          "hex": "#76B6C4",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "surface": Object {
+                        "RGB": "255,255,255",
+                        "hex": "#FFFFFF",
+                        "on": "#272727",
+                      },
+                      "white": Object {
+                        "RGB": "255,255,255",
+                        "hex": "#FFFFFF",
+                        "on": "#272727",
+                      },
+                    }
+                  }
+                >
+                  <IconContainer
+                    isVisible={false}
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Icon__IconContainer-sc-1wwjz4g-0",
+                            "isStatic": false,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              [Function],
+                              " ",
+                              [Function],
+                            ],
+                          },
+                          "displayName": "IconContainer",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Icon__IconContainer-sc-1wwjz4g-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      isVisible={false}
+                    >
+                      <div
+                        className="c2"
+                      >
+                        <StyledFontAwesomeIcon
+                          color="complimentary"
+                          icon="times"
+                          onClick={[MockFunction]}
+                          shade="main"
+                          size="sm"
+                          theme={
+                            Object {
+                              "action": Object {
+                                "dark": Object {
+                                  "RGB": "0,47,108",
+                                  "hex": "#002F6C",
+                                  "on": "#FFFFFF",
+                                },
+                                "light": Object {
+                                  "RGB": "98,194,248",
+                                  "hex": "#62C2F8",
+                                  "on": "#FFFFFF",
+                                },
+                                "main": Object {
+                                  "RGB": "1,87,155",
+                                  "hex": "#01579B",
+                                  "on": "#FFFFFF",
+                                },
+                              },
+                              "background": Object {
+                                "RGB": "246,246,246",
+                                "hex": "#F6F6F6",
+                              },
+                              "black": Object {
+                                "main": Object {
+                                  "RGB": "39,39,39",
+                                  "hex": "#272727",
+                                  "on": "#FFFFFF",
+                                },
+                                "tint20": Object {
+                                  "RGB": "236,236,236",
+                                  "hex": "#ECECEC",
+                                  "on": "#272727",
+                                },
+                                "tint40": Object {
+                                  "RGB": "199,199,199",
+                                  "hex": "#C7C7C7",
+                                  "on": "#272727",
+                                },
+                                "tint60": Object {
+                                  "RGB": "160,160,160",
+                                  "hex": "#A0A0A0",
+                                  "on": "#FFFFFF",
+                                },
+                                "tint80": Object {
+                                  "RGB": "105,105,105",
+                                  "hex": "#696969",
+                                  "on": "#FFFFFF",
+                                },
+                              },
+                              "complimentary": Object {
+                                "dark": Object {
+                                  "RGB": "250,175,64",
+                                  "hex": "#FAAF40",
+                                  "on": "#272727",
+                                },
+                                "light": Object {
+                                  "RGB": "249,240,21",
+                                  "hex": "#F9F015",
+                                  "on": "#272727",
+                                },
+                                "main": Object {
+                                  "RGB": "253,216,53",
+                                  "hex": "#FDD835",
+                                  "on": "#272727",
+                                },
+                              },
+                              "error": Object {
+                                "dark": Object {
+                                  "RGB": "143,6,6",
+                                  "hex": "#8F0606",
+                                  "on": "#FFFFFF",
+                                },
+                                "main": Object {
+                                  "RGB": "220,16,16",
+                                  "hex": "#DC1010",
+                                  "on": "#FFFFFF",
+                                },
+                              },
+                              "primary": Object {
+                                "dark": Object {
+                                  "RGB": "11,102,54",
+                                  "hex": "#0B6636",
+                                  "on": "#FFFFFF",
+                                },
+                                "light": Object {
+                                  "RGB": "145,208,62",
+                                  "hex": "#91D03E",
+                                  "on": "#FFFFFF",
+                                },
+                                "main": Object {
+                                  "RGB": "1,145,68",
+                                  "hex": "#019144",
+                                  "on": "#FFFFFF",
+                                },
+                              },
+                              "secondary": Object {
+                                "dark": Object {
+                                  "RGB": "72,140,155",
+                                  "hex": "#488C9B",
+                                  "on": "#FFFFFF",
+                                },
+                                "light": Object {
+                                  "RGB": "162,235,252",
+                                  "hex": "#A2EBFC",
+                                  "on": "#272727",
+                                },
+                                "main": Object {
+                                  "RGB": "118,182,196",
+                                  "hex": "#76B6C4",
+                                  "on": "#FFFFFF",
+                                },
+                              },
+                              "surface": Object {
+                                "RGB": "255,255,255",
+                                "hex": "#FFFFFF",
+                                "on": "#272727",
+                              },
+                              "white": Object {
+                                "RGB": "255,255,255",
+                                "hex": "#FFFFFF",
+                                "on": "#272727",
+                              },
+                            }
+                          }
+                        >
+                          <StyledComponent
+                            color="complimentary"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "Icon__StyledFontAwesomeIcon-sc-1wwjz4g-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    "color:",
+                                    [Function],
+                                    ";",
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "StyledFontAwesomeIcon",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "Icon__StyledFontAwesomeIcon-sc-1wwjz4g-1",
+                                "target": [Function],
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            icon="times"
+                            onClick={[MockFunction]}
+                            shade="main"
+                            size="sm"
+                            theme={
+                              Object {
+                                "action": Object {
+                                  "dark": Object {
+                                    "RGB": "0,47,108",
+                                    "hex": "#002F6C",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "light": Object {
+                                    "RGB": "98,194,248",
+                                    "hex": "#62C2F8",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "main": Object {
+                                    "RGB": "1,87,155",
+                                    "hex": "#01579B",
+                                    "on": "#FFFFFF",
+                                  },
+                                },
+                                "background": Object {
+                                  "RGB": "246,246,246",
+                                  "hex": "#F6F6F6",
+                                },
+                                "black": Object {
+                                  "main": Object {
+                                    "RGB": "39,39,39",
+                                    "hex": "#272727",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "tint20": Object {
+                                    "RGB": "236,236,236",
+                                    "hex": "#ECECEC",
+                                    "on": "#272727",
+                                  },
+                                  "tint40": Object {
+                                    "RGB": "199,199,199",
+                                    "hex": "#C7C7C7",
+                                    "on": "#272727",
+                                  },
+                                  "tint60": Object {
+                                    "RGB": "160,160,160",
+                                    "hex": "#A0A0A0",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "tint80": Object {
+                                    "RGB": "105,105,105",
+                                    "hex": "#696969",
+                                    "on": "#FFFFFF",
+                                  },
+                                },
+                                "complimentary": Object {
+                                  "dark": Object {
+                                    "RGB": "250,175,64",
+                                    "hex": "#FAAF40",
+                                    "on": "#272727",
+                                  },
+                                  "light": Object {
+                                    "RGB": "249,240,21",
+                                    "hex": "#F9F015",
+                                    "on": "#272727",
+                                  },
+                                  "main": Object {
+                                    "RGB": "253,216,53",
+                                    "hex": "#FDD835",
+                                    "on": "#272727",
+                                  },
+                                },
+                                "error": Object {
+                                  "dark": Object {
+                                    "RGB": "143,6,6",
+                                    "hex": "#8F0606",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "main": Object {
+                                    "RGB": "220,16,16",
+                                    "hex": "#DC1010",
+                                    "on": "#FFFFFF",
+                                  },
+                                },
+                                "primary": Object {
+                                  "dark": Object {
+                                    "RGB": "11,102,54",
+                                    "hex": "#0B6636",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "light": Object {
+                                    "RGB": "145,208,62",
+                                    "hex": "#91D03E",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "main": Object {
+                                    "RGB": "1,145,68",
+                                    "hex": "#019144",
+                                    "on": "#FFFFFF",
+                                  },
+                                },
+                                "secondary": Object {
+                                  "dark": Object {
+                                    "RGB": "72,140,155",
+                                    "hex": "#488C9B",
+                                    "on": "#FFFFFF",
+                                  },
+                                  "light": Object {
+                                    "RGB": "162,235,252",
+                                    "hex": "#A2EBFC",
+                                    "on": "#272727",
+                                  },
+                                  "main": Object {
+                                    "RGB": "118,182,196",
+                                    "hex": "#76B6C4",
+                                    "on": "#FFFFFF",
+                                  },
+                                },
+                                "surface": Object {
+                                  "RGB": "255,255,255",
+                                  "hex": "#FFFFFF",
+                                  "on": "#272727",
+                                },
+                                "white": Object {
+                                  "RGB": "255,255,255",
+                                  "hex": "#FFFFFF",
+                                  "on": "#272727",
+                                },
+                              }
+                            }
+                          >
+                            <FontAwesomeIcon
+                              border={false}
+                              className="c3"
+                              color="complimentary"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="times"
+                              inverse={false}
+                              listItem={false}
+                              mask={null}
+                              onClick={[MockFunction]}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              shade="main"
+                              size="sm"
+                              spin={false}
+                              symbol={false}
+                              theme={
+                                Object {
+                                  "action": Object {
+                                    "dark": Object {
+                                      "RGB": "0,47,108",
+                                      "hex": "#002F6C",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "light": Object {
+                                      "RGB": "98,194,248",
+                                      "hex": "#62C2F8",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "main": Object {
+                                      "RGB": "1,87,155",
+                                      "hex": "#01579B",
+                                      "on": "#FFFFFF",
+                                    },
+                                  },
+                                  "background": Object {
+                                    "RGB": "246,246,246",
+                                    "hex": "#F6F6F6",
+                                  },
+                                  "black": Object {
+                                    "main": Object {
+                                      "RGB": "39,39,39",
+                                      "hex": "#272727",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "tint20": Object {
+                                      "RGB": "236,236,236",
+                                      "hex": "#ECECEC",
+                                      "on": "#272727",
+                                    },
+                                    "tint40": Object {
+                                      "RGB": "199,199,199",
+                                      "hex": "#C7C7C7",
+                                      "on": "#272727",
+                                    },
+                                    "tint60": Object {
+                                      "RGB": "160,160,160",
+                                      "hex": "#A0A0A0",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "tint80": Object {
+                                      "RGB": "105,105,105",
+                                      "hex": "#696969",
+                                      "on": "#FFFFFF",
+                                    },
+                                  },
+                                  "complimentary": Object {
+                                    "dark": Object {
+                                      "RGB": "250,175,64",
+                                      "hex": "#FAAF40",
+                                      "on": "#272727",
+                                    },
+                                    "light": Object {
+                                      "RGB": "249,240,21",
+                                      "hex": "#F9F015",
+                                      "on": "#272727",
+                                    },
+                                    "main": Object {
+                                      "RGB": "253,216,53",
+                                      "hex": "#FDD835",
+                                      "on": "#272727",
+                                    },
+                                  },
+                                  "error": Object {
+                                    "dark": Object {
+                                      "RGB": "143,6,6",
+                                      "hex": "#8F0606",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "main": Object {
+                                      "RGB": "220,16,16",
+                                      "hex": "#DC1010",
+                                      "on": "#FFFFFF",
+                                    },
+                                  },
+                                  "primary": Object {
+                                    "dark": Object {
+                                      "RGB": "11,102,54",
+                                      "hex": "#0B6636",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "light": Object {
+                                      "RGB": "145,208,62",
+                                      "hex": "#91D03E",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "main": Object {
+                                      "RGB": "1,145,68",
+                                      "hex": "#019144",
+                                      "on": "#FFFFFF",
+                                    },
+                                  },
+                                  "secondary": Object {
+                                    "dark": Object {
+                                      "RGB": "72,140,155",
+                                      "hex": "#488C9B",
+                                      "on": "#FFFFFF",
+                                    },
+                                    "light": Object {
+                                      "RGB": "162,235,252",
+                                      "hex": "#A2EBFC",
+                                      "on": "#272727",
+                                    },
+                                    "main": Object {
+                                      "RGB": "118,182,196",
+                                      "hex": "#76B6C4",
+                                      "on": "#FFFFFF",
+                                    },
+                                  },
+                                  "surface": Object {
+                                    "RGB": "255,255,255",
+                                    "hex": "#FFFFFF",
+                                    "on": "#272727",
+                                  },
+                                  "white": Object {
+                                    "RGB": "255,255,255",
+                                    "hex": "#FFFFFF",
+                                    "on": "#272727",
+                                  },
+                                }
+                              }
+                              title=""
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-times fa-w-11 fa-sm c3"
+                                color="complimentary"
+                                data-icon="times"
+                                data-prefix="fas"
+                                focusable="false"
+                                onClick={[MockFunction]}
+                                role="img"
+                                shade="main"
+                                style={Object {}}
+                                theme={
+                                  Object {
+                                    "action": Object {
+                                      "dark": Object {
+                                        "RGB": "0,47,108",
+                                        "hex": "#002F6C",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "light": Object {
+                                        "RGB": "98,194,248",
+                                        "hex": "#62C2F8",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "main": Object {
+                                        "RGB": "1,87,155",
+                                        "hex": "#01579B",
+                                        "on": "#FFFFFF",
+                                      },
+                                    },
+                                    "background": Object {
+                                      "RGB": "246,246,246",
+                                      "hex": "#F6F6F6",
+                                    },
+                                    "black": Object {
+                                      "main": Object {
+                                        "RGB": "39,39,39",
+                                        "hex": "#272727",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "tint20": Object {
+                                        "RGB": "236,236,236",
+                                        "hex": "#ECECEC",
+                                        "on": "#272727",
+                                      },
+                                      "tint40": Object {
+                                        "RGB": "199,199,199",
+                                        "hex": "#C7C7C7",
+                                        "on": "#272727",
+                                      },
+                                      "tint60": Object {
+                                        "RGB": "160,160,160",
+                                        "hex": "#A0A0A0",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "tint80": Object {
+                                        "RGB": "105,105,105",
+                                        "hex": "#696969",
+                                        "on": "#FFFFFF",
+                                      },
+                                    },
+                                    "complimentary": Object {
+                                      "dark": Object {
+                                        "RGB": "250,175,64",
+                                        "hex": "#FAAF40",
+                                        "on": "#272727",
+                                      },
+                                      "light": Object {
+                                        "RGB": "249,240,21",
+                                        "hex": "#F9F015",
+                                        "on": "#272727",
+                                      },
+                                      "main": Object {
+                                        "RGB": "253,216,53",
+                                        "hex": "#FDD835",
+                                        "on": "#272727",
+                                      },
+                                    },
+                                    "error": Object {
+                                      "dark": Object {
+                                        "RGB": "143,6,6",
+                                        "hex": "#8F0606",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "main": Object {
+                                        "RGB": "220,16,16",
+                                        "hex": "#DC1010",
+                                        "on": "#FFFFFF",
+                                      },
+                                    },
+                                    "primary": Object {
+                                      "dark": Object {
+                                        "RGB": "11,102,54",
+                                        "hex": "#0B6636",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "light": Object {
+                                        "RGB": "145,208,62",
+                                        "hex": "#91D03E",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "main": Object {
+                                        "RGB": "1,145,68",
+                                        "hex": "#019144",
+                                        "on": "#FFFFFF",
+                                      },
+                                    },
+                                    "secondary": Object {
+                                      "dark": Object {
+                                        "RGB": "72,140,155",
+                                        "hex": "#488C9B",
+                                        "on": "#FFFFFF",
+                                      },
+                                      "light": Object {
+                                        "RGB": "162,235,252",
+                                        "hex": "#A2EBFC",
+                                        "on": "#272727",
+                                      },
+                                      "main": Object {
+                                        "RGB": "118,182,196",
+                                        "hex": "#76B6C4",
+                                        "on": "#FFFFFF",
+                                      },
+                                    },
+                                    "surface": Object {
+                                      "RGB": "255,255,255",
+                                      "hex": "#FFFFFF",
+                                      "on": "#272727",
+                                    },
+                                    "white": Object {
+                                      "RGB": "255,255,255",
+                                      "hex": "#FFFFFF",
+                                      "on": "#272727",
+                                    },
+                                  }
+                                }
+                                viewBox="0 0 352 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                          </StyledComponent>
+                        </StyledFontAwesomeIcon>
+                      </div>
+                    </StyledComponent>
+                  </IconContainer>
+                </IconWithTheme>
+              </Icon>
+            </label>
+          </StyledComponent>
+        </StyledLabel>
+      </div>
+    </StyledComponent>
+  </StyledLuggageLabel>
+</LuggageLabel>
+`;

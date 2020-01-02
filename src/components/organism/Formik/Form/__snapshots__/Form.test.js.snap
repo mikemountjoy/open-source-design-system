@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component Test Match last snapshot 1`] = `
+<Formik
+  enableReinitialize={true}
+  isInitialValid={false}
+  validateOnBlur={true}
+  validateOnChange={true}
+>
+  <StyledFormikForm
+    spacing={1.5}
+  >
+    <Field
+      isValid={true}
+      name="name"
+      type="text"
+    />
+    <Field
+      isValid={true}
+      name="location"
+      row={true}
+      type="text"
+    />
+    <Field
+      name="subscribe"
+      row={true}
+      type="checkbox"
+    />
+  </StyledFormikForm>
+</Formik>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render snapshot 1`] = `
+<StyledList
+  as="ul"
+>
+  <li>
+    List 1
+  </li>
+  <li>
+    List 2
+  </li>
+</StyledList>
+`;

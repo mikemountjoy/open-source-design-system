@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipHeader test getCurrentSortIcon - asc 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`TooltipHeader test getCurrentSortIcon - desc 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`TooltipHeader test match last snapshot 1`] = `
+<TooltipHeader__Container
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div>
+    First Name
+  </div>
+</TooltipHeader__Container>
+`;
+
+exports[`TooltipHeader test should handle onMouseEnter and show the tooltip 1`] = `
+<TooltipHeader__Container
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div>
+    <Tooltip
+      id="tooltip-undefined"
+      showIcon={true}
+      tooltipContent="Tooltip hey"
+    >
+      First Name
+    </Tooltip>
+  </div>
+</TooltipHeader__Container>
+`;

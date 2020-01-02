@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionCellRenderer test match last snapshot 1`] = `
+<Button
+  buttonType="error"
+  className="xsmall"
+  disabled={false}
+  onClick={[Function]}
+>
+  action me
+</Button>
+`;
+
+exports[`ActionCellRenderer test match snapshot with default properties 1`] = `
+<Button
+  buttonType="error"
+  className="xsmall"
+  disabled={false}
+  onClick={[Function]}
+/>
+`;

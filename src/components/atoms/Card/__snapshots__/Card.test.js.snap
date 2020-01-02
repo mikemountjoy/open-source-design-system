@@ -1,0 +1,2378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Renders Card with full styling 1`] = `
+.c0 {
+  width: 100%;
+  border-top: 4px solid #019144;
+  background-color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+}
+
+.c1 {
+  padding: 1rem 1rem 0.5rem;
+  border-bottom: 1px solid #91D03E;
+  display: block;
+}
+
+.c1 > h2 {
+  margin: 0;
+  color: #019144;
+}
+
+.c3 {
+  padding: 0;
+}
+
+.c4 {
+  background-color: rgba(118,182,196,0.4);
+  border-radius: 0 0 10px 10px;
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap row-reverse;
+  -ms-flex-flow: wrap row-reverse;
+  flex-flow: wrap row-reverse;
+}
+
+.c2 {
+  overflow: hidden;
+  -webkit-transition: max-height 0.25s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
+  max-height: 125rem;
+}
+
+<Card
+  footer="this is the foot"
+  title="fooBar"
+>
+  <CardContainer
+    theme={
+      Object {
+        "action": Object {
+          "dark": Object {
+            "RGB": "0,47,108",
+            "hex": "#002F6C",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "98,194,248",
+            "hex": "#62C2F8",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,87,155",
+            "hex": "#01579B",
+            "on": "#FFFFFF",
+          },
+        },
+        "background": Object {
+          "RGB": "246,246,246",
+          "hex": "#F6F6F6",
+        },
+        "black": Object {
+          "main": Object {
+            "RGB": "39,39,39",
+            "hex": "#272727",
+            "on": "#FFFFFF",
+          },
+          "tint20": Object {
+            "RGB": "236,236,236",
+            "hex": "#ECECEC",
+            "on": "#272727",
+          },
+          "tint40": Object {
+            "RGB": "199,199,199",
+            "hex": "#C7C7C7",
+            "on": "#272727",
+          },
+          "tint60": Object {
+            "RGB": "160,160,160",
+            "hex": "#A0A0A0",
+            "on": "#FFFFFF",
+          },
+          "tint80": Object {
+            "RGB": "105,105,105",
+            "hex": "#696969",
+            "on": "#FFFFFF",
+          },
+        },
+        "complimentary": Object {
+          "dark": Object {
+            "RGB": "250,175,64",
+            "hex": "#FAAF40",
+            "on": "#272727",
+          },
+          "light": Object {
+            "RGB": "249,240,21",
+            "hex": "#F9F015",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "253,216,53",
+            "hex": "#FDD835",
+            "on": "#272727",
+          },
+        },
+        "error": Object {
+          "dark": Object {
+            "RGB": "143,6,6",
+            "hex": "#8F0606",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "220,16,16",
+            "hex": "#DC1010",
+            "on": "#FFFFFF",
+          },
+        },
+        "primary": Object {
+          "dark": Object {
+            "RGB": "11,102,54",
+            "hex": "#0B6636",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "145,208,62",
+            "hex": "#91D03E",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,145,68",
+            "hex": "#019144",
+            "on": "#FFFFFF",
+          },
+        },
+        "secondary": Object {
+          "dark": Object {
+            "RGB": "72,140,155",
+            "hex": "#488C9B",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "162,235,252",
+            "hex": "#A2EBFC",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "118,182,196",
+            "hex": "#76B6C4",
+            "on": "#FFFFFF",
+          },
+        },
+        "surface": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+        "white": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+      }
+    }
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "theme": Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            },
+          },
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Card__CardContainer-c7vdns-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "width:100%;border-top:4px solid ",
+              [Function],
+              ";background-color:",
+              [Function],
+              ";box-shadow:",
+              [Function],
+              ";border-radius:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CardContainer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      theme={
+        Object {
+          "action": Object {
+            "dark": Object {
+              "RGB": "0,47,108",
+              "hex": "#002F6C",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "98,194,248",
+              "hex": "#62C2F8",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,87,155",
+              "hex": "#01579B",
+              "on": "#FFFFFF",
+            },
+          },
+          "background": Object {
+            "RGB": "246,246,246",
+            "hex": "#F6F6F6",
+          },
+          "black": Object {
+            "main": Object {
+              "RGB": "39,39,39",
+              "hex": "#272727",
+              "on": "#FFFFFF",
+            },
+            "tint20": Object {
+              "RGB": "236,236,236",
+              "hex": "#ECECEC",
+              "on": "#272727",
+            },
+            "tint40": Object {
+              "RGB": "199,199,199",
+              "hex": "#C7C7C7",
+              "on": "#272727",
+            },
+            "tint60": Object {
+              "RGB": "160,160,160",
+              "hex": "#A0A0A0",
+              "on": "#FFFFFF",
+            },
+            "tint80": Object {
+              "RGB": "105,105,105",
+              "hex": "#696969",
+              "on": "#FFFFFF",
+            },
+          },
+          "complimentary": Object {
+            "dark": Object {
+              "RGB": "250,175,64",
+              "hex": "#FAAF40",
+              "on": "#272727",
+            },
+            "light": Object {
+              "RGB": "249,240,21",
+              "hex": "#F9F015",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "253,216,53",
+              "hex": "#FDD835",
+              "on": "#272727",
+            },
+          },
+          "error": Object {
+            "dark": Object {
+              "RGB": "143,6,6",
+              "hex": "#8F0606",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "220,16,16",
+              "hex": "#DC1010",
+              "on": "#FFFFFF",
+            },
+          },
+          "primary": Object {
+            "dark": Object {
+              "RGB": "11,102,54",
+              "hex": "#0B6636",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "145,208,62",
+              "hex": "#91D03E",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,145,68",
+              "hex": "#019144",
+              "on": "#FFFFFF",
+            },
+          },
+          "secondary": Object {
+            "dark": Object {
+              "RGB": "72,140,155",
+              "hex": "#488C9B",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "162,235,252",
+              "hex": "#A2EBFC",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "118,182,196",
+              "hex": "#76B6C4",
+              "on": "#FFFFFF",
+            },
+          },
+          "surface": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+          "white": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+        }
+      }
+    >
+      <div
+        className="c0"
+      >
+        <CardHeader
+          theme={
+            Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            }
+          }
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "_foldedDefaultProps": Object {
+                  "theme": Object {
+                    "action": Object {
+                      "dark": Object {
+                        "RGB": "0,47,108",
+                        "hex": "#002F6C",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "98,194,248",
+                        "hex": "#62C2F8",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,87,155",
+                        "hex": "#01579B",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "background": Object {
+                      "RGB": "246,246,246",
+                      "hex": "#F6F6F6",
+                    },
+                    "black": Object {
+                      "main": Object {
+                        "RGB": "39,39,39",
+                        "hex": "#272727",
+                        "on": "#FFFFFF",
+                      },
+                      "tint20": Object {
+                        "RGB": "236,236,236",
+                        "hex": "#ECECEC",
+                        "on": "#272727",
+                      },
+                      "tint40": Object {
+                        "RGB": "199,199,199",
+                        "hex": "#C7C7C7",
+                        "on": "#272727",
+                      },
+                      "tint60": Object {
+                        "RGB": "160,160,160",
+                        "hex": "#A0A0A0",
+                        "on": "#FFFFFF",
+                      },
+                      "tint80": Object {
+                        "RGB": "105,105,105",
+                        "hex": "#696969",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "complimentary": Object {
+                      "dark": Object {
+                        "RGB": "250,175,64",
+                        "hex": "#FAAF40",
+                        "on": "#272727",
+                      },
+                      "light": Object {
+                        "RGB": "249,240,21",
+                        "hex": "#F9F015",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "253,216,53",
+                        "hex": "#FDD835",
+                        "on": "#272727",
+                      },
+                    },
+                    "error": Object {
+                      "dark": Object {
+                        "RGB": "143,6,6",
+                        "hex": "#8F0606",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "220,16,16",
+                        "hex": "#DC1010",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "primary": Object {
+                      "dark": Object {
+                        "RGB": "11,102,54",
+                        "hex": "#0B6636",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "145,208,62",
+                        "hex": "#91D03E",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,145,68",
+                        "hex": "#019144",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "secondary": Object {
+                      "dark": Object {
+                        "RGB": "72,140,155",
+                        "hex": "#488C9B",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "162,235,252",
+                        "hex": "#A2EBFC",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "118,182,196",
+                        "hex": "#76B6C4",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "surface": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                    "white": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                  },
+                },
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Card__CardHeader-c7vdns-1",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "padding:1rem 1rem 0.5rem;border-bottom:1px solid ",
+                    [Function],
+                    ";> h2{margin:0;color:",
+                    [Function],
+                    ";}display:block;",
+                  ],
+                },
+                "displayName": "CardHeader",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Card__CardHeader-c7vdns-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            theme={
+              Object {
+                "action": Object {
+                  "dark": Object {
+                    "RGB": "0,47,108",
+                    "hex": "#002F6C",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "98,194,248",
+                    "hex": "#62C2F8",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "1,87,155",
+                    "hex": "#01579B",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "background": Object {
+                  "RGB": "246,246,246",
+                  "hex": "#F6F6F6",
+                },
+                "black": Object {
+                  "main": Object {
+                    "RGB": "39,39,39",
+                    "hex": "#272727",
+                    "on": "#FFFFFF",
+                  },
+                  "tint20": Object {
+                    "RGB": "236,236,236",
+                    "hex": "#ECECEC",
+                    "on": "#272727",
+                  },
+                  "tint40": Object {
+                    "RGB": "199,199,199",
+                    "hex": "#C7C7C7",
+                    "on": "#272727",
+                  },
+                  "tint60": Object {
+                    "RGB": "160,160,160",
+                    "hex": "#A0A0A0",
+                    "on": "#FFFFFF",
+                  },
+                  "tint80": Object {
+                    "RGB": "105,105,105",
+                    "hex": "#696969",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "complimentary": Object {
+                  "dark": Object {
+                    "RGB": "250,175,64",
+                    "hex": "#FAAF40",
+                    "on": "#272727",
+                  },
+                  "light": Object {
+                    "RGB": "249,240,21",
+                    "hex": "#F9F015",
+                    "on": "#272727",
+                  },
+                  "main": Object {
+                    "RGB": "253,216,53",
+                    "hex": "#FDD835",
+                    "on": "#272727",
+                  },
+                },
+                "error": Object {
+                  "dark": Object {
+                    "RGB": "143,6,6",
+                    "hex": "#8F0606",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "220,16,16",
+                    "hex": "#DC1010",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "primary": Object {
+                  "dark": Object {
+                    "RGB": "11,102,54",
+                    "hex": "#0B6636",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "145,208,62",
+                    "hex": "#91D03E",
+                    "on": "#FFFFFF",
+                  },
+                  "main": Object {
+                    "RGB": "1,145,68",
+                    "hex": "#019144",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "secondary": Object {
+                  "dark": Object {
+                    "RGB": "72,140,155",
+                    "hex": "#488C9B",
+                    "on": "#FFFFFF",
+                  },
+                  "light": Object {
+                    "RGB": "162,235,252",
+                    "hex": "#A2EBFC",
+                    "on": "#272727",
+                  },
+                  "main": Object {
+                    "RGB": "118,182,196",
+                    "hex": "#76B6C4",
+                    "on": "#FFFFFF",
+                  },
+                },
+                "surface": Object {
+                  "RGB": "255,255,255",
+                  "hex": "#FFFFFF",
+                  "on": "#272727",
+                },
+                "white": Object {
+                  "RGB": "255,255,255",
+                  "hex": "#FFFFFF",
+                  "on": "#272727",
+                },
+              }
+            }
+          >
+            <div
+              className="c1"
+            >
+              <h2>
+                fooBar
+              </h2>
+            </div>
+          </StyledComponent>
+        </CardHeader>
+        <CollapsibleContainer>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "overflow:hidden;transition:max-height 0.25s ease-in-out;max-height:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "CollapsibleContainer",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c2"
+            >
+              <CardBody>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Card__CardBody-c7vdns-2",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "padding:",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "CardBody",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c3"
+                  />
+                </StyledComponent>
+              </CardBody>
+              <CardFooter
+                theme={
+                  Object {
+                    "action": Object {
+                      "dark": Object {
+                        "RGB": "0,47,108",
+                        "hex": "#002F6C",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "98,194,248",
+                        "hex": "#62C2F8",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,87,155",
+                        "hex": "#01579B",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "background": Object {
+                      "RGB": "246,246,246",
+                      "hex": "#F6F6F6",
+                    },
+                    "black": Object {
+                      "main": Object {
+                        "RGB": "39,39,39",
+                        "hex": "#272727",
+                        "on": "#FFFFFF",
+                      },
+                      "tint20": Object {
+                        "RGB": "236,236,236",
+                        "hex": "#ECECEC",
+                        "on": "#272727",
+                      },
+                      "tint40": Object {
+                        "RGB": "199,199,199",
+                        "hex": "#C7C7C7",
+                        "on": "#272727",
+                      },
+                      "tint60": Object {
+                        "RGB": "160,160,160",
+                        "hex": "#A0A0A0",
+                        "on": "#FFFFFF",
+                      },
+                      "tint80": Object {
+                        "RGB": "105,105,105",
+                        "hex": "#696969",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "complimentary": Object {
+                      "dark": Object {
+                        "RGB": "250,175,64",
+                        "hex": "#FAAF40",
+                        "on": "#272727",
+                      },
+                      "light": Object {
+                        "RGB": "249,240,21",
+                        "hex": "#F9F015",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "253,216,53",
+                        "hex": "#FDD835",
+                        "on": "#272727",
+                      },
+                    },
+                    "error": Object {
+                      "dark": Object {
+                        "RGB": "143,6,6",
+                        "hex": "#8F0606",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "220,16,16",
+                        "hex": "#DC1010",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "primary": Object {
+                      "dark": Object {
+                        "RGB": "11,102,54",
+                        "hex": "#0B6636",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "145,208,62",
+                        "hex": "#91D03E",
+                        "on": "#FFFFFF",
+                      },
+                      "main": Object {
+                        "RGB": "1,145,68",
+                        "hex": "#019144",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "secondary": Object {
+                      "dark": Object {
+                        "RGB": "72,140,155",
+                        "hex": "#488C9B",
+                        "on": "#FFFFFF",
+                      },
+                      "light": Object {
+                        "RGB": "162,235,252",
+                        "hex": "#A2EBFC",
+                        "on": "#272727",
+                      },
+                      "main": Object {
+                        "RGB": "118,182,196",
+                        "hex": "#76B6C4",
+                        "on": "#FFFFFF",
+                      },
+                    },
+                    "surface": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                    "white": Object {
+                      "RGB": "255,255,255",
+                      "hex": "#FFFFFF",
+                      "on": "#272727",
+                    },
+                  }
+                }
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "_foldedDefaultProps": Object {
+                        "theme": Object {
+                          "action": Object {
+                            "dark": Object {
+                              "RGB": "0,47,108",
+                              "hex": "#002F6C",
+                              "on": "#FFFFFF",
+                            },
+                            "light": Object {
+                              "RGB": "98,194,248",
+                              "hex": "#62C2F8",
+                              "on": "#FFFFFF",
+                            },
+                            "main": Object {
+                              "RGB": "1,87,155",
+                              "hex": "#01579B",
+                              "on": "#FFFFFF",
+                            },
+                          },
+                          "background": Object {
+                            "RGB": "246,246,246",
+                            "hex": "#F6F6F6",
+                          },
+                          "black": Object {
+                            "main": Object {
+                              "RGB": "39,39,39",
+                              "hex": "#272727",
+                              "on": "#FFFFFF",
+                            },
+                            "tint20": Object {
+                              "RGB": "236,236,236",
+                              "hex": "#ECECEC",
+                              "on": "#272727",
+                            },
+                            "tint40": Object {
+                              "RGB": "199,199,199",
+                              "hex": "#C7C7C7",
+                              "on": "#272727",
+                            },
+                            "tint60": Object {
+                              "RGB": "160,160,160",
+                              "hex": "#A0A0A0",
+                              "on": "#FFFFFF",
+                            },
+                            "tint80": Object {
+                              "RGB": "105,105,105",
+                              "hex": "#696969",
+                              "on": "#FFFFFF",
+                            },
+                          },
+                          "complimentary": Object {
+                            "dark": Object {
+                              "RGB": "250,175,64",
+                              "hex": "#FAAF40",
+                              "on": "#272727",
+                            },
+                            "light": Object {
+                              "RGB": "249,240,21",
+                              "hex": "#F9F015",
+                              "on": "#272727",
+                            },
+                            "main": Object {
+                              "RGB": "253,216,53",
+                              "hex": "#FDD835",
+                              "on": "#272727",
+                            },
+                          },
+                          "error": Object {
+                            "dark": Object {
+                              "RGB": "143,6,6",
+                              "hex": "#8F0606",
+                              "on": "#FFFFFF",
+                            },
+                            "main": Object {
+                              "RGB": "220,16,16",
+                              "hex": "#DC1010",
+                              "on": "#FFFFFF",
+                            },
+                          },
+                          "primary": Object {
+                            "dark": Object {
+                              "RGB": "11,102,54",
+                              "hex": "#0B6636",
+                              "on": "#FFFFFF",
+                            },
+                            "light": Object {
+                              "RGB": "145,208,62",
+                              "hex": "#91D03E",
+                              "on": "#FFFFFF",
+                            },
+                            "main": Object {
+                              "RGB": "1,145,68",
+                              "hex": "#019144",
+                              "on": "#FFFFFF",
+                            },
+                          },
+                          "secondary": Object {
+                            "dark": Object {
+                              "RGB": "72,140,155",
+                              "hex": "#488C9B",
+                              "on": "#FFFFFF",
+                            },
+                            "light": Object {
+                              "RGB": "162,235,252",
+                              "hex": "#A2EBFC",
+                              "on": "#272727",
+                            },
+                            "main": Object {
+                              "RGB": "118,182,196",
+                              "hex": "#76B6C4",
+                              "on": "#FFFFFF",
+                            },
+                          },
+                          "surface": Object {
+                            "RGB": "255,255,255",
+                            "hex": "#FFFFFF",
+                            "on": "#272727",
+                          },
+                          "white": Object {
+                            "RGB": "255,255,255",
+                            "hex": "#FFFFFF",
+                            "on": "#272727",
+                          },
+                        },
+                      },
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Card__CardFooter-c7vdns-3",
+                        "isStatic": false,
+                        "lastClassName": "c4",
+                        "rules": Array [
+                          "background-color:rgba(",
+                          [Function],
+                          ",0.4);border-radius:0 0 10px 10px;padding:0.5rem 1rem;display:flex;flex-flow:wrap row-reverse;",
+                        ],
+                      },
+                      "displayName": "CardFooter",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Card__CardFooter-c7vdns-3",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  theme={
+                    Object {
+                      "action": Object {
+                        "dark": Object {
+                          "RGB": "0,47,108",
+                          "hex": "#002F6C",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "98,194,248",
+                          "hex": "#62C2F8",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "1,87,155",
+                          "hex": "#01579B",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "background": Object {
+                        "RGB": "246,246,246",
+                        "hex": "#F6F6F6",
+                      },
+                      "black": Object {
+                        "main": Object {
+                          "RGB": "39,39,39",
+                          "hex": "#272727",
+                          "on": "#FFFFFF",
+                        },
+                        "tint20": Object {
+                          "RGB": "236,236,236",
+                          "hex": "#ECECEC",
+                          "on": "#272727",
+                        },
+                        "tint40": Object {
+                          "RGB": "199,199,199",
+                          "hex": "#C7C7C7",
+                          "on": "#272727",
+                        },
+                        "tint60": Object {
+                          "RGB": "160,160,160",
+                          "hex": "#A0A0A0",
+                          "on": "#FFFFFF",
+                        },
+                        "tint80": Object {
+                          "RGB": "105,105,105",
+                          "hex": "#696969",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "complimentary": Object {
+                        "dark": Object {
+                          "RGB": "250,175,64",
+                          "hex": "#FAAF40",
+                          "on": "#272727",
+                        },
+                        "light": Object {
+                          "RGB": "249,240,21",
+                          "hex": "#F9F015",
+                          "on": "#272727",
+                        },
+                        "main": Object {
+                          "RGB": "253,216,53",
+                          "hex": "#FDD835",
+                          "on": "#272727",
+                        },
+                      },
+                      "error": Object {
+                        "dark": Object {
+                          "RGB": "143,6,6",
+                          "hex": "#8F0606",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "220,16,16",
+                          "hex": "#DC1010",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "primary": Object {
+                        "dark": Object {
+                          "RGB": "11,102,54",
+                          "hex": "#0B6636",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "145,208,62",
+                          "hex": "#91D03E",
+                          "on": "#FFFFFF",
+                        },
+                        "main": Object {
+                          "RGB": "1,145,68",
+                          "hex": "#019144",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "secondary": Object {
+                        "dark": Object {
+                          "RGB": "72,140,155",
+                          "hex": "#488C9B",
+                          "on": "#FFFFFF",
+                        },
+                        "light": Object {
+                          "RGB": "162,235,252",
+                          "hex": "#A2EBFC",
+                          "on": "#272727",
+                        },
+                        "main": Object {
+                          "RGB": "118,182,196",
+                          "hex": "#76B6C4",
+                          "on": "#FFFFFF",
+                        },
+                      },
+                      "surface": Object {
+                        "RGB": "255,255,255",
+                        "hex": "#FFFFFF",
+                        "on": "#272727",
+                      },
+                      "white": Object {
+                        "RGB": "255,255,255",
+                        "hex": "#FFFFFF",
+                        "on": "#272727",
+                      },
+                    }
+                  }
+                >
+                  <div
+                    className="c4"
+                  >
+                    this is the foot
+                  </div>
+                </StyledComponent>
+              </CardFooter>
+            </div>
+          </StyledComponent>
+        </CollapsibleContainer>
+      </div>
+    </StyledComponent>
+  </CardContainer>
+</Card>
+`;
+
+exports[`Card Component Renders while collapsed 1`] = `
+.c0 {
+  width: 100%;
+  border-top: 4px solid #019144;
+  background-color: #FFFFFF;
+}
+
+.c2 {
+  padding: 0;
+}
+
+.c1 {
+  overflow: hidden;
+  -webkit-transition: max-height 0.25s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
+  max-height: 0;
+}
+
+<Card
+  collapsed={true}
+>
+  <CardContainer
+    collapsed={true}
+    theme={
+      Object {
+        "action": Object {
+          "dark": Object {
+            "RGB": "0,47,108",
+            "hex": "#002F6C",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "98,194,248",
+            "hex": "#62C2F8",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,87,155",
+            "hex": "#01579B",
+            "on": "#FFFFFF",
+          },
+        },
+        "background": Object {
+          "RGB": "246,246,246",
+          "hex": "#F6F6F6",
+        },
+        "black": Object {
+          "main": Object {
+            "RGB": "39,39,39",
+            "hex": "#272727",
+            "on": "#FFFFFF",
+          },
+          "tint20": Object {
+            "RGB": "236,236,236",
+            "hex": "#ECECEC",
+            "on": "#272727",
+          },
+          "tint40": Object {
+            "RGB": "199,199,199",
+            "hex": "#C7C7C7",
+            "on": "#272727",
+          },
+          "tint60": Object {
+            "RGB": "160,160,160",
+            "hex": "#A0A0A0",
+            "on": "#FFFFFF",
+          },
+          "tint80": Object {
+            "RGB": "105,105,105",
+            "hex": "#696969",
+            "on": "#FFFFFF",
+          },
+        },
+        "complimentary": Object {
+          "dark": Object {
+            "RGB": "250,175,64",
+            "hex": "#FAAF40",
+            "on": "#272727",
+          },
+          "light": Object {
+            "RGB": "249,240,21",
+            "hex": "#F9F015",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "253,216,53",
+            "hex": "#FDD835",
+            "on": "#272727",
+          },
+        },
+        "error": Object {
+          "dark": Object {
+            "RGB": "143,6,6",
+            "hex": "#8F0606",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "220,16,16",
+            "hex": "#DC1010",
+            "on": "#FFFFFF",
+          },
+        },
+        "primary": Object {
+          "dark": Object {
+            "RGB": "11,102,54",
+            "hex": "#0B6636",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "145,208,62",
+            "hex": "#91D03E",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,145,68",
+            "hex": "#019144",
+            "on": "#FFFFFF",
+          },
+        },
+        "secondary": Object {
+          "dark": Object {
+            "RGB": "72,140,155",
+            "hex": "#488C9B",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "162,235,252",
+            "hex": "#A2EBFC",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "118,182,196",
+            "hex": "#76B6C4",
+            "on": "#FFFFFF",
+          },
+        },
+        "surface": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+        "white": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+      }
+    }
+  >
+    <StyledComponent
+      collapsed={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "theme": Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            },
+          },
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Card__CardContainer-c7vdns-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "width:100%;border-top:4px solid ",
+              [Function],
+              ";background-color:",
+              [Function],
+              ";box-shadow:",
+              [Function],
+              ";border-radius:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CardContainer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      theme={
+        Object {
+          "action": Object {
+            "dark": Object {
+              "RGB": "0,47,108",
+              "hex": "#002F6C",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "98,194,248",
+              "hex": "#62C2F8",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,87,155",
+              "hex": "#01579B",
+              "on": "#FFFFFF",
+            },
+          },
+          "background": Object {
+            "RGB": "246,246,246",
+            "hex": "#F6F6F6",
+          },
+          "black": Object {
+            "main": Object {
+              "RGB": "39,39,39",
+              "hex": "#272727",
+              "on": "#FFFFFF",
+            },
+            "tint20": Object {
+              "RGB": "236,236,236",
+              "hex": "#ECECEC",
+              "on": "#272727",
+            },
+            "tint40": Object {
+              "RGB": "199,199,199",
+              "hex": "#C7C7C7",
+              "on": "#272727",
+            },
+            "tint60": Object {
+              "RGB": "160,160,160",
+              "hex": "#A0A0A0",
+              "on": "#FFFFFF",
+            },
+            "tint80": Object {
+              "RGB": "105,105,105",
+              "hex": "#696969",
+              "on": "#FFFFFF",
+            },
+          },
+          "complimentary": Object {
+            "dark": Object {
+              "RGB": "250,175,64",
+              "hex": "#FAAF40",
+              "on": "#272727",
+            },
+            "light": Object {
+              "RGB": "249,240,21",
+              "hex": "#F9F015",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "253,216,53",
+              "hex": "#FDD835",
+              "on": "#272727",
+            },
+          },
+          "error": Object {
+            "dark": Object {
+              "RGB": "143,6,6",
+              "hex": "#8F0606",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "220,16,16",
+              "hex": "#DC1010",
+              "on": "#FFFFFF",
+            },
+          },
+          "primary": Object {
+            "dark": Object {
+              "RGB": "11,102,54",
+              "hex": "#0B6636",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "145,208,62",
+              "hex": "#91D03E",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,145,68",
+              "hex": "#019144",
+              "on": "#FFFFFF",
+            },
+          },
+          "secondary": Object {
+            "dark": Object {
+              "RGB": "72,140,155",
+              "hex": "#488C9B",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "162,235,252",
+              "hex": "#A2EBFC",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "118,182,196",
+              "hex": "#76B6C4",
+              "on": "#FFFFFF",
+            },
+          },
+          "surface": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+          "white": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+        }
+      }
+    >
+      <div
+        className="c0"
+      >
+        <CollapsibleContainer
+          collapsed={true}
+        >
+          <StyledComponent
+            collapsed={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "overflow:hidden;transition:max-height 0.25s ease-in-out;max-height:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "CollapsibleContainer",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1"
+            >
+              <CardBody>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Card__CardBody-c7vdns-2",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "padding:",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "CardBody",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2"
+                  />
+                </StyledComponent>
+              </CardBody>
+            </div>
+          </StyledComponent>
+        </CollapsibleContainer>
+      </div>
+    </StyledComponent>
+  </CardContainer>
+</Card>
+`;
+
+exports[`Card Component Renders while not collapsed 1`] = `
+.c0 {
+  width: 100%;
+  border-top: 4px solid #019144;
+  background-color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+}
+
+.c2 {
+  padding: 0;
+}
+
+.c1 {
+  overflow: hidden;
+  -webkit-transition: max-height 0.25s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
+  max-height: 125rem;
+}
+
+<Card>
+  <CardContainer
+    theme={
+      Object {
+        "action": Object {
+          "dark": Object {
+            "RGB": "0,47,108",
+            "hex": "#002F6C",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "98,194,248",
+            "hex": "#62C2F8",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,87,155",
+            "hex": "#01579B",
+            "on": "#FFFFFF",
+          },
+        },
+        "background": Object {
+          "RGB": "246,246,246",
+          "hex": "#F6F6F6",
+        },
+        "black": Object {
+          "main": Object {
+            "RGB": "39,39,39",
+            "hex": "#272727",
+            "on": "#FFFFFF",
+          },
+          "tint20": Object {
+            "RGB": "236,236,236",
+            "hex": "#ECECEC",
+            "on": "#272727",
+          },
+          "tint40": Object {
+            "RGB": "199,199,199",
+            "hex": "#C7C7C7",
+            "on": "#272727",
+          },
+          "tint60": Object {
+            "RGB": "160,160,160",
+            "hex": "#A0A0A0",
+            "on": "#FFFFFF",
+          },
+          "tint80": Object {
+            "RGB": "105,105,105",
+            "hex": "#696969",
+            "on": "#FFFFFF",
+          },
+        },
+        "complimentary": Object {
+          "dark": Object {
+            "RGB": "250,175,64",
+            "hex": "#FAAF40",
+            "on": "#272727",
+          },
+          "light": Object {
+            "RGB": "249,240,21",
+            "hex": "#F9F015",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "253,216,53",
+            "hex": "#FDD835",
+            "on": "#272727",
+          },
+        },
+        "error": Object {
+          "dark": Object {
+            "RGB": "143,6,6",
+            "hex": "#8F0606",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "220,16,16",
+            "hex": "#DC1010",
+            "on": "#FFFFFF",
+          },
+        },
+        "primary": Object {
+          "dark": Object {
+            "RGB": "11,102,54",
+            "hex": "#0B6636",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "145,208,62",
+            "hex": "#91D03E",
+            "on": "#FFFFFF",
+          },
+          "main": Object {
+            "RGB": "1,145,68",
+            "hex": "#019144",
+            "on": "#FFFFFF",
+          },
+        },
+        "secondary": Object {
+          "dark": Object {
+            "RGB": "72,140,155",
+            "hex": "#488C9B",
+            "on": "#FFFFFF",
+          },
+          "light": Object {
+            "RGB": "162,235,252",
+            "hex": "#A2EBFC",
+            "on": "#272727",
+          },
+          "main": Object {
+            "RGB": "118,182,196",
+            "hex": "#76B6C4",
+            "on": "#FFFFFF",
+          },
+        },
+        "surface": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+        "white": Object {
+          "RGB": "255,255,255",
+          "hex": "#FFFFFF",
+          "on": "#272727",
+        },
+      }
+    }
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "theme": Object {
+              "action": Object {
+                "dark": Object {
+                  "RGB": "0,47,108",
+                  "hex": "#002F6C",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "98,194,248",
+                  "hex": "#62C2F8",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,87,155",
+                  "hex": "#01579B",
+                  "on": "#FFFFFF",
+                },
+              },
+              "background": Object {
+                "RGB": "246,246,246",
+                "hex": "#F6F6F6",
+              },
+              "black": Object {
+                "main": Object {
+                  "RGB": "39,39,39",
+                  "hex": "#272727",
+                  "on": "#FFFFFF",
+                },
+                "tint20": Object {
+                  "RGB": "236,236,236",
+                  "hex": "#ECECEC",
+                  "on": "#272727",
+                },
+                "tint40": Object {
+                  "RGB": "199,199,199",
+                  "hex": "#C7C7C7",
+                  "on": "#272727",
+                },
+                "tint60": Object {
+                  "RGB": "160,160,160",
+                  "hex": "#A0A0A0",
+                  "on": "#FFFFFF",
+                },
+                "tint80": Object {
+                  "RGB": "105,105,105",
+                  "hex": "#696969",
+                  "on": "#FFFFFF",
+                },
+              },
+              "complimentary": Object {
+                "dark": Object {
+                  "RGB": "250,175,64",
+                  "hex": "#FAAF40",
+                  "on": "#272727",
+                },
+                "light": Object {
+                  "RGB": "249,240,21",
+                  "hex": "#F9F015",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "253,216,53",
+                  "hex": "#FDD835",
+                  "on": "#272727",
+                },
+              },
+              "error": Object {
+                "dark": Object {
+                  "RGB": "143,6,6",
+                  "hex": "#8F0606",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "220,16,16",
+                  "hex": "#DC1010",
+                  "on": "#FFFFFF",
+                },
+              },
+              "primary": Object {
+                "dark": Object {
+                  "RGB": "11,102,54",
+                  "hex": "#0B6636",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "145,208,62",
+                  "hex": "#91D03E",
+                  "on": "#FFFFFF",
+                },
+                "main": Object {
+                  "RGB": "1,145,68",
+                  "hex": "#019144",
+                  "on": "#FFFFFF",
+                },
+              },
+              "secondary": Object {
+                "dark": Object {
+                  "RGB": "72,140,155",
+                  "hex": "#488C9B",
+                  "on": "#FFFFFF",
+                },
+                "light": Object {
+                  "RGB": "162,235,252",
+                  "hex": "#A2EBFC",
+                  "on": "#272727",
+                },
+                "main": Object {
+                  "RGB": "118,182,196",
+                  "hex": "#76B6C4",
+                  "on": "#FFFFFF",
+                },
+              },
+              "surface": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+              "white": Object {
+                "RGB": "255,255,255",
+                "hex": "#FFFFFF",
+                "on": "#272727",
+              },
+            },
+          },
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Card__CardContainer-c7vdns-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "width:100%;border-top:4px solid ",
+              [Function],
+              ";background-color:",
+              [Function],
+              ";box-shadow:",
+              [Function],
+              ";border-radius:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CardContainer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      theme={
+        Object {
+          "action": Object {
+            "dark": Object {
+              "RGB": "0,47,108",
+              "hex": "#002F6C",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "98,194,248",
+              "hex": "#62C2F8",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,87,155",
+              "hex": "#01579B",
+              "on": "#FFFFFF",
+            },
+          },
+          "background": Object {
+            "RGB": "246,246,246",
+            "hex": "#F6F6F6",
+          },
+          "black": Object {
+            "main": Object {
+              "RGB": "39,39,39",
+              "hex": "#272727",
+              "on": "#FFFFFF",
+            },
+            "tint20": Object {
+              "RGB": "236,236,236",
+              "hex": "#ECECEC",
+              "on": "#272727",
+            },
+            "tint40": Object {
+              "RGB": "199,199,199",
+              "hex": "#C7C7C7",
+              "on": "#272727",
+            },
+            "tint60": Object {
+              "RGB": "160,160,160",
+              "hex": "#A0A0A0",
+              "on": "#FFFFFF",
+            },
+            "tint80": Object {
+              "RGB": "105,105,105",
+              "hex": "#696969",
+              "on": "#FFFFFF",
+            },
+          },
+          "complimentary": Object {
+            "dark": Object {
+              "RGB": "250,175,64",
+              "hex": "#FAAF40",
+              "on": "#272727",
+            },
+            "light": Object {
+              "RGB": "249,240,21",
+              "hex": "#F9F015",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "253,216,53",
+              "hex": "#FDD835",
+              "on": "#272727",
+            },
+          },
+          "error": Object {
+            "dark": Object {
+              "RGB": "143,6,6",
+              "hex": "#8F0606",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "220,16,16",
+              "hex": "#DC1010",
+              "on": "#FFFFFF",
+            },
+          },
+          "primary": Object {
+            "dark": Object {
+              "RGB": "11,102,54",
+              "hex": "#0B6636",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "145,208,62",
+              "hex": "#91D03E",
+              "on": "#FFFFFF",
+            },
+            "main": Object {
+              "RGB": "1,145,68",
+              "hex": "#019144",
+              "on": "#FFFFFF",
+            },
+          },
+          "secondary": Object {
+            "dark": Object {
+              "RGB": "72,140,155",
+              "hex": "#488C9B",
+              "on": "#FFFFFF",
+            },
+            "light": Object {
+              "RGB": "162,235,252",
+              "hex": "#A2EBFC",
+              "on": "#272727",
+            },
+            "main": Object {
+              "RGB": "118,182,196",
+              "hex": "#76B6C4",
+              "on": "#FFFFFF",
+            },
+          },
+          "surface": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+          "white": Object {
+            "RGB": "255,255,255",
+            "hex": "#FFFFFF",
+            "on": "#272727",
+          },
+        }
+      }
+    >
+      <div
+        className="c0"
+      >
+        <CollapsibleContainer>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "overflow:hidden;transition:max-height 0.25s ease-in-out;max-height:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "CollapsibleContainer",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1"
+            >
+              <CardBody>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Card__CardBody-c7vdns-2",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "padding:",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "CardBody",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2"
+                  />
+                </StyledComponent>
+              </CardBody>
+            </div>
+          </StyledComponent>
+        </CollapsibleContainer>
+      </div>
+    </StyledComponent>
+  </CardContainer>
+</Card>
+`;

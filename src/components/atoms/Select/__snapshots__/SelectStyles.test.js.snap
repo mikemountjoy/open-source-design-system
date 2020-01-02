@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Select Renderer Styles Test clear indicator 1`] = `
+Object {
+  ":hover": Object {
+    "color": "#FAAF40",
+    "cursor": "pointer",
+  },
+  "color": "#FDD835",
+  "test": "test",
+}
+`;
+
+exports[`Test Select Renderer Styles Test control is focused = false 1`] = `
+Object {
+  ":hover": Object {
+    "cursor": "text",
+  },
+  ":hover, :active, :focus": Object {
+    "border": "1px solid #488C9B",
+    "boxShadow": "0 0 0 1px #488C9B",
+  },
+  "border": "1px solid #C7C7C7",
+  "boxShadow": "none",
+  "test": "test",
+}
+`;
+
+exports[`Test Select Renderer Styles Test control is focused = true 1`] = `
+Object {
+  ":hover": Object {
+    "cursor": "text",
+  },
+  ":hover, :active, :focus": Object {
+    "border": "1px solid #488C9B",
+    "boxShadow": "0 0 0 1px #488C9B",
+  },
+  "border": "1px solid #488C9B",
+  "boxShadow": "0 0 0 1px #488C9B",
+  "test": "test",
+}
+`;
+
+exports[`Test Select Renderer Styles Test dropdown indicator 1`] = `
+Object {
+  ":hover": Object {
+    "color": "#488C9B",
+    "cursor": "pointer",
+  },
+  "color": "#76B6C4",
+  "test": "test",
+}
+`;

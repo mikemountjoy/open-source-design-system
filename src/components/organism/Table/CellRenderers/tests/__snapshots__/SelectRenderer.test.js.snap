@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select match last snapshot 1`] = `
+<StateManager
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  id="SelectEditor"
+  isClearable={true}
+  isMulti={false}
+  menuPlacement="bottom"
+  options={
+    Array [
+      Object {
+        "label": "option 1",
+        "value": "option 1",
+      },
+      Object {
+        "label": "option 2",
+        "value": "option 2",
+      },
+    ]
+  }
+  styles={
+    Object {
+      "clearIndicator": [Function],
+      "control": [Function],
+      "dropdownIndicator": [Function],
+      "menuList": [Function],
+      "multiValue": [Function],
+      "multiValueLabel": [Function],
+      "multiValueRemove": [Function],
+      "option": [Function],
+    }
+  }
+  value={
+    Object {
+      "label": "option 1",
+      "value": "option 1",
+    }
+  }
+/>
+`;
+
+exports[`Test handle Change match last snapshot 1`] = `
+<Select
+  isClearable={true}
+  onChange={[Function]}
+  value="option 1"
+  values={
+    Array [
+      "option 1",
+      "option 2",
+    ]
+  }
+/>
+`;

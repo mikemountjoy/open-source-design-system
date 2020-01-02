@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column component test should match snapshot 1`] = `
+<StyledColumn>
+  snapshot
+</StyledColumn>
+`;

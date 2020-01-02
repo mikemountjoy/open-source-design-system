@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Component Testing should match latest snapshot 1`] = `
+<Fragment>
+  <Tooltip__Container
+    data-tip={true}
+  >
+    Hover over me
+    <Tooltip__Icon
+      src={null}
+    />
+  </Tooltip__Container>
+  <Tooltip__ToolTipContainer>
+    <ReactTooltip
+      className="visible-on-hover"
+      clickable={false}
+      delayHide={500}
+      effect="solid"
+      insecure={true}
+      resizeHide={true}
+      type="success"
+      wrapper="div"
+    >
+      <ExampleContent />
+    </ReactTooltip>
+  </Tooltip__ToolTipContainer>
+</Fragment>
+`;

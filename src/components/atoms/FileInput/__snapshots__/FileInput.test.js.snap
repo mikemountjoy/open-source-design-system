@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileInput test match last snapshot 1`] = `
+<FileInput__Container
+  upload={null}
+>
+  <input
+    className="inputFile"
+    id="fileInput"
+    onChange={[Function]}
+    type="file"
+  />
+  <FileInput__ButtonContainer>
+    <label
+      htmlFor="fileInput"
+    >
+      <Button
+        buttonType="outline"
+        icon="file"
+        id="uploadButton"
+        onClick={[Function]}
+        type="button"
+      >
+        Choose file
+      </Button>
+    </label>
+  </FileInput__ButtonContainer>
+</FileInput__Container>
+`;
+
+exports[`FileInput test match last snapshot with a file selected 1`] = `
+<FileInput__Container
+  upload="hello"
+>
+  <input
+    className="inputFile"
+    id="fileInput"
+    onChange={[Function]}
+    type="file"
+  />
+  <FileInput__ButtonContainer>
+    <label
+      htmlFor="fileInput"
+    >
+      <Button
+        buttonType="outline"
+        icon="upload"
+        id="uploadButton"
+        onClick={[Function]}
+        type="button"
+      >
+        Upload file
+      </Button>
+    </label>
+    <Button
+      buttonType="ghost"
+      icon="times"
+      onClickIcon={[Function]}
+      type="button"
+    />
+  </FileInput__ButtonContainer>
+</FileInput__Container>
+`;

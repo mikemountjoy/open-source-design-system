@@ -1,0 +1,19 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    ["babel-plugin-styled-components"],
+    ["@babel/plugin-proposal-class-properties"],
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "atoms": "./src/components/atoms",
+          "molecules": "./src/components/molecules",
+          "organism": "./src/components/organism",
+          "assets": "./src/assets"
+        }
+      }
+    ]
+  ]
+}

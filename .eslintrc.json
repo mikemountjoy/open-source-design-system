@@ -1,0 +1,61 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["react", "jsx-a11y", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "class-methods-use-this": 0,
+    "import/imports-first": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/aria-props": 2,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/mouse-events-have-key-events": 2,
+    "jsx-a11y/role-has-required-aria-props": 2,
+    "jsx-a11y/role-supports-aria-props": 2,
+    "no-console": 1,
+    "no-underscore-dangle": 0,
+    "prefer-template": 2,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "react/require-extension": 0,
+    "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
+    "react/jsx-one-expression-per-line": 0,
+    "react/destructuring-assignment": 0,
+    "react/prefer-stateless-function": 0,
+    "linebreak-style": 0,
+    "import/no-cycle": 1
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["atoms", "./src/components/atoms"],
+          ["molecules", "./src/components/molecules"],
+          ["organism", "./src/components/organism"],
+          ["index", "./src"],
+          ["brandColours", "./src/brandColours"],
+          ["zIndexes", "./src/zIndexes"],
+          ["mediaQueries", "./src/mediaQueries"],
+          ["assets", "./src/assets"]
+        ]
+      }
+    }
+  }
+}

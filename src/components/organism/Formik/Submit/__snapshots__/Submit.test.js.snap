@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Submit Component Test Match last snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-family: "Gentona","Montserrat";
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  outline: none;
+  color: #FFFFFF;
+  border: #01579B 2px solid;
+  background-color: #01579B;
+}
+
+.c1:disabled {
+  opacity: 0.4;
+}
+
+.c1:disabled:hover {
+  cursor: not-allowed;
+}
+
+.c1:active:enabled,
+.c1:hover:enabled {
+  cursor: pointer;
+  border: #002F6C 2px solid;
+  background-color: #002F6C;
+  color: #FFFFFF;
+}
+
+.c1:active:enabled svg,
+.c1:hover:enabled svg {
+  color: !important;
+}
+
+.c1:focus:enabled {
+  border: #FFFFFF 2px solid;
+  box-shadow: 0 0 0 0.1rem #01579B;
+}
+
+.c1.small {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.c1.xsmall {
+  font-size: 0.875rem;
+  padding: 0 0.25rem;
+}
+
+.c1 svg {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #FFFFFF !important;
+}
+
+<Submit>
+  <CustomSubmit
+    formik={Object {}}
+  >
+    <Button
+      type="submit"
+    >
+      <ButtonWithTheme
+        buttonType="default"
+        size={1.5}
+        theme={
+          Object {
+            "action": Object {
+              "dark": Object {
+                "RGB": "0,47,108",
+                "hex": "#002F6C",
+                "on": "#FFFFFF",
+              },
+              "light": Object {
+                "RGB": "98,194,248",
+                "hex": "#62C2F8",
+                "on": "#FFFFFF",
+              },
+              "main": Object {
+                "RGB": "1,87,155",
+                "hex": "#01579B",
+                "on": "#FFFFFF",
+              },
+            },
+            "background": Object {
+              "RGB": "246,246,246",
+              "hex": "#F6F6F6",
+            },
+            "black": Object {
+              "main": Object {
+                "RGB": "39,39,39",
+                "hex": "#272727",
+                "on": "#FFFFFF",
+              },
+              "tint20": Object {
+                "RGB": "236,236,236",
+                "hex": "#ECECEC",
+                "on": "#272727",
+              },
+              "tint40": Object {
+                "RGB": "199,199,199",
+                "hex": "#C7C7C7",
+                "on": "#272727",
+              },
+              "tint60": Object {
+                "RGB": "160,160,160",
+                "hex": "#A0A0A0",
+                "on": "#FFFFFF",
+              },
+              "tint80": Object {
+                "RGB": "105,105,105",
+                "hex": "#696969",
+                "on": "#FFFFFF",
+              },
+            },
+            "complimentary": Object {
+              "dark": Object {
+                "RGB": "250,175,64",
+                "hex": "#FAAF40",
+                "on": "#272727",
+              },
+              "light": Object {
+                "RGB": "249,240,21",
+                "hex": "#F9F015",
+                "on": "#272727",
+              },
+              "main": Object {
+                "RGB": "253,216,53",
+                "hex": "#FDD835",
+                "on": "#272727",
+              },
+            },
+            "error": Object {
+              "dark": Object {
+                "RGB": "143,6,6",
+                "hex": "#8F0606",
+                "on": "#FFFFFF",
+              },
+              "main": Object {
+                "RGB": "220,16,16",
+                "hex": "#DC1010",
+                "on": "#FFFFFF",
+              },
+            },
+            "primary": Object {
+              "dark": Object {
+                "RGB": "11,102,54",
+                "hex": "#0B6636",
+                "on": "#FFFFFF",
+              },
+              "light": Object {
+                "RGB": "145,208,62",
+                "hex": "#91D03E",
+                "on": "#FFFFFF",
+              },
+              "main": Object {
+                "RGB": "1,145,68",
+                "hex": "#019144",
+                "on": "#FFFFFF",
+              },
+            },
+            "secondary": Object {
+              "dark": Object {
+                "RGB": "72,140,155",
+                "hex": "#488C9B",
+                "on": "#FFFFFF",
+              },
+              "light": Object {
+                "RGB": "162,235,252",
+                "hex": "#A2EBFC",
+                "on": "#272727",
+              },
+              "main": Object {
+                "RGB": "118,182,196",
+                "hex": "#76B6C4",
+                "on": "#FFFFFF",
+              },
+            },
+            "surface": Object {
+              "RGB": "255,255,255",
+              "hex": "#FFFFFF",
+              "on": "#272727",
+            },
+            "white": Object {
+              "RGB": "255,255,255",
+              "hex": "#FFFFFF",
+              "on": "#272727",
+            },
+          }
+        }
+        type="submit"
+      >
+        <ButtonContainer>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Button__ButtonContainer-sc-1vmzygi-0",
+                  "isStatic": true,
+                  "lastClassName": "c0",
+                  "rules": Array [
+                    "display:inline-block;padding:0.1rem;",
+                  ],
+                },
+                "displayName": "ButtonContainer",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Button__ButtonContainer-sc-1vmzygi-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0"
+            >
+              <StyledButton
+                buttonType="default"
+                size={1.5}
+                theme={
+                  Object {
+                    "background": "#01579B",
+                    "border": "#01579B",
+                    "color": "#FFFFFF",
+                    "focus": Object {
+                      "border": "#FFFFFF",
+                      "boxShadow": "0 0 0 0.1rem  #01579B",
+                    },
+                    "hover": Object {
+                      "background": "#002F6C",
+                      "border": "#002F6C",
+                      "color": "#FFFFFF",
+                    },
+                    "iconColor": "#FFFFFF",
+                  }
+                }
+                type="submit"
+              >
+                <StyledComponent
+                  buttonType="default"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Button__StyledButton-sc-1vmzygi-1",
+                        "isStatic": false,
+                        "lastClassName": "c1",
+                        "rules": Array [
+                          "display:flex;align-items:center;justify-content:center;padding:0.5rem 1rem;border-radius:0.25rem;font-size:1rem;font-family:\\"Gentona\\",\\"Montserrat\\";transition:0.3s ease all;outline:none;color:",
+                          [Function],
+                          ";border:",
+                          [Function],
+                          " 2px solid;background-color:",
+                          [Function],
+                          ";",
+                          [Function],
+                          ":disabled{opacity:0.4;}:disabled:hover{cursor:not-allowed;background-color:",
+                          [Function],
+                          ";border-color:",
+                          [Function],
+                          ";color:",
+                          [Function],
+                          ";}:active:enabled,:hover:enabled{cursor:pointer;border:",
+                          [Function],
+                          " 2px solid;background-color:",
+                          [Function],
+                          ";color:",
+                          [Function],
+                          ";svg{color:",
+                          [Function],
+                          " !important;}}:focus:enabled{border:",
+                          [Function],
+                          " 2px solid;box-shadow:",
+                          [Function],
+                          ";",
+                          [Function],
+                          "}&.small{font-size:0.875rem;padding:0.25rem 0.5rem;}&.xsmall{font-size:0.875rem;padding:0 0.25rem;}svg{font-size:",
+                          [Function],
+                          "rem;margin-right:0.5rem;color:",
+                          [Function],
+                          " !important;}",
+                        ],
+                      },
+                      "displayName": "StyledButton",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Button__StyledButton-sc-1vmzygi-1",
+                      "target": "button",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  size={1.5}
+                  theme={
+                    Object {
+                      "background": "#01579B",
+                      "border": "#01579B",
+                      "color": "#FFFFFF",
+                      "focus": Object {
+                        "border": "#FFFFFF",
+                        "boxShadow": "0 0 0 0.1rem  #01579B",
+                      },
+                      "hover": Object {
+                        "background": "#002F6C",
+                        "border": "#002F6C",
+                        "color": "#FFFFFF",
+                      },
+                      "iconColor": "#FFFFFF",
+                    }
+                  }
+                  type="submit"
+                >
+                  <button
+                    className="c1"
+                    size={1.5}
+                    type="submit"
+                  >
+                    Continue
+                  </button>
+                </StyledComponent>
+              </StyledButton>
+            </div>
+          </StyledComponent>
+        </ButtonContainer>
+      </ButtonWithTheme>
+    </Button>
+  </CustomSubmit>
+</Submit>
+`;

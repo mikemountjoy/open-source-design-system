@@ -1,0 +1,121 @@
+import React from "react"
+import styled from "styled-components"
+
+import { storiesOf } from "@storybook/react"
+import { action } from "@storybook/addon-actions"
+import { text, boolean, object } from "@storybook/addon-knobs"
+
+import { FormInput, FormRadio, FormCheckbox, Select, FormikDateTimePicker } from "../src"
+
+const Flex = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  > * + * {
+    margin-left: 4rem;
+  }
+  &.column {
+    flex-direction: column;
+    > * + * {
+      margin-left: 0;
+      padding-top: 0.5rem;
+    }
+  }
+`
+Flex.displayName = "Flex"
+
+class ExampleFormikDateTimePicker extends React.PureComponent {
+  state = {
+    selectedDate: new Date(),
+  }
+
+  onChangeDate = newDate => {
+    this.setState({ selectedDate: newDate })
+  }
+
+  render() {
+    return (
+      <FormikDateTimePicker
+        errorMessage=""
+        touched={false}
+        id="date"
+        labelMessage={<div>Formik Date Time Picker</div>}
+        value={this.state.selectedDate}
+        onChange={this.onChangeDate}
+      />
+    )
+  }
+}
+
+storiesOf("Forms", module)
+  .add("Form Input", () => (
+    <FormInput
+      name="example"
+      label={text("Display Text", "Name")}
+      disabled={boolean("Disabled", false)}
+      onChange={action("Value Change")}
+      multiLine={boolean("MultiLine", false)}
+      id="example"
+      type="text"
+    />
+  ))
+  .add("Form Radio", () => (
+    <Flex>
+      <FormRadio
+        row={boolean("Row Layout", false)}
+        label={text("Radio 1", "Opt In")}
+        name="eg1"
+        id="opt-in1"
+      />
+      <FormRadio
+        row={boolean("Row Layout", false)}
+        label={text("Radio 2", "Opt Out")}
+        name="eg1"
+        id="opt-out1"
+      />
+    </Flex>
+  ))
+  .add("Form Checkbox", () => (
+    <Flex className="column">
+      <FormCheckbox
+        label={text("Checkbox 1", "Dog")}
+        className="normal"
+        id="dog"
+        name="dog"
+        onChange={action("Dog")}
+      />
+      <FormCheckbox
+        label={text("Checkbox 2", "Cat")}
+        className="normal"
+        id="cat"
+        name="cat"
+        onChange={action("Cat")}
+      />
+      <FormCheckbox
+        label={text("Checkbox 3", "Bird")}
+        className="normal"
+        id="bird"
+        name="bird"
+        onChange={action("Bird")}
+        checked
+        disabled
+      />
+    </Flex>
+  ))
+  .add("select options", () => {
+    const options = {
+      fma: "Fullmetal Alchemist",
+      op: "One Piece",
+      naruto: "Naruto",
+      deathNote: "Death Note",
+    }
+    return (
+      <Select
+        options={object("Options", options)}
+        isClearable={boolean("Clearable", true)}
+        isDisabled={boolean("Disabled", false)}
+        isMulti={boolean("Multiple Select", false)}
+      />
+    )
+  })
+  .add("Formik Date Time Picker", () => <ExampleFormikDateTimePicker />)
