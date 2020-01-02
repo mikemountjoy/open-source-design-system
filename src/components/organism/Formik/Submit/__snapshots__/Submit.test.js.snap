@@ -27,8 +27,8 @@ exports[`Submit Component Test Match last snapshot 1`] = `
   transition: 0.3s ease all;
   outline: none;
   color: #FFFFFF;
-  border: #01579B 2px solid;
-  background-color: #01579B;
+  border: #743C8F 2px solid;
+  background-color: #743C8F;
 }
 
 .c1:disabled {
@@ -42,8 +42,8 @@ exports[`Submit Component Test Match last snapshot 1`] = `
 .c1:active:enabled,
 .c1:hover:enabled {
   cursor: pointer;
-  border: #002F6C 2px solid;
-  background-color: #002F6C;
+  border: #4E2662 2px solid;
+  background-color: #4E2662;
   color: #FFFFFF;
 }
 
@@ -54,7 +54,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
 
 .c1:focus:enabled {
   border: #FFFFFF 2px solid;
-  box-shadow: 0 0 0 0.1rem #01579B;
+  box-shadow: 0 0 0 0.1rem #743C8F;
 }
 
 .c1.small {
@@ -87,18 +87,18 @@ exports[`Submit Component Test Match last snapshot 1`] = `
           Object {
             "action": Object {
               "dark": Object {
-                "RGB": "0,47,108",
-                "hex": "#002F6C",
+                "RGB": "79,38,98",
+                "hex": "#4E2662",
                 "on": "#FFFFFF",
               },
               "light": Object {
-                "RGB": "98,194,248",
-                "hex": "#62C2F8",
+                "RGB": "173,101,207",
+                "hex": "#AD65CF",
                 "on": "#FFFFFF",
               },
               "main": Object {
-                "RGB": "1,87,155",
-                "hex": "#01579B",
+                "RGB": "116,60,143",
+                "hex": "#743C8F",
                 "on": "#FFFFFF",
               },
             },
@@ -135,64 +135,64 @@ exports[`Submit Component Test Match last snapshot 1`] = `
             },
             "complimentary": Object {
               "dark": Object {
-                "RGB": "250,175,64",
-                "hex": "#FAAF40",
+                "RGB": "206,185,0",
+                "hex": "#CEB900",
                 "on": "#272727",
               },
               "light": Object {
-                "RGB": "249,240,21",
-                "hex": "#F9F015",
+                "RGB": "255,245,157",
+                "hex": "#FFF59D",
                 "on": "#272727",
               },
               "main": Object {
-                "RGB": "253,216,53",
-                "hex": "#FDD835",
+                "RGB": "255,238,82",
+                "hex": "#FFEE52",
                 "on": "#272727",
               },
             },
             "error": Object {
               "dark": Object {
-                "RGB": "143,6,6",
-                "hex": "#8F0606",
+                "RGB": "197,73,1",
+                "hex": "#C54901",
                 "on": "#FFFFFF",
               },
               "main": Object {
-                "RGB": "220,16,16",
-                "hex": "#DC1010",
+                "RGB": "255,115,32",
+                "hex": "#FF7320",
                 "on": "#FFFFFF",
               },
             },
             "primary": Object {
               "dark": Object {
-                "RGB": "11,102,54",
-                "hex": "#0B6636",
+                "RGB": "102,22,20",
+                "hex": "#661614",
                 "on": "#FFFFFF",
               },
               "light": Object {
-                "RGB": "145,208,62",
-                "hex": "#91D03E",
+                "RGB": "218,52,47",
+                "hex": "#DA342F",
                 "on": "#FFFFFF",
               },
               "main": Object {
-                "RGB": "1,145,68",
-                "hex": "#019144",
+                "RGB": "164,40,36",
+                "hex": "#A42824",
                 "on": "#FFFFFF",
               },
             },
             "secondary": Object {
               "dark": Object {
-                "RGB": "72,140,155",
-                "hex": "#488C9B",
+                "RGB": "5,38,59",
+                "hex": "#05263B",
                 "on": "#FFFFFF",
               },
               "light": Object {
-                "RGB": "162,235,252",
-                "hex": "#A2EBFC",
-                "on": "#272727",
+                "RGB": "89,156,175",
+                "hex": "#599CAF",
+                "on": "#FFFFFF",
               },
               "main": Object {
-                "RGB": "118,182,196",
-                "hex": "#76B6C4",
+                "RGB": "11,70,107",
+                "hex": "#0B466B",
                 "on": "#FFFFFF",
               },
             },
@@ -217,8 +217,8 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Button__ButtonContainer-sc-1vmzygi-0",
-                  "isStatic": true,
+                  "componentId": "Button__ButtonContainer-sc-3f7wjq-0",
+                  "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
                     "display:inline-block;padding:0.1rem;",
@@ -227,7 +227,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                 "displayName": "ButtonContainer",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Button__ButtonContainer-sc-1vmzygi-0",
+                "styledComponentId": "Button__ButtonContainer-sc-3f7wjq-0",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -244,16 +244,16 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                 size={1.5}
                 theme={
                   Object {
-                    "background": "#01579B",
-                    "border": "#01579B",
+                    "background": "#743C8F",
+                    "border": "#743C8F",
                     "color": "#FFFFFF",
                     "focus": Object {
                       "border": "#FFFFFF",
-                      "boxShadow": "0 0 0 0.1rem  #01579B",
+                      "boxShadow": "0 0 0 0.1rem  #743C8F",
                     },
                     "hover": Object {
-                      "background": "#002F6C",
-                      "border": "#002F6C",
+                      "background": "#4E2662",
+                      "border": "#4E2662",
                       "color": "#FFFFFF",
                     },
                     "iconColor": "#FFFFFF",
@@ -268,7 +268,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Button__StyledButton-sc-1vmzygi-1",
+                        "componentId": "Button__StyledButton-sc-3f7wjq-1",
                         "isStatic": false,
                         "lastClassName": "c1",
                         "rules": Array [
@@ -310,7 +310,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                       "displayName": "StyledButton",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Button__StyledButton-sc-1vmzygi-1",
+                      "styledComponentId": "Button__StyledButton-sc-3f7wjq-1",
                       "target": "button",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -321,16 +321,16 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                   size={1.5}
                   theme={
                     Object {
-                      "background": "#01579B",
-                      "border": "#01579B",
+                      "background": "#743C8F",
+                      "border": "#743C8F",
                       "color": "#FFFFFF",
                       "focus": Object {
                         "border": "#FFFFFF",
-                        "boxShadow": "0 0 0 0.1rem  #01579B",
+                        "boxShadow": "0 0 0 0.1rem  #743C8F",
                       },
                       "hover": Object {
-                        "background": "#002F6C",
-                        "border": "#002F6C",
+                        "background": "#4E2662",
+                        "border": "#4E2662",
                         "color": "#FFFFFF",
                       },
                       "iconColor": "#FFFFFF",

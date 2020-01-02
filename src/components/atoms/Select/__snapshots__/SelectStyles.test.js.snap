@@ -3,10 +3,10 @@
 exports[`Test Select Renderer Styles Test clear indicator 1`] = `
 Object {
   ":hover": Object {
-    "color": "#FAAF40",
+    "color": "#CEB900",
     "cursor": "pointer",
   },
-  "color": "#FDD835",
+  "color": "#FFEE52",
   "test": "test",
 }
 `;
@@ -17,8 +17,8 @@ Object {
     "cursor": "text",
   },
   ":hover, :active, :focus": Object {
-    "border": "1px solid #488C9B",
-    "boxShadow": "0 0 0 1px #488C9B",
+    "border": "1px solid #05263B",
+    "boxShadow": "0 0 0 1px #05263B",
   },
   "border": "1px solid #C7C7C7",
   "boxShadow": "none",
@@ -32,11 +32,11 @@ Object {
     "cursor": "text",
   },
   ":hover, :active, :focus": Object {
-    "border": "1px solid #488C9B",
-    "boxShadow": "0 0 0 1px #488C9B",
+    "border": "1px solid #05263B",
+    "boxShadow": "0 0 0 1px #05263B",
   },
-  "border": "1px solid #488C9B",
-  "boxShadow": "0 0 0 1px #488C9B",
+  "border": "1px solid #05263B",
+  "boxShadow": "0 0 0 1px #05263B",
   "test": "test",
 }
 `;
@@ -44,10 +44,10 @@ Object {
 exports[`Test Select Renderer Styles Test dropdown indicator 1`] = `
 Object {
   ":hover": Object {
-    "color": "#488C9B",
+    "color": "#05263B",
     "cursor": "pointer",
   },
-  "color": "#76B6C4",
+  "color": "#0B466B",
   "test": "test",
 }
 `;

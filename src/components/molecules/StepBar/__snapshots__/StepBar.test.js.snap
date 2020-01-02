@@ -2,7 +2,7 @@
 
 exports[`StepBar Component Testing should match snapshot for styling 1`] = `
 .c3 {
-  color: #76B6C4;
+  color: #0B466B;
 }
 
 .c1 {
@@ -20,8 +20,8 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
 .c2 {
   width: 2.5rem;
   height: 2.5rem;
-  border: 3px solid #76B6C4;
-  color: #76B6C4;
+  border: 3px solid #0B466B;
+  color: #0B466B;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -45,7 +45,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
 }
 
 .c4.active {
-  color: #76B6C4;
+  color: #0B466B;
   font-weight: bold;
 }
 
@@ -69,7 +69,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
   flex: 1 1 auto;
   margin: 0 1rem;
   border: none;
-  border-top: 2px solid #76B6C4;
+  border-top: 2px solid #0B466B;
 }
 
 <StepBar
@@ -94,8 +94,8 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "StepBar__StepsContainer-n1dl6h-3",
-            "isStatic": true,
+            "componentId": "StepBar__StepsContainer-sc-18iuvx8-3",
+            "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
               "display:flex;align-items:center;flex-wrap:wrap;",
@@ -104,7 +104,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
           "displayName": "StepsContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "StepBar__StepsContainer-n1dl6h-3",
+          "styledComponentId": "StepBar__StepsContainer-sc-18iuvx8-3",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -123,8 +123,8 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "StepBar__StepWrapper-n1dl6h-0",
-                  "isStatic": true,
+                  "componentId": "StepBar__StepWrapper-sc-18iuvx8-0",
+                  "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
                     "display:flex;align-items:center;margin:0.5rem 0;",
@@ -133,7 +133,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 "displayName": "StepWrapper",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "StepBar__StepWrapper-n1dl6h-0",
+                "styledComponentId": "StepBar__StepWrapper-sc-18iuvx8-0",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -150,18 +150,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -198,64 +198,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -280,18 +280,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                         "theme": Object {
                           "action": Object {
                             "dark": Object {
-                              "RGB": "0,47,108",
-                              "hex": "#002F6C",
+                              "RGB": "79,38,98",
+                              "hex": "#4E2662",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "98,194,248",
-                              "hex": "#62C2F8",
+                              "RGB": "173,101,207",
+                              "hex": "#AD65CF",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,87,155",
-                              "hex": "#01579B",
+                              "RGB": "116,60,143",
+                              "hex": "#743C8F",
                               "on": "#FFFFFF",
                             },
                           },
@@ -328,64 +328,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                           },
                           "complimentary": Object {
                             "dark": Object {
-                              "RGB": "250,175,64",
-                              "hex": "#FAAF40",
+                              "RGB": "206,185,0",
+                              "hex": "#CEB900",
                               "on": "#272727",
                             },
                             "light": Object {
-                              "RGB": "249,240,21",
-                              "hex": "#F9F015",
+                              "RGB": "255,245,157",
+                              "hex": "#FFF59D",
                               "on": "#272727",
                             },
                             "main": Object {
-                              "RGB": "253,216,53",
-                              "hex": "#FDD835",
+                              "RGB": "255,238,82",
+                              "hex": "#FFEE52",
                               "on": "#272727",
                             },
                           },
                           "error": Object {
                             "dark": Object {
-                              "RGB": "143,6,6",
-                              "hex": "#8F0606",
+                              "RGB": "197,73,1",
+                              "hex": "#C54901",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "220,16,16",
-                              "hex": "#DC1010",
+                              "RGB": "255,115,32",
+                              "hex": "#FF7320",
                               "on": "#FFFFFF",
                             },
                           },
                           "primary": Object {
                             "dark": Object {
-                              "RGB": "11,102,54",
-                              "hex": "#0B6636",
+                              "RGB": "102,22,20",
+                              "hex": "#661614",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "145,208,62",
-                              "hex": "#91D03E",
+                              "RGB": "218,52,47",
+                              "hex": "#DA342F",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,145,68",
-                              "hex": "#019144",
+                              "RGB": "164,40,36",
+                              "hex": "#A42824",
                               "on": "#FFFFFF",
                             },
                           },
                           "secondary": Object {
                             "dark": Object {
-                              "RGB": "72,140,155",
-                              "hex": "#488C9B",
+                              "RGB": "5,38,59",
+                              "hex": "#05263B",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "162,235,252",
-                              "hex": "#A2EBFC",
-                              "on": "#272727",
+                              "RGB": "89,156,175",
+                              "hex": "#599CAF",
+                              "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "118,182,196",
-                              "hex": "#76B6C4",
+                              "RGB": "11,70,107",
+                              "hex": "#0B466B",
                               "on": "#FFFFFF",
                             },
                           },
@@ -403,7 +403,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "StepBar__StepNumber-n1dl6h-1",
+                        "componentId": "StepBar__StepNumber-sc-18iuvx8-1",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
@@ -417,7 +417,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       "displayName": "StepNumber",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "StepBar__StepNumber-n1dl6h-1",
+                      "styledComponentId": "StepBar__StepNumber-sc-18iuvx8-1",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -429,18 +429,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     Object {
                       "action": Object {
                         "dark": Object {
-                          "RGB": "0,47,108",
-                          "hex": "#002F6C",
+                          "RGB": "79,38,98",
+                          "hex": "#4E2662",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "98,194,248",
-                          "hex": "#62C2F8",
+                          "RGB": "173,101,207",
+                          "hex": "#AD65CF",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,87,155",
-                          "hex": "#01579B",
+                          "RGB": "116,60,143",
+                          "hex": "#743C8F",
                           "on": "#FFFFFF",
                         },
                       },
@@ -477,64 +477,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "complimentary": Object {
                         "dark": Object {
-                          "RGB": "250,175,64",
-                          "hex": "#FAAF40",
+                          "RGB": "206,185,0",
+                          "hex": "#CEB900",
                           "on": "#272727",
                         },
                         "light": Object {
-                          "RGB": "249,240,21",
-                          "hex": "#F9F015",
+                          "RGB": "255,245,157",
+                          "hex": "#FFF59D",
                           "on": "#272727",
                         },
                         "main": Object {
-                          "RGB": "253,216,53",
-                          "hex": "#FDD835",
+                          "RGB": "255,238,82",
+                          "hex": "#FFEE52",
                           "on": "#272727",
                         },
                       },
                       "error": Object {
                         "dark": Object {
-                          "RGB": "143,6,6",
-                          "hex": "#8F0606",
+                          "RGB": "197,73,1",
+                          "hex": "#C54901",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "220,16,16",
-                          "hex": "#DC1010",
+                          "RGB": "255,115,32",
+                          "hex": "#FF7320",
                           "on": "#FFFFFF",
                         },
                       },
                       "primary": Object {
                         "dark": Object {
-                          "RGB": "11,102,54",
-                          "hex": "#0B6636",
+                          "RGB": "102,22,20",
+                          "hex": "#661614",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "145,208,62",
-                          "hex": "#91D03E",
+                          "RGB": "218,52,47",
+                          "hex": "#DA342F",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,145,68",
-                          "hex": "#019144",
+                          "RGB": "164,40,36",
+                          "hex": "#A42824",
                           "on": "#FFFFFF",
                         },
                       },
                       "secondary": Object {
                         "dark": Object {
-                          "RGB": "72,140,155",
-                          "hex": "#488C9B",
+                          "RGB": "5,38,59",
+                          "hex": "#05263B",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "162,235,252",
-                          "hex": "#A2EBFC",
-                          "on": "#272727",
+                          "RGB": "89,156,175",
+                          "hex": "#599CAF",
+                          "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "118,182,196",
-                          "hex": "#76B6C4",
+                          "RGB": "11,70,107",
+                          "hex": "#0B466B",
                           "on": "#FFFFFF",
                         },
                       },
@@ -568,18 +568,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                           Object {
                             "action": Object {
                               "dark": Object {
-                                "RGB": "0,47,108",
-                                "hex": "#002F6C",
+                                "RGB": "79,38,98",
+                                "hex": "#4E2662",
                                 "on": "#FFFFFF",
                               },
                               "light": Object {
-                                "RGB": "98,194,248",
-                                "hex": "#62C2F8",
+                                "RGB": "173,101,207",
+                                "hex": "#AD65CF",
                                 "on": "#FFFFFF",
                               },
                               "main": Object {
-                                "RGB": "1,87,155",
-                                "hex": "#01579B",
+                                "RGB": "116,60,143",
+                                "hex": "#743C8F",
                                 "on": "#FFFFFF",
                               },
                             },
@@ -616,64 +616,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                             },
                             "complimentary": Object {
                               "dark": Object {
-                                "RGB": "250,175,64",
-                                "hex": "#FAAF40",
+                                "RGB": "206,185,0",
+                                "hex": "#CEB900",
                                 "on": "#272727",
                               },
                               "light": Object {
-                                "RGB": "249,240,21",
-                                "hex": "#F9F015",
+                                "RGB": "255,245,157",
+                                "hex": "#FFF59D",
                                 "on": "#272727",
                               },
                               "main": Object {
-                                "RGB": "253,216,53",
-                                "hex": "#FDD835",
+                                "RGB": "255,238,82",
+                                "hex": "#FFEE52",
                                 "on": "#272727",
                               },
                             },
                             "error": Object {
                               "dark": Object {
-                                "RGB": "143,6,6",
-                                "hex": "#8F0606",
+                                "RGB": "197,73,1",
+                                "hex": "#C54901",
                                 "on": "#FFFFFF",
                               },
                               "main": Object {
-                                "RGB": "220,16,16",
-                                "hex": "#DC1010",
+                                "RGB": "255,115,32",
+                                "hex": "#FF7320",
                                 "on": "#FFFFFF",
                               },
                             },
                             "primary": Object {
                               "dark": Object {
-                                "RGB": "11,102,54",
-                                "hex": "#0B6636",
+                                "RGB": "102,22,20",
+                                "hex": "#661614",
                                 "on": "#FFFFFF",
                               },
                               "light": Object {
-                                "RGB": "145,208,62",
-                                "hex": "#91D03E",
+                                "RGB": "218,52,47",
+                                "hex": "#DA342F",
                                 "on": "#FFFFFF",
                               },
                               "main": Object {
-                                "RGB": "1,145,68",
-                                "hex": "#019144",
+                                "RGB": "164,40,36",
+                                "hex": "#A42824",
                                 "on": "#FFFFFF",
                               },
                             },
                             "secondary": Object {
                               "dark": Object {
-                                "RGB": "72,140,155",
-                                "hex": "#488C9B",
+                                "RGB": "5,38,59",
+                                "hex": "#05263B",
                                 "on": "#FFFFFF",
                               },
                               "light": Object {
-                                "RGB": "162,235,252",
-                                "hex": "#A2EBFC",
-                                "on": "#272727",
+                                "RGB": "89,156,175",
+                                "hex": "#599CAF",
+                                "on": "#FFFFFF",
                               },
                               "main": Object {
-                                "RGB": "118,182,196",
-                                "hex": "#76B6C4",
+                                "RGB": "11,70,107",
+                                "hex": "#0B466B",
                                 "on": "#FFFFFF",
                               },
                             },
@@ -699,9 +699,9 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Icon__IconContainer-sc-1wwjz4g-0",
+                                  "componentId": "Icon__IconContainer-ap8b0n-0",
                                   "isStatic": false,
-                                  "lastClassName": "ebAYBC",
+                                  "lastClassName": "bJvwCd",
                                   "rules": Array [
                                     [Function],
                                     " ",
@@ -711,7 +711,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                 "displayName": "IconContainer",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Icon__IconContainer-sc-1wwjz4g-0",
+                                "styledComponentId": "Icon__IconContainer-ap8b0n-0",
                                 "target": "div",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -733,18 +733,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                   Object {
                                     "action": Object {
                                       "dark": Object {
-                                        "RGB": "0,47,108",
-                                        "hex": "#002F6C",
+                                        "RGB": "79,38,98",
+                                        "hex": "#4E2662",
                                         "on": "#FFFFFF",
                                       },
                                       "light": Object {
-                                        "RGB": "98,194,248",
-                                        "hex": "#62C2F8",
+                                        "RGB": "173,101,207",
+                                        "hex": "#AD65CF",
                                         "on": "#FFFFFF",
                                       },
                                       "main": Object {
-                                        "RGB": "1,87,155",
-                                        "hex": "#01579B",
+                                        "RGB": "116,60,143",
+                                        "hex": "#743C8F",
                                         "on": "#FFFFFF",
                                       },
                                     },
@@ -781,64 +781,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                     },
                                     "complimentary": Object {
                                       "dark": Object {
-                                        "RGB": "250,175,64",
-                                        "hex": "#FAAF40",
+                                        "RGB": "206,185,0",
+                                        "hex": "#CEB900",
                                         "on": "#272727",
                                       },
                                       "light": Object {
-                                        "RGB": "249,240,21",
-                                        "hex": "#F9F015",
+                                        "RGB": "255,245,157",
+                                        "hex": "#FFF59D",
                                         "on": "#272727",
                                       },
                                       "main": Object {
-                                        "RGB": "253,216,53",
-                                        "hex": "#FDD835",
+                                        "RGB": "255,238,82",
+                                        "hex": "#FFEE52",
                                         "on": "#272727",
                                       },
                                     },
                                     "error": Object {
                                       "dark": Object {
-                                        "RGB": "143,6,6",
-                                        "hex": "#8F0606",
+                                        "RGB": "197,73,1",
+                                        "hex": "#C54901",
                                         "on": "#FFFFFF",
                                       },
                                       "main": Object {
-                                        "RGB": "220,16,16",
-                                        "hex": "#DC1010",
+                                        "RGB": "255,115,32",
+                                        "hex": "#FF7320",
                                         "on": "#FFFFFF",
                                       },
                                     },
                                     "primary": Object {
                                       "dark": Object {
-                                        "RGB": "11,102,54",
-                                        "hex": "#0B6636",
+                                        "RGB": "102,22,20",
+                                        "hex": "#661614",
                                         "on": "#FFFFFF",
                                       },
                                       "light": Object {
-                                        "RGB": "145,208,62",
-                                        "hex": "#91D03E",
+                                        "RGB": "218,52,47",
+                                        "hex": "#DA342F",
                                         "on": "#FFFFFF",
                                       },
                                       "main": Object {
-                                        "RGB": "1,145,68",
-                                        "hex": "#019144",
+                                        "RGB": "164,40,36",
+                                        "hex": "#A42824",
                                         "on": "#FFFFFF",
                                       },
                                     },
                                     "secondary": Object {
                                       "dark": Object {
-                                        "RGB": "72,140,155",
-                                        "hex": "#488C9B",
+                                        "RGB": "5,38,59",
+                                        "hex": "#05263B",
                                         "on": "#FFFFFF",
                                       },
                                       "light": Object {
-                                        "RGB": "162,235,252",
-                                        "hex": "#A2EBFC",
-                                        "on": "#272727",
+                                        "RGB": "89,156,175",
+                                        "hex": "#599CAF",
+                                        "on": "#FFFFFF",
                                       },
                                       "main": Object {
-                                        "RGB": "118,182,196",
-                                        "hex": "#76B6C4",
+                                        "RGB": "11,70,107",
+                                        "hex": "#0B466B",
                                         "on": "#FFFFFF",
                                       },
                                     },
@@ -862,7 +862,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "Icon__StyledFontAwesomeIcon-sc-1wwjz4g-1",
+                                        "componentId": "Icon__StyledFontAwesomeIcon-ap8b0n-1",
                                         "isStatic": false,
                                         "lastClassName": "c3",
                                         "rules": Array [
@@ -875,7 +875,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                       "displayName": "StyledFontAwesomeIcon",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "Icon__StyledFontAwesomeIcon-sc-1wwjz4g-1",
+                                      "styledComponentId": "Icon__StyledFontAwesomeIcon-ap8b0n-1",
                                       "target": [Function],
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -890,18 +890,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                     Object {
                                       "action": Object {
                                         "dark": Object {
-                                          "RGB": "0,47,108",
-                                          "hex": "#002F6C",
+                                          "RGB": "79,38,98",
+                                          "hex": "#4E2662",
                                           "on": "#FFFFFF",
                                         },
                                         "light": Object {
-                                          "RGB": "98,194,248",
-                                          "hex": "#62C2F8",
+                                          "RGB": "173,101,207",
+                                          "hex": "#AD65CF",
                                           "on": "#FFFFFF",
                                         },
                                         "main": Object {
-                                          "RGB": "1,87,155",
-                                          "hex": "#01579B",
+                                          "RGB": "116,60,143",
+                                          "hex": "#743C8F",
                                           "on": "#FFFFFF",
                                         },
                                       },
@@ -938,64 +938,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                       },
                                       "complimentary": Object {
                                         "dark": Object {
-                                          "RGB": "250,175,64",
-                                          "hex": "#FAAF40",
+                                          "RGB": "206,185,0",
+                                          "hex": "#CEB900",
                                           "on": "#272727",
                                         },
                                         "light": Object {
-                                          "RGB": "249,240,21",
-                                          "hex": "#F9F015",
+                                          "RGB": "255,245,157",
+                                          "hex": "#FFF59D",
                                           "on": "#272727",
                                         },
                                         "main": Object {
-                                          "RGB": "253,216,53",
-                                          "hex": "#FDD835",
+                                          "RGB": "255,238,82",
+                                          "hex": "#FFEE52",
                                           "on": "#272727",
                                         },
                                       },
                                       "error": Object {
                                         "dark": Object {
-                                          "RGB": "143,6,6",
-                                          "hex": "#8F0606",
+                                          "RGB": "197,73,1",
+                                          "hex": "#C54901",
                                           "on": "#FFFFFF",
                                         },
                                         "main": Object {
-                                          "RGB": "220,16,16",
-                                          "hex": "#DC1010",
+                                          "RGB": "255,115,32",
+                                          "hex": "#FF7320",
                                           "on": "#FFFFFF",
                                         },
                                       },
                                       "primary": Object {
                                         "dark": Object {
-                                          "RGB": "11,102,54",
-                                          "hex": "#0B6636",
+                                          "RGB": "102,22,20",
+                                          "hex": "#661614",
                                           "on": "#FFFFFF",
                                         },
                                         "light": Object {
-                                          "RGB": "145,208,62",
-                                          "hex": "#91D03E",
+                                          "RGB": "218,52,47",
+                                          "hex": "#DA342F",
                                           "on": "#FFFFFF",
                                         },
                                         "main": Object {
-                                          "RGB": "1,145,68",
-                                          "hex": "#019144",
+                                          "RGB": "164,40,36",
+                                          "hex": "#A42824",
                                           "on": "#FFFFFF",
                                         },
                                       },
                                       "secondary": Object {
                                         "dark": Object {
-                                          "RGB": "72,140,155",
-                                          "hex": "#488C9B",
+                                          "RGB": "5,38,59",
+                                          "hex": "#05263B",
                                           "on": "#FFFFFF",
                                         },
                                         "light": Object {
-                                          "RGB": "162,235,252",
-                                          "hex": "#A2EBFC",
-                                          "on": "#272727",
+                                          "RGB": "89,156,175",
+                                          "hex": "#599CAF",
+                                          "on": "#FFFFFF",
                                         },
                                         "main": Object {
-                                          "RGB": "118,182,196",
-                                          "hex": "#76B6C4",
+                                          "RGB": "11,70,107",
+                                          "hex": "#0B466B",
                                           "on": "#FFFFFF",
                                         },
                                       },
@@ -1028,23 +1028,24 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                     shade="main"
                                     size="sm"
                                     spin={false}
+                                    swapOpacity={false}
                                     symbol={false}
                                     theme={
                                       Object {
                                         "action": Object {
                                           "dark": Object {
-                                            "RGB": "0,47,108",
-                                            "hex": "#002F6C",
+                                            "RGB": "79,38,98",
+                                            "hex": "#4E2662",
                                             "on": "#FFFFFF",
                                           },
                                           "light": Object {
-                                            "RGB": "98,194,248",
-                                            "hex": "#62C2F8",
+                                            "RGB": "173,101,207",
+                                            "hex": "#AD65CF",
                                             "on": "#FFFFFF",
                                           },
                                           "main": Object {
-                                            "RGB": "1,87,155",
-                                            "hex": "#01579B",
+                                            "RGB": "116,60,143",
+                                            "hex": "#743C8F",
                                             "on": "#FFFFFF",
                                           },
                                         },
@@ -1081,64 +1082,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                         },
                                         "complimentary": Object {
                                           "dark": Object {
-                                            "RGB": "250,175,64",
-                                            "hex": "#FAAF40",
+                                            "RGB": "206,185,0",
+                                            "hex": "#CEB900",
                                             "on": "#272727",
                                           },
                                           "light": Object {
-                                            "RGB": "249,240,21",
-                                            "hex": "#F9F015",
+                                            "RGB": "255,245,157",
+                                            "hex": "#FFF59D",
                                             "on": "#272727",
                                           },
                                           "main": Object {
-                                            "RGB": "253,216,53",
-                                            "hex": "#FDD835",
+                                            "RGB": "255,238,82",
+                                            "hex": "#FFEE52",
                                             "on": "#272727",
                                           },
                                         },
                                         "error": Object {
                                           "dark": Object {
-                                            "RGB": "143,6,6",
-                                            "hex": "#8F0606",
+                                            "RGB": "197,73,1",
+                                            "hex": "#C54901",
                                             "on": "#FFFFFF",
                                           },
                                           "main": Object {
-                                            "RGB": "220,16,16",
-                                            "hex": "#DC1010",
+                                            "RGB": "255,115,32",
+                                            "hex": "#FF7320",
                                             "on": "#FFFFFF",
                                           },
                                         },
                                         "primary": Object {
                                           "dark": Object {
-                                            "RGB": "11,102,54",
-                                            "hex": "#0B6636",
+                                            "RGB": "102,22,20",
+                                            "hex": "#661614",
                                             "on": "#FFFFFF",
                                           },
                                           "light": Object {
-                                            "RGB": "145,208,62",
-                                            "hex": "#91D03E",
+                                            "RGB": "218,52,47",
+                                            "hex": "#DA342F",
                                             "on": "#FFFFFF",
                                           },
                                           "main": Object {
-                                            "RGB": "1,145,68",
-                                            "hex": "#019144",
+                                            "RGB": "164,40,36",
+                                            "hex": "#A42824",
                                             "on": "#FFFFFF",
                                           },
                                         },
                                         "secondary": Object {
                                           "dark": Object {
-                                            "RGB": "72,140,155",
-                                            "hex": "#488C9B",
+                                            "RGB": "5,38,59",
+                                            "hex": "#05263B",
                                             "on": "#FFFFFF",
                                           },
                                           "light": Object {
-                                            "RGB": "162,235,252",
-                                            "hex": "#A2EBFC",
-                                            "on": "#272727",
+                                            "RGB": "89,156,175",
+                                            "hex": "#599CAF",
+                                            "on": "#FFFFFF",
                                           },
                                           "main": Object {
-                                            "RGB": "118,182,196",
-                                            "hex": "#76B6C4",
+                                            "RGB": "11,70,107",
+                                            "hex": "#0B466B",
                                             "on": "#FFFFFF",
                                           },
                                         },
@@ -1171,18 +1172,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                         Object {
                                           "action": Object {
                                             "dark": Object {
-                                              "RGB": "0,47,108",
-                                              "hex": "#002F6C",
+                                              "RGB": "79,38,98",
+                                              "hex": "#4E2662",
                                               "on": "#FFFFFF",
                                             },
                                             "light": Object {
-                                              "RGB": "98,194,248",
-                                              "hex": "#62C2F8",
+                                              "RGB": "173,101,207",
+                                              "hex": "#AD65CF",
                                               "on": "#FFFFFF",
                                             },
                                             "main": Object {
-                                              "RGB": "1,87,155",
-                                              "hex": "#01579B",
+                                              "RGB": "116,60,143",
+                                              "hex": "#743C8F",
                                               "on": "#FFFFFF",
                                             },
                                           },
@@ -1219,64 +1220,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                                           },
                                           "complimentary": Object {
                                             "dark": Object {
-                                              "RGB": "250,175,64",
-                                              "hex": "#FAAF40",
+                                              "RGB": "206,185,0",
+                                              "hex": "#CEB900",
                                               "on": "#272727",
                                             },
                                             "light": Object {
-                                              "RGB": "249,240,21",
-                                              "hex": "#F9F015",
+                                              "RGB": "255,245,157",
+                                              "hex": "#FFF59D",
                                               "on": "#272727",
                                             },
                                             "main": Object {
-                                              "RGB": "253,216,53",
-                                              "hex": "#FDD835",
+                                              "RGB": "255,238,82",
+                                              "hex": "#FFEE52",
                                               "on": "#272727",
                                             },
                                           },
                                           "error": Object {
                                             "dark": Object {
-                                              "RGB": "143,6,6",
-                                              "hex": "#8F0606",
+                                              "RGB": "197,73,1",
+                                              "hex": "#C54901",
                                               "on": "#FFFFFF",
                                             },
                                             "main": Object {
-                                              "RGB": "220,16,16",
-                                              "hex": "#DC1010",
+                                              "RGB": "255,115,32",
+                                              "hex": "#FF7320",
                                               "on": "#FFFFFF",
                                             },
                                           },
                                           "primary": Object {
                                             "dark": Object {
-                                              "RGB": "11,102,54",
-                                              "hex": "#0B6636",
+                                              "RGB": "102,22,20",
+                                              "hex": "#661614",
                                               "on": "#FFFFFF",
                                             },
                                             "light": Object {
-                                              "RGB": "145,208,62",
-                                              "hex": "#91D03E",
+                                              "RGB": "218,52,47",
+                                              "hex": "#DA342F",
                                               "on": "#FFFFFF",
                                             },
                                             "main": Object {
-                                              "RGB": "1,145,68",
-                                              "hex": "#019144",
+                                              "RGB": "164,40,36",
+                                              "hex": "#A42824",
                                               "on": "#FFFFFF",
                                             },
                                           },
                                           "secondary": Object {
                                             "dark": Object {
-                                              "RGB": "72,140,155",
-                                              "hex": "#488C9B",
+                                              "RGB": "5,38,59",
+                                              "hex": "#05263B",
                                               "on": "#FFFFFF",
                                             },
                                             "light": Object {
-                                              "RGB": "162,235,252",
-                                              "hex": "#A2EBFC",
-                                              "on": "#272727",
+                                              "RGB": "89,156,175",
+                                              "hex": "#599CAF",
+                                              "on": "#FFFFFF",
                                             },
                                             "main": Object {
-                                              "RGB": "118,182,196",
-                                              "hex": "#76B6C4",
+                                              "RGB": "11,70,107",
+                                              "hex": "#0B466B",
                                               "on": "#FFFFFF",
                                             },
                                           },
@@ -1318,18 +1319,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1366,64 +1367,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1449,18 +1450,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                         "theme": Object {
                           "action": Object {
                             "dark": Object {
-                              "RGB": "0,47,108",
-                              "hex": "#002F6C",
+                              "RGB": "79,38,98",
+                              "hex": "#4E2662",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "98,194,248",
-                              "hex": "#62C2F8",
+                              "RGB": "173,101,207",
+                              "hex": "#AD65CF",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,87,155",
-                              "hex": "#01579B",
+                              "RGB": "116,60,143",
+                              "hex": "#743C8F",
                               "on": "#FFFFFF",
                             },
                           },
@@ -1497,64 +1498,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                           },
                           "complimentary": Object {
                             "dark": Object {
-                              "RGB": "250,175,64",
-                              "hex": "#FAAF40",
+                              "RGB": "206,185,0",
+                              "hex": "#CEB900",
                               "on": "#272727",
                             },
                             "light": Object {
-                              "RGB": "249,240,21",
-                              "hex": "#F9F015",
+                              "RGB": "255,245,157",
+                              "hex": "#FFF59D",
                               "on": "#272727",
                             },
                             "main": Object {
-                              "RGB": "253,216,53",
-                              "hex": "#FDD835",
+                              "RGB": "255,238,82",
+                              "hex": "#FFEE52",
                               "on": "#272727",
                             },
                           },
                           "error": Object {
                             "dark": Object {
-                              "RGB": "143,6,6",
-                              "hex": "#8F0606",
+                              "RGB": "197,73,1",
+                              "hex": "#C54901",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "220,16,16",
-                              "hex": "#DC1010",
+                              "RGB": "255,115,32",
+                              "hex": "#FF7320",
                               "on": "#FFFFFF",
                             },
                           },
                           "primary": Object {
                             "dark": Object {
-                              "RGB": "11,102,54",
-                              "hex": "#0B6636",
+                              "RGB": "102,22,20",
+                              "hex": "#661614",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "145,208,62",
-                              "hex": "#91D03E",
+                              "RGB": "218,52,47",
+                              "hex": "#DA342F",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,145,68",
-                              "hex": "#019144",
+                              "RGB": "164,40,36",
+                              "hex": "#A42824",
                               "on": "#FFFFFF",
                             },
                           },
                           "secondary": Object {
                             "dark": Object {
-                              "RGB": "72,140,155",
-                              "hex": "#488C9B",
+                              "RGB": "5,38,59",
+                              "hex": "#05263B",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "162,235,252",
-                              "hex": "#A2EBFC",
-                              "on": "#272727",
+                              "RGB": "89,156,175",
+                              "hex": "#599CAF",
+                              "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "118,182,196",
-                              "hex": "#76B6C4",
+                              "RGB": "11,70,107",
+                              "hex": "#0B466B",
                               "on": "#FFFFFF",
                             },
                           },
@@ -1572,7 +1573,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "StepBar__StepName-n1dl6h-2",
+                        "componentId": "StepBar__StepName-sc-18iuvx8-2",
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
@@ -1584,7 +1585,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       "displayName": "StepName",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "StepBar__StepName-n1dl6h-2",
+                      "styledComponentId": "StepBar__StepName-sc-18iuvx8-2",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1596,18 +1597,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     Object {
                       "action": Object {
                         "dark": Object {
-                          "RGB": "0,47,108",
-                          "hex": "#002F6C",
+                          "RGB": "79,38,98",
+                          "hex": "#4E2662",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "98,194,248",
-                          "hex": "#62C2F8",
+                          "RGB": "173,101,207",
+                          "hex": "#AD65CF",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,87,155",
-                          "hex": "#01579B",
+                          "RGB": "116,60,143",
+                          "hex": "#743C8F",
                           "on": "#FFFFFF",
                         },
                       },
@@ -1644,64 +1645,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "complimentary": Object {
                         "dark": Object {
-                          "RGB": "250,175,64",
-                          "hex": "#FAAF40",
+                          "RGB": "206,185,0",
+                          "hex": "#CEB900",
                           "on": "#272727",
                         },
                         "light": Object {
-                          "RGB": "249,240,21",
-                          "hex": "#F9F015",
+                          "RGB": "255,245,157",
+                          "hex": "#FFF59D",
                           "on": "#272727",
                         },
                         "main": Object {
-                          "RGB": "253,216,53",
-                          "hex": "#FDD835",
+                          "RGB": "255,238,82",
+                          "hex": "#FFEE52",
                           "on": "#272727",
                         },
                       },
                       "error": Object {
                         "dark": Object {
-                          "RGB": "143,6,6",
-                          "hex": "#8F0606",
+                          "RGB": "197,73,1",
+                          "hex": "#C54901",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "220,16,16",
-                          "hex": "#DC1010",
+                          "RGB": "255,115,32",
+                          "hex": "#FF7320",
                           "on": "#FFFFFF",
                         },
                       },
                       "primary": Object {
                         "dark": Object {
-                          "RGB": "11,102,54",
-                          "hex": "#0B6636",
+                          "RGB": "102,22,20",
+                          "hex": "#661614",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "145,208,62",
-                          "hex": "#91D03E",
+                          "RGB": "218,52,47",
+                          "hex": "#DA342F",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,145,68",
-                          "hex": "#019144",
+                          "RGB": "164,40,36",
+                          "hex": "#A42824",
                           "on": "#FFFFFF",
                         },
                       },
                       "secondary": Object {
                         "dark": Object {
-                          "RGB": "72,140,155",
-                          "hex": "#488C9B",
+                          "RGB": "5,38,59",
+                          "hex": "#05263B",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "162,235,252",
-                          "hex": "#A2EBFC",
-                          "on": "#272727",
+                          "RGB": "89,156,175",
+                          "hex": "#599CAF",
+                          "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "118,182,196",
-                          "hex": "#76B6C4",
+                          "RGB": "11,70,107",
+                          "hex": "#0B466B",
                           "on": "#FFFFFF",
                         },
                       },
@@ -1733,18 +1734,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
             Object {
               "action": Object {
                 "dark": Object {
-                  "RGB": "0,47,108",
-                  "hex": "#002F6C",
+                  "RGB": "79,38,98",
+                  "hex": "#4E2662",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "98,194,248",
-                  "hex": "#62C2F8",
+                  "RGB": "173,101,207",
+                  "hex": "#AD65CF",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,87,155",
-                  "hex": "#01579B",
+                  "RGB": "116,60,143",
+                  "hex": "#743C8F",
                   "on": "#FFFFFF",
                 },
               },
@@ -1781,64 +1782,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
               },
               "complimentary": Object {
                 "dark": Object {
-                  "RGB": "250,175,64",
-                  "hex": "#FAAF40",
+                  "RGB": "206,185,0",
+                  "hex": "#CEB900",
                   "on": "#272727",
                 },
                 "light": Object {
-                  "RGB": "249,240,21",
-                  "hex": "#F9F015",
+                  "RGB": "255,245,157",
+                  "hex": "#FFF59D",
                   "on": "#272727",
                 },
                 "main": Object {
-                  "RGB": "253,216,53",
-                  "hex": "#FDD835",
+                  "RGB": "255,238,82",
+                  "hex": "#FFEE52",
                   "on": "#272727",
                 },
               },
               "error": Object {
                 "dark": Object {
-                  "RGB": "143,6,6",
-                  "hex": "#8F0606",
+                  "RGB": "197,73,1",
+                  "hex": "#C54901",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "220,16,16",
-                  "hex": "#DC1010",
+                  "RGB": "255,115,32",
+                  "hex": "#FF7320",
                   "on": "#FFFFFF",
                 },
               },
               "primary": Object {
                 "dark": Object {
-                  "RGB": "11,102,54",
-                  "hex": "#0B6636",
+                  "RGB": "102,22,20",
+                  "hex": "#661614",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "145,208,62",
-                  "hex": "#91D03E",
+                  "RGB": "218,52,47",
+                  "hex": "#DA342F",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,145,68",
-                  "hex": "#019144",
+                  "RGB": "164,40,36",
+                  "hex": "#A42824",
                   "on": "#FFFFFF",
                 },
               },
               "secondary": Object {
                 "dark": Object {
-                  "RGB": "72,140,155",
-                  "hex": "#488C9B",
+                  "RGB": "5,38,59",
+                  "hex": "#05263B",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "162,235,252",
-                  "hex": "#A2EBFC",
-                  "on": "#272727",
+                  "RGB": "89,156,175",
+                  "hex": "#599CAF",
+                  "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "118,182,196",
-                  "hex": "#76B6C4",
+                  "RGB": "11,70,107",
+                  "hex": "#0B466B",
                   "on": "#FFFFFF",
                 },
               },
@@ -1863,18 +1864,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   "theme": Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1911,64 +1912,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1986,7 +1987,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 },
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "StepBar__Line-n1dl6h-4",
+                  "componentId": "StepBar__Line-sc-18iuvx8-4",
                   "isStatic": false,
                   "lastClassName": "c5",
                   "rules": Array [
@@ -1998,7 +1999,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 "displayName": "Line",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "StepBar__Line-n1dl6h-4",
+                "styledComponentId": "StepBar__Line-sc-18iuvx8-4",
                 "target": "hr",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -2010,18 +2011,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
               Object {
                 "action": Object {
                   "dark": Object {
-                    "RGB": "0,47,108",
-                    "hex": "#002F6C",
+                    "RGB": "79,38,98",
+                    "hex": "#4E2662",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "98,194,248",
-                    "hex": "#62C2F8",
+                    "RGB": "173,101,207",
+                    "hex": "#AD65CF",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "1,87,155",
-                    "hex": "#01579B",
+                    "RGB": "116,60,143",
+                    "hex": "#743C8F",
                     "on": "#FFFFFF",
                   },
                 },
@@ -2058,64 +2059,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 },
                 "complimentary": Object {
                   "dark": Object {
-                    "RGB": "250,175,64",
-                    "hex": "#FAAF40",
+                    "RGB": "206,185,0",
+                    "hex": "#CEB900",
                     "on": "#272727",
                   },
                   "light": Object {
-                    "RGB": "249,240,21",
-                    "hex": "#F9F015",
+                    "RGB": "255,245,157",
+                    "hex": "#FFF59D",
                     "on": "#272727",
                   },
                   "main": Object {
-                    "RGB": "253,216,53",
-                    "hex": "#FDD835",
+                    "RGB": "255,238,82",
+                    "hex": "#FFEE52",
                     "on": "#272727",
                   },
                 },
                 "error": Object {
                   "dark": Object {
-                    "RGB": "143,6,6",
-                    "hex": "#8F0606",
+                    "RGB": "197,73,1",
+                    "hex": "#C54901",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "220,16,16",
-                    "hex": "#DC1010",
+                    "RGB": "255,115,32",
+                    "hex": "#FF7320",
                     "on": "#FFFFFF",
                   },
                 },
                 "primary": Object {
                   "dark": Object {
-                    "RGB": "11,102,54",
-                    "hex": "#0B6636",
+                    "RGB": "102,22,20",
+                    "hex": "#661614",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "145,208,62",
-                    "hex": "#91D03E",
+                    "RGB": "218,52,47",
+                    "hex": "#DA342F",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "1,145,68",
-                    "hex": "#019144",
+                    "RGB": "164,40,36",
+                    "hex": "#A42824",
                     "on": "#FFFFFF",
                   },
                 },
                 "secondary": Object {
                   "dark": Object {
-                    "RGB": "72,140,155",
-                    "hex": "#488C9B",
+                    "RGB": "5,38,59",
+                    "hex": "#05263B",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "162,235,252",
-                    "hex": "#A2EBFC",
-                    "on": "#272727",
+                    "RGB": "89,156,175",
+                    "hex": "#599CAF",
+                    "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "118,182,196",
-                    "hex": "#76B6C4",
+                    "RGB": "11,70,107",
+                    "hex": "#0B466B",
                     "on": "#FFFFFF",
                   },
                 },
@@ -2144,8 +2145,8 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "StepBar__StepWrapper-n1dl6h-0",
-                  "isStatic": true,
+                  "componentId": "StepBar__StepWrapper-sc-18iuvx8-0",
+                  "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
                     "display:flex;align-items:center;margin:0.5rem 0;",
@@ -2154,7 +2155,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                 "displayName": "StepWrapper",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "StepBar__StepWrapper-n1dl6h-0",
+                "styledComponentId": "StepBar__StepWrapper-sc-18iuvx8-0",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -2171,18 +2172,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -2219,64 +2220,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -2301,18 +2302,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                         "theme": Object {
                           "action": Object {
                             "dark": Object {
-                              "RGB": "0,47,108",
-                              "hex": "#002F6C",
+                              "RGB": "79,38,98",
+                              "hex": "#4E2662",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "98,194,248",
-                              "hex": "#62C2F8",
+                              "RGB": "173,101,207",
+                              "hex": "#AD65CF",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,87,155",
-                              "hex": "#01579B",
+                              "RGB": "116,60,143",
+                              "hex": "#743C8F",
                               "on": "#FFFFFF",
                             },
                           },
@@ -2349,64 +2350,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                           },
                           "complimentary": Object {
                             "dark": Object {
-                              "RGB": "250,175,64",
-                              "hex": "#FAAF40",
+                              "RGB": "206,185,0",
+                              "hex": "#CEB900",
                               "on": "#272727",
                             },
                             "light": Object {
-                              "RGB": "249,240,21",
-                              "hex": "#F9F015",
+                              "RGB": "255,245,157",
+                              "hex": "#FFF59D",
                               "on": "#272727",
                             },
                             "main": Object {
-                              "RGB": "253,216,53",
-                              "hex": "#FDD835",
+                              "RGB": "255,238,82",
+                              "hex": "#FFEE52",
                               "on": "#272727",
                             },
                           },
                           "error": Object {
                             "dark": Object {
-                              "RGB": "143,6,6",
-                              "hex": "#8F0606",
+                              "RGB": "197,73,1",
+                              "hex": "#C54901",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "220,16,16",
-                              "hex": "#DC1010",
+                              "RGB": "255,115,32",
+                              "hex": "#FF7320",
                               "on": "#FFFFFF",
                             },
                           },
                           "primary": Object {
                             "dark": Object {
-                              "RGB": "11,102,54",
-                              "hex": "#0B6636",
+                              "RGB": "102,22,20",
+                              "hex": "#661614",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "145,208,62",
-                              "hex": "#91D03E",
+                              "RGB": "218,52,47",
+                              "hex": "#DA342F",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,145,68",
-                              "hex": "#019144",
+                              "RGB": "164,40,36",
+                              "hex": "#A42824",
                               "on": "#FFFFFF",
                             },
                           },
                           "secondary": Object {
                             "dark": Object {
-                              "RGB": "72,140,155",
-                              "hex": "#488C9B",
+                              "RGB": "5,38,59",
+                              "hex": "#05263B",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "162,235,252",
-                              "hex": "#A2EBFC",
-                              "on": "#272727",
+                              "RGB": "89,156,175",
+                              "hex": "#599CAF",
+                              "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "118,182,196",
-                              "hex": "#76B6C4",
+                              "RGB": "11,70,107",
+                              "hex": "#0B466B",
                               "on": "#FFFFFF",
                             },
                           },
@@ -2424,7 +2425,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "StepBar__StepNumber-n1dl6h-1",
+                        "componentId": "StepBar__StepNumber-sc-18iuvx8-1",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
@@ -2438,7 +2439,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       "displayName": "StepNumber",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "StepBar__StepNumber-n1dl6h-1",
+                      "styledComponentId": "StepBar__StepNumber-sc-18iuvx8-1",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -2450,18 +2451,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     Object {
                       "action": Object {
                         "dark": Object {
-                          "RGB": "0,47,108",
-                          "hex": "#002F6C",
+                          "RGB": "79,38,98",
+                          "hex": "#4E2662",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "98,194,248",
-                          "hex": "#62C2F8",
+                          "RGB": "173,101,207",
+                          "hex": "#AD65CF",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,87,155",
-                          "hex": "#01579B",
+                          "RGB": "116,60,143",
+                          "hex": "#743C8F",
                           "on": "#FFFFFF",
                         },
                       },
@@ -2498,64 +2499,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "complimentary": Object {
                         "dark": Object {
-                          "RGB": "250,175,64",
-                          "hex": "#FAAF40",
+                          "RGB": "206,185,0",
+                          "hex": "#CEB900",
                           "on": "#272727",
                         },
                         "light": Object {
-                          "RGB": "249,240,21",
-                          "hex": "#F9F015",
+                          "RGB": "255,245,157",
+                          "hex": "#FFF59D",
                           "on": "#272727",
                         },
                         "main": Object {
-                          "RGB": "253,216,53",
-                          "hex": "#FDD835",
+                          "RGB": "255,238,82",
+                          "hex": "#FFEE52",
                           "on": "#272727",
                         },
                       },
                       "error": Object {
                         "dark": Object {
-                          "RGB": "143,6,6",
-                          "hex": "#8F0606",
+                          "RGB": "197,73,1",
+                          "hex": "#C54901",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "220,16,16",
-                          "hex": "#DC1010",
+                          "RGB": "255,115,32",
+                          "hex": "#FF7320",
                           "on": "#FFFFFF",
                         },
                       },
                       "primary": Object {
                         "dark": Object {
-                          "RGB": "11,102,54",
-                          "hex": "#0B6636",
+                          "RGB": "102,22,20",
+                          "hex": "#661614",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "145,208,62",
-                          "hex": "#91D03E",
+                          "RGB": "218,52,47",
+                          "hex": "#DA342F",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,145,68",
-                          "hex": "#019144",
+                          "RGB": "164,40,36",
+                          "hex": "#A42824",
                           "on": "#FFFFFF",
                         },
                       },
                       "secondary": Object {
                         "dark": Object {
-                          "RGB": "72,140,155",
-                          "hex": "#488C9B",
+                          "RGB": "5,38,59",
+                          "hex": "#05263B",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "162,235,252",
-                          "hex": "#A2EBFC",
-                          "on": "#272727",
+                          "RGB": "89,156,175",
+                          "hex": "#599CAF",
+                          "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "118,182,196",
-                          "hex": "#76B6C4",
+                          "RGB": "11,70,107",
+                          "hex": "#0B466B",
                           "on": "#FFFFFF",
                         },
                       },
@@ -2585,18 +2586,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -2633,64 +2634,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -2716,18 +2717,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                         "theme": Object {
                           "action": Object {
                             "dark": Object {
-                              "RGB": "0,47,108",
-                              "hex": "#002F6C",
+                              "RGB": "79,38,98",
+                              "hex": "#4E2662",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "98,194,248",
-                              "hex": "#62C2F8",
+                              "RGB": "173,101,207",
+                              "hex": "#AD65CF",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,87,155",
-                              "hex": "#01579B",
+                              "RGB": "116,60,143",
+                              "hex": "#743C8F",
                               "on": "#FFFFFF",
                             },
                           },
@@ -2764,64 +2765,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                           },
                           "complimentary": Object {
                             "dark": Object {
-                              "RGB": "250,175,64",
-                              "hex": "#FAAF40",
+                              "RGB": "206,185,0",
+                              "hex": "#CEB900",
                               "on": "#272727",
                             },
                             "light": Object {
-                              "RGB": "249,240,21",
-                              "hex": "#F9F015",
+                              "RGB": "255,245,157",
+                              "hex": "#FFF59D",
                               "on": "#272727",
                             },
                             "main": Object {
-                              "RGB": "253,216,53",
-                              "hex": "#FDD835",
+                              "RGB": "255,238,82",
+                              "hex": "#FFEE52",
                               "on": "#272727",
                             },
                           },
                           "error": Object {
                             "dark": Object {
-                              "RGB": "143,6,6",
-                              "hex": "#8F0606",
+                              "RGB": "197,73,1",
+                              "hex": "#C54901",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "220,16,16",
-                              "hex": "#DC1010",
+                              "RGB": "255,115,32",
+                              "hex": "#FF7320",
                               "on": "#FFFFFF",
                             },
                           },
                           "primary": Object {
                             "dark": Object {
-                              "RGB": "11,102,54",
-                              "hex": "#0B6636",
+                              "RGB": "102,22,20",
+                              "hex": "#661614",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "145,208,62",
-                              "hex": "#91D03E",
+                              "RGB": "218,52,47",
+                              "hex": "#DA342F",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,145,68",
-                              "hex": "#019144",
+                              "RGB": "164,40,36",
+                              "hex": "#A42824",
                               "on": "#FFFFFF",
                             },
                           },
                           "secondary": Object {
                             "dark": Object {
-                              "RGB": "72,140,155",
-                              "hex": "#488C9B",
+                              "RGB": "5,38,59",
+                              "hex": "#05263B",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "162,235,252",
-                              "hex": "#A2EBFC",
-                              "on": "#272727",
+                              "RGB": "89,156,175",
+                              "hex": "#599CAF",
+                              "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "118,182,196",
-                              "hex": "#76B6C4",
+                              "RGB": "11,70,107",
+                              "hex": "#0B466B",
                               "on": "#FFFFFF",
                             },
                           },
@@ -2839,7 +2840,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "StepBar__StepName-n1dl6h-2",
+                        "componentId": "StepBar__StepName-sc-18iuvx8-2",
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
@@ -2851,7 +2852,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       "displayName": "StepName",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "StepBar__StepName-n1dl6h-2",
+                      "styledComponentId": "StepBar__StepName-sc-18iuvx8-2",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -2863,18 +2864,18 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                     Object {
                       "action": Object {
                         "dark": Object {
-                          "RGB": "0,47,108",
-                          "hex": "#002F6C",
+                          "RGB": "79,38,98",
+                          "hex": "#4E2662",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "98,194,248",
-                          "hex": "#62C2F8",
+                          "RGB": "173,101,207",
+                          "hex": "#AD65CF",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,87,155",
-                          "hex": "#01579B",
+                          "RGB": "116,60,143",
+                          "hex": "#743C8F",
                           "on": "#FFFFFF",
                         },
                       },
@@ -2911,64 +2912,64 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                       },
                       "complimentary": Object {
                         "dark": Object {
-                          "RGB": "250,175,64",
-                          "hex": "#FAAF40",
+                          "RGB": "206,185,0",
+                          "hex": "#CEB900",
                           "on": "#272727",
                         },
                         "light": Object {
-                          "RGB": "249,240,21",
-                          "hex": "#F9F015",
+                          "RGB": "255,245,157",
+                          "hex": "#FFF59D",
                           "on": "#272727",
                         },
                         "main": Object {
-                          "RGB": "253,216,53",
-                          "hex": "#FDD835",
+                          "RGB": "255,238,82",
+                          "hex": "#FFEE52",
                           "on": "#272727",
                         },
                       },
                       "error": Object {
                         "dark": Object {
-                          "RGB": "143,6,6",
-                          "hex": "#8F0606",
+                          "RGB": "197,73,1",
+                          "hex": "#C54901",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "220,16,16",
-                          "hex": "#DC1010",
+                          "RGB": "255,115,32",
+                          "hex": "#FF7320",
                           "on": "#FFFFFF",
                         },
                       },
                       "primary": Object {
                         "dark": Object {
-                          "RGB": "11,102,54",
-                          "hex": "#0B6636",
+                          "RGB": "102,22,20",
+                          "hex": "#661614",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "145,208,62",
-                          "hex": "#91D03E",
+                          "RGB": "218,52,47",
+                          "hex": "#DA342F",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,145,68",
-                          "hex": "#019144",
+                          "RGB": "164,40,36",
+                          "hex": "#A42824",
                           "on": "#FFFFFF",
                         },
                       },
                       "secondary": Object {
                         "dark": Object {
-                          "RGB": "72,140,155",
-                          "hex": "#488C9B",
+                          "RGB": "5,38,59",
+                          "hex": "#05263B",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "162,235,252",
-                          "hex": "#A2EBFC",
-                          "on": "#272727",
+                          "RGB": "89,156,175",
+                          "hex": "#599CAF",
+                          "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "118,182,196",
-                          "hex": "#76B6C4",
+                          "RGB": "11,70,107",
+                          "hex": "#0B466B",
                           "on": "#FFFFFF",
                         },
                       },
@@ -2986,7 +2987,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
                   }
                 >
                   <div
-                    className="active c4"
+                    className="c4 active"
                   >
                     bar
                   </div>

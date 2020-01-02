@@ -19,7 +19,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
   width: 1rem;
   height: 1rem;
   border-radius: 20%;
-  border: 2px solid #76B6C4;
+  border: 2px solid #0B466B;
   outline: none;
   text-align: center;
   -webkit-transition: 0.2s ease all;
@@ -32,19 +32,19 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
 }
 
 .c1:checked {
-  border: 2px solid #488C9B;
+  border: 2px solid #05263B;
 }
 
 .c1:checked + label {
   font-weight: bold;
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c1:checked::after {
   content: "\\2713";
   font-size: 0.8rem;
   line-height: 1rem;
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c1:hover {
@@ -52,7 +52,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
 }
 
 .c1:hover + label {
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c0 {
@@ -95,7 +95,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "FormCheckbox__Container-sc-1dook3x-0",
+            "componentId": "FormCheckbox__Container-sc-177vp9d-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -109,7 +109,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
           "displayName": "Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "FormCheckbox__Container-sc-1dook3x-0",
+          "styledComponentId": "FormCheckbox__Container-sc-177vp9d-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -134,18 +134,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                 Object {
                   "action": Object {
                     "dark": Object {
-                      "RGB": "0,47,108",
-                      "hex": "#002F6C",
+                      "RGB": "79,38,98",
+                      "hex": "#4E2662",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "98,194,248",
-                      "hex": "#62C2F8",
+                      "RGB": "173,101,207",
+                      "hex": "#AD65CF",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,87,155",
-                      "hex": "#01579B",
+                      "RGB": "116,60,143",
+                      "hex": "#743C8F",
                       "on": "#FFFFFF",
                     },
                   },
@@ -182,64 +182,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                   },
                   "complimentary": Object {
                     "dark": Object {
-                      "RGB": "250,175,64",
-                      "hex": "#FAAF40",
+                      "RGB": "206,185,0",
+                      "hex": "#CEB900",
                       "on": "#272727",
                     },
                     "light": Object {
-                      "RGB": "249,240,21",
-                      "hex": "#F9F015",
+                      "RGB": "255,245,157",
+                      "hex": "#FFF59D",
                       "on": "#272727",
                     },
                     "main": Object {
-                      "RGB": "253,216,53",
-                      "hex": "#FDD835",
+                      "RGB": "255,238,82",
+                      "hex": "#FFEE52",
                       "on": "#272727",
                     },
                   },
                   "error": Object {
                     "dark": Object {
-                      "RGB": "143,6,6",
-                      "hex": "#8F0606",
+                      "RGB": "197,73,1",
+                      "hex": "#C54901",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "220,16,16",
-                      "hex": "#DC1010",
+                      "RGB": "255,115,32",
+                      "hex": "#FF7320",
                       "on": "#FFFFFF",
                     },
                   },
                   "primary": Object {
                     "dark": Object {
-                      "RGB": "11,102,54",
-                      "hex": "#0B6636",
+                      "RGB": "102,22,20",
+                      "hex": "#661614",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "145,208,62",
-                      "hex": "#91D03E",
+                      "RGB": "218,52,47",
+                      "hex": "#DA342F",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,145,68",
-                      "hex": "#019144",
+                      "RGB": "164,40,36",
+                      "hex": "#A42824",
                       "on": "#FFFFFF",
                     },
                   },
                   "secondary": Object {
                     "dark": Object {
-                      "RGB": "72,140,155",
-                      "hex": "#488C9B",
+                      "RGB": "5,38,59",
+                      "hex": "#05263B",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "162,235,252",
-                      "hex": "#A2EBFC",
-                      "on": "#272727",
+                      "RGB": "89,156,175",
+                      "hex": "#599CAF",
+                      "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "118,182,196",
-                      "hex": "#76B6C4",
+                      "RGB": "11,70,107",
+                      "hex": "#0B466B",
                       "on": "#FFFFFF",
                     },
                   },
@@ -266,18 +266,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                       "theme": Object {
                         "action": Object {
                           "dark": Object {
-                            "RGB": "0,47,108",
-                            "hex": "#002F6C",
+                            "RGB": "79,38,98",
+                            "hex": "#4E2662",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "98,194,248",
-                            "hex": "#62C2F8",
+                            "RGB": "173,101,207",
+                            "hex": "#AD65CF",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,87,155",
-                            "hex": "#01579B",
+                            "RGB": "116,60,143",
+                            "hex": "#743C8F",
                             "on": "#FFFFFF",
                           },
                         },
@@ -314,64 +314,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                         },
                         "complimentary": Object {
                           "dark": Object {
-                            "RGB": "250,175,64",
-                            "hex": "#FAAF40",
+                            "RGB": "206,185,0",
+                            "hex": "#CEB900",
                             "on": "#272727",
                           },
                           "light": Object {
-                            "RGB": "249,240,21",
-                            "hex": "#F9F015",
+                            "RGB": "255,245,157",
+                            "hex": "#FFF59D",
                             "on": "#272727",
                           },
                           "main": Object {
-                            "RGB": "253,216,53",
-                            "hex": "#FDD835",
+                            "RGB": "255,238,82",
+                            "hex": "#FFEE52",
                             "on": "#272727",
                           },
                         },
                         "error": Object {
                           "dark": Object {
-                            "RGB": "143,6,6",
-                            "hex": "#8F0606",
+                            "RGB": "197,73,1",
+                            "hex": "#C54901",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "220,16,16",
-                            "hex": "#DC1010",
+                            "RGB": "255,115,32",
+                            "hex": "#FF7320",
                             "on": "#FFFFFF",
                           },
                         },
                         "primary": Object {
                           "dark": Object {
-                            "RGB": "11,102,54",
-                            "hex": "#0B6636",
+                            "RGB": "102,22,20",
+                            "hex": "#661614",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "145,208,62",
-                            "hex": "#91D03E",
+                            "RGB": "218,52,47",
+                            "hex": "#DA342F",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,145,68",
-                            "hex": "#019144",
+                            "RGB": "164,40,36",
+                            "hex": "#A42824",
                             "on": "#FFFFFF",
                           },
                         },
                         "secondary": Object {
                           "dark": Object {
-                            "RGB": "72,140,155",
-                            "hex": "#488C9B",
+                            "RGB": "5,38,59",
+                            "hex": "#05263B",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "162,235,252",
-                            "hex": "#A2EBFC",
-                            "on": "#272727",
+                            "RGB": "89,156,175",
+                            "hex": "#599CAF",
+                            "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "118,182,196",
-                            "hex": "#76B6C4",
+                            "RGB": "11,70,107",
+                            "hex": "#0B466B",
                             "on": "#FFFFFF",
                           },
                         },
@@ -393,7 +393,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                       },
                     ],
                     "componentStyle": ComponentStyle {
-                      "componentId": "Checkbox__StyledCheckbox-yzjkt3-0",
+                      "componentId": "Checkbox__StyledCheckbox-s241no-0",
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
@@ -421,7 +421,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                     "displayName": "StyledCheckbox",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "Checkbox__StyledCheckbox-yzjkt3-0",
+                    "styledComponentId": "Checkbox__StyledCheckbox-s241no-0",
                     "target": "input",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -433,18 +433,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -481,64 +481,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -570,18 +570,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                 Object {
                   "action": Object {
                     "dark": Object {
-                      "RGB": "0,47,108",
-                      "hex": "#002F6C",
+                      "RGB": "79,38,98",
+                      "hex": "#4E2662",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "98,194,248",
-                      "hex": "#62C2F8",
+                      "RGB": "173,101,207",
+                      "hex": "#AD65CF",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,87,155",
-                      "hex": "#01579B",
+                      "RGB": "116,60,143",
+                      "hex": "#743C8F",
                       "on": "#FFFFFF",
                     },
                   },
@@ -618,64 +618,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                   },
                   "complimentary": Object {
                     "dark": Object {
-                      "RGB": "250,175,64",
-                      "hex": "#FAAF40",
+                      "RGB": "206,185,0",
+                      "hex": "#CEB900",
                       "on": "#272727",
                     },
                     "light": Object {
-                      "RGB": "249,240,21",
-                      "hex": "#F9F015",
+                      "RGB": "255,245,157",
+                      "hex": "#FFF59D",
                       "on": "#272727",
                     },
                     "main": Object {
-                      "RGB": "253,216,53",
-                      "hex": "#FDD835",
+                      "RGB": "255,238,82",
+                      "hex": "#FFEE52",
                       "on": "#272727",
                     },
                   },
                   "error": Object {
                     "dark": Object {
-                      "RGB": "143,6,6",
-                      "hex": "#8F0606",
+                      "RGB": "197,73,1",
+                      "hex": "#C54901",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "220,16,16",
-                      "hex": "#DC1010",
+                      "RGB": "255,115,32",
+                      "hex": "#FF7320",
                       "on": "#FFFFFF",
                     },
                   },
                   "primary": Object {
                     "dark": Object {
-                      "RGB": "11,102,54",
-                      "hex": "#0B6636",
+                      "RGB": "102,22,20",
+                      "hex": "#661614",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "145,208,62",
-                      "hex": "#91D03E",
+                      "RGB": "218,52,47",
+                      "hex": "#DA342F",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,145,68",
-                      "hex": "#019144",
+                      "RGB": "164,40,36",
+                      "hex": "#A42824",
                       "on": "#FFFFFF",
                     },
                   },
                   "secondary": Object {
                     "dark": Object {
-                      "RGB": "72,140,155",
-                      "hex": "#488C9B",
+                      "RGB": "5,38,59",
+                      "hex": "#05263B",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "162,235,252",
-                      "hex": "#A2EBFC",
-                      "on": "#272727",
+                      "RGB": "89,156,175",
+                      "hex": "#599CAF",
+                      "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "118,182,196",
-                      "hex": "#76B6C4",
+                      "RGB": "11,70,107",
+                      "hex": "#0B466B",
                       "on": "#FFFFFF",
                     },
                   },
@@ -700,18 +700,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                       "theme": Object {
                         "action": Object {
                           "dark": Object {
-                            "RGB": "0,47,108",
-                            "hex": "#002F6C",
+                            "RGB": "79,38,98",
+                            "hex": "#4E2662",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "98,194,248",
-                            "hex": "#62C2F8",
+                            "RGB": "173,101,207",
+                            "hex": "#AD65CF",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,87,155",
-                            "hex": "#01579B",
+                            "RGB": "116,60,143",
+                            "hex": "#743C8F",
                             "on": "#FFFFFF",
                           },
                         },
@@ -748,64 +748,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                         },
                         "complimentary": Object {
                           "dark": Object {
-                            "RGB": "250,175,64",
-                            "hex": "#FAAF40",
+                            "RGB": "206,185,0",
+                            "hex": "#CEB900",
                             "on": "#272727",
                           },
                           "light": Object {
-                            "RGB": "249,240,21",
-                            "hex": "#F9F015",
+                            "RGB": "255,245,157",
+                            "hex": "#FFF59D",
                             "on": "#272727",
                           },
                           "main": Object {
-                            "RGB": "253,216,53",
-                            "hex": "#FDD835",
+                            "RGB": "255,238,82",
+                            "hex": "#FFEE52",
                             "on": "#272727",
                           },
                         },
                         "error": Object {
                           "dark": Object {
-                            "RGB": "143,6,6",
-                            "hex": "#8F0606",
+                            "RGB": "197,73,1",
+                            "hex": "#C54901",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "220,16,16",
-                            "hex": "#DC1010",
+                            "RGB": "255,115,32",
+                            "hex": "#FF7320",
                             "on": "#FFFFFF",
                           },
                         },
                         "primary": Object {
                           "dark": Object {
-                            "RGB": "11,102,54",
-                            "hex": "#0B6636",
+                            "RGB": "102,22,20",
+                            "hex": "#661614",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "145,208,62",
-                            "hex": "#91D03E",
+                            "RGB": "218,52,47",
+                            "hex": "#DA342F",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,145,68",
-                            "hex": "#019144",
+                            "RGB": "164,40,36",
+                            "hex": "#A42824",
                             "on": "#FFFFFF",
                           },
                         },
                         "secondary": Object {
                           "dark": Object {
-                            "RGB": "72,140,155",
-                            "hex": "#488C9B",
+                            "RGB": "5,38,59",
+                            "hex": "#05263B",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "162,235,252",
-                            "hex": "#A2EBFC",
-                            "on": "#272727",
+                            "RGB": "89,156,175",
+                            "hex": "#599CAF",
+                            "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "118,182,196",
-                            "hex": "#76B6C4",
+                            "RGB": "11,70,107",
+                            "hex": "#0B466B",
                             "on": "#FFFFFF",
                           },
                         },
@@ -823,7 +823,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                     },
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "Label__StyledLabel-f0miro-0",
+                      "componentId": "Label__StyledLabel-b5w2ve-0",
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
@@ -835,7 +835,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                     "displayName": "StyledLabel",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "Label__StyledLabel-f0miro-0",
+                    "styledComponentId": "Label__StyledLabel-b5w2ve-0",
                     "target": "label",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -847,18 +847,18 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -895,64 +895,64 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1003,7 +1003,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
   width: 1rem;
   height: 1rem;
   border-radius: 20%;
-  border: 2px solid #76B6C4;
+  border: 2px solid #0B466B;
   outline: none;
   text-align: center;
   -webkit-transition: 0.2s ease all;
@@ -1016,19 +1016,19 @@ exports[`FormCheckbox test match last snapshot 1`] = `
 }
 
 .c1:checked {
-  border: 2px solid #488C9B;
+  border: 2px solid #05263B;
 }
 
 .c1:checked + label {
   font-weight: bold;
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c1:checked::after {
   content: "\\2713";
   font-size: 0.8rem;
   line-height: 1rem;
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c1:hover {
@@ -1036,7 +1036,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
 }
 
 .c1:hover + label {
-  color: #488C9B;
+  color: #05263B;
 }
 
 .c0 {
@@ -1070,7 +1070,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "FormCheckbox__Container-sc-1dook3x-0",
+            "componentId": "FormCheckbox__Container-sc-177vp9d-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -1084,7 +1084,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
           "displayName": "Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "FormCheckbox__Container-sc-1dook3x-0",
+          "styledComponentId": "FormCheckbox__Container-sc-177vp9d-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -1108,18 +1108,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                 Object {
                   "action": Object {
                     "dark": Object {
-                      "RGB": "0,47,108",
-                      "hex": "#002F6C",
+                      "RGB": "79,38,98",
+                      "hex": "#4E2662",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "98,194,248",
-                      "hex": "#62C2F8",
+                      "RGB": "173,101,207",
+                      "hex": "#AD65CF",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,87,155",
-                      "hex": "#01579B",
+                      "RGB": "116,60,143",
+                      "hex": "#743C8F",
                       "on": "#FFFFFF",
                     },
                   },
@@ -1156,64 +1156,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                   },
                   "complimentary": Object {
                     "dark": Object {
-                      "RGB": "250,175,64",
-                      "hex": "#FAAF40",
+                      "RGB": "206,185,0",
+                      "hex": "#CEB900",
                       "on": "#272727",
                     },
                     "light": Object {
-                      "RGB": "249,240,21",
-                      "hex": "#F9F015",
+                      "RGB": "255,245,157",
+                      "hex": "#FFF59D",
                       "on": "#272727",
                     },
                     "main": Object {
-                      "RGB": "253,216,53",
-                      "hex": "#FDD835",
+                      "RGB": "255,238,82",
+                      "hex": "#FFEE52",
                       "on": "#272727",
                     },
                   },
                   "error": Object {
                     "dark": Object {
-                      "RGB": "143,6,6",
-                      "hex": "#8F0606",
+                      "RGB": "197,73,1",
+                      "hex": "#C54901",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "220,16,16",
-                      "hex": "#DC1010",
+                      "RGB": "255,115,32",
+                      "hex": "#FF7320",
                       "on": "#FFFFFF",
                     },
                   },
                   "primary": Object {
                     "dark": Object {
-                      "RGB": "11,102,54",
-                      "hex": "#0B6636",
+                      "RGB": "102,22,20",
+                      "hex": "#661614",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "145,208,62",
-                      "hex": "#91D03E",
+                      "RGB": "218,52,47",
+                      "hex": "#DA342F",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,145,68",
-                      "hex": "#019144",
+                      "RGB": "164,40,36",
+                      "hex": "#A42824",
                       "on": "#FFFFFF",
                     },
                   },
                   "secondary": Object {
                     "dark": Object {
-                      "RGB": "72,140,155",
-                      "hex": "#488C9B",
+                      "RGB": "5,38,59",
+                      "hex": "#05263B",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "162,235,252",
-                      "hex": "#A2EBFC",
-                      "on": "#272727",
+                      "RGB": "89,156,175",
+                      "hex": "#599CAF",
+                      "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "118,182,196",
-                      "hex": "#76B6C4",
+                      "RGB": "11,70,107",
+                      "hex": "#0B466B",
                       "on": "#FFFFFF",
                     },
                   },
@@ -1239,18 +1239,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                       "theme": Object {
                         "action": Object {
                           "dark": Object {
-                            "RGB": "0,47,108",
-                            "hex": "#002F6C",
+                            "RGB": "79,38,98",
+                            "hex": "#4E2662",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "98,194,248",
-                            "hex": "#62C2F8",
+                            "RGB": "173,101,207",
+                            "hex": "#AD65CF",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,87,155",
-                            "hex": "#01579B",
+                            "RGB": "116,60,143",
+                            "hex": "#743C8F",
                             "on": "#FFFFFF",
                           },
                         },
@@ -1287,64 +1287,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                         },
                         "complimentary": Object {
                           "dark": Object {
-                            "RGB": "250,175,64",
-                            "hex": "#FAAF40",
+                            "RGB": "206,185,0",
+                            "hex": "#CEB900",
                             "on": "#272727",
                           },
                           "light": Object {
-                            "RGB": "249,240,21",
-                            "hex": "#F9F015",
+                            "RGB": "255,245,157",
+                            "hex": "#FFF59D",
                             "on": "#272727",
                           },
                           "main": Object {
-                            "RGB": "253,216,53",
-                            "hex": "#FDD835",
+                            "RGB": "255,238,82",
+                            "hex": "#FFEE52",
                             "on": "#272727",
                           },
                         },
                         "error": Object {
                           "dark": Object {
-                            "RGB": "143,6,6",
-                            "hex": "#8F0606",
+                            "RGB": "197,73,1",
+                            "hex": "#C54901",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "220,16,16",
-                            "hex": "#DC1010",
+                            "RGB": "255,115,32",
+                            "hex": "#FF7320",
                             "on": "#FFFFFF",
                           },
                         },
                         "primary": Object {
                           "dark": Object {
-                            "RGB": "11,102,54",
-                            "hex": "#0B6636",
+                            "RGB": "102,22,20",
+                            "hex": "#661614",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "145,208,62",
-                            "hex": "#91D03E",
+                            "RGB": "218,52,47",
+                            "hex": "#DA342F",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,145,68",
-                            "hex": "#019144",
+                            "RGB": "164,40,36",
+                            "hex": "#A42824",
                             "on": "#FFFFFF",
                           },
                         },
                         "secondary": Object {
                           "dark": Object {
-                            "RGB": "72,140,155",
-                            "hex": "#488C9B",
+                            "RGB": "5,38,59",
+                            "hex": "#05263B",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "162,235,252",
-                            "hex": "#A2EBFC",
-                            "on": "#272727",
+                            "RGB": "89,156,175",
+                            "hex": "#599CAF",
+                            "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "118,182,196",
-                            "hex": "#76B6C4",
+                            "RGB": "11,70,107",
+                            "hex": "#0B466B",
                             "on": "#FFFFFF",
                           },
                         },
@@ -1366,7 +1366,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                       },
                     ],
                     "componentStyle": ComponentStyle {
-                      "componentId": "Checkbox__StyledCheckbox-yzjkt3-0",
+                      "componentId": "Checkbox__StyledCheckbox-s241no-0",
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
@@ -1394,7 +1394,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                     "displayName": "StyledCheckbox",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "Checkbox__StyledCheckbox-yzjkt3-0",
+                    "styledComponentId": "Checkbox__StyledCheckbox-s241no-0",
                     "target": "input",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -1407,18 +1407,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1455,64 +1455,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1544,18 +1544,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                 Object {
                   "action": Object {
                     "dark": Object {
-                      "RGB": "0,47,108",
-                      "hex": "#002F6C",
+                      "RGB": "79,38,98",
+                      "hex": "#4E2662",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "98,194,248",
-                      "hex": "#62C2F8",
+                      "RGB": "173,101,207",
+                      "hex": "#AD65CF",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,87,155",
-                      "hex": "#01579B",
+                      "RGB": "116,60,143",
+                      "hex": "#743C8F",
                       "on": "#FFFFFF",
                     },
                   },
@@ -1592,64 +1592,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                   },
                   "complimentary": Object {
                     "dark": Object {
-                      "RGB": "250,175,64",
-                      "hex": "#FAAF40",
+                      "RGB": "206,185,0",
+                      "hex": "#CEB900",
                       "on": "#272727",
                     },
                     "light": Object {
-                      "RGB": "249,240,21",
-                      "hex": "#F9F015",
+                      "RGB": "255,245,157",
+                      "hex": "#FFF59D",
                       "on": "#272727",
                     },
                     "main": Object {
-                      "RGB": "253,216,53",
-                      "hex": "#FDD835",
+                      "RGB": "255,238,82",
+                      "hex": "#FFEE52",
                       "on": "#272727",
                     },
                   },
                   "error": Object {
                     "dark": Object {
-                      "RGB": "143,6,6",
-                      "hex": "#8F0606",
+                      "RGB": "197,73,1",
+                      "hex": "#C54901",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "220,16,16",
-                      "hex": "#DC1010",
+                      "RGB": "255,115,32",
+                      "hex": "#FF7320",
                       "on": "#FFFFFF",
                     },
                   },
                   "primary": Object {
                     "dark": Object {
-                      "RGB": "11,102,54",
-                      "hex": "#0B6636",
+                      "RGB": "102,22,20",
+                      "hex": "#661614",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "145,208,62",
-                      "hex": "#91D03E",
+                      "RGB": "218,52,47",
+                      "hex": "#DA342F",
                       "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "1,145,68",
-                      "hex": "#019144",
+                      "RGB": "164,40,36",
+                      "hex": "#A42824",
                       "on": "#FFFFFF",
                     },
                   },
                   "secondary": Object {
                     "dark": Object {
-                      "RGB": "72,140,155",
-                      "hex": "#488C9B",
+                      "RGB": "5,38,59",
+                      "hex": "#05263B",
                       "on": "#FFFFFF",
                     },
                     "light": Object {
-                      "RGB": "162,235,252",
-                      "hex": "#A2EBFC",
-                      "on": "#272727",
+                      "RGB": "89,156,175",
+                      "hex": "#599CAF",
+                      "on": "#FFFFFF",
                     },
                     "main": Object {
-                      "RGB": "118,182,196",
-                      "hex": "#76B6C4",
+                      "RGB": "11,70,107",
+                      "hex": "#0B466B",
                       "on": "#FFFFFF",
                     },
                   },
@@ -1674,18 +1674,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                       "theme": Object {
                         "action": Object {
                           "dark": Object {
-                            "RGB": "0,47,108",
-                            "hex": "#002F6C",
+                            "RGB": "79,38,98",
+                            "hex": "#4E2662",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "98,194,248",
-                            "hex": "#62C2F8",
+                            "RGB": "173,101,207",
+                            "hex": "#AD65CF",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,87,155",
-                            "hex": "#01579B",
+                            "RGB": "116,60,143",
+                            "hex": "#743C8F",
                             "on": "#FFFFFF",
                           },
                         },
@@ -1722,64 +1722,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                         },
                         "complimentary": Object {
                           "dark": Object {
-                            "RGB": "250,175,64",
-                            "hex": "#FAAF40",
+                            "RGB": "206,185,0",
+                            "hex": "#CEB900",
                             "on": "#272727",
                           },
                           "light": Object {
-                            "RGB": "249,240,21",
-                            "hex": "#F9F015",
+                            "RGB": "255,245,157",
+                            "hex": "#FFF59D",
                             "on": "#272727",
                           },
                           "main": Object {
-                            "RGB": "253,216,53",
-                            "hex": "#FDD835",
+                            "RGB": "255,238,82",
+                            "hex": "#FFEE52",
                             "on": "#272727",
                           },
                         },
                         "error": Object {
                           "dark": Object {
-                            "RGB": "143,6,6",
-                            "hex": "#8F0606",
+                            "RGB": "197,73,1",
+                            "hex": "#C54901",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "220,16,16",
-                            "hex": "#DC1010",
+                            "RGB": "255,115,32",
+                            "hex": "#FF7320",
                             "on": "#FFFFFF",
                           },
                         },
                         "primary": Object {
                           "dark": Object {
-                            "RGB": "11,102,54",
-                            "hex": "#0B6636",
+                            "RGB": "102,22,20",
+                            "hex": "#661614",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "145,208,62",
-                            "hex": "#91D03E",
+                            "RGB": "218,52,47",
+                            "hex": "#DA342F",
                             "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "1,145,68",
-                            "hex": "#019144",
+                            "RGB": "164,40,36",
+                            "hex": "#A42824",
                             "on": "#FFFFFF",
                           },
                         },
                         "secondary": Object {
                           "dark": Object {
-                            "RGB": "72,140,155",
-                            "hex": "#488C9B",
+                            "RGB": "5,38,59",
+                            "hex": "#05263B",
                             "on": "#FFFFFF",
                           },
                           "light": Object {
-                            "RGB": "162,235,252",
-                            "hex": "#A2EBFC",
-                            "on": "#272727",
+                            "RGB": "89,156,175",
+                            "hex": "#599CAF",
+                            "on": "#FFFFFF",
                           },
                           "main": Object {
-                            "RGB": "118,182,196",
-                            "hex": "#76B6C4",
+                            "RGB": "11,70,107",
+                            "hex": "#0B466B",
                             "on": "#FFFFFF",
                           },
                         },
@@ -1797,7 +1797,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                     },
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "Label__StyledLabel-f0miro-0",
+                      "componentId": "Label__StyledLabel-b5w2ve-0",
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
@@ -1809,7 +1809,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                     "displayName": "StyledLabel",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "Label__StyledLabel-f0miro-0",
+                    "styledComponentId": "Label__StyledLabel-b5w2ve-0",
                     "target": "label",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -1821,18 +1821,18 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1869,64 +1869,64 @@ exports[`FormCheckbox test match last snapshot 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },

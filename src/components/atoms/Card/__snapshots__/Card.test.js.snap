@@ -3,20 +3,20 @@
 exports[`Card Component Renders Card with full styling 1`] = `
 .c0 {
   width: 100%;
-  border-top: 4px solid #019144;
+  border-top: 4px solid #A42824;
   background-color: #FFFFFF;
   border-radius: 0 0 10px 10px;
 }
 
 .c1 {
   padding: 1rem 1rem 0.5rem;
-  border-bottom: 1px solid #91D03E;
+  border-bottom: 1px solid #DA342F;
   display: block;
 }
 
 .c1 > h2 {
   margin: 0;
-  color: #019144;
+  color: #A42824;
 }
 
 .c3 {
@@ -24,7 +24,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
 }
 
 .c4 {
-  background-color: rgba(118,182,196,0.4);
+  background-color: rgba(11,70,107,0.4);
   border-radius: 0 0 10px 10px;
   padding: 0.5rem 1rem;
   display: -webkit-box;
@@ -52,18 +52,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
       Object {
         "action": Object {
           "dark": Object {
-            "RGB": "0,47,108",
-            "hex": "#002F6C",
+            "RGB": "79,38,98",
+            "hex": "#4E2662",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "98,194,248",
-            "hex": "#62C2F8",
+            "RGB": "173,101,207",
+            "hex": "#AD65CF",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,87,155",
-            "hex": "#01579B",
+            "RGB": "116,60,143",
+            "hex": "#743C8F",
             "on": "#FFFFFF",
           },
         },
@@ -100,64 +100,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
         },
         "complimentary": Object {
           "dark": Object {
-            "RGB": "250,175,64",
-            "hex": "#FAAF40",
+            "RGB": "206,185,0",
+            "hex": "#CEB900",
             "on": "#272727",
           },
           "light": Object {
-            "RGB": "249,240,21",
-            "hex": "#F9F015",
+            "RGB": "255,245,157",
+            "hex": "#FFF59D",
             "on": "#272727",
           },
           "main": Object {
-            "RGB": "253,216,53",
-            "hex": "#FDD835",
+            "RGB": "255,238,82",
+            "hex": "#FFEE52",
             "on": "#272727",
           },
         },
         "error": Object {
           "dark": Object {
-            "RGB": "143,6,6",
-            "hex": "#8F0606",
+            "RGB": "197,73,1",
+            "hex": "#C54901",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "220,16,16",
-            "hex": "#DC1010",
+            "RGB": "255,115,32",
+            "hex": "#FF7320",
             "on": "#FFFFFF",
           },
         },
         "primary": Object {
           "dark": Object {
-            "RGB": "11,102,54",
-            "hex": "#0B6636",
+            "RGB": "102,22,20",
+            "hex": "#661614",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "145,208,62",
-            "hex": "#91D03E",
+            "RGB": "218,52,47",
+            "hex": "#DA342F",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,145,68",
-            "hex": "#019144",
+            "RGB": "164,40,36",
+            "hex": "#A42824",
             "on": "#FFFFFF",
           },
         },
         "secondary": Object {
           "dark": Object {
-            "RGB": "72,140,155",
-            "hex": "#488C9B",
+            "RGB": "5,38,59",
+            "hex": "#05263B",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "162,235,252",
-            "hex": "#A2EBFC",
-            "on": "#272727",
+            "RGB": "89,156,175",
+            "hex": "#599CAF",
+            "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "118,182,196",
-            "hex": "#76B6C4",
+            "RGB": "11,70,107",
+            "hex": "#0B466B",
             "on": "#FFFFFF",
           },
         },
@@ -182,18 +182,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
             "theme": Object {
               "action": Object {
                 "dark": Object {
-                  "RGB": "0,47,108",
-                  "hex": "#002F6C",
+                  "RGB": "79,38,98",
+                  "hex": "#4E2662",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "98,194,248",
-                  "hex": "#62C2F8",
+                  "RGB": "173,101,207",
+                  "hex": "#AD65CF",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,87,155",
-                  "hex": "#01579B",
+                  "RGB": "116,60,143",
+                  "hex": "#743C8F",
                   "on": "#FFFFFF",
                 },
               },
@@ -230,64 +230,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
               },
               "complimentary": Object {
                 "dark": Object {
-                  "RGB": "250,175,64",
-                  "hex": "#FAAF40",
+                  "RGB": "206,185,0",
+                  "hex": "#CEB900",
                   "on": "#272727",
                 },
                 "light": Object {
-                  "RGB": "249,240,21",
-                  "hex": "#F9F015",
+                  "RGB": "255,245,157",
+                  "hex": "#FFF59D",
                   "on": "#272727",
                 },
                 "main": Object {
-                  "RGB": "253,216,53",
-                  "hex": "#FDD835",
+                  "RGB": "255,238,82",
+                  "hex": "#FFEE52",
                   "on": "#272727",
                 },
               },
               "error": Object {
                 "dark": Object {
-                  "RGB": "143,6,6",
-                  "hex": "#8F0606",
+                  "RGB": "197,73,1",
+                  "hex": "#C54901",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "220,16,16",
-                  "hex": "#DC1010",
+                  "RGB": "255,115,32",
+                  "hex": "#FF7320",
                   "on": "#FFFFFF",
                 },
               },
               "primary": Object {
                 "dark": Object {
-                  "RGB": "11,102,54",
-                  "hex": "#0B6636",
+                  "RGB": "102,22,20",
+                  "hex": "#661614",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "145,208,62",
-                  "hex": "#91D03E",
+                  "RGB": "218,52,47",
+                  "hex": "#DA342F",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,145,68",
-                  "hex": "#019144",
+                  "RGB": "164,40,36",
+                  "hex": "#A42824",
                   "on": "#FFFFFF",
                 },
               },
               "secondary": Object {
                 "dark": Object {
-                  "RGB": "72,140,155",
-                  "hex": "#488C9B",
+                  "RGB": "5,38,59",
+                  "hex": "#05263B",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "162,235,252",
-                  "hex": "#A2EBFC",
-                  "on": "#272727",
+                  "RGB": "89,156,175",
+                  "hex": "#599CAF",
+                  "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "118,182,196",
-                  "hex": "#76B6C4",
+                  "RGB": "11,70,107",
+                  "hex": "#0B466B",
                   "on": "#FFFFFF",
                 },
               },
@@ -305,7 +305,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
           },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Card__CardContainer-c7vdns-0",
+            "componentId": "Card__CardContainer-sc-100tkmv-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -323,7 +323,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
           "displayName": "CardContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "styledComponentId": "Card__CardContainer-sc-100tkmv-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -335,18 +335,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
         Object {
           "action": Object {
             "dark": Object {
-              "RGB": "0,47,108",
-              "hex": "#002F6C",
+              "RGB": "79,38,98",
+              "hex": "#4E2662",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "98,194,248",
-              "hex": "#62C2F8",
+              "RGB": "173,101,207",
+              "hex": "#AD65CF",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,87,155",
-              "hex": "#01579B",
+              "RGB": "116,60,143",
+              "hex": "#743C8F",
               "on": "#FFFFFF",
             },
           },
@@ -383,64 +383,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
           },
           "complimentary": Object {
             "dark": Object {
-              "RGB": "250,175,64",
-              "hex": "#FAAF40",
+              "RGB": "206,185,0",
+              "hex": "#CEB900",
               "on": "#272727",
             },
             "light": Object {
-              "RGB": "249,240,21",
-              "hex": "#F9F015",
+              "RGB": "255,245,157",
+              "hex": "#FFF59D",
               "on": "#272727",
             },
             "main": Object {
-              "RGB": "253,216,53",
-              "hex": "#FDD835",
+              "RGB": "255,238,82",
+              "hex": "#FFEE52",
               "on": "#272727",
             },
           },
           "error": Object {
             "dark": Object {
-              "RGB": "143,6,6",
-              "hex": "#8F0606",
+              "RGB": "197,73,1",
+              "hex": "#C54901",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "220,16,16",
-              "hex": "#DC1010",
+              "RGB": "255,115,32",
+              "hex": "#FF7320",
               "on": "#FFFFFF",
             },
           },
           "primary": Object {
             "dark": Object {
-              "RGB": "11,102,54",
-              "hex": "#0B6636",
+              "RGB": "102,22,20",
+              "hex": "#661614",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "145,208,62",
-              "hex": "#91D03E",
+              "RGB": "218,52,47",
+              "hex": "#DA342F",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,145,68",
-              "hex": "#019144",
+              "RGB": "164,40,36",
+              "hex": "#A42824",
               "on": "#FFFFFF",
             },
           },
           "secondary": Object {
             "dark": Object {
-              "RGB": "72,140,155",
-              "hex": "#488C9B",
+              "RGB": "5,38,59",
+              "hex": "#05263B",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "162,235,252",
-              "hex": "#A2EBFC",
-              "on": "#272727",
+              "RGB": "89,156,175",
+              "hex": "#599CAF",
+              "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "118,182,196",
-              "hex": "#76B6C4",
+              "RGB": "11,70,107",
+              "hex": "#0B466B",
               "on": "#FFFFFF",
             },
           },
@@ -465,18 +465,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
             Object {
               "action": Object {
                 "dark": Object {
-                  "RGB": "0,47,108",
-                  "hex": "#002F6C",
+                  "RGB": "79,38,98",
+                  "hex": "#4E2662",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "98,194,248",
-                  "hex": "#62C2F8",
+                  "RGB": "173,101,207",
+                  "hex": "#AD65CF",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,87,155",
-                  "hex": "#01579B",
+                  "RGB": "116,60,143",
+                  "hex": "#743C8F",
                   "on": "#FFFFFF",
                 },
               },
@@ -513,64 +513,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
               },
               "complimentary": Object {
                 "dark": Object {
-                  "RGB": "250,175,64",
-                  "hex": "#FAAF40",
+                  "RGB": "206,185,0",
+                  "hex": "#CEB900",
                   "on": "#272727",
                 },
                 "light": Object {
-                  "RGB": "249,240,21",
-                  "hex": "#F9F015",
+                  "RGB": "255,245,157",
+                  "hex": "#FFF59D",
                   "on": "#272727",
                 },
                 "main": Object {
-                  "RGB": "253,216,53",
-                  "hex": "#FDD835",
+                  "RGB": "255,238,82",
+                  "hex": "#FFEE52",
                   "on": "#272727",
                 },
               },
               "error": Object {
                 "dark": Object {
-                  "RGB": "143,6,6",
-                  "hex": "#8F0606",
+                  "RGB": "197,73,1",
+                  "hex": "#C54901",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "220,16,16",
-                  "hex": "#DC1010",
+                  "RGB": "255,115,32",
+                  "hex": "#FF7320",
                   "on": "#FFFFFF",
                 },
               },
               "primary": Object {
                 "dark": Object {
-                  "RGB": "11,102,54",
-                  "hex": "#0B6636",
+                  "RGB": "102,22,20",
+                  "hex": "#661614",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "145,208,62",
-                  "hex": "#91D03E",
+                  "RGB": "218,52,47",
+                  "hex": "#DA342F",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,145,68",
-                  "hex": "#019144",
+                  "RGB": "164,40,36",
+                  "hex": "#A42824",
                   "on": "#FFFFFF",
                 },
               },
               "secondary": Object {
                 "dark": Object {
-                  "RGB": "72,140,155",
-                  "hex": "#488C9B",
+                  "RGB": "5,38,59",
+                  "hex": "#05263B",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "162,235,252",
-                  "hex": "#A2EBFC",
-                  "on": "#272727",
+                  "RGB": "89,156,175",
+                  "hex": "#599CAF",
+                  "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "118,182,196",
-                  "hex": "#76B6C4",
+                  "RGB": "11,70,107",
+                  "hex": "#0B466B",
                   "on": "#FFFFFF",
                 },
               },
@@ -595,18 +595,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
                   "theme": Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -643,64 +643,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -718,7 +718,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                 },
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Card__CardHeader-c7vdns-1",
+                  "componentId": "Card__CardHeader-sc-100tkmv-1",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
@@ -732,7 +732,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                 "displayName": "CardHeader",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Card__CardHeader-c7vdns-1",
+                "styledComponentId": "Card__CardHeader-sc-100tkmv-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -744,18 +744,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
               Object {
                 "action": Object {
                   "dark": Object {
-                    "RGB": "0,47,108",
-                    "hex": "#002F6C",
+                    "RGB": "79,38,98",
+                    "hex": "#4E2662",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "98,194,248",
-                    "hex": "#62C2F8",
+                    "RGB": "173,101,207",
+                    "hex": "#AD65CF",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "1,87,155",
-                    "hex": "#01579B",
+                    "RGB": "116,60,143",
+                    "hex": "#743C8F",
                     "on": "#FFFFFF",
                   },
                 },
@@ -792,64 +792,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
                 },
                 "complimentary": Object {
                   "dark": Object {
-                    "RGB": "250,175,64",
-                    "hex": "#FAAF40",
+                    "RGB": "206,185,0",
+                    "hex": "#CEB900",
                     "on": "#272727",
                   },
                   "light": Object {
-                    "RGB": "249,240,21",
-                    "hex": "#F9F015",
+                    "RGB": "255,245,157",
+                    "hex": "#FFF59D",
                     "on": "#272727",
                   },
                   "main": Object {
-                    "RGB": "253,216,53",
-                    "hex": "#FDD835",
+                    "RGB": "255,238,82",
+                    "hex": "#FFEE52",
                     "on": "#272727",
                   },
                 },
                 "error": Object {
                   "dark": Object {
-                    "RGB": "143,6,6",
-                    "hex": "#8F0606",
+                    "RGB": "197,73,1",
+                    "hex": "#C54901",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "220,16,16",
-                    "hex": "#DC1010",
+                    "RGB": "255,115,32",
+                    "hex": "#FF7320",
                     "on": "#FFFFFF",
                   },
                 },
                 "primary": Object {
                   "dark": Object {
-                    "RGB": "11,102,54",
-                    "hex": "#0B6636",
+                    "RGB": "102,22,20",
+                    "hex": "#661614",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "145,208,62",
-                    "hex": "#91D03E",
+                    "RGB": "218,52,47",
+                    "hex": "#DA342F",
                     "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "1,145,68",
-                    "hex": "#019144",
+                    "RGB": "164,40,36",
+                    "hex": "#A42824",
                     "on": "#FFFFFF",
                   },
                 },
                 "secondary": Object {
                   "dark": Object {
-                    "RGB": "72,140,155",
-                    "hex": "#488C9B",
+                    "RGB": "5,38,59",
+                    "hex": "#05263B",
                     "on": "#FFFFFF",
                   },
                   "light": Object {
-                    "RGB": "162,235,252",
-                    "hex": "#A2EBFC",
-                    "on": "#272727",
+                    "RGB": "89,156,175",
+                    "hex": "#599CAF",
+                    "on": "#FFFFFF",
                   },
                   "main": Object {
-                    "RGB": "118,182,196",
-                    "hex": "#76B6C4",
+                    "RGB": "11,70,107",
+                    "hex": "#0B466B",
                     "on": "#FFFFFF",
                   },
                 },
@@ -882,7 +882,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "componentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                   "isStatic": false,
                   "lastClassName": "c2",
                   "rules": Array [
@@ -894,7 +894,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                 "displayName": "CollapsibleContainer",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "styledComponentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -913,7 +913,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Card__CardBody-c7vdns-2",
+                        "componentId": "Card__CardBody-sc-100tkmv-2",
                         "isStatic": false,
                         "lastClassName": "c3",
                         "rules": Array [
@@ -925,7 +925,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                       "displayName": "CardBody",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "styledComponentId": "Card__CardBody-sc-100tkmv-2",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -944,18 +944,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
                   Object {
                     "action": Object {
                       "dark": Object {
-                        "RGB": "0,47,108",
-                        "hex": "#002F6C",
+                        "RGB": "79,38,98",
+                        "hex": "#4E2662",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "98,194,248",
-                        "hex": "#62C2F8",
+                        "RGB": "173,101,207",
+                        "hex": "#AD65CF",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,87,155",
-                        "hex": "#01579B",
+                        "RGB": "116,60,143",
+                        "hex": "#743C8F",
                         "on": "#FFFFFF",
                       },
                     },
@@ -992,64 +992,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
                     },
                     "complimentary": Object {
                       "dark": Object {
-                        "RGB": "250,175,64",
-                        "hex": "#FAAF40",
+                        "RGB": "206,185,0",
+                        "hex": "#CEB900",
                         "on": "#272727",
                       },
                       "light": Object {
-                        "RGB": "249,240,21",
-                        "hex": "#F9F015",
+                        "RGB": "255,245,157",
+                        "hex": "#FFF59D",
                         "on": "#272727",
                       },
                       "main": Object {
-                        "RGB": "253,216,53",
-                        "hex": "#FDD835",
+                        "RGB": "255,238,82",
+                        "hex": "#FFEE52",
                         "on": "#272727",
                       },
                     },
                     "error": Object {
                       "dark": Object {
-                        "RGB": "143,6,6",
-                        "hex": "#8F0606",
+                        "RGB": "197,73,1",
+                        "hex": "#C54901",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "220,16,16",
-                        "hex": "#DC1010",
+                        "RGB": "255,115,32",
+                        "hex": "#FF7320",
                         "on": "#FFFFFF",
                       },
                     },
                     "primary": Object {
                       "dark": Object {
-                        "RGB": "11,102,54",
-                        "hex": "#0B6636",
+                        "RGB": "102,22,20",
+                        "hex": "#661614",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "145,208,62",
-                        "hex": "#91D03E",
+                        "RGB": "218,52,47",
+                        "hex": "#DA342F",
                         "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "1,145,68",
-                        "hex": "#019144",
+                        "RGB": "164,40,36",
+                        "hex": "#A42824",
                         "on": "#FFFFFF",
                       },
                     },
                     "secondary": Object {
                       "dark": Object {
-                        "RGB": "72,140,155",
-                        "hex": "#488C9B",
+                        "RGB": "5,38,59",
+                        "hex": "#05263B",
                         "on": "#FFFFFF",
                       },
                       "light": Object {
-                        "RGB": "162,235,252",
-                        "hex": "#A2EBFC",
-                        "on": "#272727",
+                        "RGB": "89,156,175",
+                        "hex": "#599CAF",
+                        "on": "#FFFFFF",
                       },
                       "main": Object {
-                        "RGB": "118,182,196",
-                        "hex": "#76B6C4",
+                        "RGB": "11,70,107",
+                        "hex": "#0B466B",
                         "on": "#FFFFFF",
                       },
                     },
@@ -1074,18 +1074,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
                         "theme": Object {
                           "action": Object {
                             "dark": Object {
-                              "RGB": "0,47,108",
-                              "hex": "#002F6C",
+                              "RGB": "79,38,98",
+                              "hex": "#4E2662",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "98,194,248",
-                              "hex": "#62C2F8",
+                              "RGB": "173,101,207",
+                              "hex": "#AD65CF",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,87,155",
-                              "hex": "#01579B",
+                              "RGB": "116,60,143",
+                              "hex": "#743C8F",
                               "on": "#FFFFFF",
                             },
                           },
@@ -1122,64 +1122,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
                           },
                           "complimentary": Object {
                             "dark": Object {
-                              "RGB": "250,175,64",
-                              "hex": "#FAAF40",
+                              "RGB": "206,185,0",
+                              "hex": "#CEB900",
                               "on": "#272727",
                             },
                             "light": Object {
-                              "RGB": "249,240,21",
-                              "hex": "#F9F015",
+                              "RGB": "255,245,157",
+                              "hex": "#FFF59D",
                               "on": "#272727",
                             },
                             "main": Object {
-                              "RGB": "253,216,53",
-                              "hex": "#FDD835",
+                              "RGB": "255,238,82",
+                              "hex": "#FFEE52",
                               "on": "#272727",
                             },
                           },
                           "error": Object {
                             "dark": Object {
-                              "RGB": "143,6,6",
-                              "hex": "#8F0606",
+                              "RGB": "197,73,1",
+                              "hex": "#C54901",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "220,16,16",
-                              "hex": "#DC1010",
+                              "RGB": "255,115,32",
+                              "hex": "#FF7320",
                               "on": "#FFFFFF",
                             },
                           },
                           "primary": Object {
                             "dark": Object {
-                              "RGB": "11,102,54",
-                              "hex": "#0B6636",
+                              "RGB": "102,22,20",
+                              "hex": "#661614",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "145,208,62",
-                              "hex": "#91D03E",
+                              "RGB": "218,52,47",
+                              "hex": "#DA342F",
                               "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "1,145,68",
-                              "hex": "#019144",
+                              "RGB": "164,40,36",
+                              "hex": "#A42824",
                               "on": "#FFFFFF",
                             },
                           },
                           "secondary": Object {
                             "dark": Object {
-                              "RGB": "72,140,155",
-                              "hex": "#488C9B",
+                              "RGB": "5,38,59",
+                              "hex": "#05263B",
                               "on": "#FFFFFF",
                             },
                             "light": Object {
-                              "RGB": "162,235,252",
-                              "hex": "#A2EBFC",
-                              "on": "#272727",
+                              "RGB": "89,156,175",
+                              "hex": "#599CAF",
+                              "on": "#FFFFFF",
                             },
                             "main": Object {
-                              "RGB": "118,182,196",
-                              "hex": "#76B6C4",
+                              "RGB": "11,70,107",
+                              "hex": "#0B466B",
                               "on": "#FFFFFF",
                             },
                           },
@@ -1197,7 +1197,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                       },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Card__CardFooter-c7vdns-3",
+                        "componentId": "Card__CardFooter-sc-100tkmv-3",
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
@@ -1209,7 +1209,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                       "displayName": "CardFooter",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Card__CardFooter-c7vdns-3",
+                      "styledComponentId": "Card__CardFooter-sc-100tkmv-3",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1221,18 +1221,18 @@ exports[`Card Component Renders Card with full styling 1`] = `
                     Object {
                       "action": Object {
                         "dark": Object {
-                          "RGB": "0,47,108",
-                          "hex": "#002F6C",
+                          "RGB": "79,38,98",
+                          "hex": "#4E2662",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "98,194,248",
-                          "hex": "#62C2F8",
+                          "RGB": "173,101,207",
+                          "hex": "#AD65CF",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,87,155",
-                          "hex": "#01579B",
+                          "RGB": "116,60,143",
+                          "hex": "#743C8F",
                           "on": "#FFFFFF",
                         },
                       },
@@ -1269,64 +1269,64 @@ exports[`Card Component Renders Card with full styling 1`] = `
                       },
                       "complimentary": Object {
                         "dark": Object {
-                          "RGB": "250,175,64",
-                          "hex": "#FAAF40",
+                          "RGB": "206,185,0",
+                          "hex": "#CEB900",
                           "on": "#272727",
                         },
                         "light": Object {
-                          "RGB": "249,240,21",
-                          "hex": "#F9F015",
+                          "RGB": "255,245,157",
+                          "hex": "#FFF59D",
                           "on": "#272727",
                         },
                         "main": Object {
-                          "RGB": "253,216,53",
-                          "hex": "#FDD835",
+                          "RGB": "255,238,82",
+                          "hex": "#FFEE52",
                           "on": "#272727",
                         },
                       },
                       "error": Object {
                         "dark": Object {
-                          "RGB": "143,6,6",
-                          "hex": "#8F0606",
+                          "RGB": "197,73,1",
+                          "hex": "#C54901",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "220,16,16",
-                          "hex": "#DC1010",
+                          "RGB": "255,115,32",
+                          "hex": "#FF7320",
                           "on": "#FFFFFF",
                         },
                       },
                       "primary": Object {
                         "dark": Object {
-                          "RGB": "11,102,54",
-                          "hex": "#0B6636",
+                          "RGB": "102,22,20",
+                          "hex": "#661614",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "145,208,62",
-                          "hex": "#91D03E",
+                          "RGB": "218,52,47",
+                          "hex": "#DA342F",
                           "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "1,145,68",
-                          "hex": "#019144",
+                          "RGB": "164,40,36",
+                          "hex": "#A42824",
                           "on": "#FFFFFF",
                         },
                       },
                       "secondary": Object {
                         "dark": Object {
-                          "RGB": "72,140,155",
-                          "hex": "#488C9B",
+                          "RGB": "5,38,59",
+                          "hex": "#05263B",
                           "on": "#FFFFFF",
                         },
                         "light": Object {
-                          "RGB": "162,235,252",
-                          "hex": "#A2EBFC",
-                          "on": "#272727",
+                          "RGB": "89,156,175",
+                          "hex": "#599CAF",
+                          "on": "#FFFFFF",
                         },
                         "main": Object {
-                          "RGB": "118,182,196",
-                          "hex": "#76B6C4",
+                          "RGB": "11,70,107",
+                          "hex": "#0B466B",
                           "on": "#FFFFFF",
                         },
                       },
@@ -1362,7 +1362,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
 exports[`Card Component Renders while collapsed 1`] = `
 .c0 {
   width: 100%;
-  border-top: 4px solid #019144;
+  border-top: 4px solid #A42824;
   background-color: #FFFFFF;
 }
 
@@ -1386,18 +1386,18 @@ exports[`Card Component Renders while collapsed 1`] = `
       Object {
         "action": Object {
           "dark": Object {
-            "RGB": "0,47,108",
-            "hex": "#002F6C",
+            "RGB": "79,38,98",
+            "hex": "#4E2662",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "98,194,248",
-            "hex": "#62C2F8",
+            "RGB": "173,101,207",
+            "hex": "#AD65CF",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,87,155",
-            "hex": "#01579B",
+            "RGB": "116,60,143",
+            "hex": "#743C8F",
             "on": "#FFFFFF",
           },
         },
@@ -1434,64 +1434,64 @@ exports[`Card Component Renders while collapsed 1`] = `
         },
         "complimentary": Object {
           "dark": Object {
-            "RGB": "250,175,64",
-            "hex": "#FAAF40",
+            "RGB": "206,185,0",
+            "hex": "#CEB900",
             "on": "#272727",
           },
           "light": Object {
-            "RGB": "249,240,21",
-            "hex": "#F9F015",
+            "RGB": "255,245,157",
+            "hex": "#FFF59D",
             "on": "#272727",
           },
           "main": Object {
-            "RGB": "253,216,53",
-            "hex": "#FDD835",
+            "RGB": "255,238,82",
+            "hex": "#FFEE52",
             "on": "#272727",
           },
         },
         "error": Object {
           "dark": Object {
-            "RGB": "143,6,6",
-            "hex": "#8F0606",
+            "RGB": "197,73,1",
+            "hex": "#C54901",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "220,16,16",
-            "hex": "#DC1010",
+            "RGB": "255,115,32",
+            "hex": "#FF7320",
             "on": "#FFFFFF",
           },
         },
         "primary": Object {
           "dark": Object {
-            "RGB": "11,102,54",
-            "hex": "#0B6636",
+            "RGB": "102,22,20",
+            "hex": "#661614",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "145,208,62",
-            "hex": "#91D03E",
+            "RGB": "218,52,47",
+            "hex": "#DA342F",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,145,68",
-            "hex": "#019144",
+            "RGB": "164,40,36",
+            "hex": "#A42824",
             "on": "#FFFFFF",
           },
         },
         "secondary": Object {
           "dark": Object {
-            "RGB": "72,140,155",
-            "hex": "#488C9B",
+            "RGB": "5,38,59",
+            "hex": "#05263B",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "162,235,252",
-            "hex": "#A2EBFC",
-            "on": "#272727",
+            "RGB": "89,156,175",
+            "hex": "#599CAF",
+            "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "118,182,196",
-            "hex": "#76B6C4",
+            "RGB": "11,70,107",
+            "hex": "#0B466B",
             "on": "#FFFFFF",
           },
         },
@@ -1517,18 +1517,18 @@ exports[`Card Component Renders while collapsed 1`] = `
             "theme": Object {
               "action": Object {
                 "dark": Object {
-                  "RGB": "0,47,108",
-                  "hex": "#002F6C",
+                  "RGB": "79,38,98",
+                  "hex": "#4E2662",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "98,194,248",
-                  "hex": "#62C2F8",
+                  "RGB": "173,101,207",
+                  "hex": "#AD65CF",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,87,155",
-                  "hex": "#01579B",
+                  "RGB": "116,60,143",
+                  "hex": "#743C8F",
                   "on": "#FFFFFF",
                 },
               },
@@ -1565,64 +1565,64 @@ exports[`Card Component Renders while collapsed 1`] = `
               },
               "complimentary": Object {
                 "dark": Object {
-                  "RGB": "250,175,64",
-                  "hex": "#FAAF40",
+                  "RGB": "206,185,0",
+                  "hex": "#CEB900",
                   "on": "#272727",
                 },
                 "light": Object {
-                  "RGB": "249,240,21",
-                  "hex": "#F9F015",
+                  "RGB": "255,245,157",
+                  "hex": "#FFF59D",
                   "on": "#272727",
                 },
                 "main": Object {
-                  "RGB": "253,216,53",
-                  "hex": "#FDD835",
+                  "RGB": "255,238,82",
+                  "hex": "#FFEE52",
                   "on": "#272727",
                 },
               },
               "error": Object {
                 "dark": Object {
-                  "RGB": "143,6,6",
-                  "hex": "#8F0606",
+                  "RGB": "197,73,1",
+                  "hex": "#C54901",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "220,16,16",
-                  "hex": "#DC1010",
+                  "RGB": "255,115,32",
+                  "hex": "#FF7320",
                   "on": "#FFFFFF",
                 },
               },
               "primary": Object {
                 "dark": Object {
-                  "RGB": "11,102,54",
-                  "hex": "#0B6636",
+                  "RGB": "102,22,20",
+                  "hex": "#661614",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "145,208,62",
-                  "hex": "#91D03E",
+                  "RGB": "218,52,47",
+                  "hex": "#DA342F",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,145,68",
-                  "hex": "#019144",
+                  "RGB": "164,40,36",
+                  "hex": "#A42824",
                   "on": "#FFFFFF",
                 },
               },
               "secondary": Object {
                 "dark": Object {
-                  "RGB": "72,140,155",
-                  "hex": "#488C9B",
+                  "RGB": "5,38,59",
+                  "hex": "#05263B",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "162,235,252",
-                  "hex": "#A2EBFC",
-                  "on": "#272727",
+                  "RGB": "89,156,175",
+                  "hex": "#599CAF",
+                  "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "118,182,196",
-                  "hex": "#76B6C4",
+                  "RGB": "11,70,107",
+                  "hex": "#0B466B",
                   "on": "#FFFFFF",
                 },
               },
@@ -1640,7 +1640,7 @@ exports[`Card Component Renders while collapsed 1`] = `
           },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Card__CardContainer-c7vdns-0",
+            "componentId": "Card__CardContainer-sc-100tkmv-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -1658,7 +1658,7 @@ exports[`Card Component Renders while collapsed 1`] = `
           "displayName": "CardContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "styledComponentId": "Card__CardContainer-sc-100tkmv-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -1670,18 +1670,18 @@ exports[`Card Component Renders while collapsed 1`] = `
         Object {
           "action": Object {
             "dark": Object {
-              "RGB": "0,47,108",
-              "hex": "#002F6C",
+              "RGB": "79,38,98",
+              "hex": "#4E2662",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "98,194,248",
-              "hex": "#62C2F8",
+              "RGB": "173,101,207",
+              "hex": "#AD65CF",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,87,155",
-              "hex": "#01579B",
+              "RGB": "116,60,143",
+              "hex": "#743C8F",
               "on": "#FFFFFF",
             },
           },
@@ -1718,64 +1718,64 @@ exports[`Card Component Renders while collapsed 1`] = `
           },
           "complimentary": Object {
             "dark": Object {
-              "RGB": "250,175,64",
-              "hex": "#FAAF40",
+              "RGB": "206,185,0",
+              "hex": "#CEB900",
               "on": "#272727",
             },
             "light": Object {
-              "RGB": "249,240,21",
-              "hex": "#F9F015",
+              "RGB": "255,245,157",
+              "hex": "#FFF59D",
               "on": "#272727",
             },
             "main": Object {
-              "RGB": "253,216,53",
-              "hex": "#FDD835",
+              "RGB": "255,238,82",
+              "hex": "#FFEE52",
               "on": "#272727",
             },
           },
           "error": Object {
             "dark": Object {
-              "RGB": "143,6,6",
-              "hex": "#8F0606",
+              "RGB": "197,73,1",
+              "hex": "#C54901",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "220,16,16",
-              "hex": "#DC1010",
+              "RGB": "255,115,32",
+              "hex": "#FF7320",
               "on": "#FFFFFF",
             },
           },
           "primary": Object {
             "dark": Object {
-              "RGB": "11,102,54",
-              "hex": "#0B6636",
+              "RGB": "102,22,20",
+              "hex": "#661614",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "145,208,62",
-              "hex": "#91D03E",
+              "RGB": "218,52,47",
+              "hex": "#DA342F",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,145,68",
-              "hex": "#019144",
+              "RGB": "164,40,36",
+              "hex": "#A42824",
               "on": "#FFFFFF",
             },
           },
           "secondary": Object {
             "dark": Object {
-              "RGB": "72,140,155",
-              "hex": "#488C9B",
+              "RGB": "5,38,59",
+              "hex": "#05263B",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "162,235,252",
-              "hex": "#A2EBFC",
-              "on": "#272727",
+              "RGB": "89,156,175",
+              "hex": "#599CAF",
+              "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "118,182,196",
-              "hex": "#76B6C4",
+              "RGB": "11,70,107",
+              "hex": "#0B466B",
               "on": "#FFFFFF",
             },
           },
@@ -1805,7 +1805,7 @@ exports[`Card Component Renders while collapsed 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "componentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
@@ -1817,7 +1817,7 @@ exports[`Card Component Renders while collapsed 1`] = `
                 "displayName": "CollapsibleContainer",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "styledComponentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -1836,7 +1836,7 @@ exports[`Card Component Renders while collapsed 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Card__CardBody-c7vdns-2",
+                        "componentId": "Card__CardBody-sc-100tkmv-2",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
@@ -1848,7 +1848,7 @@ exports[`Card Component Renders while collapsed 1`] = `
                       "displayName": "CardBody",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "styledComponentId": "Card__CardBody-sc-100tkmv-2",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1874,7 +1874,7 @@ exports[`Card Component Renders while collapsed 1`] = `
 exports[`Card Component Renders while not collapsed 1`] = `
 .c0 {
   width: 100%;
-  border-top: 4px solid #019144;
+  border-top: 4px solid #A42824;
   background-color: #FFFFFF;
   border-radius: 0 0 10px 10px;
 }
@@ -1896,18 +1896,18 @@ exports[`Card Component Renders while not collapsed 1`] = `
       Object {
         "action": Object {
           "dark": Object {
-            "RGB": "0,47,108",
-            "hex": "#002F6C",
+            "RGB": "79,38,98",
+            "hex": "#4E2662",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "98,194,248",
-            "hex": "#62C2F8",
+            "RGB": "173,101,207",
+            "hex": "#AD65CF",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,87,155",
-            "hex": "#01579B",
+            "RGB": "116,60,143",
+            "hex": "#743C8F",
             "on": "#FFFFFF",
           },
         },
@@ -1944,64 +1944,64 @@ exports[`Card Component Renders while not collapsed 1`] = `
         },
         "complimentary": Object {
           "dark": Object {
-            "RGB": "250,175,64",
-            "hex": "#FAAF40",
+            "RGB": "206,185,0",
+            "hex": "#CEB900",
             "on": "#272727",
           },
           "light": Object {
-            "RGB": "249,240,21",
-            "hex": "#F9F015",
+            "RGB": "255,245,157",
+            "hex": "#FFF59D",
             "on": "#272727",
           },
           "main": Object {
-            "RGB": "253,216,53",
-            "hex": "#FDD835",
+            "RGB": "255,238,82",
+            "hex": "#FFEE52",
             "on": "#272727",
           },
         },
         "error": Object {
           "dark": Object {
-            "RGB": "143,6,6",
-            "hex": "#8F0606",
+            "RGB": "197,73,1",
+            "hex": "#C54901",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "220,16,16",
-            "hex": "#DC1010",
+            "RGB": "255,115,32",
+            "hex": "#FF7320",
             "on": "#FFFFFF",
           },
         },
         "primary": Object {
           "dark": Object {
-            "RGB": "11,102,54",
-            "hex": "#0B6636",
+            "RGB": "102,22,20",
+            "hex": "#661614",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "145,208,62",
-            "hex": "#91D03E",
+            "RGB": "218,52,47",
+            "hex": "#DA342F",
             "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "1,145,68",
-            "hex": "#019144",
+            "RGB": "164,40,36",
+            "hex": "#A42824",
             "on": "#FFFFFF",
           },
         },
         "secondary": Object {
           "dark": Object {
-            "RGB": "72,140,155",
-            "hex": "#488C9B",
+            "RGB": "5,38,59",
+            "hex": "#05263B",
             "on": "#FFFFFF",
           },
           "light": Object {
-            "RGB": "162,235,252",
-            "hex": "#A2EBFC",
-            "on": "#272727",
+            "RGB": "89,156,175",
+            "hex": "#599CAF",
+            "on": "#FFFFFF",
           },
           "main": Object {
-            "RGB": "118,182,196",
-            "hex": "#76B6C4",
+            "RGB": "11,70,107",
+            "hex": "#0B466B",
             "on": "#FFFFFF",
           },
         },
@@ -2026,18 +2026,18 @@ exports[`Card Component Renders while not collapsed 1`] = `
             "theme": Object {
               "action": Object {
                 "dark": Object {
-                  "RGB": "0,47,108",
-                  "hex": "#002F6C",
+                  "RGB": "79,38,98",
+                  "hex": "#4E2662",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "98,194,248",
-                  "hex": "#62C2F8",
+                  "RGB": "173,101,207",
+                  "hex": "#AD65CF",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,87,155",
-                  "hex": "#01579B",
+                  "RGB": "116,60,143",
+                  "hex": "#743C8F",
                   "on": "#FFFFFF",
                 },
               },
@@ -2074,64 +2074,64 @@ exports[`Card Component Renders while not collapsed 1`] = `
               },
               "complimentary": Object {
                 "dark": Object {
-                  "RGB": "250,175,64",
-                  "hex": "#FAAF40",
+                  "RGB": "206,185,0",
+                  "hex": "#CEB900",
                   "on": "#272727",
                 },
                 "light": Object {
-                  "RGB": "249,240,21",
-                  "hex": "#F9F015",
+                  "RGB": "255,245,157",
+                  "hex": "#FFF59D",
                   "on": "#272727",
                 },
                 "main": Object {
-                  "RGB": "253,216,53",
-                  "hex": "#FDD835",
+                  "RGB": "255,238,82",
+                  "hex": "#FFEE52",
                   "on": "#272727",
                 },
               },
               "error": Object {
                 "dark": Object {
-                  "RGB": "143,6,6",
-                  "hex": "#8F0606",
+                  "RGB": "197,73,1",
+                  "hex": "#C54901",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "220,16,16",
-                  "hex": "#DC1010",
+                  "RGB": "255,115,32",
+                  "hex": "#FF7320",
                   "on": "#FFFFFF",
                 },
               },
               "primary": Object {
                 "dark": Object {
-                  "RGB": "11,102,54",
-                  "hex": "#0B6636",
+                  "RGB": "102,22,20",
+                  "hex": "#661614",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "145,208,62",
-                  "hex": "#91D03E",
+                  "RGB": "218,52,47",
+                  "hex": "#DA342F",
                   "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "1,145,68",
-                  "hex": "#019144",
+                  "RGB": "164,40,36",
+                  "hex": "#A42824",
                   "on": "#FFFFFF",
                 },
               },
               "secondary": Object {
                 "dark": Object {
-                  "RGB": "72,140,155",
-                  "hex": "#488C9B",
+                  "RGB": "5,38,59",
+                  "hex": "#05263B",
                   "on": "#FFFFFF",
                 },
                 "light": Object {
-                  "RGB": "162,235,252",
-                  "hex": "#A2EBFC",
-                  "on": "#272727",
+                  "RGB": "89,156,175",
+                  "hex": "#599CAF",
+                  "on": "#FFFFFF",
                 },
                 "main": Object {
-                  "RGB": "118,182,196",
-                  "hex": "#76B6C4",
+                  "RGB": "11,70,107",
+                  "hex": "#0B466B",
                   "on": "#FFFFFF",
                 },
               },
@@ -2149,7 +2149,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
           },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Card__CardContainer-c7vdns-0",
+            "componentId": "Card__CardContainer-sc-100tkmv-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -2167,7 +2167,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
           "displayName": "CardContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Card__CardContainer-c7vdns-0",
+          "styledComponentId": "Card__CardContainer-sc-100tkmv-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -2179,18 +2179,18 @@ exports[`Card Component Renders while not collapsed 1`] = `
         Object {
           "action": Object {
             "dark": Object {
-              "RGB": "0,47,108",
-              "hex": "#002F6C",
+              "RGB": "79,38,98",
+              "hex": "#4E2662",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "98,194,248",
-              "hex": "#62C2F8",
+              "RGB": "173,101,207",
+              "hex": "#AD65CF",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,87,155",
-              "hex": "#01579B",
+              "RGB": "116,60,143",
+              "hex": "#743C8F",
               "on": "#FFFFFF",
             },
           },
@@ -2227,64 +2227,64 @@ exports[`Card Component Renders while not collapsed 1`] = `
           },
           "complimentary": Object {
             "dark": Object {
-              "RGB": "250,175,64",
-              "hex": "#FAAF40",
+              "RGB": "206,185,0",
+              "hex": "#CEB900",
               "on": "#272727",
             },
             "light": Object {
-              "RGB": "249,240,21",
-              "hex": "#F9F015",
+              "RGB": "255,245,157",
+              "hex": "#FFF59D",
               "on": "#272727",
             },
             "main": Object {
-              "RGB": "253,216,53",
-              "hex": "#FDD835",
+              "RGB": "255,238,82",
+              "hex": "#FFEE52",
               "on": "#272727",
             },
           },
           "error": Object {
             "dark": Object {
-              "RGB": "143,6,6",
-              "hex": "#8F0606",
+              "RGB": "197,73,1",
+              "hex": "#C54901",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "220,16,16",
-              "hex": "#DC1010",
+              "RGB": "255,115,32",
+              "hex": "#FF7320",
               "on": "#FFFFFF",
             },
           },
           "primary": Object {
             "dark": Object {
-              "RGB": "11,102,54",
-              "hex": "#0B6636",
+              "RGB": "102,22,20",
+              "hex": "#661614",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "145,208,62",
-              "hex": "#91D03E",
+              "RGB": "218,52,47",
+              "hex": "#DA342F",
               "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "1,145,68",
-              "hex": "#019144",
+              "RGB": "164,40,36",
+              "hex": "#A42824",
               "on": "#FFFFFF",
             },
           },
           "secondary": Object {
             "dark": Object {
-              "RGB": "72,140,155",
-              "hex": "#488C9B",
+              "RGB": "5,38,59",
+              "hex": "#05263B",
               "on": "#FFFFFF",
             },
             "light": Object {
-              "RGB": "162,235,252",
-              "hex": "#A2EBFC",
-              "on": "#272727",
+              "RGB": "89,156,175",
+              "hex": "#599CAF",
+              "on": "#FFFFFF",
             },
             "main": Object {
-              "RGB": "118,182,196",
-              "hex": "#76B6C4",
+              "RGB": "11,70,107",
+              "hex": "#0B466B",
               "on": "#FFFFFF",
             },
           },
@@ -2311,7 +2311,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Card__CollapsibleContainer-c7vdns-4",
+                  "componentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
@@ -2323,7 +2323,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
                 "displayName": "CollapsibleContainer",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Card__CollapsibleContainer-c7vdns-4",
+                "styledComponentId": "Card__CollapsibleContainer-sc-100tkmv-4",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -2342,7 +2342,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Card__CardBody-c7vdns-2",
+                        "componentId": "Card__CardBody-sc-100tkmv-2",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
@@ -2354,7 +2354,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
                       "displayName": "CardBody",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Card__CardBody-c7vdns-2",
+                      "styledComponentId": "Card__CardBody-sc-100tkmv-2",
                       "target": "div",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],

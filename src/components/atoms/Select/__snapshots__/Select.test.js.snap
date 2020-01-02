@@ -22,18 +22,18 @@ exports[`Select Input test match last snapshot 1`] = `
     Object {
       "action": Object {
         "dark": Object {
-          "RGB": "0,47,108",
-          "hex": "#002F6C",
+          "RGB": "79,38,98",
+          "hex": "#4E2662",
           "on": "#FFFFFF",
         },
         "light": Object {
-          "RGB": "98,194,248",
-          "hex": "#62C2F8",
+          "RGB": "173,101,207",
+          "hex": "#AD65CF",
           "on": "#FFFFFF",
         },
         "main": Object {
-          "RGB": "1,87,155",
-          "hex": "#01579B",
+          "RGB": "116,60,143",
+          "hex": "#743C8F",
           "on": "#FFFFFF",
         },
       },
@@ -70,64 +70,64 @@ exports[`Select Input test match last snapshot 1`] = `
       },
       "complimentary": Object {
         "dark": Object {
-          "RGB": "250,175,64",
-          "hex": "#FAAF40",
+          "RGB": "206,185,0",
+          "hex": "#CEB900",
           "on": "#272727",
         },
         "light": Object {
-          "RGB": "249,240,21",
-          "hex": "#F9F015",
+          "RGB": "255,245,157",
+          "hex": "#FFF59D",
           "on": "#272727",
         },
         "main": Object {
-          "RGB": "253,216,53",
-          "hex": "#FDD835",
+          "RGB": "255,238,82",
+          "hex": "#FFEE52",
           "on": "#272727",
         },
       },
       "error": Object {
         "dark": Object {
-          "RGB": "143,6,6",
-          "hex": "#8F0606",
+          "RGB": "197,73,1",
+          "hex": "#C54901",
           "on": "#FFFFFF",
         },
         "main": Object {
-          "RGB": "220,16,16",
-          "hex": "#DC1010",
+          "RGB": "255,115,32",
+          "hex": "#FF7320",
           "on": "#FFFFFF",
         },
       },
       "primary": Object {
         "dark": Object {
-          "RGB": "11,102,54",
-          "hex": "#0B6636",
+          "RGB": "102,22,20",
+          "hex": "#661614",
           "on": "#FFFFFF",
         },
         "light": Object {
-          "RGB": "145,208,62",
-          "hex": "#91D03E",
+          "RGB": "218,52,47",
+          "hex": "#DA342F",
           "on": "#FFFFFF",
         },
         "main": Object {
-          "RGB": "1,145,68",
-          "hex": "#019144",
+          "RGB": "164,40,36",
+          "hex": "#A42824",
           "on": "#FFFFFF",
         },
       },
       "secondary": Object {
         "dark": Object {
-          "RGB": "72,140,155",
-          "hex": "#488C9B",
+          "RGB": "5,38,59",
+          "hex": "#05263B",
           "on": "#FFFFFF",
         },
         "light": Object {
-          "RGB": "162,235,252",
-          "hex": "#A2EBFC",
-          "on": "#272727",
+          "RGB": "89,156,175",
+          "hex": "#599CAF",
+          "on": "#FFFFFF",
         },
         "main": Object {
-          "RGB": "118,182,196",
-          "hex": "#76B6C4",
+          "RGB": "11,70,107",
+          "hex": "#0B466B",
           "on": "#FFFFFF",
         },
       },
@@ -155,8 +155,8 @@ exports[`Select Input test match last snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "Select__Title-sc-118fi0l-0",
-              "isStatic": true,
+              "componentId": "Select__Title-sc-1k8c848-0",
+              "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 "margin-bottom:0.25rem;",
@@ -165,7 +165,7 @@ exports[`Select Input test match last snapshot 1`] = `
             "displayName": "Title",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "Select__Title-sc-118fi0l-0",
+            "styledComponentId": "Select__Title-sc-1k8c848-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -591,7 +591,7 @@ exports[`Select Input test match last snapshot 1`] = `
               }
             >
               <div
-                className="css-1shm9hh-control"
+                className="css-f9pld-control"
                 onMouseDown={[Function]}
                 onTouchEnd={[Function]}
               >
@@ -1523,7 +1523,7 @@ exports[`Select Input test match last snapshot 1`] = `
                     >
                       <div
                         aria-hidden="true"
-                        className="css-ttep6f-indicatorContainer"
+                        className="css-1glwd9m-indicatorContainer"
                         onMouseDown={[Function]}
                         onTouchEnd={[Function]}
                       >

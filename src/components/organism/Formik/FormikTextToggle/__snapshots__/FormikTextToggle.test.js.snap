@@ -75,7 +75,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
   color: #272727;
   font-size: 0.9rem;
   color: #FFFFFF;
-  background-color: #76B6C4;
+  background-color: #0B466B;
 }
 
 .c1 {
@@ -135,7 +135,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
             "WrappedComponent": [Function],
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "Form__StyledFormikForm-qfyxch-0",
+              "componentId": "Form__StyledFormikForm-sc-1i51owr-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
@@ -147,7 +147,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
             "displayName": "StyledFormikForm",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "Form__StyledFormikForm-qfyxch-0",
+            "styledComponentId": "Form__StyledFormikForm-sc-1i51owr-0",
             "target": [Function],
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -284,7 +284,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "FormikTextToggle__Container-sc-16tcfxq-0",
+                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
                             "isStatic": false,
                             "lastClassName": "c1",
                             "rules": Array [
@@ -300,7 +300,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                           "displayName": "FormikTextToggle__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "FormikTextToggle__Container-sc-16tcfxq-0",
+                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -385,7 +385,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "TextToggle__Label-t295pb-0",
+                                    "componentId": "TextToggle__Label-j8u4iq-0",
                                     "isStatic": false,
                                     "lastClassName": "c2",
                                     "rules": Array [
@@ -401,7 +401,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                   "displayName": "Label",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "TextToggle__Label-t295pb-0",
+                                  "styledComponentId": "TextToggle__Label-j8u4iq-0",
                                   "target": "label",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -523,8 +523,8 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                         "$$typeof": Symbol(react.forward_ref),
                                         "attrs": Array [],
                                         "componentStyle": ComponentStyle {
-                                          "componentId": "TextToggle__Toggle-t295pb-1",
-                                          "isStatic": true,
+                                          "componentId": "TextToggle__Toggle-j8u4iq-1",
+                                          "isStatic": false,
                                           "lastClassName": "c3",
                                           "rules": Array [
                                             "opacity:0;width:0;height:0;:checked + div{left:-100%;}",
@@ -533,7 +533,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                         "displayName": "Toggle",
                                         "foldedComponentIds": Array [],
                                         "render": [Function],
-                                        "styledComponentId": "TextToggle__Toggle-t295pb-1",
+                                        "styledComponentId": "TextToggle__Toggle-j8u4iq-1",
                                         "target": "input",
                                         "toString": [Function],
                                         "warnTooManyClasses": [Function],
@@ -570,8 +570,8 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                         "$$typeof": Symbol(react.forward_ref),
                                         "attrs": Array [],
                                         "componentStyle": ComponentStyle {
-                                          "componentId": "TextToggle__SliderContainer-t295pb-2",
-                                          "isStatic": true,
+                                          "componentId": "TextToggle__SliderContainer-j8u4iq-2",
+                                          "isStatic": false,
                                           "lastClassName": "c4",
                                           "rules": Array [
                                             "position:absolute;top:0;left:0;width:200%;height:100%;display:flex;transition:0.3s ease-out;",
@@ -580,7 +580,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                         "displayName": "SliderContainer",
                                         "foldedComponentIds": Array [],
                                         "render": [Function],
-                                        "styledComponentId": "TextToggle__SliderContainer-t295pb-2",
+                                        "styledComponentId": "TextToggle__SliderContainer-j8u4iq-2",
                                         "target": "div",
                                         "toString": [Function],
                                         "warnTooManyClasses": [Function],
@@ -597,18 +597,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                           Object {
                                             "action": Object {
                                               "dark": Object {
-                                                "RGB": "0,47,108",
-                                                "hex": "#002F6C",
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "98,194,248",
-                                                "hex": "#62C2F8",
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "1,87,155",
-                                                "hex": "#01579B",
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
                                                 "on": "#FFFFFF",
                                               },
                                             },
@@ -645,64 +645,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                             },
                                             "complimentary": Object {
                                               "dark": Object {
-                                                "RGB": "250,175,64",
-                                                "hex": "#FAAF40",
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
                                                 "on": "#272727",
                                               },
                                               "light": Object {
-                                                "RGB": "249,240,21",
-                                                "hex": "#F9F015",
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
                                                 "on": "#272727",
                                               },
                                               "main": Object {
-                                                "RGB": "253,216,53",
-                                                "hex": "#FDD835",
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
                                                 "on": "#272727",
                                               },
                                             },
                                             "error": Object {
                                               "dark": Object {
-                                                "RGB": "143,6,6",
-                                                "hex": "#8F0606",
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "220,16,16",
-                                                "hex": "#DC1010",
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
                                                 "on": "#FFFFFF",
                                               },
                                             },
                                             "primary": Object {
                                               "dark": Object {
-                                                "RGB": "11,102,54",
-                                                "hex": "#0B6636",
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "145,208,62",
-                                                "hex": "#91D03E",
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "1,145,68",
-                                                "hex": "#019144",
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
                                                 "on": "#FFFFFF",
                                               },
                                             },
                                             "secondary": Object {
                                               "dark": Object {
-                                                "RGB": "72,140,155",
-                                                "hex": "#488C9B",
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "162,235,252",
-                                                "hex": "#A2EBFC",
-                                                "on": "#272727",
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "118,182,196",
-                                                "hex": "#76B6C4",
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
                                                 "on": "#FFFFFF",
                                               },
                                             },
@@ -727,18 +727,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                                 "theme": Object {
                                                   "action": Object {
                                                     "dark": Object {
-                                                      "RGB": "0,47,108",
-                                                      "hex": "#002F6C",
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "98,194,248",
-                                                      "hex": "#62C2F8",
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "1,87,155",
-                                                      "hex": "#01579B",
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
@@ -775,64 +775,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                                   },
                                                   "complimentary": Object {
                                                     "dark": Object {
-                                                      "RGB": "250,175,64",
-                                                      "hex": "#FAAF40",
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
                                                       "on": "#272727",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "249,240,21",
-                                                      "hex": "#F9F015",
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
                                                       "on": "#272727",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "253,216,53",
-                                                      "hex": "#FDD835",
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
                                                       "on": "#272727",
                                                     },
                                                   },
                                                   "error": Object {
                                                     "dark": Object {
-                                                      "RGB": "143,6,6",
-                                                      "hex": "#8F0606",
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "220,16,16",
-                                                      "hex": "#DC1010",
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
                                                   "primary": Object {
                                                     "dark": Object {
-                                                      "RGB": "11,102,54",
-                                                      "hex": "#0B6636",
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "145,208,62",
-                                                      "hex": "#91D03E",
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "1,145,68",
-                                                      "hex": "#019144",
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
                                                   "secondary": Object {
                                                     "dark": Object {
-                                                      "RGB": "72,140,155",
-                                                      "hex": "#488C9B",
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "162,235,252",
-                                                      "hex": "#A2EBFC",
-                                                      "on": "#272727",
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "118,182,196",
-                                                      "hex": "#76B6C4",
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
@@ -850,7 +850,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               },
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "TextToggle__Slider-t295pb-3",
+                                                "componentId": "TextToggle__Slider-j8u4iq-3",
                                                 "isStatic": false,
                                                 "lastClassName": "c5",
                                                 "rules": Array [
@@ -864,7 +864,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               "displayName": "Slider",
                                               "foldedComponentIds": Array [],
                                               "render": [Function],
-                                              "styledComponentId": "TextToggle__Slider-t295pb-3",
+                                              "styledComponentId": "TextToggle__Slider-j8u4iq-3",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -876,18 +876,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                             Object {
                                               "action": Object {
                                                 "dark": Object {
-                                                  "RGB": "0,47,108",
-                                                  "hex": "#002F6C",
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "98,194,248",
-                                                  "hex": "#62C2F8",
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "1,87,155",
-                                                  "hex": "#01579B",
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
@@ -924,64 +924,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               },
                                               "complimentary": Object {
                                                 "dark": Object {
-                                                  "RGB": "250,175,64",
-                                                  "hex": "#FAAF40",
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
                                                   "on": "#272727",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "249,240,21",
-                                                  "hex": "#F9F015",
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
                                                   "on": "#272727",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "253,216,53",
-                                                  "hex": "#FDD835",
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
                                                   "on": "#272727",
                                                 },
                                               },
                                               "error": Object {
                                                 "dark": Object {
-                                                  "RGB": "143,6,6",
-                                                  "hex": "#8F0606",
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "220,16,16",
-                                                  "hex": "#DC1010",
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
                                               "primary": Object {
                                                 "dark": Object {
-                                                  "RGB": "11,102,54",
-                                                  "hex": "#0B6636",
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "145,208,62",
-                                                  "hex": "#91D03E",
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "1,145,68",
-                                                  "hex": "#019144",
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
                                               "secondary": Object {
                                                 "dark": Object {
-                                                  "RGB": "72,140,155",
-                                                  "hex": "#488C9B",
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "162,235,252",
-                                                  "hex": "#A2EBFC",
-                                                  "on": "#272727",
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "118,182,196",
-                                                  "hex": "#76B6C4",
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
@@ -1010,18 +1010,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                           Object {
                                             "action": Object {
                                               "dark": Object {
-                                                "RGB": "0,47,108",
-                                                "hex": "#002F6C",
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "98,194,248",
-                                                "hex": "#62C2F8",
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "1,87,155",
-                                                "hex": "#01579B",
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
                                                 "on": "#FFFFFF",
                                               },
                                             },
@@ -1058,64 +1058,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                             },
                                             "complimentary": Object {
                                               "dark": Object {
-                                                "RGB": "250,175,64",
-                                                "hex": "#FAAF40",
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
                                                 "on": "#272727",
                                               },
                                               "light": Object {
-                                                "RGB": "249,240,21",
-                                                "hex": "#F9F015",
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
                                                 "on": "#272727",
                                               },
                                               "main": Object {
-                                                "RGB": "253,216,53",
-                                                "hex": "#FDD835",
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
                                                 "on": "#272727",
                                               },
                                             },
                                             "error": Object {
                                               "dark": Object {
-                                                "RGB": "143,6,6",
-                                                "hex": "#8F0606",
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "220,16,16",
-                                                "hex": "#DC1010",
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
                                                 "on": "#FFFFFF",
                                               },
                                             },
                                             "primary": Object {
                                               "dark": Object {
-                                                "RGB": "11,102,54",
-                                                "hex": "#0B6636",
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "145,208,62",
-                                                "hex": "#91D03E",
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
                                                 "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "1,145,68",
-                                                "hex": "#019144",
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
                                                 "on": "#FFFFFF",
                                               },
                                             },
                                             "secondary": Object {
                                               "dark": Object {
-                                                "RGB": "72,140,155",
-                                                "hex": "#488C9B",
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
                                                 "on": "#FFFFFF",
                                               },
                                               "light": Object {
-                                                "RGB": "162,235,252",
-                                                "hex": "#A2EBFC",
-                                                "on": "#272727",
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
                                               },
                                               "main": Object {
-                                                "RGB": "118,182,196",
-                                                "hex": "#76B6C4",
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
                                                 "on": "#FFFFFF",
                                               },
                                             },
@@ -1140,18 +1140,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                                 "theme": Object {
                                                   "action": Object {
                                                     "dark": Object {
-                                                      "RGB": "0,47,108",
-                                                      "hex": "#002F6C",
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "98,194,248",
-                                                      "hex": "#62C2F8",
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "1,87,155",
-                                                      "hex": "#01579B",
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
@@ -1188,64 +1188,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                                   },
                                                   "complimentary": Object {
                                                     "dark": Object {
-                                                      "RGB": "250,175,64",
-                                                      "hex": "#FAAF40",
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
                                                       "on": "#272727",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "249,240,21",
-                                                      "hex": "#F9F015",
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
                                                       "on": "#272727",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "253,216,53",
-                                                      "hex": "#FDD835",
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
                                                       "on": "#272727",
                                                     },
                                                   },
                                                   "error": Object {
                                                     "dark": Object {
-                                                      "RGB": "143,6,6",
-                                                      "hex": "#8F0606",
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "220,16,16",
-                                                      "hex": "#DC1010",
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
                                                   "primary": Object {
                                                     "dark": Object {
-                                                      "RGB": "11,102,54",
-                                                      "hex": "#0B6636",
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "145,208,62",
-                                                      "hex": "#91D03E",
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "1,145,68",
-                                                      "hex": "#019144",
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
                                                   "secondary": Object {
                                                     "dark": Object {
-                                                      "RGB": "72,140,155",
-                                                      "hex": "#488C9B",
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
                                                       "on": "#FFFFFF",
                                                     },
                                                     "light": Object {
-                                                      "RGB": "162,235,252",
-                                                      "hex": "#A2EBFC",
-                                                      "on": "#272727",
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
                                                     },
                                                     "main": Object {
-                                                      "RGB": "118,182,196",
-                                                      "hex": "#76B6C4",
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
                                                       "on": "#FFFFFF",
                                                     },
                                                   },
@@ -1263,7 +1263,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               },
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "TextToggle__CheckedSlider-t295pb-4",
+                                                "componentId": "TextToggle__CheckedSlider-j8u4iq-4",
                                                 "isStatic": false,
                                                 "lastClassName": "c6",
                                                 "rules": Array [
@@ -1281,10 +1281,10 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               },
                                               "displayName": "CheckedSlider",
                                               "foldedComponentIds": Array [
-                                                "TextToggle__Slider-t295pb-3",
+                                                "TextToggle__Slider-j8u4iq-3",
                                               ],
                                               "render": [Function],
-                                              "styledComponentId": "TextToggle__CheckedSlider-t295pb-4",
+                                              "styledComponentId": "TextToggle__CheckedSlider-j8u4iq-4",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -1296,18 +1296,18 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                             Object {
                                               "action": Object {
                                                 "dark": Object {
-                                                  "RGB": "0,47,108",
-                                                  "hex": "#002F6C",
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "98,194,248",
-                                                  "hex": "#62C2F8",
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "1,87,155",
-                                                  "hex": "#01579B",
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
@@ -1344,64 +1344,64 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                                               },
                                               "complimentary": Object {
                                                 "dark": Object {
-                                                  "RGB": "250,175,64",
-                                                  "hex": "#FAAF40",
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
                                                   "on": "#272727",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "249,240,21",
-                                                  "hex": "#F9F015",
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
                                                   "on": "#272727",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "253,216,53",
-                                                  "hex": "#FDD835",
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
                                                   "on": "#272727",
                                                 },
                                               },
                                               "error": Object {
                                                 "dark": Object {
-                                                  "RGB": "143,6,6",
-                                                  "hex": "#8F0606",
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "220,16,16",
-                                                  "hex": "#DC1010",
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
                                               "primary": Object {
                                                 "dark": Object {
-                                                  "RGB": "11,102,54",
-                                                  "hex": "#0B6636",
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "145,208,62",
-                                                  "hex": "#91D03E",
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "1,145,68",
-                                                  "hex": "#019144",
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
                                                   "on": "#FFFFFF",
                                                 },
                                               },
                                               "secondary": Object {
                                                 "dark": Object {
-                                                  "RGB": "72,140,155",
-                                                  "hex": "#488C9B",
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
                                                   "on": "#FFFFFF",
                                                 },
                                                 "light": Object {
-                                                  "RGB": "162,235,252",
-                                                  "hex": "#A2EBFC",
-                                                  "on": "#272727",
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
                                                 },
                                                 "main": Object {
-                                                  "RGB": "118,182,196",
-                                                  "hex": "#76B6C4",
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
                                                   "on": "#FFFFFF",
                                                 },
                                               },

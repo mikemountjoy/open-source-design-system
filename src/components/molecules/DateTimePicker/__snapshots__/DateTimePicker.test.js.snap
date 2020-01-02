@@ -2,7 +2,7 @@
 
 exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
 <DateTimePickerContainer>
-  <DatePicker
+  <t
     allowSameDay={false}
     dateFormat="do MMM yyyy HH:mm"
     dateFormatCalendar="LLLL yyyy"
@@ -13,21 +13,12 @@ exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
     maxDate={1996-01-01T12:45:00.000Z}
     minDate={1995-12-11T12:45:00.000Z}
     monthsShown={1}
-    nextMonthButtonLabel="Next month"
+    nextMonthButtonLabel="Next Month"
+    nextYearButtonLabel="Next Year"
     onBlur={[Function]}
-    onChange={
-      [MockFunction] {
-        "calls": Array [
-          Array [],
-        ],
-        "results": Array [
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-        ],
-      }
-    }
+    onCalendarClose={[Function]}
+    onCalendarOpen={[Function]}
+    onChange={[MockFunction]}
     onClickOutside={[Function]}
     onFocus={[Function]}
     onInputClick={[Function]}
@@ -38,11 +29,15 @@ exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
     onYearChange={[Function]}
     preventOpenOnFocus={false}
     previousMonthButtonLabel="Previous Month"
+    previousYearButtonLabel="Previous Year"
     readOnly={false}
     renderDayContents={[Function]}
     selected={1995-12-12T12:45:00.000Z}
     shouldCloseOnSelect={true}
     showMonthYearPicker={false}
+    showPopperArrow={true}
+    showPreviousMonths={false}
+    showQuarterYearPicker={false}
     showTimeInput={false}
     showTimeSelect={true}
     showYearDropdown={true}
