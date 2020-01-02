@@ -119,7 +119,10 @@ storiesOf("Table", module)
         checkboxSelection: true,
       },
     ]
-    const rows = [{ name: "Account", key: 1 }, { name: "Survey Name", key: 2 }]
+    const rows = [
+      { name: "Account", key: 1 },
+      { name: "Survey Name", key: 2 },
+    ]
 
     return (
       <Table

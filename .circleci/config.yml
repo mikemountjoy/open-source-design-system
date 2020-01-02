@@ -79,6 +79,8 @@ jobs:
           command: |
             yarn run build
             yarn run build-storybook
+            yarn install && echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+            npm publish && echo "npm succesfully published"
 workflows:
   version: 2
   Build:

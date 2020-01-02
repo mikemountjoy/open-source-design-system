@@ -4,7 +4,10 @@ import "jest-styled-components"
 import StepBar from "./StepBar"
 
 describe("StepBar Component Testing", () => {
-  const steps = [{ order: 1, name: "foo" }, { order: 2, name: "bar" }]
+  const steps = [
+    { order: 1, name: "foo" },
+    { order: 2, name: "bar" },
+  ]
   const currentStep = 2
   const component = shallow(<StepBar steps={steps} currentStep={currentStep} />)
   const componentStyle = mount(<StepBar steps={steps} currentStep={currentStep} />)

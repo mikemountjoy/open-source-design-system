@@ -13,7 +13,10 @@ const items = [
   { key: "world", value: "world" },
   { key: "minion", value: "minion" },
 ]
-const newItems = [{ key: "new", value: "new" }, { key: "items", value: "items" }]
+const newItems = [
+  { key: "new", value: "new" },
+  { key: "items", value: "items" },
+]
 
 describe("FilterableGrid component", () => {
   const component = shallow(<FilterableGrid label={labelText} emptyMessage={empty} items={items} />)
