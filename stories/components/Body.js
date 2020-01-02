@@ -12,7 +12,7 @@ const StyledBody = styled.div`
 const Body = props => {
   const { children } = props
   return (
-    <Theme theme="examplePalette">
+    <Theme>
       <StyledBody>{children}</StyledBody>
     </Theme>
   )
