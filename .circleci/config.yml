@@ -81,6 +81,11 @@ jobs:
             yarn run build-storybook
             yarn install && echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
             npm publish && echo "npm succesfully published"
+      - run:
+          name: deploy
+          command: |
+            aws s3 sync storybook-static/. s3://${S3_BUCKET_NAME} --exact-timestamps --delete --exclude ".git/*"
+            aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*" && echo 'Content published successfully.'
 workflows:
   version: 2
   Build:
