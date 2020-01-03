@@ -22,8 +22,6 @@ To install this repo and use its components, install with yarn.
 yarn add @crcdevops/open-source-design-system
 ```
 
-As this is a private repo, you need to have the npm token in your .npmrc in your root folder in the form of `//registry.npmjs.org/:_authToken=auth_token`. You can find the `auth_token` in the keepass database located in the Corazon repo.
-
 ### Importing Components
 
 Once installation is done, the package.json file will update with the design-system in the
