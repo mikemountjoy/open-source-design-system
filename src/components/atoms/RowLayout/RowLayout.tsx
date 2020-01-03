@@ -1,8 +1,16 @@
 import React from "react"
 import styled from "styled-components"
-import PropTypes from "prop-types"
 
-const StyledRowLayout = styled.div`
+interface IStyledRowLayout {
+  justifyContent: string;
+  alignItems: string;
+  flexWrap: string;
+}
+
+const StyledRowLayout =
+  styled.div <
+  IStyledRowLayout >
+  `
   display: flex;
   justify-content: ${props => (props.justifyContent ? props.justifyContent : "flex-start")};
   align-items: ${props => (props.alignItems ? props.alignItems : "flex-start")};
@@ -13,7 +21,22 @@ const StyledRowLayout = styled.div`
 `
 StyledRowLayout.displayName = "StyledRowLayout"
 
-const RowLayout = ({ id, className, children, justifyContent, alignItems, flexWrap }) => (
+interface IRowLayout {
+  id: string;
+  className: string;
+  justifyContent: string;
+  alignItems: string;
+  flexWrap: string;
+}
+
+const RowLayout: React.SFC<IRowLayout> = ({
+  id,
+  className,
+  children,
+  justifyContent,
+  alignItems,
+  flexWrap,
+}) => (
   <StyledRowLayout
     id={id}
     className={className}
@@ -25,14 +48,5 @@ const RowLayout = ({ id, className, children, justifyContent, alignItems, flexWr
   </StyledRowLayout>
 )
 RowLayout.displayName = "RowLayout"
-
-RowLayout.propTypes = {
-  id: PropTypes.string,
-  className: PropTypes.string,
-  justifyContent: PropTypes.string,
-  alignItems: PropTypes.string,
-  flexWrap: PropTypes.string,
-  children: PropTypes.node,
-}
 
 export default RowLayout
