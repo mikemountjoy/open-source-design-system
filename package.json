@@ -121,6 +121,10 @@
     "jest-styled-components": "^6.3.1",
     "lint-staged": "^9.0.0",
     "prettier": "^1.15.3",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.1.0",
     "typescript": "^3.7.4"
   },
   "description": "",
