@@ -57,5 +57,13 @@
         ]
       }
     }
-  }
+  },
+  "overrides": [{
+    "files": "**/*.ts*",
+    "rules": {
+      "no-undef": "off",
+      "react/forbid-prop-types": 1,
+      "react/prop-types": "off"
+    }
+  }]
 }
