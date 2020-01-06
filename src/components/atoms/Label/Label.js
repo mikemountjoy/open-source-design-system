@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 
 const StyledLabel = styled.label`
   display: block;

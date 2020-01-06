@@ -1,8 +1,8 @@
 import React from "react"
-import { colourPalette } from "brandColours"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import { Theme } from "index"
+import { colourPalette } from "../../brandColours.ts"
 
 const StyledBody = styled.div`
   background-color: ${colourPalette.examplePalette.background.hex};

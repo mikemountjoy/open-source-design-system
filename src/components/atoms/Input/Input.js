@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 
 // Decalre CSS for StyledInput with styled component
 const StyledInput = styled.input`

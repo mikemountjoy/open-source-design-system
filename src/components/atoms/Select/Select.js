@@ -3,7 +3,7 @@ import styled, { withTheme } from "styled-components"
 import PropTypes from "prop-types"
 // Using react-select, read more here. https://github.com/JedWatson/react-select
 import ReactSelect from "react-select"
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 import styles from "./SelectStyles"
 
 const Title = styled.div`

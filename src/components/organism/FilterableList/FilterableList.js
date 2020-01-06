@@ -2,7 +2,7 @@ import React from "react"
 import styled, { withTheme } from "styled-components"
 import PropTypes from "prop-types"
 import ReactSelect, { components } from "react-select"
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 
 // Apply custom styling to react select. https://react-select.com/styles
 export const styles = theme => ({

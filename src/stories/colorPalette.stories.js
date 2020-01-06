@@ -2,7 +2,7 @@ import React from "react"
 import { withTheme } from "styled-components"
 import PropTypes from "prop-types"
 import { storiesOf } from "@storybook/react"
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../brandColours.ts"
 import {
   PaletteTemplate,
   SinglePaletteTemplate,

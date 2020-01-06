@@ -1,6 +1,6 @@
 import React from "react"
 import { shallow, mount } from "enzyme"
-import RowLayout from "./RowLayout"
+import RowLayout from "./RowLayout.tsx"
 
 describe("RowLayout Component Test", () => {
   it("Match last snapshot", () => {

@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider } from "styled-components"
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 
 const Theme = props => (
   <ThemeProvider theme={props.theme || colourPalette.examplePalette}>

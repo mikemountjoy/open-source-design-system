@@ -7,7 +7,7 @@
     "jest": true,
     "es6": true
   },
-  "plugins": ["react", "jsx-a11y", "prettier"],
+  "plugins": ["react", "jsx-a11y", "prettier", "@typescript-eslint", "import"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",

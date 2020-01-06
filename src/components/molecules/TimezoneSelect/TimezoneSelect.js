@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import { FormikSelect } from "../../organism/Formik"
 import Select from "../../atoms/Select"
 
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 import { timezones } from "./timezones"
 
 const TimezoneContainer = styled.div`

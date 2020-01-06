@@ -1,7 +1,7 @@
 import React from "react"
 import { shallow } from "enzyme"
 import "jest-styled-components"
-import { colourPalette } from "../../../../../brandColours"
+import { colourPalette } from "../../../../../brandColours.ts"
 import CheckboxRenderer from "../CheckboxRenderer"
 
 const theme = {

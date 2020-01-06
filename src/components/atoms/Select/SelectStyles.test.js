@@ -1,4 +1,4 @@
-import { colourPalette } from "../../../brandColours"
+import { colourPalette } from "../../../brandColours.ts"
 import style from "./SelectStyles"
 
 const { secondary, white, black } = colourPalette.examplePalette

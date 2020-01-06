@@ -51,7 +51,7 @@ import Table from "./components/organism/Table"
 import { PageGrid, Column } from "./components/organism/PageLayout"
 
 // Other
-import { colourPalette } from "./brandColours"
+import { colourPalette } from "./brandColours.ts"
 
 export {
   // ==================
