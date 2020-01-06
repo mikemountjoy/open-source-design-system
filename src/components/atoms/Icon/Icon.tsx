@@ -1,38 +1,36 @@
 import React from "react"
-import PropTypes from "prop-types"
 import styled, { withTheme } from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { library } from "@fortawesome/fontawesome-svg-core"
-
-import { colourPalette } from "../../../brandColours"
-
+import { IconProp, library } from "@fortawesome/fontawesome-svg-core"
 import {
-  faCheck,
-  faTimes,
-  faBars,
-  faLongArrowAltDown,
-  faLongArrowAltUp,
-  faUserCircle,
-  faLink,
-  faUnlink,
-  faAngleRight,
   faAngleLeft,
-  faSave,
-  faPlusCircle,
-  faUpload,
-  faFile,
-  faLock,
-  faLockOpen,
-  faEye,
-  faEyeSlash,
-  faUsers,
+  faAngleRight,
+  faBars,
+  faCheck,
+  faCommentDots,
+  faEdit,
   faEnvelope,
   faEnvelopeOpen,
-  faEdit,
+  faEye,
+  faEyeSlash,
+  faFile,
+  faLink,
+  faLock,
+  faLockOpen,
+  faLongArrowAltDown,
+  faLongArrowAltUp,
+  faPlusCircle,
+  faSave,
   faSearch,
-  faCommentDots,
+  faTimes,
+  faUnlink,
+  faUpload,
+  faUserCircle,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
+
+import { colourPalette, ColourPaletteProps } from "../../../brandColours"
 
 library.add(faCheck)
 library.add(faTimes)
@@ -59,27 +57,56 @@ library.add(faEdit)
 library.add(faSearch)
 library.add(faCommentDots)
 
-const IconContainer = styled.div`
+interface IIconContainer {
+  rotateDegrees?: string;
+  isVisible: boolean;
+}
+
+const IconContainer =
+  styled.div <
+  IIconContainer >
+  `
   ${props => props.rotateDegrees && `transform: rotate(${props.rotateDegrees}deg);`}
   ${props => !props.isVisible && "display: none;"}
 `
 IconContainer.displayName = "IconContainer"
 
-const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+interface IStyledFontAwesomeIcon {
+  color: string;
+  shade: string;
+}
+
+const StyledFontAwesomeIcon =
+  styled(FontAwesomeIcon) <
+  IStyledFontAwesomeIcon >
+  `
   color: ${props => props.theme[props.color][props.shade].hex};
   ${props => props.onClick && "cursor: pointer;"}
 `
 StyledFontAwesomeIcon.displayName = "StyledFontAwesomeIcon"
 
-const IconWithTheme = ({
+interface IIconWithTheme {
+  name: IconProp;
+  color: string;
+  shade: string;
+  rotateDegrees?: string;
+  isVisible: boolean;
+  onClick?: () => void;
+  size?: "sm" | "xs" | "lg" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x";
+  theme: ColourPaletteProps;
+  id?: string;
+  className?: string;
+}
+
+const IconWithTheme: React.SFC<IIconWithTheme> = ({
   name,
-  color,
+  color = "black",
   onClick,
-  size,
+  size = "sm",
   rotateDegrees,
-  isVisible,
-  shade,
-  theme,
+  isVisible = true,
+  shade = "main",
+  theme = colourPalette.examplePalette,
   id,
   className,
 }) => (
@@ -95,30 +122,7 @@ const IconWithTheme = ({
   </IconContainer>
 )
 
-// Available sizes
-// https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
-
-IconWithTheme.defaultProps = {
-  color: "black",
-  shade: "main",
-  size: "sm",
-  isVisible: true,
-  theme: colourPalette.examplePalette,
-}
-
 IconWithTheme.displayName = "IconWithTheme"
-IconWithTheme.propTypes = {
-  color: PropTypes.string,
-  shade: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  onClick: PropTypes.func,
-  size: PropTypes.string,
-  rotateDegrees: PropTypes.number,
-  isVisible: PropTypes.bool,
-  id: PropTypes.string,
-  className: PropTypes.string,
-  theme: PropTypes.object,
-}
 
 const Icon = withTheme(IconWithTheme)
 Icon.displayName = "Icon"
