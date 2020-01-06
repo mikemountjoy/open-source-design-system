@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 
 interface IStyledRowLayout {
-  justifyContent: string;
-  alignItems: string;
-  flexWrap: string;
+  justifyContent?: string;
+  alignItems?: string;
+  flexWrap?: string;
 }
 
 const StyledRowLayout =
@@ -21,13 +21,10 @@ const StyledRowLayout =
 `
 StyledRowLayout.displayName = "StyledRowLayout"
 
-interface IRowLayout {
-  id: string;
-  className: string;
-  justifyContent: string;
-  alignItems: string;
-  flexWrap: string;
-  children: React.ReactNode;
+interface IRowLayout extends IStyledRowLayout {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
 }
 
 const RowLayout: React.SFC<IRowLayout> = ({
@@ -37,7 +34,7 @@ const RowLayout: React.SFC<IRowLayout> = ({
   justifyContent,
   alignItems,
   flexWrap,
-}: IRowLayout) => (
+}) => (
   <StyledRowLayout
     id={id}
     className={className}

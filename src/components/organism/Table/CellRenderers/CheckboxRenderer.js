@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Checkbox from "atoms/Checkbox"
+import Checkbox from "../../../atoms/Checkbox"
 
 class CheckboxRenderer extends React.Component {
   handleOnChange = () => this.props.setValue(!this.props.value)

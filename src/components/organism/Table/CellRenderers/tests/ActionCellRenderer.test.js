@@ -3,7 +3,7 @@ import { shallow } from "enzyme"
 import "jest-styled-components"
 
 import { Button } from "index"
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../../../../../brandColours"
 import ActionCellRenderer from "../ActionCellRenderer"
 
 const theme = {

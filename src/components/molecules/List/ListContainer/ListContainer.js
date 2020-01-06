@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../../../../brandColours"
 
 const StyledListContainer = styled.ul`
   border: ${props => (props.border ? `1px solid ${props.theme.black.tint40.hex}` : "none")};

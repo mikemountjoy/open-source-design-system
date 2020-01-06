@@ -103,3 +103,5 @@ export const colourPalette = {
     },
   },
 }
+
+export type ColourPaletteProps = keyof typeof colourPalette 

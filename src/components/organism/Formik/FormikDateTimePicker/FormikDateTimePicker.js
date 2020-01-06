@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import Label from "atoms/Label/Label"
-import DateTimePicker from "molecules/DateTimePicker/DateTimePicker"
+import Label from "../../../atoms/Label/Label"
+import DateTimePicker from "../../../molecules/DateTimePicker/DateTimePicker"
 
 export const ErrorMessage = styled.div`
   font-weight: bold;

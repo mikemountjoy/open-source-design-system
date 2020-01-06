@@ -4,7 +4,7 @@ import styled, { withTheme } from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { library } from "@fortawesome/fontawesome-svg-core"
 
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../../../brandColours"
 
 import {
   faCheck,

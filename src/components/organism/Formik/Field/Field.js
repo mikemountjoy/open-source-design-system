@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Field as FormikField, connect } from "formik"
 import PropTypes from "prop-types"
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../../../../brandColours"
 import ErrorMessage from "../ErrorMessage"
 
 const InputWrapper = styled.div`
