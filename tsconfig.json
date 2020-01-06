@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist",
+        "strict": true,
+        "rootDir": "src",
+        "jsx": "react",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "index": ["src"],
+            "atoms/*": ["src/components/atoms/*"],
+            "molecules/*": ["src/components/molecules/*"],
+            "organism/*": ["src/components/organism/*"],
+            "brandColours": ["src/brandColours"],
+            "zIndexes": ["src/zIndexes"],
+            "mediaQueries": ["src/mediaQueries"],
+            "assets": ["src/assets"]
+        },
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.test.*", "**/*.stories.*"],
+}
