@@ -27,6 +27,7 @@ interface IRowLayout {
   justifyContent: string;
   alignItems: string;
   flexWrap: string;
+  children: React.ReactNode;
 }
 
 const RowLayout: React.SFC<IRowLayout> = ({
@@ -36,7 +37,7 @@ const RowLayout: React.SFC<IRowLayout> = ({
   justifyContent,
   alignItems,
   flexWrap,
-}) => (
+}: IRowLayout) => (
   <StyledRowLayout
     id={id}
     className={className}
