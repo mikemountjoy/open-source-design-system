@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 const StyledParagraph = styled.p`
   margin: ${props => (props.lastParagraph ? "0 0 1.5rem" : "0 0 0.5rem")};

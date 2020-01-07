@@ -1,7 +1,7 @@
 import React from "react"
 import { mount } from "enzyme"
 import "jest-styled-components"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 import { FilterableListWithTheme, styles } from "./FilterableList"
 

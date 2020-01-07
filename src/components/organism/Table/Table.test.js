@@ -3,7 +3,7 @@ import { shallow, mount } from "enzyme"
 import toJson from "enzyme-to-json"
 import { AgGridReact } from "ag-grid-react"
 import "jest-styled-components"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 import { TableWithTheme, gridOptions, Container } from "./Table"
 

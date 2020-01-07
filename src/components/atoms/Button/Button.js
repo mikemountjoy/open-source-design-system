@@ -3,7 +3,7 @@ import styled, { withTheme } from "styled-components"
 import PropTypes from "prop-types"
 
 import Icon from "../Icon"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 // The container has padding so that it accommodates for
 // the new size of the button when it is focused.

@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import { colourPalette } from "../../brandColours.ts"
+import { colourPalette } from "../../brandColours"
 import { RowLayout } from "../../index"
 
 const { primary, secondary, black, error, surface, complimentary } = colourPalette.examplePalette

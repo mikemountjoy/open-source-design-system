@@ -1,7 +1,7 @@
 import React from "react"
 import { shallow } from "enzyme"
 import "jest-styled-components"
-import { colourPalette } from "../../../../../brandColours.ts"
+import { colourPalette } from "../../../../../brandColours"
 import SelectRenderer, { Select } from "../SelectRenderer"
 
 const theme = {

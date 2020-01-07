@@ -1,3 +1,3 @@
-import RowLayout from "./RowLayout.tsx"
+import RowLayout from "./RowLayout"
 
 export default RowLayout

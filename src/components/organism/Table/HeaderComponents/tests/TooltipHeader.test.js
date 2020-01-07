@@ -1,6 +1,6 @@
 import React from "react"
 import { shallow } from "enzyme"
-import { colourPalette } from "../../../../../brandColours.ts"
+import { colourPalette } from "../../../../../brandColours"
 import "jest-styled-components"
 import TooltipHeader, { getCurrentSortIcon } from "../TooltipHeader"
 

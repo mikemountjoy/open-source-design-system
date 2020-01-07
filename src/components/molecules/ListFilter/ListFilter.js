@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import { ListContainer, ListItem } from "../List"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 const SearchWrapper = styled.li`
   border-bottom: 1px solid ${props => props.theme.primary.light.hex};

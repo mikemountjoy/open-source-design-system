@@ -2,7 +2,7 @@ import React from "react"
 import { ErrorMessage as Error } from "formik"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { colourPalette } from "../../../../brandColours.ts"
+import { colourPalette } from "../../../../brandColours"
 
 export const StyledErrorMessage = styled.div`
   font-weight: bold;

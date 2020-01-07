@@ -2,7 +2,7 @@ import { AgGridReact } from "ag-grid-react"
 import React from "react"
 import styled, { withTheme } from "styled-components"
 import PropTypes from "prop-types"
-import { colourPalette } from "../../../brandColours.ts"
+import { colourPalette } from "../../../brandColours"
 
 import CellRenderers from "./CellRenderers"
 import HeaderComponents from "./HeaderComponents"

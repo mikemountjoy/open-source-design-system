@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import { colourPalette } from "../../../../brandColours.ts"
+import { colourPalette } from "../../../../brandColours"
 
 const StyledListItem = styled.li`
   padding: ${props => (props.padding ? "0.5rem 1rem" : "0")};

@@ -1,3 +1,3 @@
-import Icon from "./Icon.tsx"
+import Icon from "./Icon"
 
 export default Icon
