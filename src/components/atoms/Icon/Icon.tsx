@@ -30,7 +30,7 @@ import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
 
-import { colourPalette, ColourPaletteProps } from "../../../brandColours"
+import { colourPalette, IColourPalette } from "../../../brandColours"
 
 library.add(faCheck)
 library.add(faTimes)
@@ -93,7 +93,7 @@ interface IIconWithTheme {
   isVisible: boolean;
   onClick?: () => void;
   size?: SizeProp;
-  theme: object;
+  theme: IColourPalette;
   id?: string;
   className?: string;
 }

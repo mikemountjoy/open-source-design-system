@@ -104,4 +104,33 @@ export const colourPalette = {
   },
 }
 
-export type ColourPaletteProps = keyof typeof colourPalette 
+interface IColourCodes {
+  hex: string;
+  RGB: string;
+  on?: string;
+}
+interface IColourVariations {
+  main: IColourCodes;
+  light?: IColourCodes;
+  dark?: IColourCodes;
+}
+
+interface IBlackVariations {
+  main: IColourCodes;
+  tint80: IColourCodes;
+  tint60: IColourCodes;
+  tint40: IColourCodes;
+  tint20: IColourCodes;
+}
+
+export interface IColourPalette {
+  primary: IColourVariations;
+  secondary: IColourVariations;
+  complimentary: IColourVariations;
+  action: IColourVariations;
+  error: IColourVariations;
+  background: IColourCodes;
+  surface: IColourCodes;
+  white: IColourCodes;
+  black: IBlackVariations;
+}
