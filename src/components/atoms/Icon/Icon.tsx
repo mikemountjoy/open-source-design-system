@@ -59,7 +59,7 @@ library.add(faCommentDots)
 
 interface IIconContainer {
   rotateDegrees?: string;
-  isVisible: boolean;
+  isVisible?: boolean;
 }
 
 const IconContainer =
@@ -87,25 +87,25 @@ StyledFontAwesomeIcon.displayName = "StyledFontAwesomeIcon"
 
 interface IIconWithTheme {
   name: IconProp;
-  color: string;
-  shade: string;
+  color?: string;
+  shade?: string;
   rotateDegrees?: string;
-  isVisible: boolean;
+  isVisible?: boolean;
   onClick?: () => void;
   size?: SizeProp;
-  theme: IColourPalette;
+  theme?: IColourPalette;
   id?: string;
   className?: string;
 }
 
 const IconWithTheme: React.SFC<IIconWithTheme> = ({
   name,
-  color,
+  color = "black",
   onClick,
   size,
   rotateDegrees,
   isVisible,
-  shade,
+  shade = "main",
   theme,
   id,
   className,
