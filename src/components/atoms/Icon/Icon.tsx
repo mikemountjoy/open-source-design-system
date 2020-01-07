@@ -1,6 +1,5 @@
 import React from "react"
 import styled, { withTheme } from "styled-components"
-import { IconProp, library } from "@fortawesome/fontawesome-svg-core"
 import {
   faAngleLeft,
   faAngleRight,
@@ -27,6 +26,7 @@ import {
   faUserCircle,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons"
+import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
 
@@ -92,21 +92,21 @@ interface IIconWithTheme {
   rotateDegrees?: string;
   isVisible: boolean;
   onClick?: () => void;
-  size?: "sm" | "xs" | "lg" | "1x" | "2x" | "3x" | "4x" | "5x" | "6x" | "7x" | "8x" | "9x" | "10x";
-  theme: ColourPaletteProps;
+  size?: SizeProp;
+  theme: object;
   id?: string;
   className?: string;
 }
 
 const IconWithTheme: React.SFC<IIconWithTheme> = ({
   name,
-  color = "black",
+  color,
   onClick,
-  size = "sm",
+  size,
   rotateDegrees,
-  isVisible = true,
-  shade = "main",
-  theme = colourPalette.examplePalette,
+  isVisible,
+  shade,
+  theme,
   id,
   className,
 }) => (
@@ -122,6 +122,13 @@ const IconWithTheme: React.SFC<IIconWithTheme> = ({
   </IconContainer>
 )
 
+IconWithTheme.defaultProps = {
+  color: "black",
+  shade: "main",
+  size: "sm",
+  isVisible: true,
+  theme: colourPalette.examplePalette,
+}
 IconWithTheme.displayName = "IconWithTheme"
 
 const Icon = withTheme(IconWithTheme)
