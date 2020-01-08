@@ -3,9 +3,9 @@
         "target": "es6",
         "module": "commonjs",
         "declaration": true,
+        "declarationMap": true,
         "outDir": "./dist",
         "strict": true,
-        "rootDir": "src",
         "jsx": "react",
         "skipLibCheck": true,
         "esModuleInterop": true,
@@ -27,5 +27,5 @@
         "isolatedModules": true,
     },
     "include": ["src/**/*"],
-    "exclude": ["**/*.test.*", "**/*.stories.*"],
+    "exclude": ["**/*.test.*", "**/*.stories.*"]
 }

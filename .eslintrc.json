@@ -50,7 +50,7 @@
           ["molecules", "./src/components/molecules"],
           ["organism", "./src/components/organism"],
           ["index", "./src"],
-          ["brandColours", "./src/brandColours"],
+          ["brandColours", "./src/brandColours.ts"],
           ["zIndexes", "./src/zIndexes"],
           ["mediaQueries", "./src/mediaQueries"],
           ["assets", "./src/assets"]

@@ -1,8 +1,7 @@
 {
   "presets": [
     "@babel/preset-env",
-    "@babel/preset-react",
-    "@babel/preset-typescript"
+    "@babel/preset-react"
   ],
   "plugins": [
     ["babel-plugin-styled-components"],
@@ -15,9 +14,13 @@
           "atoms": "./src/components/atoms",
           "molecules": "./src/components/molecules",
           "organism": "./src/components/organism",
-          "assets": "./src/assets"
+          "assets": "./src/assets",
+          "brandColours": "./src/brandColours"
         }
       }
     ]
+  ],
+  "ignore": [
+    "**/*.test.*", "**/*.stories.*"
   ]
 }
