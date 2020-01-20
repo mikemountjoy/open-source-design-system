@@ -28,17 +28,14 @@
   "main": "dist/index.js",
   "scripts": {
     "clean-dist": "rm -rf ./dist",
-    "clean-lib": "rm -rf ./lib",
     "start": "react-scripts start",
-    "build": "yarn run clean-dist && babel src -d dist --ignore '**/*.test.js','**/*.stories.js' --extensions '.tsx,.js' && cp src/index.css dist/index.css && cp -a src/assets dist/assets",
+    "build": "yarn clean-dist && yarn tsc && cp src/index.css dist/index.css && cp -a src/assets dist/assets",
     "lint": "node_es/eslint/bin/eslint.js 'src' --ext .js,.jsx",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "build-tsc": "yarn clean-dist && yarn tsc && cp src/index.css dist/index.css && cp -a src/assets dist/assets",
-    "build-webpack": "yarn clean-lib && yarn webpack && cp src/index.css lib/index.css && cp -a src/assets lib/assets"
+    "build-storybook": "build-storybook -s public"
   },
   "lint-staged": {
     "*.{js}": [
