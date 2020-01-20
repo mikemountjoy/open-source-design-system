@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import FilterableList from "organism/FilterableList/FilterableList"
+import FilterableList from "../FilterableList/FilterableList"
 
-import Icon from "atoms/Icon/Icon"
+import Icon from "../../atoms/Icon"
 
 const ApprovedContainer = styled.div`
   display: flex;

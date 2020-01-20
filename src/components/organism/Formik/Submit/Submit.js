@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "formik"
 import PropTypes from "prop-types"
-import Button from "atoms/Button"
+import Button from "../../../atoms/Button"
 
 const CustomSubmit = props => {
   const { formik, children, id, className } = props

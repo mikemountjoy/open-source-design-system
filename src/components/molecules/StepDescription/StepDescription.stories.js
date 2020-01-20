@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { StepDescription } from "index"
+import { StepDescription } from "../../../index"
 
 const stories = storiesOf("Step Description", module)
 

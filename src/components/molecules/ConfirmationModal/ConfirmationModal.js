@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import ReactModal from "react-modal"
 import PropTypes from "prop-types"
-import Button from "atoms/Button"
-import zIndexes from "zIndexes"
-import { colourPalette } from "brandColours"
+import Button from "../../atoms/Button"
+import zIndexes from "../../../zIndexes"
+import { colourPalette } from "../../../brandColours"
 
 export const HeaderBar = styled.div`
   width: 100%;

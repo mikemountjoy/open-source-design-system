@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Button from "atoms/Button"
+import Button from "../../../atoms/Button"
 
 export default class ActionCellRenderer extends React.Component {
   render() {

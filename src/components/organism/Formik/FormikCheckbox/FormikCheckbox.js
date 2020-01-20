@@ -1,9 +1,9 @@
 import React from "react"
 import { connect } from "formik"
-import styled from "styled-components"
-import Label from "atoms/Label"
-import Checkbox from "atoms/Checkbox"
 import PropTypes from "prop-types"
+import styled from "styled-components"
+import Label from "../../../atoms/Label"
+import Checkbox from "../../../atoms/Checkbox"
 
 const Container = styled.div`
   ${props => (props.disabled ? `opacity: 0.3;` : ``)}

@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import Icon from "atoms/Icon/Icon"
-import { colourPalette } from "brandColours"
+import Icon from "../../atoms/Icon/Icon"
+import { colourPalette } from "../../../brandColours"
 
 const StepWrapper = styled.div`
   display: flex;

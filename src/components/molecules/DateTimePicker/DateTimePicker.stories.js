@@ -1,7 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 
-import { DateTimePicker } from "index"
+import { DateTimePicker } from "../../../index"
 
 const stories = storiesOf("DateTimePicker", module)
 

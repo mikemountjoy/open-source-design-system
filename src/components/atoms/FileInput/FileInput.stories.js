@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react"
 
 import { text, select } from "@storybook/addon-knobs"
 
-import { FileInput } from "index"
+import { FileInput } from "../../../index"
 
 const themeDropdown = {
   default: "default",

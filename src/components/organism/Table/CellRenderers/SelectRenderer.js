@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 // Using react-select, read more here. https://github.com/JedWatson/react-select
 import ReactSelect from "react-select"
-import styles from "atoms/Select/SelectStyles"
+import styles from "../../../atoms/Select/SelectStyles"
 
 export class Select extends React.PureComponent {
   renderOptions = () =>

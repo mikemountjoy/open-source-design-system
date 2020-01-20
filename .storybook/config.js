@@ -3,14 +3,13 @@ import React from "react"
 import { configure, addDecorator } from "@storybook/react"
 import { withOptions } from "@storybook/addon-options"
 import { withInfo } from "@storybook/addon-info"
-import { withNotes } from "@storybook/addon-notes"
 import { withKnobs } from "@storybook/addon-knobs"
 import "@storybook/addon-console"
 
-import "../stories/storybook.css"
-import { colourPalette } from "brandColours"
-import { PropTable as TableComponent } from "../stories/components/PropTable"
-import { GlobalContainer } from "../stories/components/GlobalContainer"
+import "../src/stories/storybook.css"
+import { colourPalette } from "../src/brandColours"
+import { PropTable as TableComponent } from "../src/stories/components/PropTable"
+import { GlobalContainer } from "../src/stories/components/GlobalContainer"
 
 const { background, black, white, surface } = colourPalette.examplePalette
 
@@ -98,8 +97,8 @@ addDecorator(storybook => {
 })
 
 // Grabs every file that ends in '.stories.js' in the /stories and src/components dir
-const components = require.context("../src/components", true, /\.stories\.js$/)
-const stories = require.context("../stories", true, /\.stories\.js$/)
+const components = require.context("../src/components", true, /\.stories\.(js|tsx)$/)
+const stories = require.context("../src/stories", true, /\.stories\.(js|tsx)$/)
 
 // Loads the stories into storybook
 function loadStories() {

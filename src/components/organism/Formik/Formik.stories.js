@@ -9,7 +9,7 @@ import {
   FormikCheckbox,
   FormikTextToggle,
   TimezoneSelect,
-} from "index"
+} from "../../../index"
 
 const stories = storiesOf("Forms", module)
 

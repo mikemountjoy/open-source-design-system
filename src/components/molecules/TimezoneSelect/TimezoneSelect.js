@@ -2,10 +2,10 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import { FormikSelect } from "organism/Formik"
-import Select from "atoms/Select"
+import { FormikSelect } from "../../organism/Formik"
+import Select from "../../atoms/Select"
 
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../../../brandColours"
 import { timezones } from "./timezones"
 
 const TimezoneContainer = styled.div`

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "./dist",
+        "strict": true,
+        "jsx": "react",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.test.*", "**/*.stories.*"]
+}

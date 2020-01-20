@@ -1,7 +1,7 @@
+import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
-import { colourPalette } from "brandColours"
-import PropTypes from "prop-types"
+import { colourPalette } from "../../brandColours"
 
 const { black } = colourPalette.examplePalette
 

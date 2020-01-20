@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`List Items Testing Snapshot Testing 1`] = `
+exports[`Theme Testing Snapshot Testing 1`] = `
 <ThemeProvider
   theme={
     Object {

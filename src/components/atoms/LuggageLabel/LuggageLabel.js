@@ -2,8 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import { colourPalette } from "brandColours"
-import Icon from "atoms/Icon/Icon"
+import { colourPalette } from "../../../brandColours"
+import Icon from "../Icon"
 
 const StyledLuggageLabel = styled.div`
   display: inline-block;

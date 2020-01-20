@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { FilterableGrid } from "index"
+import { FilterableGrid } from "../../../index"
 
 const stories = storiesOf("FilterableGrid", module)
 

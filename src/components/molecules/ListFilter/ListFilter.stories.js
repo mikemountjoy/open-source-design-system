@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { ListFilter } from "index"
+import { ListFilter } from "../../../index"
 
 const stories = storiesOf("List", module)
 

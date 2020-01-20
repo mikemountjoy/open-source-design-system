@@ -2,8 +2,8 @@ import React, { Component } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
-import Icon from "atoms/Icon"
-import Tooltip from "atoms/Tooltip"
+import Icon from "../../../atoms/Icon"
+import Tooltip from "../../../atoms/Tooltip"
 
 const Container = styled.div`
   display: flex;

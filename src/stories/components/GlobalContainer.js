@@ -1,6 +1,6 @@
 import React from "react"
-
-import RowLayout from "atoms/RowLayout"
+import PropTypes from "prop-types"
+import RowLayout from "../../components/atoms/RowLayout"
 import { Header } from "./Header"
 import { Body } from "./Body"
 import { Paragraphs } from "./Paragraphs"
@@ -21,6 +21,15 @@ const GlobalContainer = props => {
       </Body>
     </div>
   )
+}
+
+GlobalContainer.propTypes = {
+  title: PropTypes.string,
+  componentName: PropTypes.string,
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+  dos: PropTypes.array,
+  donts: PropTypes.array,
+  children: PropTypes.node,
 }
 
 export { GlobalContainer }

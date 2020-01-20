@@ -2,8 +2,7 @@ import React from "react"
 import { connect } from "formik"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-
-import TextToggle from "atoms/TextToggle"
+import TextToggle from "../../../atoms/TextToggle"
 
 const Container = styled.div`
   align-items: center;

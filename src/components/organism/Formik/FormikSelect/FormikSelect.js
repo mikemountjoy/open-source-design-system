@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "formik"
-import Select from "atoms/Select"
 import PropTypes from "prop-types"
+import Select from "../../../atoms/Select"
 import { StyledErrorMessage } from "../ErrorMessage/ErrorMessage"
 
 export class CustomSelect extends React.PureComponent {

@@ -2,8 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import Label from "atoms/Label"
-import Input from "atoms/Input"
+import Label from "../../atoms/Label"
+import Input from "../../atoms/Input"
 
 // Declare CSS values for Container
 const Container = styled.div`

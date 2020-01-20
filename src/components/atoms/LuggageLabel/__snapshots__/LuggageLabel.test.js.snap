@@ -1036,7 +1036,7 @@ exports[`LuggageLabel Component Test render snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Icon__IconContainer-ap8b0n-0",
+                            "componentId": "Icon__IconContainer-sc-1qver27-0",
                             "isStatic": false,
                             "lastClassName": "c2",
                             "rules": Array [
@@ -1048,7 +1048,7 @@ exports[`LuggageLabel Component Test render snapshot 1`] = `
                           "displayName": "IconContainer",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Icon__IconContainer-ap8b0n-0",
+                          "styledComponentId": "Icon__IconContainer-sc-1qver27-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1200,7 +1200,7 @@ exports[`LuggageLabel Component Test render snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Icon__StyledFontAwesomeIcon-ap8b0n-1",
+                                  "componentId": "Icon__StyledFontAwesomeIcon-sc-1qver27-1",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -1213,7 +1213,7 @@ exports[`LuggageLabel Component Test render snapshot 1`] = `
                                 "displayName": "StyledFontAwesomeIcon",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Icon__StyledFontAwesomeIcon-ap8b0n-1",
+                                "styledComponentId": "Icon__StyledFontAwesomeIcon-sc-1qver27-1",
                                 "target": [Function],
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],

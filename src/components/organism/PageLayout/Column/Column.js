@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import { media } from "mediaQueries"
+import { media } from "../../../../mediaQueries"
 
 const StyledColumn = styled.div`
   width: 100%;

@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
 import { text, number, boolean, select } from "@storybook/addon-knobs"
 
-import { Button } from "index"
+import { Button } from "../../../index"
 
 const stories = storiesOf("Buttons", module)
 

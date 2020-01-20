@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import TextToggle from "atoms/TextToggle"
+import TextToggle from "../../../atoms/TextToggle"
 
 export default class ToggleRenderer extends React.Component {
   handleOnChange = () => {

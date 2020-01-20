@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import TimezoneSelect from "molecules/TimezoneSelect"
+import TimezoneSelect from "../../../molecules/TimezoneSelect"
 
 export default class TimezoneRenderer extends React.Component {
   state = {

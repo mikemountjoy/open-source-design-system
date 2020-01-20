@@ -1,7 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
-import { Button, Card } from "index"
+import { Button, Card } from "../../../index"
 
 const stories = storiesOf("Card", module)
 

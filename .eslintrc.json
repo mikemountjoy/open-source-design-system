@@ -1,13 +1,13 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "prettier/react", "prettier/@typescript-eslint"],
   "env": {
     "browser": true,
     "node": true,
     "jest": true,
     "es6": true
   },
-  "plugins": ["react", "jsx-a11y", "prettier"],
+  "plugins": ["react", "jsx-a11y", "prettier", "@typescript-eslint", "import"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -35,27 +35,37 @@
     "react/forbid-prop-types": 0,
     "react/require-default-props": 0,
     "react/require-extension": 0,
-    "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".ts",".tsx"] }],
     "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": 0,
+    "require-yield": 0,
     "react/prefer-stateless-function": 0,
     "linebreak-style": 0,
-    "import/no-cycle": 1
+    "react/jsx-props-no-spreading": 0,
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
-      "alias": {
-        "map": [
-          ["atoms", "./src/components/atoms"],
-          ["molecules", "./src/components/molecules"],
-          ["organism", "./src/components/organism"],
-          ["index", "./src"],
-          ["brandColours", "./src/brandColours"],
-          ["zIndexes", "./src/zIndexes"],
-          ["mediaQueries", "./src/mediaQueries"],
-          ["assets", "./src/assets"]
-        ]
+      "node": {
+        "extensions": [".js", ".jsx", ".tsx", ".ts"]
       }
     }
-  }
+  },
+  "overrides": [{
+    "files": "**/*.ts*",
+    "rules": {
+      "no-undef": "off",
+      "react/forbid-prop-types": 1,
+      "react/prop-types": "off"
+    }
+  }]
 }
