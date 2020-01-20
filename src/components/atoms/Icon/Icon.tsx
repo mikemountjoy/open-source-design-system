@@ -1,4 +1,4 @@
-import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core"
+import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core";
 import {
   faAngleLeft,
   faAngleRight,
@@ -24,65 +24,59 @@ import {
   faUpload,
   faUserCircle,
   faUsers,
-} from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
-import React from "react"
-import styled, { withTheme } from "styled-components"
-import { colourPalette, IColourPalette } from "../../../brandColours"
+import React from "react";
+import styled, { withTheme } from "styled-components";
+import { colourPalette, IColourPalette } from "../../../brandColours";
 
-library.add(faCheck)
-library.add(faTimes)
-library.add(faBars)
-library.add(faLongArrowAltDown)
-library.add(faLongArrowAltUp)
-library.add(faUserCircle)
-library.add(faLink)
-library.add(faUnlink)
-library.add(faAngleRight)
-library.add(faAngleLeft)
-library.add(faSave)
-library.add(faPlusCircle)
-library.add(faUpload)
-library.add(faFile)
-library.add(faLock)
-library.add(faLockOpen)
-library.add(faEye)
-library.add(faEyeSlash)
-library.add(faUsers)
-library.add(faEnvelope)
-library.add(faEnvelopeOpen)
-library.add(faEdit)
-library.add(faSearch)
-library.add(faCommentDots)
+library.add(faCheck);
+library.add(faTimes);
+library.add(faBars);
+library.add(faLongArrowAltDown);
+library.add(faLongArrowAltUp);
+library.add(faUserCircle);
+library.add(faLink);
+library.add(faUnlink);
+library.add(faAngleRight);
+library.add(faAngleLeft);
+library.add(faSave);
+library.add(faPlusCircle);
+library.add(faUpload);
+library.add(faFile);
+library.add(faLock);
+library.add(faLockOpen);
+library.add(faEye);
+library.add(faEyeSlash);
+library.add(faUsers);
+library.add(faEnvelope);
+library.add(faEnvelopeOpen);
+library.add(faEdit);
+library.add(faSearch);
+library.add(faCommentDots);
 
 interface IIconContainer {
   rotateDegrees?: string;
   isVisible?: boolean;
 }
 
-const IconContainer =
-  styled.div <
-  IIconContainer >
-  `
+const IconContainer = styled.div<IIconContainer>`
   ${props => props.rotateDegrees && `transform: rotate(${props.rotateDegrees}deg);`}
   ${props => !props.isVisible && "display: none;"}
-`
-IconContainer.displayName = "IconContainer"
+`;
+IconContainer.displayName = "IconContainer";
 
 interface IStyledFontAwesomeIcon {
   color: string;
   shade: string;
 }
 
-const StyledFontAwesomeIcon =
-  styled(FontAwesomeIcon) <
-  IStyledFontAwesomeIcon >
-  `
+const StyledFontAwesomeIcon = styled(FontAwesomeIcon)<IStyledFontAwesomeIcon>`
   color: ${props => props.theme[props.color][props.shade].hex};
   ${props => props.onClick && "cursor: pointer;"}
-`
-StyledFontAwesomeIcon.displayName = "StyledFontAwesomeIcon"
+`;
+StyledFontAwesomeIcon.displayName = "StyledFontAwesomeIcon";
 
 interface IIconWithTheme {
   name: IconProp;
@@ -119,7 +113,7 @@ const IconWithTheme: React.SFC<IIconWithTheme> = ({
       size={size}
     />
   </IconContainer>
-)
+);
 
 IconWithTheme.defaultProps = {
   color: "black",
@@ -127,10 +121,10 @@ IconWithTheme.defaultProps = {
   size: "sm",
   isVisible: true,
   theme: colourPalette.examplePalette,
-}
-IconWithTheme.displayName = "IconWithTheme"
+};
+IconWithTheme.displayName = "IconWithTheme";
 
-const Icon = withTheme(IconWithTheme)
-Icon.displayName = "Icon"
+const Icon = withTheme(IconWithTheme);
+Icon.displayName = "Icon";
 
-export default Icon
+export default Icon;

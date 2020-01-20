@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 interface IStyledRowLayout {
   justifyContent?: string;
@@ -7,10 +7,7 @@ interface IStyledRowLayout {
   flexWrap?: string;
 }
 
-const StyledRowLayout =
-  styled.div <
-  IStyledRowLayout >
-  `
+const StyledRowLayout = styled.div<IStyledRowLayout>`
   display: flex;
   justify-content: ${props => (props.justifyContent ? props.justifyContent : "flex-start")};
   align-items: ${props => (props.alignItems ? props.alignItems : "flex-start")};
@@ -18,8 +15,8 @@ const StyledRowLayout =
   > * + * {
     margin-left: 1rem;
   }
-`
-StyledRowLayout.displayName = "StyledRowLayout"
+`;
+StyledRowLayout.displayName = "StyledRowLayout";
 
 interface IRowLayout extends IStyledRowLayout {
   id?: string;
@@ -44,7 +41,7 @@ const RowLayout: React.SFC<IRowLayout> = ({
   >
     {children}
   </StyledRowLayout>
-)
-RowLayout.displayName = "RowLayout"
+);
+RowLayout.displayName = "RowLayout";
 
-export default RowLayout
+export default RowLayout;
