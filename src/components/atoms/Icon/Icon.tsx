@@ -1,5 +1,4 @@
-import React from "react"
-import styled, { withTheme } from "styled-components"
+import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core"
 import {
   faAngleLeft,
   faAngleRight,
@@ -26,10 +25,10 @@ import {
   faUserCircle,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons"
-import { IconProp, library, SizeProp } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
-
+import React from "react"
+import styled, { withTheme } from "styled-components"
 import { colourPalette, IColourPalette } from "../../../brandColours"
 
 library.add(faCheck)

@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "prettier/react", "prettier/@typescript-eslint"],
   "env": {
     "browser": true,
     "node": true,
@@ -25,7 +25,7 @@
     "import/no-webpack-loader-syntax": 0,
     "import/prefer-default-export": 0,
     "jsx-a11y/aria-props": 2,
-    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-for": 2,
     "jsx-a11y/mouse-events-have-key-events": 2,
     "jsx-a11y/role-has-required-aria-props": 2,
     "jsx-a11y/role-supports-aria-props": 2,
@@ -35,26 +35,31 @@
     "react/forbid-prop-types": 0,
     "react/require-default-props": 0,
     "react/require-extension": 0,
-    "react/jsx-filename-extension": [2, { "extensions": [".js", ".tsx"] }],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".ts",".tsx"] }],
     "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": 0,
+    "require-yield": 0,
     "react/prefer-stateless-function": 0,
     "linebreak-style": 0,
-    "import/no-cycle": 1
+    "react/jsx-no-literals": [2, { "noStrings": true }],
+    "react/jsx-no-bind": 2,
+    "react/jsx-props-no-spreading": 0,
+    "react/state-in-constructor": [2, "never"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
-      "alias": {
-        "map": [
-          ["atoms", "./src/components/atoms"],
-          ["molecules", "./src/components/molecules"],
-          ["organism", "./src/components/organism"],
-          ["index", "./src"],
-          ["brandColours", "./src/brandColours.ts"],
-          ["zIndexes", "./src/zIndexes"],
-          ["mediaQueries", "./src/mediaQueries"],
-          ["assets", "./src/assets"]
-        ]
+      "node": {
+        "extensions": [".js", ".jsx", ".tsx", ".ts"]
       }
     }
   },
