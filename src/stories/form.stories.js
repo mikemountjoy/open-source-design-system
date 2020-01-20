@@ -5,7 +5,7 @@ import { storiesOf } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
 import { text, boolean, object } from "@storybook/addon-knobs"
 
-import { FormInput, FormRadio, FormCheckbox, Select, FormikDateTimePicker } from "index"
+import { FormInput, FormRadio, FormCheckbox, Select, FormikDateTimePicker } from "../index"
 
 const Flex = styled.div`
   display: flex;

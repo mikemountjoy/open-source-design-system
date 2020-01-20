@@ -1,7 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 
-import { Tooltip } from "index"
+import { Tooltip } from "../../../index"
 
 const stories = storiesOf("Tooltip", module)
 

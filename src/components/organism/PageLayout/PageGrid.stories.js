@@ -2,7 +2,7 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import styled from "styled-components"
 import { number, array } from "@storybook/addon-knobs"
-import { ListFilter, Card, Button } from "index"
+import { ListFilter, Card, Button } from "../../../index"
 import { colourPalette } from "../../../brandColours"
 import { PageGrid, Column } from "./index"
 

@@ -6,7 +6,7 @@ import { select, number } from "@storybook/addon-knobs"
 import { action } from "@storybook/addon-actions"
 import styled from "styled-components"
 
-import { Select, Icon, colourPalette } from "index"
+import { Select, Icon, colourPalette } from "../../../index"
 
 const options = {
   name: [

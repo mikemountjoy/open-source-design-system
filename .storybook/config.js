@@ -3,12 +3,11 @@ import React from "react"
 import { configure, addDecorator } from "@storybook/react"
 import { withOptions } from "@storybook/addon-options"
 import { withInfo } from "@storybook/addon-info"
-import { withNotes } from "@storybook/addon-notes"
 import { withKnobs } from "@storybook/addon-knobs"
 import "@storybook/addon-console"
 
 import "../src/stories/storybook.css"
-import { colourPalette } from "brandColours"
+import { colourPalette } from "../src/brandColours"
 import { PropTable as TableComponent } from "../src/stories/components/PropTable"
 import { GlobalContainer } from "../src/stories/components/GlobalContainer"
 

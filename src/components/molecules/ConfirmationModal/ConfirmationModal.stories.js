@@ -2,7 +2,7 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import styled from "styled-components"
 
-import { ConfirmationModal } from "index"
+import { ConfirmationModal } from "../../../index"
 
 const ExampleText = styled.h3`
   font-size: 20px;

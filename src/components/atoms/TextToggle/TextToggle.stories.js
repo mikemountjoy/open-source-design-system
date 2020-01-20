@@ -2,7 +2,7 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
 
-import { TextToggle } from "index"
+import { TextToggle } from "../../../index"
 
 const stories = storiesOf("Toggle", module)
 

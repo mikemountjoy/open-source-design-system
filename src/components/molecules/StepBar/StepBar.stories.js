@@ -1,7 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import styled from "styled-components"
-import { StepBar, Button } from "index"
+import { StepBar, Button } from "../../../index"
 
 const stories = storiesOf("Step Bar", module)
 
