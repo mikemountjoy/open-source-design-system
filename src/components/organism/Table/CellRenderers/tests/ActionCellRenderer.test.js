@@ -2,7 +2,7 @@ import React from "react"
 import { shallow } from "enzyme"
 import "jest-styled-components"
 
-import { Button } from "index"
+import { Button } from "../../../../../index"
 import { colourPalette } from "../../../../../brandColours"
 import ActionCellRenderer from "../ActionCellRenderer"
 
