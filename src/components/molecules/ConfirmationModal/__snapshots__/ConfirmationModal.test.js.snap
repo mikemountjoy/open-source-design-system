@@ -446,7 +446,7 @@ exports[`ConfirmationModal Component Test check function in styled components 1`
         },
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "ConfirmationModal__HeaderBar-sc-1676sw0-0",
+          "componentId": "ConfirmationModal__HeaderBar-sc-1lf36yh-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -458,7 +458,7 @@ exports[`ConfirmationModal Component Test check function in styled components 1`
         "displayName": "ConfirmationModal__HeaderBar",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "ConfirmationModal__HeaderBar-sc-1676sw0-0",
+        "styledComponentId": "ConfirmationModal__HeaderBar-sc-1lf36yh-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
