@@ -14,8 +14,11 @@ StyledListItem.displayName = "StyledListItem"
 
 export const ListItem = props => {
   const { children, padding, id, className } = props
+  const styledListItemClassName = className
+    ? `ListItem__StyledListItem ${className}`
+    : "ListItem__StyledListItem"
   return (
-    <StyledListItem padding={padding} id={id} className={className}>
+    <StyledListItem padding={padding} id={id} className={styledListItemClassName}>
       {children}
     </StyledListItem>
   )

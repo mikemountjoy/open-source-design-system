@@ -20,8 +20,14 @@ StyledListContainer.displayName = "StyledListContainer"
 
 const ListContainer = props => {
   const { border, children, endingLine, id, className } = props
+  const styledListContainerClassName = className ? `ListContainer ${className}` : "ListContainer"
   return (
-    <StyledListContainer id={id} className={className} border={border} endingLine={endingLine}>
+    <StyledListContainer
+      id={id}
+      className={styledListContainerClassName}
+      border={border}
+      endingLine={endingLine}
+    >
       {children}
     </StyledListContainer>
   )

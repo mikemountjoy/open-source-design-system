@@ -58,10 +58,12 @@ const Card = props => {
   const { title, children, footer, bodyPadding, boxShadow, collapsed, id, className } = props
   return (
     <CardContainer boxShadow={boxShadow} collapsed={collapsed} id={id} className={className}>
-      {/* If heading exists and it is a string, it will be place in a h2 tag. 
+      {/* If heading exists and it is a string, it will be place in a h2 tag.
       Otherwise, pass a component and control styling yourself */}
       {title ? (
-        <CardHeader>{typeof title === "string" ? <h2>{title}</h2> : title}</CardHeader>
+        <CardHeader className="Card__CardHeader">
+          {typeof title === "string" ? <h2>{title}</h2> : title}
+        </CardHeader>
       ) : null}
       <CollapsibleContainer collapsed={collapsed}>
         <CardBody bodyPadding={bodyPadding}>{children}</CardBody>

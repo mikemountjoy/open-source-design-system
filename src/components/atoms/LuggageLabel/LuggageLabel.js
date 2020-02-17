@@ -57,8 +57,9 @@ StyledLabel.displayName = "StyledLabel"
 
 const LuggageLabel = props => {
   const { editMode, children, onClick, iconColour, iconColourShade, id, className } = props
+  const luggageLabelClassName = className ? `LuggageLabel ${className}` : "LuggageLabel"
   return (
-    <StyledLuggageLabel id={id} className={className}>
+    <StyledLuggageLabel id={id} className={luggageLabelClassName}>
       <StyledLabel>
         {children}
         <Icon
