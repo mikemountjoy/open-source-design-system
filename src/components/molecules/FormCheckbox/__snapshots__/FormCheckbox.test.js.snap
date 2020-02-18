@@ -129,6 +129,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
           >
             <StyledCheckbox
               checked={true}
+              className="Checkbox__StyledCheckbox"
               disabled={true}
               theme={
                 Object {
@@ -258,6 +259,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
             >
               <StyledComponent
                 checked={true}
+                className="Checkbox__StyledCheckbox"
                 disabled={true}
                 forwardedComponent={
                   Object {
@@ -557,7 +559,7 @@ exports[`FormCheckbox test Disabled to match last snapshot 1`] = `
               >
                 <input
                   checked={true}
-                  className="c1"
+                  className="c1 Checkbox__StyledCheckbox"
                   disabled={true}
                   type="checkbox"
                 />
@@ -1103,6 +1105,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
           >
             <StyledCheckbox
               checked={true}
+              className="Checkbox__StyledCheckbox"
               onChange={[Function]}
               theme={
                 Object {
@@ -1232,6 +1235,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
             >
               <StyledComponent
                 checked={true}
+                className="Checkbox__StyledCheckbox"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -1531,7 +1535,7 @@ exports[`FormCheckbox test match last snapshot 1`] = `
               >
                 <input
                   checked={true}
-                  className="c1"
+                  className="c1 Checkbox__StyledCheckbox"
                   onChange={[Function]}
                   type="checkbox"
                 />

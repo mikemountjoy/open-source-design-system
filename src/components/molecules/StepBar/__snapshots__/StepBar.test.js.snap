@@ -116,8 +116,11 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
       <div
         className="c0"
       >
-        <StepWrapper>
+        <StepWrapper
+          className="StepBar__StepWrapper"
+        >
           <StyledComponent
+            className="StepBar__StepWrapper"
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
@@ -143,7 +146,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
             forwardedRef={null}
           >
             <div
-              className="c1"
+              className="c1 StepBar__StepWrapper"
             >
               <StepNumber
                 theme={
@@ -2138,8 +2141,11 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
             />
           </StyledComponent>
         </Line>
-        <StepWrapper>
+        <StepWrapper
+          className="StepBar__StepWrapper"
+        >
           <StyledComponent
+            className="StepBar__StepWrapper"
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
@@ -2165,7 +2171,7 @@ exports[`StepBar Component Testing should match snapshot for styling 1`] = `
             forwardedRef={null}
           >
             <div
-              className="c1"
+              className="c1 StepBar__StepWrapper"
             >
               <StepNumber
                 theme={

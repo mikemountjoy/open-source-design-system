@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
+exports[`FormikTextToggle Component Test Match last snapshot with base props 1`] = `
 .c2 {
   position: relative;
   display: inline-block;
@@ -276,9 +276,11 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                   width="5rem"
                 >
                   <FormikTextToggle__Container
+                    className="FormikTextToggle"
                     row={true}
                   >
                     <StyledComponent
+                      className="FormikTextToggle"
                       forwardedComponent={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
@@ -311,7 +313,7 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                       row={true}
                     >
                       <div
-                        className="c1"
+                        className="c1 FormikTextToggle"
                       >
                         <label
                           htmlFor="testId-textToggle"
@@ -376,10 +378,12 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                           width="5rem"
                         >
                           <Label
+                            className="TextToggle__Label"
                             isDisabled={false}
                             width="5rem"
                           >
                             <StyledComponent
+                              className="TextToggle__Label"
                               forwardedComponent={
                                 Object {
                                   "$$typeof": Symbol(react.forward_ref),
@@ -413,7 +417,2911 @@ exports[`FormikTextToggle Component Test Match last snapshot 1`] = `
                               width="5rem"
                             >
                               <label
-                                className="c2"
+                                className="c2 TextToggle__Label"
+                                width="5rem"
+                              >
+                                <Toggle
+                                  checked={true}
+                                  disabled={false}
+                                  formik={
+                                    Object {
+                                      "dirty": false,
+                                      "errors": Object {},
+                                      "handleBlur": [Function],
+                                      "handleChange": [Function],
+                                      "handleReset": [Function],
+                                      "handleSubmit": [Function],
+                                      "initialValues": Object {
+                                        "test": true,
+                                      },
+                                      "isSubmitting": false,
+                                      "isValid": false,
+                                      "isValidating": false,
+                                      "registerField": [Function],
+                                      "resetForm": [Function],
+                                      "setError": [Function],
+                                      "setErrors": [Function],
+                                      "setFieldError": [Function],
+                                      "setFieldTouched": [Function],
+                                      "setFieldValue": [Function],
+                                      "setFormikState": [Function],
+                                      "setStatus": [Function],
+                                      "setSubmitting": [Function],
+                                      "setTouched": [Function],
+                                      "setValues": [Function],
+                                      "status": undefined,
+                                      "submitCount": 0,
+                                      "submitForm": [Function],
+                                      "touched": Object {
+                                        "test": true,
+                                      },
+                                      "unregisterField": [Function],
+                                      "validate": undefined,
+                                      "validateField": [Function],
+                                      "validateForm": [Function],
+                                      "validateOnBlur": true,
+                                      "validateOnChange": true,
+                                      "validationSchema": undefined,
+                                      "values": Object {
+                                        "test": true,
+                                      },
+                                    }
+                                  }
+                                  id="testId-textToggle"
+                                  label="Test"
+                                  name="test"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value={true}
+                                >
+                                  <StyledComponent
+                                    checked={true}
+                                    disabled={false}
+                                    formik={
+                                      Object {
+                                        "dirty": false,
+                                        "errors": Object {},
+                                        "handleBlur": [Function],
+                                        "handleChange": [Function],
+                                        "handleReset": [Function],
+                                        "handleSubmit": [Function],
+                                        "initialValues": Object {
+                                          "test": true,
+                                        },
+                                        "isSubmitting": false,
+                                        "isValid": false,
+                                        "isValidating": false,
+                                        "registerField": [Function],
+                                        "resetForm": [Function],
+                                        "setError": [Function],
+                                        "setErrors": [Function],
+                                        "setFieldError": [Function],
+                                        "setFieldTouched": [Function],
+                                        "setFieldValue": [Function],
+                                        "setFormikState": [Function],
+                                        "setStatus": [Function],
+                                        "setSubmitting": [Function],
+                                        "setTouched": [Function],
+                                        "setValues": [Function],
+                                        "status": undefined,
+                                        "submitCount": 0,
+                                        "submitForm": [Function],
+                                        "touched": Object {
+                                          "test": true,
+                                        },
+                                        "unregisterField": [Function],
+                                        "validate": undefined,
+                                        "validateField": [Function],
+                                        "validateForm": [Function],
+                                        "validateOnBlur": true,
+                                        "validateOnChange": true,
+                                        "validationSchema": undefined,
+                                        "values": Object {
+                                          "test": true,
+                                        },
+                                      }
+                                    }
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "TextToggle__Toggle-j8u4iq-1",
+                                          "isStatic": false,
+                                          "lastClassName": "c3",
+                                          "rules": Array [
+                                            "opacity:0;width:0;height:0;:checked + div{left:-100%;}",
+                                          ],
+                                        },
+                                        "displayName": "Toggle",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "TextToggle__Toggle-j8u4iq-1",
+                                        "target": "input",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    id="testId-textToggle"
+                                    label="Test"
+                                    name="test"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                    value={true}
+                                  >
+                                    <input
+                                      checked={true}
+                                      className="c3"
+                                      disabled={false}
+                                      id="testId-textToggle"
+                                      label="Test"
+                                      name="test"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                      value={true}
+                                    />
+                                  </StyledComponent>
+                                </Toggle>
+                                <SliderContainer>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "TextToggle__SliderContainer-j8u4iq-2",
+                                          "isStatic": false,
+                                          "lastClassName": "c4",
+                                          "rules": Array [
+                                            "position:absolute;top:0;left:0;width:200%;height:100%;display:flex;transition:0.3s ease-out;",
+                                          ],
+                                        },
+                                        "displayName": "SliderContainer",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "TextToggle__SliderContainer-j8u4iq-2",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <div
+                                      className="c4"
+                                    >
+                                      <Slider
+                                        theme={
+                                          Object {
+                                            "action": Object {
+                                              "dark": Object {
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "background": Object {
+                                              "RGB": "246,246,246",
+                                              "hex": "#F6F6F6",
+                                            },
+                                            "black": Object {
+                                              "main": Object {
+                                                "RGB": "39,39,39",
+                                                "hex": "#272727",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint20": Object {
+                                                "RGB": "236,236,236",
+                                                "hex": "#ECECEC",
+                                                "on": "#272727",
+                                              },
+                                              "tint40": Object {
+                                                "RGB": "199,199,199",
+                                                "hex": "#C7C7C7",
+                                                "on": "#272727",
+                                              },
+                                              "tint60": Object {
+                                                "RGB": "160,160,160",
+                                                "hex": "#A0A0A0",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint80": Object {
+                                                "RGB": "105,105,105",
+                                                "hex": "#696969",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "complimentary": Object {
+                                              "dark": Object {
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
+                                                "on": "#272727",
+                                              },
+                                              "light": Object {
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
+                                                "on": "#272727",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
+                                                "on": "#272727",
+                                              },
+                                            },
+                                            "error": Object {
+                                              "dark": Object {
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "primary": Object {
+                                              "dark": Object {
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "secondary": Object {
+                                              "dark": Object {
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "surface": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                            "white": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "_foldedDefaultProps": Object {
+                                                "theme": Object {
+                                                  "action": Object {
+                                                    "dark": Object {
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "background": Object {
+                                                    "RGB": "246,246,246",
+                                                    "hex": "#F6F6F6",
+                                                  },
+                                                  "black": Object {
+                                                    "main": Object {
+                                                      "RGB": "39,39,39",
+                                                      "hex": "#272727",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint20": Object {
+                                                      "RGB": "236,236,236",
+                                                      "hex": "#ECECEC",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint40": Object {
+                                                      "RGB": "199,199,199",
+                                                      "hex": "#C7C7C7",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint60": Object {
+                                                      "RGB": "160,160,160",
+                                                      "hex": "#A0A0A0",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint80": Object {
+                                                      "RGB": "105,105,105",
+                                                      "hex": "#696969",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "complimentary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
+                                                      "on": "#272727",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
+                                                      "on": "#272727",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
+                                                      "on": "#272727",
+                                                    },
+                                                  },
+                                                  "error": Object {
+                                                    "dark": Object {
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "primary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "secondary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "surface": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                  "white": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                },
+                                              },
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "TextToggle__Slider-j8u4iq-3",
+                                                "isStatic": false,
+                                                "lastClassName": "c5",
+                                                "rules": Array [
+                                                  "display:flex;justify-content:center;align-items:center;width:100%;height:100%;background-color:",
+                                                  [Function],
+                                                  ";color:",
+                                                  [Function],
+                                                  ";font-size:0.9rem;",
+                                                ],
+                                              },
+                                              "displayName": "Slider",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "TextToggle__Slider-j8u4iq-3",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          theme={
+                                            Object {
+                                              "action": Object {
+                                                "dark": Object {
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "background": Object {
+                                                "RGB": "246,246,246",
+                                                "hex": "#F6F6F6",
+                                              },
+                                              "black": Object {
+                                                "main": Object {
+                                                  "RGB": "39,39,39",
+                                                  "hex": "#272727",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint20": Object {
+                                                  "RGB": "236,236,236",
+                                                  "hex": "#ECECEC",
+                                                  "on": "#272727",
+                                                },
+                                                "tint40": Object {
+                                                  "RGB": "199,199,199",
+                                                  "hex": "#C7C7C7",
+                                                  "on": "#272727",
+                                                },
+                                                "tint60": Object {
+                                                  "RGB": "160,160,160",
+                                                  "hex": "#A0A0A0",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint80": Object {
+                                                  "RGB": "105,105,105",
+                                                  "hex": "#696969",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "complimentary": Object {
+                                                "dark": Object {
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
+                                                  "on": "#272727",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
+                                                  "on": "#272727",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
+                                                  "on": "#272727",
+                                                },
+                                              },
+                                              "error": Object {
+                                                "dark": Object {
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "primary": Object {
+                                                "dark": Object {
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "secondary": Object {
+                                                "dark": Object {
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "surface": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                              "white": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            className="c5"
+                                          >
+                                            False
+                                          </div>
+                                        </StyledComponent>
+                                      </Slider>
+                                      <CheckedSlider
+                                        theme={
+                                          Object {
+                                            "action": Object {
+                                              "dark": Object {
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "background": Object {
+                                              "RGB": "246,246,246",
+                                              "hex": "#F6F6F6",
+                                            },
+                                            "black": Object {
+                                              "main": Object {
+                                                "RGB": "39,39,39",
+                                                "hex": "#272727",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint20": Object {
+                                                "RGB": "236,236,236",
+                                                "hex": "#ECECEC",
+                                                "on": "#272727",
+                                              },
+                                              "tint40": Object {
+                                                "RGB": "199,199,199",
+                                                "hex": "#C7C7C7",
+                                                "on": "#272727",
+                                              },
+                                              "tint60": Object {
+                                                "RGB": "160,160,160",
+                                                "hex": "#A0A0A0",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint80": Object {
+                                                "RGB": "105,105,105",
+                                                "hex": "#696969",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "complimentary": Object {
+                                              "dark": Object {
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
+                                                "on": "#272727",
+                                              },
+                                              "light": Object {
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
+                                                "on": "#272727",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
+                                                "on": "#272727",
+                                              },
+                                            },
+                                            "error": Object {
+                                              "dark": Object {
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "primary": Object {
+                                              "dark": Object {
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "secondary": Object {
+                                              "dark": Object {
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "surface": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                            "white": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "_foldedDefaultProps": Object {
+                                                "theme": Object {
+                                                  "action": Object {
+                                                    "dark": Object {
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "background": Object {
+                                                    "RGB": "246,246,246",
+                                                    "hex": "#F6F6F6",
+                                                  },
+                                                  "black": Object {
+                                                    "main": Object {
+                                                      "RGB": "39,39,39",
+                                                      "hex": "#272727",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint20": Object {
+                                                      "RGB": "236,236,236",
+                                                      "hex": "#ECECEC",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint40": Object {
+                                                      "RGB": "199,199,199",
+                                                      "hex": "#C7C7C7",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint60": Object {
+                                                      "RGB": "160,160,160",
+                                                      "hex": "#A0A0A0",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint80": Object {
+                                                      "RGB": "105,105,105",
+                                                      "hex": "#696969",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "complimentary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
+                                                      "on": "#272727",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
+                                                      "on": "#272727",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
+                                                      "on": "#272727",
+                                                    },
+                                                  },
+                                                  "error": Object {
+                                                    "dark": Object {
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "primary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "secondary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "surface": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                  "white": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                },
+                                              },
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "TextToggle__CheckedSlider-j8u4iq-4",
+                                                "isStatic": false,
+                                                "lastClassName": "c6",
+                                                "rules": Array [
+                                                  "display:flex;justify-content:center;align-items:center;width:100%;height:100%;background-color:",
+                                                  [Function],
+                                                  ";color:",
+                                                  [Function],
+                                                  ";font-size:0.9rem;",
+                                                  "color:",
+                                                  [Function],
+                                                  ";background-color:",
+                                                  [Function],
+                                                  ";",
+                                                ],
+                                              },
+                                              "displayName": "CheckedSlider",
+                                              "foldedComponentIds": Array [
+                                                "TextToggle__Slider-j8u4iq-3",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "TextToggle__CheckedSlider-j8u4iq-4",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          theme={
+                                            Object {
+                                              "action": Object {
+                                                "dark": Object {
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "background": Object {
+                                                "RGB": "246,246,246",
+                                                "hex": "#F6F6F6",
+                                              },
+                                              "black": Object {
+                                                "main": Object {
+                                                  "RGB": "39,39,39",
+                                                  "hex": "#272727",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint20": Object {
+                                                  "RGB": "236,236,236",
+                                                  "hex": "#ECECEC",
+                                                  "on": "#272727",
+                                                },
+                                                "tint40": Object {
+                                                  "RGB": "199,199,199",
+                                                  "hex": "#C7C7C7",
+                                                  "on": "#272727",
+                                                },
+                                                "tint60": Object {
+                                                  "RGB": "160,160,160",
+                                                  "hex": "#A0A0A0",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint80": Object {
+                                                  "RGB": "105,105,105",
+                                                  "hex": "#696969",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "complimentary": Object {
+                                                "dark": Object {
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
+                                                  "on": "#272727",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
+                                                  "on": "#272727",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
+                                                  "on": "#272727",
+                                                },
+                                              },
+                                              "error": Object {
+                                                "dark": Object {
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "primary": Object {
+                                                "dark": Object {
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "secondary": Object {
+                                                "dark": Object {
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "surface": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                              "white": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            className="c6"
+                                          >
+                                            Yes
+                                          </div>
+                                        </StyledComponent>
+                                      </CheckedSlider>
+                                    </div>
+                                  </StyledComponent>
+                                </SliderContainer>
+                              </label>
+                            </StyledComponent>
+                          </Label>
+                        </TextToggle>
+                      </div>
+                    </StyledComponent>
+                  </FormikTextToggle__Container>
+                </CustomFormikTextToggle>
+              </FormikTextToggle>
+            </form>
+          </Component>
+        </FormikForm>
+      </StyledComponent>
+    </StyledFormikForm>
+  </Formik>
+</Form>
+`;
+
+exports[`FormikTextToggle Component Test Matches snapshot with classname passed 1`] = `
+.c2 {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 1.75rem;
+  overflow: hidden;
+  border-radius: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.c3 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c3:checked + div {
+  left: -100%;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ECECEC;
+  color: #272727;
+  font-size: 0.9rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ECECEC;
+  color: #272727;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  background-color: #0B466B;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 > * + * {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.c0 > * + * {
+  margin-top: 1.5rem;
+}
+
+<Form
+  handleChange={[MockFunction]}
+  initialValues={
+    Object {
+      "test": true,
+    }
+  }
+  spacing={1.5}
+>
+  <Formik
+    enableReinitialize={true}
+    initialValues={
+      Object {
+        "test": true,
+      }
+    }
+    isInitialValid={false}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <StyledFormikForm
+      spacing={1.5}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "WrappedComponent": [Function],
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Form__StyledFormikForm-sc-1i51owr-0",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "> * + *{margin-top:",
+                [Function],
+                "rem;}",
+              ],
+            },
+            "displayName": "StyledFormikForm",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Form__StyledFormikForm-sc-1i51owr-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        spacing={1.5}
+      >
+        <FormikForm
+          className="c0"
+          spacing={1.5}
+        >
+          <Component
+            className="c0"
+            formik={
+              Object {
+                "dirty": false,
+                "errors": Object {},
+                "handleBlur": [Function],
+                "handleChange": [Function],
+                "handleReset": [Function],
+                "handleSubmit": [Function],
+                "initialValues": Object {
+                  "test": true,
+                },
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "registerField": [Function],
+                "resetForm": [Function],
+                "setError": [Function],
+                "setErrors": [Function],
+                "setFieldError": [Function],
+                "setFieldTouched": [Function],
+                "setFieldValue": [Function],
+                "setFormikState": [Function],
+                "setStatus": [Function],
+                "setSubmitting": [Function],
+                "setTouched": [Function],
+                "setValues": [Function],
+                "status": undefined,
+                "submitCount": 0,
+                "submitForm": [Function],
+                "touched": Object {
+                  "test": true,
+                },
+                "unregisterField": [Function],
+                "validate": undefined,
+                "validateField": [Function],
+                "validateForm": [Function],
+                "validateOnBlur": true,
+                "validateOnChange": true,
+                "validationSchema": undefined,
+                "values": Object {
+                  "test": true,
+                },
+              }
+            }
+            spacing={1.5}
+          >
+            <form
+              className="c0"
+              onReset={[Function]}
+              onSubmit={[Function]}
+              spacing={1.5}
+            >
+              <FormikTextToggle
+                className="testClassName"
+                falseOption="False"
+                id="testId"
+                label="Test"
+                name="test"
+                trueOption="Yes"
+                width="5rem"
+              >
+                <CustomFormikTextToggle
+                  className="testClassName"
+                  falseOption="False"
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "test": true,
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "status": undefined,
+                      "submitCount": 0,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "test": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": undefined,
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "test": true,
+                      },
+                    }
+                  }
+                  id="testId"
+                  label="Test"
+                  name="test"
+                  trueOption="Yes"
+                  width="5rem"
+                >
+                  <FormikTextToggle__Container
+                    className="FormikTextToggle testClassName"
+                    row={true}
+                  >
+                    <StyledComponent
+                      className="FormikTextToggle testClassName"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                            "isStatic": false,
+                            "lastClassName": "c1",
+                            "rules": Array [
+                              "align-items:center;display:flex;flex-flow:",
+                              [Function],
+                              ";align-items:flex-start;> * + *{margin-left:",
+                              [Function],
+                              ";margin-top:",
+                              [Function],
+                              ";}",
+                            ],
+                          },
+                          "displayName": "FormikTextToggle__Container",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      row={true}
+                    >
+                      <div
+                        className="c1 FormikTextToggle testClassName"
+                      >
+                        <label
+                          htmlFor="testId-textToggle"
+                          id="testId"
+                        >
+                          Test
+                        </label>
+                        <TextToggle
+                          falseOption="False"
+                          formik={
+                            Object {
+                              "dirty": false,
+                              "errors": Object {},
+                              "handleBlur": [Function],
+                              "handleChange": [Function],
+                              "handleReset": [Function],
+                              "handleSubmit": [Function],
+                              "initialValues": Object {
+                                "test": true,
+                              },
+                              "isSubmitting": false,
+                              "isValid": false,
+                              "isValidating": false,
+                              "registerField": [Function],
+                              "resetForm": [Function],
+                              "setError": [Function],
+                              "setErrors": [Function],
+                              "setFieldError": [Function],
+                              "setFieldTouched": [Function],
+                              "setFieldValue": [Function],
+                              "setFormikState": [Function],
+                              "setStatus": [Function],
+                              "setSubmitting": [Function],
+                              "setTouched": [Function],
+                              "setValues": [Function],
+                              "status": undefined,
+                              "submitCount": 0,
+                              "submitForm": [Function],
+                              "touched": Object {
+                                "test": true,
+                              },
+                              "unregisterField": [Function],
+                              "validate": undefined,
+                              "validateField": [Function],
+                              "validateForm": [Function],
+                              "validateOnBlur": true,
+                              "validateOnChange": true,
+                              "validationSchema": undefined,
+                              "values": Object {
+                                "test": true,
+                              },
+                            }
+                          }
+                          id="testId-textToggle"
+                          isDisabled={false}
+                          label="Test"
+                          name="test"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          trueOption="Yes"
+                          value={true}
+                          width="5rem"
+                        >
+                          <Label
+                            className="TextToggle__Label"
+                            isDisabled={false}
+                            width="5rem"
+                          >
+                            <StyledComponent
+                              className="TextToggle__Label"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "TextToggle__Label-j8u4iq-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c2",
+                                    "rules": Array [
+                                      "position:relative;display:inline-block;width:",
+                                      [Function],
+                                      ";height:1.75rem;overflow:hidden;border-radius:5px;opacity:",
+                                      [Function],
+                                      ";cursor:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "Label",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "TextToggle__Label-j8u4iq-0",
+                                  "target": "label",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              isDisabled={false}
+                              width="5rem"
+                            >
+                              <label
+                                className="c2 TextToggle__Label"
+                                width="5rem"
+                              >
+                                <Toggle
+                                  checked={true}
+                                  disabled={false}
+                                  formik={
+                                    Object {
+                                      "dirty": false,
+                                      "errors": Object {},
+                                      "handleBlur": [Function],
+                                      "handleChange": [Function],
+                                      "handleReset": [Function],
+                                      "handleSubmit": [Function],
+                                      "initialValues": Object {
+                                        "test": true,
+                                      },
+                                      "isSubmitting": false,
+                                      "isValid": false,
+                                      "isValidating": false,
+                                      "registerField": [Function],
+                                      "resetForm": [Function],
+                                      "setError": [Function],
+                                      "setErrors": [Function],
+                                      "setFieldError": [Function],
+                                      "setFieldTouched": [Function],
+                                      "setFieldValue": [Function],
+                                      "setFormikState": [Function],
+                                      "setStatus": [Function],
+                                      "setSubmitting": [Function],
+                                      "setTouched": [Function],
+                                      "setValues": [Function],
+                                      "status": undefined,
+                                      "submitCount": 0,
+                                      "submitForm": [Function],
+                                      "touched": Object {
+                                        "test": true,
+                                      },
+                                      "unregisterField": [Function],
+                                      "validate": undefined,
+                                      "validateField": [Function],
+                                      "validateForm": [Function],
+                                      "validateOnBlur": true,
+                                      "validateOnChange": true,
+                                      "validationSchema": undefined,
+                                      "values": Object {
+                                        "test": true,
+                                      },
+                                    }
+                                  }
+                                  id="testId-textToggle"
+                                  label="Test"
+                                  name="test"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value={true}
+                                >
+                                  <StyledComponent
+                                    checked={true}
+                                    disabled={false}
+                                    formik={
+                                      Object {
+                                        "dirty": false,
+                                        "errors": Object {},
+                                        "handleBlur": [Function],
+                                        "handleChange": [Function],
+                                        "handleReset": [Function],
+                                        "handleSubmit": [Function],
+                                        "initialValues": Object {
+                                          "test": true,
+                                        },
+                                        "isSubmitting": false,
+                                        "isValid": false,
+                                        "isValidating": false,
+                                        "registerField": [Function],
+                                        "resetForm": [Function],
+                                        "setError": [Function],
+                                        "setErrors": [Function],
+                                        "setFieldError": [Function],
+                                        "setFieldTouched": [Function],
+                                        "setFieldValue": [Function],
+                                        "setFormikState": [Function],
+                                        "setStatus": [Function],
+                                        "setSubmitting": [Function],
+                                        "setTouched": [Function],
+                                        "setValues": [Function],
+                                        "status": undefined,
+                                        "submitCount": 0,
+                                        "submitForm": [Function],
+                                        "touched": Object {
+                                          "test": true,
+                                        },
+                                        "unregisterField": [Function],
+                                        "validate": undefined,
+                                        "validateField": [Function],
+                                        "validateForm": [Function],
+                                        "validateOnBlur": true,
+                                        "validateOnChange": true,
+                                        "validationSchema": undefined,
+                                        "values": Object {
+                                          "test": true,
+                                        },
+                                      }
+                                    }
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "TextToggle__Toggle-j8u4iq-1",
+                                          "isStatic": false,
+                                          "lastClassName": "c3",
+                                          "rules": Array [
+                                            "opacity:0;width:0;height:0;:checked + div{left:-100%;}",
+                                          ],
+                                        },
+                                        "displayName": "Toggle",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "TextToggle__Toggle-j8u4iq-1",
+                                        "target": "input",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    id="testId-textToggle"
+                                    label="Test"
+                                    name="test"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                    value={true}
+                                  >
+                                    <input
+                                      checked={true}
+                                      className="c3"
+                                      disabled={false}
+                                      id="testId-textToggle"
+                                      label="Test"
+                                      name="test"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                      value={true}
+                                    />
+                                  </StyledComponent>
+                                </Toggle>
+                                <SliderContainer>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "TextToggle__SliderContainer-j8u4iq-2",
+                                          "isStatic": false,
+                                          "lastClassName": "c4",
+                                          "rules": Array [
+                                            "position:absolute;top:0;left:0;width:200%;height:100%;display:flex;transition:0.3s ease-out;",
+                                          ],
+                                        },
+                                        "displayName": "SliderContainer",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "TextToggle__SliderContainer-j8u4iq-2",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <div
+                                      className="c4"
+                                    >
+                                      <Slider
+                                        theme={
+                                          Object {
+                                            "action": Object {
+                                              "dark": Object {
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "background": Object {
+                                              "RGB": "246,246,246",
+                                              "hex": "#F6F6F6",
+                                            },
+                                            "black": Object {
+                                              "main": Object {
+                                                "RGB": "39,39,39",
+                                                "hex": "#272727",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint20": Object {
+                                                "RGB": "236,236,236",
+                                                "hex": "#ECECEC",
+                                                "on": "#272727",
+                                              },
+                                              "tint40": Object {
+                                                "RGB": "199,199,199",
+                                                "hex": "#C7C7C7",
+                                                "on": "#272727",
+                                              },
+                                              "tint60": Object {
+                                                "RGB": "160,160,160",
+                                                "hex": "#A0A0A0",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint80": Object {
+                                                "RGB": "105,105,105",
+                                                "hex": "#696969",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "complimentary": Object {
+                                              "dark": Object {
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
+                                                "on": "#272727",
+                                              },
+                                              "light": Object {
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
+                                                "on": "#272727",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
+                                                "on": "#272727",
+                                              },
+                                            },
+                                            "error": Object {
+                                              "dark": Object {
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "primary": Object {
+                                              "dark": Object {
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "secondary": Object {
+                                              "dark": Object {
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "surface": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                            "white": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "_foldedDefaultProps": Object {
+                                                "theme": Object {
+                                                  "action": Object {
+                                                    "dark": Object {
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "background": Object {
+                                                    "RGB": "246,246,246",
+                                                    "hex": "#F6F6F6",
+                                                  },
+                                                  "black": Object {
+                                                    "main": Object {
+                                                      "RGB": "39,39,39",
+                                                      "hex": "#272727",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint20": Object {
+                                                      "RGB": "236,236,236",
+                                                      "hex": "#ECECEC",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint40": Object {
+                                                      "RGB": "199,199,199",
+                                                      "hex": "#C7C7C7",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint60": Object {
+                                                      "RGB": "160,160,160",
+                                                      "hex": "#A0A0A0",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint80": Object {
+                                                      "RGB": "105,105,105",
+                                                      "hex": "#696969",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "complimentary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
+                                                      "on": "#272727",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
+                                                      "on": "#272727",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
+                                                      "on": "#272727",
+                                                    },
+                                                  },
+                                                  "error": Object {
+                                                    "dark": Object {
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "primary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "secondary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "surface": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                  "white": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                },
+                                              },
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "TextToggle__Slider-j8u4iq-3",
+                                                "isStatic": false,
+                                                "lastClassName": "c5",
+                                                "rules": Array [
+                                                  "display:flex;justify-content:center;align-items:center;width:100%;height:100%;background-color:",
+                                                  [Function],
+                                                  ";color:",
+                                                  [Function],
+                                                  ";font-size:0.9rem;",
+                                                ],
+                                              },
+                                              "displayName": "Slider",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "TextToggle__Slider-j8u4iq-3",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          theme={
+                                            Object {
+                                              "action": Object {
+                                                "dark": Object {
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "background": Object {
+                                                "RGB": "246,246,246",
+                                                "hex": "#F6F6F6",
+                                              },
+                                              "black": Object {
+                                                "main": Object {
+                                                  "RGB": "39,39,39",
+                                                  "hex": "#272727",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint20": Object {
+                                                  "RGB": "236,236,236",
+                                                  "hex": "#ECECEC",
+                                                  "on": "#272727",
+                                                },
+                                                "tint40": Object {
+                                                  "RGB": "199,199,199",
+                                                  "hex": "#C7C7C7",
+                                                  "on": "#272727",
+                                                },
+                                                "tint60": Object {
+                                                  "RGB": "160,160,160",
+                                                  "hex": "#A0A0A0",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint80": Object {
+                                                  "RGB": "105,105,105",
+                                                  "hex": "#696969",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "complimentary": Object {
+                                                "dark": Object {
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
+                                                  "on": "#272727",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
+                                                  "on": "#272727",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
+                                                  "on": "#272727",
+                                                },
+                                              },
+                                              "error": Object {
+                                                "dark": Object {
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "primary": Object {
+                                                "dark": Object {
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "secondary": Object {
+                                                "dark": Object {
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "surface": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                              "white": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            className="c5"
+                                          >
+                                            False
+                                          </div>
+                                        </StyledComponent>
+                                      </Slider>
+                                      <CheckedSlider
+                                        theme={
+                                          Object {
+                                            "action": Object {
+                                              "dark": Object {
+                                                "RGB": "79,38,98",
+                                                "hex": "#4E2662",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "173,101,207",
+                                                "hex": "#AD65CF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "116,60,143",
+                                                "hex": "#743C8F",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "background": Object {
+                                              "RGB": "246,246,246",
+                                              "hex": "#F6F6F6",
+                                            },
+                                            "black": Object {
+                                              "main": Object {
+                                                "RGB": "39,39,39",
+                                                "hex": "#272727",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint20": Object {
+                                                "RGB": "236,236,236",
+                                                "hex": "#ECECEC",
+                                                "on": "#272727",
+                                              },
+                                              "tint40": Object {
+                                                "RGB": "199,199,199",
+                                                "hex": "#C7C7C7",
+                                                "on": "#272727",
+                                              },
+                                              "tint60": Object {
+                                                "RGB": "160,160,160",
+                                                "hex": "#A0A0A0",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "tint80": Object {
+                                                "RGB": "105,105,105",
+                                                "hex": "#696969",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "complimentary": Object {
+                                              "dark": Object {
+                                                "RGB": "206,185,0",
+                                                "hex": "#CEB900",
+                                                "on": "#272727",
+                                              },
+                                              "light": Object {
+                                                "RGB": "255,245,157",
+                                                "hex": "#FFF59D",
+                                                "on": "#272727",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,238,82",
+                                                "hex": "#FFEE52",
+                                                "on": "#272727",
+                                              },
+                                            },
+                                            "error": Object {
+                                              "dark": Object {
+                                                "RGB": "197,73,1",
+                                                "hex": "#C54901",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "255,115,32",
+                                                "hex": "#FF7320",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "primary": Object {
+                                              "dark": Object {
+                                                "RGB": "102,22,20",
+                                                "hex": "#661614",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "218,52,47",
+                                                "hex": "#DA342F",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "164,40,36",
+                                                "hex": "#A42824",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "secondary": Object {
+                                              "dark": Object {
+                                                "RGB": "5,38,59",
+                                                "hex": "#05263B",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "light": Object {
+                                                "RGB": "89,156,175",
+                                                "hex": "#599CAF",
+                                                "on": "#FFFFFF",
+                                              },
+                                              "main": Object {
+                                                "RGB": "11,70,107",
+                                                "hex": "#0B466B",
+                                                "on": "#FFFFFF",
+                                              },
+                                            },
+                                            "surface": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                            "white": Object {
+                                              "RGB": "255,255,255",
+                                              "hex": "#FFFFFF",
+                                              "on": "#272727",
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "_foldedDefaultProps": Object {
+                                                "theme": Object {
+                                                  "action": Object {
+                                                    "dark": Object {
+                                                      "RGB": "79,38,98",
+                                                      "hex": "#4E2662",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "173,101,207",
+                                                      "hex": "#AD65CF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "116,60,143",
+                                                      "hex": "#743C8F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "background": Object {
+                                                    "RGB": "246,246,246",
+                                                    "hex": "#F6F6F6",
+                                                  },
+                                                  "black": Object {
+                                                    "main": Object {
+                                                      "RGB": "39,39,39",
+                                                      "hex": "#272727",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint20": Object {
+                                                      "RGB": "236,236,236",
+                                                      "hex": "#ECECEC",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint40": Object {
+                                                      "RGB": "199,199,199",
+                                                      "hex": "#C7C7C7",
+                                                      "on": "#272727",
+                                                    },
+                                                    "tint60": Object {
+                                                      "RGB": "160,160,160",
+                                                      "hex": "#A0A0A0",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "tint80": Object {
+                                                      "RGB": "105,105,105",
+                                                      "hex": "#696969",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "complimentary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "206,185,0",
+                                                      "hex": "#CEB900",
+                                                      "on": "#272727",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "255,245,157",
+                                                      "hex": "#FFF59D",
+                                                      "on": "#272727",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,238,82",
+                                                      "hex": "#FFEE52",
+                                                      "on": "#272727",
+                                                    },
+                                                  },
+                                                  "error": Object {
+                                                    "dark": Object {
+                                                      "RGB": "197,73,1",
+                                                      "hex": "#C54901",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "255,115,32",
+                                                      "hex": "#FF7320",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "primary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "102,22,20",
+                                                      "hex": "#661614",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "218,52,47",
+                                                      "hex": "#DA342F",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "164,40,36",
+                                                      "hex": "#A42824",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "secondary": Object {
+                                                    "dark": Object {
+                                                      "RGB": "5,38,59",
+                                                      "hex": "#05263B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "light": Object {
+                                                      "RGB": "89,156,175",
+                                                      "hex": "#599CAF",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                    "main": Object {
+                                                      "RGB": "11,70,107",
+                                                      "hex": "#0B466B",
+                                                      "on": "#FFFFFF",
+                                                    },
+                                                  },
+                                                  "surface": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                  "white": Object {
+                                                    "RGB": "255,255,255",
+                                                    "hex": "#FFFFFF",
+                                                    "on": "#272727",
+                                                  },
+                                                },
+                                              },
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "TextToggle__CheckedSlider-j8u4iq-4",
+                                                "isStatic": false,
+                                                "lastClassName": "c6",
+                                                "rules": Array [
+                                                  "display:flex;justify-content:center;align-items:center;width:100%;height:100%;background-color:",
+                                                  [Function],
+                                                  ";color:",
+                                                  [Function],
+                                                  ";font-size:0.9rem;",
+                                                  "color:",
+                                                  [Function],
+                                                  ";background-color:",
+                                                  [Function],
+                                                  ";",
+                                                ],
+                                              },
+                                              "displayName": "CheckedSlider",
+                                              "foldedComponentIds": Array [
+                                                "TextToggle__Slider-j8u4iq-3",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "TextToggle__CheckedSlider-j8u4iq-4",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          theme={
+                                            Object {
+                                              "action": Object {
+                                                "dark": Object {
+                                                  "RGB": "79,38,98",
+                                                  "hex": "#4E2662",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "173,101,207",
+                                                  "hex": "#AD65CF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "116,60,143",
+                                                  "hex": "#743C8F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "background": Object {
+                                                "RGB": "246,246,246",
+                                                "hex": "#F6F6F6",
+                                              },
+                                              "black": Object {
+                                                "main": Object {
+                                                  "RGB": "39,39,39",
+                                                  "hex": "#272727",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint20": Object {
+                                                  "RGB": "236,236,236",
+                                                  "hex": "#ECECEC",
+                                                  "on": "#272727",
+                                                },
+                                                "tint40": Object {
+                                                  "RGB": "199,199,199",
+                                                  "hex": "#C7C7C7",
+                                                  "on": "#272727",
+                                                },
+                                                "tint60": Object {
+                                                  "RGB": "160,160,160",
+                                                  "hex": "#A0A0A0",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "tint80": Object {
+                                                  "RGB": "105,105,105",
+                                                  "hex": "#696969",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "complimentary": Object {
+                                                "dark": Object {
+                                                  "RGB": "206,185,0",
+                                                  "hex": "#CEB900",
+                                                  "on": "#272727",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "255,245,157",
+                                                  "hex": "#FFF59D",
+                                                  "on": "#272727",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,238,82",
+                                                  "hex": "#FFEE52",
+                                                  "on": "#272727",
+                                                },
+                                              },
+                                              "error": Object {
+                                                "dark": Object {
+                                                  "RGB": "197,73,1",
+                                                  "hex": "#C54901",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "255,115,32",
+                                                  "hex": "#FF7320",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "primary": Object {
+                                                "dark": Object {
+                                                  "RGB": "102,22,20",
+                                                  "hex": "#661614",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "218,52,47",
+                                                  "hex": "#DA342F",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "164,40,36",
+                                                  "hex": "#A42824",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "secondary": Object {
+                                                "dark": Object {
+                                                  "RGB": "5,38,59",
+                                                  "hex": "#05263B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "light": Object {
+                                                  "RGB": "89,156,175",
+                                                  "hex": "#599CAF",
+                                                  "on": "#FFFFFF",
+                                                },
+                                                "main": Object {
+                                                  "RGB": "11,70,107",
+                                                  "hex": "#0B466B",
+                                                  "on": "#FFFFFF",
+                                                },
+                                              },
+                                              "surface": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                              "white": Object {
+                                                "RGB": "255,255,255",
+                                                "hex": "#FFFFFF",
+                                                "on": "#272727",
+                                              },
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            className="c6"
+                                          >
+                                            Yes
+                                          </div>
+                                        </StyledComponent>
+                                      </CheckedSlider>
+                                    </div>
+                                  </StyledComponent>
+                                </SliderContainer>
+                              </label>
+                            </StyledComponent>
+                          </Label>
+                        </TextToggle>
+                      </div>
+                    </StyledComponent>
+                  </FormikTextToggle__Container>
+                </CustomFormikTextToggle>
+              </FormikTextToggle>
+            </form>
+          </Component>
+        </FormikForm>
+      </StyledComponent>
+    </StyledFormikForm>
+  </Formik>
+</Form>
+`;
+
+exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] = `
+.c2 {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 1.75rem;
+  overflow: hidden;
+  border-radius: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.c3 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c3:checked + div {
+  left: -100%;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ECECEC;
+  color: #272727;
+  font-size: 0.9rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ECECEC;
+  color: #272727;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  background-color: #0B466B;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 > * + * {
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+
+.c0 > * + * {
+  margin-top: 1.5rem;
+}
+
+<Form
+  handleChange={[MockFunction]}
+  initialValues={
+    Object {
+      "test": true,
+    }
+  }
+  spacing={1.5}
+>
+  <Formik
+    enableReinitialize={true}
+    initialValues={
+      Object {
+        "test": true,
+      }
+    }
+    isInitialValid={false}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <StyledFormikForm
+      spacing={1.5}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "WrappedComponent": [Function],
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Form__StyledFormikForm-sc-1i51owr-0",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "> * + *{margin-top:",
+                [Function],
+                "rem;}",
+              ],
+            },
+            "displayName": "StyledFormikForm",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Form__StyledFormikForm-sc-1i51owr-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        spacing={1.5}
+      >
+        <FormikForm
+          className="c0"
+          spacing={1.5}
+        >
+          <Component
+            className="c0"
+            formik={
+              Object {
+                "dirty": false,
+                "errors": Object {},
+                "handleBlur": [Function],
+                "handleChange": [Function],
+                "handleReset": [Function],
+                "handleSubmit": [Function],
+                "initialValues": Object {
+                  "test": true,
+                },
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "registerField": [Function],
+                "resetForm": [Function],
+                "setError": [Function],
+                "setErrors": [Function],
+                "setFieldError": [Function],
+                "setFieldTouched": [Function],
+                "setFieldValue": [Function],
+                "setFormikState": [Function],
+                "setStatus": [Function],
+                "setSubmitting": [Function],
+                "setTouched": [Function],
+                "setValues": [Function],
+                "status": undefined,
+                "submitCount": 0,
+                "submitForm": [Function],
+                "touched": Object {
+                  "test": true,
+                },
+                "unregisterField": [Function],
+                "validate": undefined,
+                "validateField": [Function],
+                "validateForm": [Function],
+                "validateOnBlur": true,
+                "validateOnChange": true,
+                "validationSchema": undefined,
+                "values": Object {
+                  "test": true,
+                },
+              }
+            }
+            spacing={1.5}
+          >
+            <form
+              className="c0"
+              onReset={[Function]}
+              onSubmit={[Function]}
+              spacing={1.5}
+            >
+              <FormikTextToggle
+                falseOption="False"
+                id="testId"
+                label="Test"
+                name="test"
+                row={false}
+                trueOption="Yes"
+                width="5rem"
+              >
+                <CustomFormikTextToggle
+                  falseOption="False"
+                  formik={
+                    Object {
+                      "dirty": false,
+                      "errors": Object {},
+                      "handleBlur": [Function],
+                      "handleChange": [Function],
+                      "handleReset": [Function],
+                      "handleSubmit": [Function],
+                      "initialValues": Object {
+                        "test": true,
+                      },
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "registerField": [Function],
+                      "resetForm": [Function],
+                      "setError": [Function],
+                      "setErrors": [Function],
+                      "setFieldError": [Function],
+                      "setFieldTouched": [Function],
+                      "setFieldValue": [Function],
+                      "setFormikState": [Function],
+                      "setStatus": [Function],
+                      "setSubmitting": [Function],
+                      "setTouched": [Function],
+                      "setValues": [Function],
+                      "status": undefined,
+                      "submitCount": 0,
+                      "submitForm": [Function],
+                      "touched": Object {
+                        "test": true,
+                      },
+                      "unregisterField": [Function],
+                      "validate": undefined,
+                      "validateField": [Function],
+                      "validateForm": [Function],
+                      "validateOnBlur": true,
+                      "validateOnChange": true,
+                      "validationSchema": undefined,
+                      "values": Object {
+                        "test": true,
+                      },
+                    }
+                  }
+                  id="testId"
+                  label="Test"
+                  name="test"
+                  row={false}
+                  trueOption="Yes"
+                  width="5rem"
+                >
+                  <FormikTextToggle__Container
+                    className="FormikTextToggle"
+                    row={false}
+                  >
+                    <StyledComponent
+                      className="FormikTextToggle"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                            "isStatic": false,
+                            "lastClassName": "c1",
+                            "rules": Array [
+                              "align-items:center;display:flex;flex-flow:",
+                              [Function],
+                              ";align-items:flex-start;> * + *{margin-left:",
+                              [Function],
+                              ";margin-top:",
+                              [Function],
+                              ";}",
+                            ],
+                          },
+                          "displayName": "FormikTextToggle__Container",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      row={false}
+                    >
+                      <div
+                        className="c1 FormikTextToggle"
+                      >
+                        <label
+                          htmlFor="testId-textToggle"
+                          id="testId"
+                        >
+                          Test
+                        </label>
+                        <TextToggle
+                          falseOption="False"
+                          formik={
+                            Object {
+                              "dirty": false,
+                              "errors": Object {},
+                              "handleBlur": [Function],
+                              "handleChange": [Function],
+                              "handleReset": [Function],
+                              "handleSubmit": [Function],
+                              "initialValues": Object {
+                                "test": true,
+                              },
+                              "isSubmitting": false,
+                              "isValid": false,
+                              "isValidating": false,
+                              "registerField": [Function],
+                              "resetForm": [Function],
+                              "setError": [Function],
+                              "setErrors": [Function],
+                              "setFieldError": [Function],
+                              "setFieldTouched": [Function],
+                              "setFieldValue": [Function],
+                              "setFormikState": [Function],
+                              "setStatus": [Function],
+                              "setSubmitting": [Function],
+                              "setTouched": [Function],
+                              "setValues": [Function],
+                              "status": undefined,
+                              "submitCount": 0,
+                              "submitForm": [Function],
+                              "touched": Object {
+                                "test": true,
+                              },
+                              "unregisterField": [Function],
+                              "validate": undefined,
+                              "validateField": [Function],
+                              "validateForm": [Function],
+                              "validateOnBlur": true,
+                              "validateOnChange": true,
+                              "validationSchema": undefined,
+                              "values": Object {
+                                "test": true,
+                              },
+                            }
+                          }
+                          id="testId-textToggle"
+                          isDisabled={false}
+                          label="Test"
+                          name="test"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          trueOption="Yes"
+                          value={true}
+                          width="5rem"
+                        >
+                          <Label
+                            className="TextToggle__Label"
+                            isDisabled={false}
+                            width="5rem"
+                          >
+                            <StyledComponent
+                              className="TextToggle__Label"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "TextToggle__Label-j8u4iq-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c2",
+                                    "rules": Array [
+                                      "position:relative;display:inline-block;width:",
+                                      [Function],
+                                      ";height:1.75rem;overflow:hidden;border-radius:5px;opacity:",
+                                      [Function],
+                                      ";cursor:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "Label",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "TextToggle__Label-j8u4iq-0",
+                                  "target": "label",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              isDisabled={false}
+                              width="5rem"
+                            >
+                              <label
+                                className="c2 TextToggle__Label"
                                 width="5rem"
                               >
                                 <Toggle

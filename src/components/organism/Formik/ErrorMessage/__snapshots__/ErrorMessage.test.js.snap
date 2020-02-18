@@ -5,6 +5,7 @@ exports[`ErrorMessage Component Test ErrorMessage sould match last snapshot 1`] 
   name="email"
 >
   <FormikConnect(ErrorMessageImpl)
+    className="ErrorMessage"
     component={
       Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -157,6 +158,7 @@ exports[`ErrorMessage Component Test ErrorMessage sould match last snapshot 1`] 
     name="email"
   >
     <ErrorMessageImpl
+      className="ErrorMessage"
       component={
         Object {
           "$$typeof": Symbol(react.forward_ref),
