@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// @ts-ignore
 import ReactModal from "react-modal";
 import Button from "../../atoms/Button";
 import zIndexes from "../../../zIndexes";
