@@ -243,6 +243,7 @@ exports[`Button should match snapshot 1`] = `
         >
           <StyledButton
             buttonType="default"
+            className="Button__StyledButton"
             icon="save"
             onClick={[Function]}
             size={1.5}
@@ -266,6 +267,7 @@ exports[`Button should match snapshot 1`] = `
           >
             <StyledComponent
               buttonType="default"
+              className="Button__StyledButton"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -343,7 +345,7 @@ exports[`Button should match snapshot 1`] = `
               }
             >
               <button
-                className="c1"
+                className="c1 Button__StyledButton"
                 onClick={[Function]}
                 size={1.5}
               >

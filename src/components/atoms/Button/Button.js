@@ -179,6 +179,7 @@ const ButtonWithTheme = props => {
     <ButtonContainer className={className}>
       <StyledButton
         {...props}
+        className="Button__StyledButton"
         id={id}
         disabled={disabled}
         onClick={onClick}

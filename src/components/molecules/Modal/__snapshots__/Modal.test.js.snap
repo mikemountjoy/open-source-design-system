@@ -241,6 +241,7 @@ exports[`Test Modal Test that modal closes 1`] = `
             >
               <StyledButton
                 buttonType="default"
+                className="Button__StyledButton"
                 onClick={[Function]}
                 size={1.5}
                 theme={
@@ -263,6 +264,7 @@ exports[`Test Modal Test that modal closes 1`] = `
               >
                 <StyledComponent
                   buttonType="default"
+                  className="Button__StyledButton"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -339,7 +341,7 @@ exports[`Test Modal Test that modal closes 1`] = `
                   }
                 >
                   <button
-                    className="c1"
+                    className="c1 Button__StyledButton"
                     onClick={[Function]}
                     size={1.5}
                   >
@@ -597,6 +599,7 @@ exports[`Test Modal Test that modal is not initially visible. 1`] = `
             >
               <StyledButton
                 buttonType="default"
+                className="Button__StyledButton"
                 onClick={[Function]}
                 size={1.5}
                 theme={
@@ -619,6 +622,7 @@ exports[`Test Modal Test that modal is not initially visible. 1`] = `
               >
                 <StyledComponent
                   buttonType="default"
+                  className="Button__StyledButton"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -695,7 +699,7 @@ exports[`Test Modal Test that modal is not initially visible. 1`] = `
                   }
                 >
                   <button
-                    className="c1"
+                    className="c1 Button__StyledButton"
                     onClick={[Function]}
                     size={1.5}
                   >
@@ -953,6 +957,7 @@ exports[`Test Modal Test that modal opens 1`] = `
             >
               <StyledButton
                 buttonType="default"
+                className="Button__StyledButton"
                 onClick={[Function]}
                 size={1.5}
                 theme={
@@ -975,6 +980,7 @@ exports[`Test Modal Test that modal opens 1`] = `
               >
                 <StyledComponent
                   buttonType="default"
+                  className="Button__StyledButton"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -1051,7 +1057,7 @@ exports[`Test Modal Test that modal opens 1`] = `
                   }
                 >
                   <button
-                    className="c1"
+                    className="c1 Button__StyledButton"
                     onClick={[Function]}
                     size={1.5}
                   >
