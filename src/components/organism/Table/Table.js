@@ -21,8 +21,8 @@ export const Container = styled.div`
     display: flex;
     height: 100%;
     width: 100%;
-    /* 
-    Limit cell value size when cell has a drag or select row checkbox, 
+    /*
+    Limit cell value size when cell has a drag or select row checkbox,
     otherwise overflow will not kick in and text will overflow to next cell
     */
     .ag-cell-value {
@@ -34,6 +34,9 @@ export const Container = styled.div`
   }
   &.ag-disabled {
     background: ${props => props.theme.black.tint20.hex};
+  }
+  .ag-sort-order {
+    display: none;
   }
 `
 
