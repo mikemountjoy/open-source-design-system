@@ -241,6 +241,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
             >
               <StyledButton
                 buttonType="default"
+                className="Button__StyledButton"
                 size={1.5}
                 theme={
                   Object {
@@ -263,6 +264,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
               >
                 <StyledComponent
                   buttonType="default"
+                  className="Button__StyledButton"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -339,7 +341,7 @@ exports[`Submit Component Test Match last snapshot 1`] = `
                   type="submit"
                 >
                   <button
-                    className="c1"
+                    className="c1 Button__StyledButton"
                     size={1.5}
                     type="submit"
                   >
