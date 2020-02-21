@@ -174,12 +174,15 @@ const ButtonWithTheme = props => {
     }
     return buttonTypeStyles(theme).default
   }
+  const styledButtonClassName = className
+    ? `Button__StyledButton ${className}`
+    : "Button__StyledButton"
 
   const styledButton = (
     <ButtonContainer className={className}>
       <StyledButton
         {...props}
-        className="Button__StyledButton"
+        className={styledButtonClassName}
         id={id}
         disabled={disabled}
         onClick={onClick}

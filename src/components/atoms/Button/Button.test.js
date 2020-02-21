@@ -17,6 +17,15 @@ describe("Button", () => {
     expect(component.contains("Save")).toBeTruthy()
     expect(component).toMatchSnapshot()
   })
+  it("should match snapshot with passed in className", () => {
+    const component = mount(
+      <Button icon="save" onClick={() => {}} className="testClassname">
+        Save
+      </Button>,
+    )
+    expect(component.contains("Save")).toBeTruthy()
+    expect(component).toMatchSnapshot()
+  })
 
   it("should have ghost styling", () => {
     const component = mount(
