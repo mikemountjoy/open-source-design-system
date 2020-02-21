@@ -101,7 +101,7 @@ class FilterableGrid extends React.Component {
               placeholder="Search"
               type="text"
               onChange={this.filterItems}
-              className="FilterableGrid__Search"
+              className="FilterableGrid__Search-"
             />
           </Label>
         </SearchContainer>

@@ -870,7 +870,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
                 className="c1"
               >
                 <Search
-                  className="ListFilter__Search"
+                  className="ListFilter__Search-"
                   onChange={[Function]}
                   placeholder="Search"
                   theme={
@@ -1002,7 +1002,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
                   value=""
                 >
                   <StyledComponent
-                    className="ListFilter__Search"
+                    className="ListFilter__Search-"
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
@@ -1284,7 +1284,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
                     value=""
                   >
                     <input
-                      className="c2 ListFilter__Search"
+                      className="c2 ListFilter__Search-"
                       onChange={[Function]}
                       placeholder="Search"
                       type="text"
@@ -1299,7 +1299,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
             padding={true}
           >
             <StyledListItem
-              className="ListItem__StyledListItem"
+              className="ListItem__StyledListItem-"
               padding={true}
               theme={
                 Object {
@@ -1428,7 +1428,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
               }
             >
               <StyledComponent
-                className="ListItem__StyledListItem"
+                className="ListItem__StyledListItem-"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -1709,7 +1709,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
                 }
               >
                 <li
-                  className="c3 ListItem__StyledListItem"
+                  className="c3 ListItem__StyledListItem-"
                 >
                   <NoResults
                     theme={
@@ -3028,7 +3028,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                 className="c1"
               >
                 <Search
-                  className="ListFilter__Search"
+                  className="ListFilter__Search-"
                   onChange={[Function]}
                   placeholder="Search"
                   theme={
@@ -3160,7 +3160,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                   value=""
                 >
                   <StyledComponent
-                    className="ListFilter__Search"
+                    className="ListFilter__Search-"
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
@@ -3442,7 +3442,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                     value=""
                   >
                     <input
-                      className="c2 ListFilter__Search"
+                      className="c2 ListFilter__Search-"
                       onChange={[Function]}
                       placeholder="Search"
                       type="text"
@@ -3458,7 +3458,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
             padding={true}
           >
             <StyledListItem
-              className="ListItem__StyledListItem"
+              className="ListItem__StyledListItem-"
               padding={true}
               theme={
                 Object {
@@ -3587,7 +3587,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
               }
             >
               <StyledComponent
-                className="ListItem__StyledListItem"
+                className="ListItem__StyledListItem-"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -3868,7 +3868,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                 }
               >
                 <li
-                  className="c3 ListItem__StyledListItem"
+                  className="c3 ListItem__StyledListItem-"
                 >
                   <p>
                     Hello
@@ -3882,7 +3882,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
             padding={true}
           >
             <StyledListItem
-              className="ListItem__StyledListItem"
+              className="ListItem__StyledListItem-"
               padding={true}
               theme={
                 Object {
@@ -4011,7 +4011,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
               }
             >
               <StyledComponent
-                className="ListItem__StyledListItem"
+                className="ListItem__StyledListItem-"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -4292,7 +4292,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                 }
               >
                 <li
-                  className="c3 ListItem__StyledListItem"
+                  className="c3 ListItem__StyledListItem-"
                 >
                   <p>
                     Foo
@@ -4306,7 +4306,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
             padding={true}
           >
             <StyledListItem
-              className="ListItem__StyledListItem"
+              className="ListItem__StyledListItem-"
               padding={true}
               theme={
                 Object {
@@ -4435,7 +4435,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
               }
             >
               <StyledComponent
-                className="ListItem__StyledListItem"
+                className="ListItem__StyledListItem-"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -4716,7 +4716,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                 }
               >
                 <li
-                  className="c3 ListItem__StyledListItem"
+                  className="c3 ListItem__StyledListItem-"
                 >
                   <p>
                     Bar
@@ -4730,7 +4730,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
             padding={true}
           >
             <StyledListItem
-              className="ListItem__StyledListItem"
+              className="ListItem__StyledListItem-"
               padding={true}
               theme={
                 Object {
@@ -4859,7 +4859,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
               }
             >
               <StyledComponent
-                className="ListItem__StyledListItem"
+                className="ListItem__StyledListItem-"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
@@ -5140,7 +5140,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                 }
               >
                 <li
-                  className="c3 ListItem__StyledListItem"
+                  className="c3 ListItem__StyledListItem-"
                 >
                   <p>
                     World

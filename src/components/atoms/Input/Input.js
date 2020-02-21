@@ -73,10 +73,10 @@ const Input = props => {
   } = props
 
   const InputType = multiLine ? StyledTextArea : StyledInput
-
+  const inputClassName = className ? `Input ${className}` : "Input"
   return (
     <InputType
-      className={className}
+      className={inputClassName}
       type={type}
       onChange={onChange}
       placeholder={placeholder}

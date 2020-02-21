@@ -19,7 +19,7 @@ const DateTimePicker = props => {
   const { selectedDate, onChange, showTimeSelect, minDate, maxDate, ...others } = props
 
   return (
-    <Container>
+    <Container className="DateTimePicker">
       <DatePicker
         selected={selectedDate}
         onChange={onChange}

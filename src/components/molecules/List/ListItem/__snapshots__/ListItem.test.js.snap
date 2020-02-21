@@ -10,7 +10,7 @@ exports[`List Items Testing Snapshot Testing 1`] = `
   padding={false}
 >
   <StyledListItem
-    className="ListItem__StyledListItem"
+    className="ListItem__StyledListItem-"
     padding={false}
     theme={
       Object {
@@ -139,7 +139,7 @@ exports[`List Items Testing Snapshot Testing 1`] = `
     }
   >
     <StyledComponent
-      className="ListItem__StyledListItem"
+      className="ListItem__StyledListItem-"
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -420,7 +420,7 @@ exports[`List Items Testing Snapshot Testing 1`] = `
       }
     >
       <li
-        className="c0 ListItem__StyledListItem"
+        className="c0 ListItem__StyledListItem-"
       >
         Example Item
       </li>
@@ -440,7 +440,7 @@ exports[`List Items Testing Snapshot Testing with className 1`] = `
   padding={true}
 >
   <StyledListItem
-    className="ListItem__StyledListItem testClassName"
+    className="ListItem__StyledListItem- testClassName"
     padding={true}
     theme={
       Object {
@@ -569,7 +569,7 @@ exports[`List Items Testing Snapshot Testing with className 1`] = `
     }
   >
     <StyledComponent
-      className="ListItem__StyledListItem testClassName"
+      className="ListItem__StyledListItem- testClassName"
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -850,7 +850,7 @@ exports[`List Items Testing Snapshot Testing with className 1`] = `
       }
     >
       <li
-        className="c0 ListItem__StyledListItem testClassName"
+        className="c0 ListItem__StyledListItem- testClassName"
       >
         Example Item
       </li>
