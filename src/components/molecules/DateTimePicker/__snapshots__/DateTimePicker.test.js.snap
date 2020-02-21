@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
-<DateTimePickerContainer>
+<DateTimePickerContainer
+  className="DateTimePicker"
+>
   <DatePicker
     allowSameDay={false}
     dateFormat="do MMM yyyy HH:mm"

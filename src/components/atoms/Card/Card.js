@@ -66,7 +66,9 @@ const Card = props => {
         </CardHeader>
       ) : null}
       <CollapsibleContainer collapsed={collapsed}>
-        <CardBody bodyPadding={bodyPadding}>{children}</CardBody>
+        <CardBody bodyPadding={bodyPadding} className="Card__CardBody">
+          {children}
+        </CardBody>
 
         {footer ? <CardFooter>{footer}</CardFooter> : null}
       </CollapsibleContainer>

@@ -908,8 +908,11 @@ exports[`Card Component Renders Card with full styling 1`] = `
             <div
               className="c2"
             >
-              <CardBody>
+              <CardBody
+                className="Card__CardBody"
+              >
                 <StyledComponent
+                  className="Card__CardBody"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -937,7 +940,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
                   forwardedRef={null}
                 >
                   <div
-                    className="c3"
+                    className="c3 Card__CardBody"
                   />
                 </StyledComponent>
               </CardBody>
@@ -1831,8 +1834,11 @@ exports[`Card Component Renders while collapsed 1`] = `
             <div
               className="c1"
             >
-              <CardBody>
+              <CardBody
+                className="Card__CardBody"
+              >
                 <StyledComponent
+                  className="Card__CardBody"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -1860,7 +1866,7 @@ exports[`Card Component Renders while collapsed 1`] = `
                   forwardedRef={null}
                 >
                   <div
-                    className="c2"
+                    className="c2 Card__CardBody"
                   />
                 </StyledComponent>
               </CardBody>
@@ -2337,8 +2343,11 @@ exports[`Card Component Renders while not collapsed 1`] = `
             <div
               className="c1"
             >
-              <CardBody>
+              <CardBody
+                className="Card__CardBody"
+              >
                 <StyledComponent
+                  className="Card__CardBody"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -2366,7 +2375,7 @@ exports[`Card Component Renders while not collapsed 1`] = `
                   forwardedRef={null}
                 >
                   <div
-                    className="c2"
+                    className="c2 Card__CardBody"
                   />
                 </StyledComponent>
               </CardBody>

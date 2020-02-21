@@ -11,6 +11,18 @@ describe("Input", () => {
   it("render matches last snapshot", () => {
     expect(component).toMatchSnapshot()
   })
+  it("render matches last snapshot with classname", () => {
+    const componentWithClassName = mount(
+      <Input
+        className="testClassName"
+        value="Hello"
+        name="example"
+        type="text"
+        onChange={() => {}}
+      />,
+    )
+    expect(componentWithClassName).toMatchSnapshot()
+  })
   it("render matches last snapshot with multiline", () => {
     const multiLine = mount(
       <Input value="Hello" name="example" type="text" onChange={() => {}} multiLine />,
