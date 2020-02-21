@@ -80,7 +80,11 @@ class FilterableGrid extends React.Component {
 
   renderItems = items => {
     if (items && items.length > 0) {
-      return items.map(item => <GridItem key={item.key}>{item.value}</GridItem>)
+      return items.map(item => (
+        <GridItem key={item.key} className="FilterableGrid__GridItem">
+          {item.value}
+        </GridItem>
+      ))
     }
     return <NoResults>{this.props.emptyMessage}</NoResults>
   }
@@ -92,7 +96,13 @@ class FilterableGrid extends React.Component {
         <SearchContainer>
           <Label>
             {label}
-            <Search id={id} placeholder="Search" type="text" onChange={this.filterItems} />
+            <Search
+              id={id}
+              placeholder="Search"
+              type="text"
+              onChange={this.filterItems}
+              className="FilterableGrid__Search"
+            />
           </Label>
         </SearchContainer>
         <GridContainer itemsPerRow={itemsPerRow} height={height}>

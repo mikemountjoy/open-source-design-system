@@ -16,7 +16,8 @@ StyledErrorMessage.displayName = "StyledErrorMessage"
 
 const ErrorMessage = props => {
   const { name, id, className } = props
-  return <Error name={name} component={StyledErrorMessage} id={id} className={className} />
+  const errorClassName = className ? `ErrorMessage ${className}` : "ErrorMessage"
+  return <Error name={name} component={StyledErrorMessage} id={id} className={errorClassName} />
 }
 ErrorMessage.displayName = "ErrorMessage"
 

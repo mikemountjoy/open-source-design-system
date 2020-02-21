@@ -35,8 +35,9 @@ class CustomFormikTextToggle extends React.PureComponent {
     } = this.props
     const { values, handleChange, handleBlur } = this.props.formik
     const textToggleId = id ? `${id}-textToggle` : ""
+    const containerClassName = className ? `FormikTextToggle ${className}` : "FormikTextToggle"
     return (
-      <Container className={className} row={row}>
+      <Container className={containerClassName} row={row}>
         <label id={id} htmlFor={textToggleId}>
           {label}
         </label>

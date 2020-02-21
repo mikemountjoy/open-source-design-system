@@ -46,10 +46,13 @@ StyledCheckbox.displayName = "StyledCheckbox"
 
 const Checkbox = props => {
   const { id, className, name, checked, disabled, onChange, theme } = props
+  const styledCheckboxClassName = className
+    ? `Checkbox__StyledCheckbox ${className}`
+    : "Checkbox__StyledCheckbox"
   return (
     <StyledCheckbox
       id={id}
-      className={className}
+      className={styledCheckboxClassName}
       name={name}
       checked={checked}
       disabled={disabled}

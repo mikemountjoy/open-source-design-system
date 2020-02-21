@@ -63,7 +63,7 @@ class StepBar extends React.PureComponent {
   renderTotalSteps = (stepNames, currentStep) =>
     stepNames.map((step, index) => (
       <React.Fragment key={step.order}>
-        <StepWrapper>
+        <StepWrapper className="StepBar__StepWrapper">
           <StepNumber>
             {index < currentStep - 1 ? <Icon name="check" color="secondary" /> : step.order}
           </StepNumber>

@@ -461,6 +461,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
         className="c0"
       >
         <CardHeader
+          className="Card__CardHeader"
           theme={
             Object {
               "action": Object {
@@ -588,6 +589,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
           }
         >
           <StyledComponent
+            className="Card__CardHeader"
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
@@ -867,7 +869,7 @@ exports[`Card Component Renders Card with full styling 1`] = `
             }
           >
             <div
-              className="c1"
+              className="c1 Card__CardHeader"
             >
               <h2>
                 fooBar

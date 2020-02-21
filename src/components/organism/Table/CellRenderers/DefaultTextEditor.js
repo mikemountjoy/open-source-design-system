@@ -7,7 +7,7 @@ const Cell = styled.div`
   text-overflow: ellipsis;
 `
 
-const DefaultTextEditor = props => <Cell>{props.value}</Cell>
+const DefaultTextEditor = props => <Cell className="DefaultTextEditor">{props.value}</Cell>
 
 DefaultTextEditor.propTypes = {
   value: PropTypes.any,

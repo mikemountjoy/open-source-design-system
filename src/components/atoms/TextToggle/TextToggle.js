@@ -77,7 +77,7 @@ const TextToggle = props => {
     ...other
   } = props
   return (
-    <Label width={width} isDisabled={isDisabled}>
+    <Label width={width} isDisabled={isDisabled} className="TextToggle__Label">
       <Toggle
         type="checkbox"
         onChange={onChange}

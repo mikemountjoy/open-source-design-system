@@ -87,6 +87,7 @@ class ListFilter extends React.PureComponent {
       >
         <SearchWrapper>
           <Search
+            className="ListFilter__Search"
             placeholder="Search"
             type="text"
             value={this.state.value}

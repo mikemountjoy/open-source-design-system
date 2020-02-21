@@ -20,4 +20,10 @@ describe("List Items Testing", () => {
   it("Snapshot Testing", () => {
     expect(component).toMatchSnapshot()
   })
+
+  it("Snapshot Testing with className", () => {
+    const componentWithClassName = mount(<ListItem className="testClassName">{text}</ListItem>)
+
+    expect(componentWithClassName).toMatchSnapshot()
+  })
 })

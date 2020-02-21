@@ -2,6 +2,7 @@
 
 exports[`TextToggle Component Testing should match snapshot 1`] = `
 <Label
+  className="TextToggle__Label"
   isDisabled={false}
   width="4.5rem"
 >

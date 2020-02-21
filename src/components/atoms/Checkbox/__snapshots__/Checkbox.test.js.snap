@@ -48,6 +48,7 @@ exports[`Input Checkbox match previous snapshot 1`] = `
   name="dogs"
 >
   <StyledCheckbox
+    className="Checkbox__StyledCheckbox"
     name="dogs"
     theme={
       Object {
@@ -176,6 +177,7 @@ exports[`Input Checkbox match previous snapshot 1`] = `
     }
   >
     <StyledComponent
+      className="Checkbox__StyledCheckbox"
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -474,7 +476,7 @@ exports[`Input Checkbox match previous snapshot 1`] = `
       }
     >
       <input
-        className="c0"
+        className="c0 Checkbox__StyledCheckbox"
         name="dogs"
         type="checkbox"
       />
