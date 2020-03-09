@@ -9,6 +9,7 @@
     "@storybook/addon-options": "5.2.4",
     "@storybook/addons": "5.2.4",
     "@storybook/react": "5.2.5",
+    "acorn": "^7.1.1",
     "ag-grid-community": "^20.0.0",
     "ag-grid-react": "^20.0.0",
     "codecov": "^3.1.0",
@@ -24,6 +25,10 @@
     "react-tooltip": "^3.9.2",
     "styled-components": "^4.3.1",
     "wait-on": "^3.2.0"
+  },
+  "resolutions": {
+    "acorn": "^7.1.1",
+    "marked": "^0.7.0"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
