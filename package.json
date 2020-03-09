@@ -81,8 +81,7 @@
     "not op_mini all"
   ],
   "resolutions": {
-    "acorn": "^7.1.1",
-    "marked": "^0.7.0"
+    "acorn": "^7.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
