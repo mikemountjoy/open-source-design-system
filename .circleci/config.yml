@@ -5,10 +5,10 @@ jobs:
       - image: circleci/node:lts
     steps:
       - checkout
-      - restore_cache:
-          name: Restore Yarn Package Cache
-          keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+#      - restore_cache:
+#          name: Restore Yarn Package Cache
+#          keys:
+#            - yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: yarn install
           command: yarn --frozen-lockfile
@@ -47,10 +47,10 @@ jobs:
       - image: cypress/base:8
     steps:
       - checkout
-      - restore_cache:
-          name: Restore Yarn Package Cache
-          keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+#      - restore_cache:
+#          name: Restore Yarn Package Cache
+#          keys:
+#            - yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: yarn install
           command: yarn
