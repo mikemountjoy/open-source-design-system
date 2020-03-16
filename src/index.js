@@ -22,7 +22,7 @@ import Tooltip from "./components/atoms/Tooltip"
 
 // Molecule components
 import { ConfirmationModal, IConfirmationModal } from "./components/molecules/ConfirmationModal"
-import DateTimePicker from "./components/molecules/DateTimePicker"
+import { DateTimePicker, IDateTimePicker } from "./components/molecules/DateTimePicker"
 import FormCheckbox from "./components/molecules/FormCheckbox"
 import FormInput from "./components/molecules/FormInput"
 import FormRadio from "./components/molecules/FormRadio"
@@ -81,6 +81,7 @@ export {
   ConfirmationModal,
   IConfirmationModal,
   DateTimePicker,
+  IDateTimePicker,
   FormCheckbox,
   FormInput,
   FormRadio,
