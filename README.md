@@ -56,6 +56,21 @@ This is a bit of a pain right now and we will create a better way of doing it so
 - yarn link
 - then in the package using the design system, run `yarn link @crcdevops/open-source-design-system`
 
+### Migrating to Typescript
+- example PR: https://github.com/Client-Relationship-Consultancy/open-source-design-system/pull/42
+1. Change component file from `.js` -> `.ts` and type the Component file!
+2. Change the `Component` and `Interface` as names exports:
+```
+export const Component = ...
+export interface IComponent { ...
+```
+3. Update the `Component/index.js` file to
+```
+export {Component, IComponent} from "./Component"
+```
+4. Update the `src/index.js` to export the new named Component and Interface
+5. Update package patch version! (e.g. `1.0.X`)
+
 #### Gotcha - Jest Snapshots failing
 
 
@@ -136,7 +151,7 @@ describe("MyComponent Tests", () => {
 
 
 ### 13/12/19 - Storybook Version Errors
-- please note that we have had some versioning issues with storybook recently - if you face errors related to storybook please try the following versions: 
+- please note that we have had some versioning issues with storybook recently - if you face errors related to storybook please try the following versions:
 `
   "@storybook/addon-notes": "5.2.4",
     "@storybook/addon-options": "5.2.4",
