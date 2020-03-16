@@ -31,7 +31,7 @@
     "clean-dist": "rm -rf ./dist",
     "start": "react-scripts start",
     "build": "yarn clean-dist && yarn tsc && cp src/index.css dist/index.css && cp -a src/assets dist/assets",
-    "lint": "node_modules/eslint/bin/eslint.js 'src' --ext .js,.jsx",
+    "lint": "node_modules/eslint/bin/eslint.js 'src' --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "eject": "react-scripts eject",

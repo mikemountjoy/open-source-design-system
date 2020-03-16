@@ -102,7 +102,7 @@ export const colourPalette = {
       tint20: { hex: "#ECECEC", RGB: "236,236,236", on: "#272727" },
     },
   },
-}
+};
 
 interface IColourCodes {
   hex: string;
