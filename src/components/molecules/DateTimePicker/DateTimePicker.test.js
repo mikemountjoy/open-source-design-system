@@ -1,7 +1,8 @@
 import React from "react"
+import DatePicker from "react-datepicker"
 import { shallow } from "enzyme"
 
-import DateTimePicker from "./DateTimePicker"
+import { DateTimePicker } from "./DateTimePicker"
 
 const mockOnChange = jest.fn()
 
@@ -15,11 +16,11 @@ describe("DateTimePicker Component Testing", () => {
     />,
   )
   it("should have selected date the selectedDate prop", () => {
-    expect(component.find("DatePicker").prop("selected")).toEqual(new Date("12/12/1995 12:45"))
+    expect(component.find(DatePicker).prop("selected")).toEqual(new Date("12/12/1995 12:45"))
   })
   it("should call onChange when DatePicker onChange is triggered", () => {
     component
-      .find("DatePicker")
+      .find(DatePicker)
       .props()
       .onChange()
 

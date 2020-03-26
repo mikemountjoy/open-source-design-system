@@ -4,7 +4,7 @@ exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
 <DateTimePickerContainer
   className="DateTimePicker"
 >
-  <DatePicker
+  <t
     allowSameDay={false}
     dateFormat="do MMM yyyy HH:mm"
     dateFormatCalendar="LLLL yyyy"

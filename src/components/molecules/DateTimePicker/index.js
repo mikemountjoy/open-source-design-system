@@ -1,3 +1,1 @@
-import DateTimePicker from "./DateTimePicker"
-
-export default DateTimePicker
+export { DateTimePicker, IDateTimePicker } from "./DateTimePicker"
