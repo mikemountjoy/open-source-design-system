@@ -1,16 +1,15 @@
-import React from "react"
-import PropTypes from "prop-types"
-import styled from "styled-components"
-import { ListContainer, ListItem } from "../List"
-import { colourPalette } from "../../../brandColours"
+import React from "react";
+import styled from "styled-components";
+import { ListContainer, ListItem } from "../List";
+import { colourPalette } from "../../../brandColours";
 
 const SearchWrapper = styled.div`
   border-bottom: 1px solid ${props => props.theme.primary.light.hex};
-`
+`;
 SearchWrapper.defaultProps = {
   theme: colourPalette.examplePalette,
-}
-SearchWrapper.displayName = "SearchWrapper"
+};
+SearchWrapper.displayName = "SearchWrapper";
 
 const Search = styled.input`
   border: none;
@@ -21,43 +20,53 @@ const Search = styled.input`
   ::placeholder {
     color: ${props => props.theme.black.tint80.hex};
   }
-`
+`;
 Search.defaultProps = {
   theme: colourPalette.examplePalette,
-}
-Search.displayName = "Search"
+};
+Search.displayName = "Search";
 
 const NoResults = styled.span`
   color: ${props => props.theme.black.tint80.hex};
-`
+`;
 NoResults.defaultProps = {
   theme: colourPalette.examplePalette,
-}
-NoResults.displayName = "NoResults"
+};
+NoResults.displayName = "NoResults";
 
-class ListFilter extends React.PureComponent {
+interface IListFilter {
+  items: { key: string; value: JSX.Element | string }[];
+  endingLine?: boolean;
+  border?: boolean;
+  padding?: boolean;
+  customErrorMessage?: React.ReactNode;
+  id?: string;
+  className?: string;
+}
+
+class ListFilter extends React.PureComponent<IListFilter> {
   state = {
     value: "",
-  }
+  };
 
-  filterList = event => {
-    const { value } = event.target
+  filterList = (event: React.SyntheticEvent<HTMLInputElement>) => {
+    const { value } = event.currentTarget;
+
     this.setState({
       value,
-    })
-  }
+    });
+  };
 
   renderItems = () => {
-    const { padding, customErrorMessage, items } = this.props
+    const { padding, customErrorMessage, items } = this.props;
     const error = (
       <ListItem padding={this.props.padding}>
         {customErrorMessage || <NoResults>No results</NoResults>}
       </ListItem>
-    )
+    );
     if (!items) {
-      return error
+      return error;
     }
-
     const result = items
       .filter(item => item.key.toLowerCase().includes(this.state.value.toLowerCase()))
       .sort((a, b) => (a.key > b.key ? 1 : -1))
@@ -65,19 +74,19 @@ class ListFilter extends React.PureComponent {
         <ListItem padding={padding} key={item.key}>
           {item.value}
         </ListItem>
-      ))
-    return result.length >= 1 ? result : error
-  }
+      ));
+    return result.length >= 1 ? result : error;
+  };
 
-  componentDidUpdate = prevProps => {
+  componentDidUpdate = (prevProps: IListFilter) => {
     if (this.props.items !== prevProps.items) {
-      this.resetSearch()
+      this.resetSearch();
     }
-  }
+  };
 
   resetSearch = () => {
-    this.setState({ value: "" })
-  }
+    this.setState({ value: "" });
+  };
 
   render() {
     return (
@@ -100,18 +109,8 @@ class ListFilter extends React.PureComponent {
           {this.renderItems()}
         </ListContainer>
       </>
-    )
+    );
   }
 }
 
-ListFilter.propTypes = {
-  items: PropTypes.array,
-  endingLine: PropTypes.bool,
-  border: PropTypes.bool,
-  padding: PropTypes.bool,
-  customErrorMessage: PropTypes.node,
-  id: PropTypes.string,
-  className: PropTypes.string,
-}
-
-export default ListFilter
+export default ListFilter;
