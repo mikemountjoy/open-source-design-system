@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { ListContainer, ListItem } from "../List"
 import { colourPalette } from "../../../brandColours"
 
-const SearchWrapper = styled.li`
+const SearchWrapper = styled.div`
   border-bottom: 1px solid ${props => props.theme.primary.light.hex};
 `
 SearchWrapper.defaultProps = {
@@ -57,8 +57,10 @@ class ListFilter extends React.PureComponent {
     if (!items) {
       return error
     }
+
     const result = items
       .filter(item => item.key.toLowerCase().includes(this.state.value.toLowerCase()))
+      .sort((a, b) => (a.key > b.key ? 1 : -1))
       .map(item => (
         <ListItem padding={padding} key={item.key}>
           {item.value}
@@ -79,12 +81,7 @@ class ListFilter extends React.PureComponent {
 
   render() {
     return (
-      <ListContainer
-        endingLine={this.props.endingLine}
-        border={this.props.border}
-        id={this.props.id}
-        className={this.props.className}
-      >
+      <>
         <SearchWrapper>
           <Search
             className="ListFilter__Search-"
@@ -94,8 +91,15 @@ class ListFilter extends React.PureComponent {
             onChange={this.filterList}
           />
         </SearchWrapper>
-        {this.renderItems()}
-      </ListContainer>
+        <ListContainer
+          endingLine={this.props.endingLine}
+          border={this.props.border}
+          id={this.props.id}
+          className={this.props.className}
+        >
+          {this.renderItems()}
+        </ListContainer>
+      </>
     )
   }
 }

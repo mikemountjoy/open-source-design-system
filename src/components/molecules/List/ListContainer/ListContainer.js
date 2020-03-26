@@ -8,6 +8,8 @@ const StyledListContainer = styled.ul`
   border: ${props => (props.border ? `1px solid ${props.theme.black.tint40.hex}` : "none")};
   border-radius: 5px;
   list-style: none;
+  overflow-y: scroll;
+  max-height: 25rem;
   padding: 0;
   > li:last-child {
     border-bottom: ${props => (props.endingLine ? "" : "none")};
