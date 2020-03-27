@@ -31,7 +31,8 @@ describe("DateTimePicker Component Testing", () => {
     const componentWithoutBounds = shallow(
       <DateTimePicker selectedDate={new Date("12/12/1995 12:45")} onChange={mockOnChange} />,
     )
-    expect(componentWithoutBounds).toMatchSnapshot()
+    expect(componentWithoutBounds.props().minDate).toEqual(undefined)
+    expect(componentWithoutBounds.props().maxDate).toEqual(undefined)
   })
 
   it("should match latest snapshot", () => {
