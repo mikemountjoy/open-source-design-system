@@ -5,6 +5,9 @@ exports[`ListContainer Component Testing Snapshot Testing 1`] = `
   border: 1px solid #C7C7C7;
   border-radius: 5px;
   list-style: none;
+  overflow-y: scroll;
+  max-height: 25rem;
+  margin: 0 0 1rem;
   padding: 0;
 }
 
@@ -276,13 +279,13 @@ exports[`ListContainer Component Testing Snapshot Testing 1`] = `
           },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "ListContainer__StyledListContainer-zpzhr5-0",
+            "componentId": "ListContainer__StyledListContainer-sc-1rc26r4-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
               "border:",
               [Function],
-              ";border-radius:5px;list-style:none;padding:0;> li:last-child{border-bottom:",
+              ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;margin:0 0 1rem;padding:0;> li:last-child{border-bottom:",
               [Function],
               ";}",
             ],
@@ -290,7 +293,7 @@ exports[`ListContainer Component Testing Snapshot Testing 1`] = `
           "displayName": "StyledListContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "ListContainer__StyledListContainer-zpzhr5-0",
+          "styledComponentId": "ListContainer__StyledListContainer-sc-1rc26r4-0",
           "target": "ul",
           "toString": [Function],
           "warnTooManyClasses": [Function],

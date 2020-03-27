@@ -24,7 +24,7 @@ describe("FilterableList Component Testing", () => {
   })
   it("Typing in search filters items", () => {
     component.find("Search").simulate("change", {
-      target: {
+      currentTarget: {
         value: "Hello",
       },
     })
@@ -33,7 +33,7 @@ describe("FilterableList Component Testing", () => {
   })
   it("Typing bad regex search doesn't break component", () => {
     component.find("Search").simulate("change", {
-      target: {
+      currentTarget: {
         value: "*",
       },
     })
@@ -43,7 +43,7 @@ describe("FilterableList Component Testing", () => {
 
   it("should reset the search field when the props are updated", () => {
     component.find("Search").simulate("change", {
-      target: {
+      currentTarget: {
         value: "this is old",
       },
     })

@@ -27,7 +27,7 @@ import FormCheckbox from "./components/molecules/FormCheckbox"
 import FormInput from "./components/molecules/FormInput"
 import FormRadio from "./components/molecules/FormRadio"
 import { ListContainer, ListItem } from "./components/molecules/List"
-import ListFilter from "./components/molecules/ListFilter"
+import ListFilter, { IListFilterItems } from "./components/molecules/ListFilter"
 import Modal from "./components/molecules/Modal"
 import StepBar from "./components/molecules/StepBar"
 import StepDescription from "./components/molecules/StepDescription"
@@ -88,6 +88,7 @@ export {
   ListContainer,
   ListItem,
   ListFilter,
+  IListFilterItems,
   Modal,
   StepBar,
   StepDescription,
