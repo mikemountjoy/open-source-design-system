@@ -27,7 +27,7 @@ describe("DateTimePicker Component Testing", () => {
     expect(mockOnChange).toHaveBeenCalled()
   })
 
-  it("should call onChange when DatePicker onChange is triggered", () => {
+  it("should set up datePicker without max and min date", () => {
     const componentWithoutBounds = shallow(
       <DateTimePicker selectedDate={new Date("12/12/1995 12:45")} onChange={mockOnChange} />,
     )
