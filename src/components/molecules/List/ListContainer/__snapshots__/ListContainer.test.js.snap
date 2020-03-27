@@ -7,6 +7,7 @@ exports[`ListContainer Component Testing Snapshot Testing 1`] = `
   list-style: none;
   overflow-y: scroll;
   max-height: 25rem;
+  margin: 0 0 1rem;
   padding: 0;
 }
 
@@ -284,7 +285,7 @@ exports[`ListContainer Component Testing Snapshot Testing 1`] = `
             "rules": Array [
               "border:",
               [Function],
-              ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;padding:0;> li:last-child{border-bottom:",
+              ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;margin:0 0 1rem;padding:0;> li:last-child{border-bottom:",
               [Function],
               ";}",
             ],

@@ -7,6 +7,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
   list-style: none;
   overflow-y: scroll;
   max-height: 25rem;
+  margin: 0 0 1rem;
   padding: 0;
 }
 
@@ -25,6 +26,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
   font-size: 1rem;
   background-color: transparent;
   padding: 0.5rem 1rem;
+  margin: 0.55rem 0;
 }
 
 .c1::-webkit-input-placeholder {
@@ -723,7 +725,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "border:none;width:100%;font-size:1rem;background-color:transparent;padding:0.5rem 1rem;::placeholder{color:",
+                    "border:none;width:100%;font-size:1rem;background-color:transparent;padding:0.5rem 1rem;margin:0.55rem 0;::placeholder{color:",
                     [Function],
                     ";}",
                   ],
@@ -1152,7 +1154,7 @@ exports[`FilterableList Component Testing Does not render a list if the options 
               "rules": Array [
                 "border:",
                 [Function],
-                ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;padding:0;> li:last-child{border-bottom:",
+                ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;margin:0 0 1rem;padding:0;> li:last-child{border-bottom:",
                 [Function],
                 ";}",
               ],
@@ -2142,6 +2144,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
   list-style: none;
   overflow-y: scroll;
   max-height: 25rem;
+  margin: 0 0 1rem;
   padding: 0;
 }
 
@@ -2160,6 +2163,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
   font-size: 1rem;
   background-color: transparent;
   padding: 0.5rem 1rem;
+  margin: 0.55rem 0;
 }
 
 .c1::-webkit-input-placeholder {
@@ -2883,7 +2887,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "border:none;width:100%;font-size:1rem;background-color:transparent;padding:0.5rem 1rem;::placeholder{color:",
+                    "border:none;width:100%;font-size:1rem;background-color:transparent;padding:0.5rem 1rem;margin:0.55rem 0;::placeholder{color:",
                     [Function],
                     ";}",
                   ],
@@ -3312,7 +3316,7 @@ exports[`FilterableList Component Testing should match snapshot 1`] = `
               "rules": Array [
                 "border:",
                 [Function],
-                ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;padding:0;> li:last-child{border-bottom:",
+                ";border-radius:5px;list-style:none;overflow-y:scroll;max-height:25rem;margin:0 0 1rem;padding:0;> li:last-child{border-bottom:",
                 [Function],
                 ";}",
               ],

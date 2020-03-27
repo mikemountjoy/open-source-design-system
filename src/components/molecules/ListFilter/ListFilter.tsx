@@ -17,6 +17,7 @@ const Search = styled.input`
   font-size: 1rem;
   background-color: transparent;
   padding: 0.5rem 1rem;
+  margin: 0.55rem 0;
   ::placeholder {
     color: ${props => props.theme.black.tint80.hex};
   }
@@ -34,8 +35,13 @@ NoResults.defaultProps = {
 };
 NoResults.displayName = "NoResults";
 
+export interface IListFilterItems {
+  key: string;
+  value: JSX.Element | string;
+}
+
 interface IListFilter {
-  items: { key: string; value: JSX.Element | string }[];
+  items: IListFilterItems[];
   endingLine?: boolean;
   border?: boolean;
   padding?: boolean;
@@ -69,7 +75,7 @@ class ListFilter extends React.PureComponent<IListFilter> {
     }
     const result = items
       .filter(item => item.key.toLowerCase().includes(this.state.value.toLowerCase()))
-      .sort((a, b) => (a.key > b.key ? 1 : -1))
+      .sort((a, b) => (a.key.toLowerCase() > b.key.toLowerCase() ? 1 : -1))
       .map(item => (
         <ListItem padding={padding} key={item.key}>
           {item.value}

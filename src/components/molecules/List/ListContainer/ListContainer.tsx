@@ -14,6 +14,7 @@ const StyledListContainer = styled.ul<IStyledListContainer>`
   list-style: none;
   overflow-y: scroll;
   max-height: 25rem;
+  margin: 0 0 1rem;
   padding: 0;
   > li:last-child {
     border-bottom: ${props => (props.endingLine ? "" : "none")};
