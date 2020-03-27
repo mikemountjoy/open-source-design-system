@@ -1,5 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`DateTimePicker Component Testing should call onChange when DatePicker onChange is triggered 1`] = `
+<DateTimePickerContainer
+  className="DateTimePicker"
+>
+  <t
+    allowSameDay={false}
+    dateFormat="do MMM yyyy HH:mm"
+    dateFormatCalendar="LLLL yyyy"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    inlineFocusSelectedMonth={false}
+    monthsShown={1}
+    nextMonthButtonLabel="Next Month"
+    nextYearButtonLabel="Next Year"
+    onBlur={[Function]}
+    onCalendarClose={[Function]}
+    onCalendarOpen={[Function]}
+    onChange={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onInputClick={[Function]}
+    onInputError={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    previousYearButtonLabel="Previous Year"
+    readOnly={false}
+    renderDayContents={[Function]}
+    selected={1995-12-12T12:45:00.000Z}
+    shouldCloseOnSelect={true}
+    showMonthYearPicker={false}
+    showPopperArrow={true}
+    showPreviousMonths={false}
+    showQuarterYearPicker={false}
+    showTimeInput={false}
+    showTimeSelect={true}
+    showYearDropdown={true}
+    strictParsing={false}
+    timeCaption="time"
+    timeFormat="HH:mm"
+    timeInputLabel="Time"
+    timeIntervals={15}
+    withPortal={false}
+  />
+</DateTimePickerContainer>
+`;
+
 exports[`DateTimePicker Component Testing should match latest snapshot 1`] = `
 <DateTimePickerContainer
   className="DateTimePicker"

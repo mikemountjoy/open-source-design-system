@@ -28,6 +28,8 @@ FormikDateTimePicker.propTypes = {
   labelMessage: PropTypes.object,
   value: PropTypes.instanceOf(Date),
   onChange: PropTypes.func,
+  minDate: PropTypes.instanceOf(Date),
+  maxDate: PropTypes.instanceOf(Date),
   touched: PropTypes.bool,
 }
 

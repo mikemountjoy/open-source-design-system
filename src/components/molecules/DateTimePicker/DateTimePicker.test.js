@@ -26,6 +26,14 @@ describe("DateTimePicker Component Testing", () => {
 
     expect(mockOnChange).toHaveBeenCalled()
   })
+
+  it("should call onChange when DatePicker onChange is triggered", () => {
+    const componentWithoutBounds = shallow(
+      <DateTimePicker selectedDate={new Date("12/12/1995 12:45")} onChange={mockOnChange} />,
+    )
+    expect(componentWithoutBounds).toMatchSnapshot()
+  })
+
   it("should match latest snapshot", () => {
     expect(component).toMatchSnapshot()
   })
