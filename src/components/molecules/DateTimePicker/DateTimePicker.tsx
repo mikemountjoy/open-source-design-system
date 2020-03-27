@@ -14,8 +14,8 @@ Container.displayName = "DateTimePickerContainer";
 
 export interface IDateTimePicker extends Omit<ReactDatePickerProps, "maxDate" | "minDate"> {
   selectedDate?: Date | null;
-  minDate: string | number | Date;
-  maxDate: string | number | Date;
+  minDate?: string | number | Date;
+  maxDate?: string | number | Date;
 }
 export const DateTimePicker: React.FunctionComponent<IDateTimePicker> = props => {
   const { selectedDate, onChange, showTimeSelect, minDate, maxDate, ...others } = props;
@@ -31,8 +31,8 @@ export const DateTimePicker: React.FunctionComponent<IDateTimePicker> = props =>
         timeIntervals={15}
         dateFormat="do MMM yyyy HH:mm"
         timeCaption="time"
-        minDate={new Date(minDate)}
-        maxDate={new Date(maxDate)}
+        minDate={minDate ? new Date(minDate) : undefined}
+        maxDate={maxDate ? new Date(maxDate) : undefined}
         {...others}
       />
     </Container>
