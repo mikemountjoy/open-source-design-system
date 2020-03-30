@@ -3,6 +3,12 @@ import styled from "styled-components";
 import { ListContainer, ListItem } from "../List";
 import { colourPalette } from "../../../brandColours";
 
+const isString = (value: string | JSX.Element): value is string =>
+  (value as string).length !== undefined;
+
+const isJSXElement = (value: string | JSX.Element): value is JSX.Element =>
+  (value as JSX.Element).props !== undefined;
+
 const SearchWrapper = styled.div`
   border-bottom: 1px solid ${props => props.theme.primary.light.hex};
 `;
@@ -75,7 +81,19 @@ class ListFilter extends React.PureComponent<IListFilter> {
     }
     const result = items
       .filter(item => item.key.toLowerCase().includes(this.state.value.toLowerCase()))
-      .sort((a, b) => (a.key.toLowerCase() > b.key.toLowerCase() ? 1 : -1))
+      .sort((item1, item2) => {
+        if (isString(item1.value) && isString(item2.value)) {
+          return item1.value.toLowerCase() > item2.value.toLowerCase() ? 1 : -1;
+        } else if (isJSXElement(item1.value) && isJSXElement(item2.value)) {
+          const item1Text = item1.value.props.children;
+          const item2Text = item1.value.props.children;
+          if (typeof item1Text === "string" && typeof item2Text === "string") {
+            console.log(item1Text);
+            return item1Text.toLowerCase() > item2Text.toLowerCase() ? 1 : -1;
+          }
+        }
+        return 1;
+      })
       .map(item => (
         <ListItem padding={padding} key={item.key}>
           {item.value}
