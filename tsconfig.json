@@ -15,7 +15,6 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "downlevelIteration": true
     },
     "include": ["src/**/*"],
     "exclude": ["**/*.test.*", "**/*.stories.*"]
