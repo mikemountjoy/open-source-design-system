@@ -13,9 +13,7 @@
         "baseUrl": ".",
         "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-    },
+        "resolveJsonModule": true},
     "include": ["src/**/*"],
     "exclude": ["**/*.test.*", "**/*.stories.*"]
 }
