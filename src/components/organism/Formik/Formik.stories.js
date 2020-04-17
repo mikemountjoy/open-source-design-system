@@ -34,6 +34,7 @@ stories.add(
         email: "",
         pet: { value: "dog", label: "Dog" },
         subscribe: "",
+        "opt-out": false,
       }}
       onSubmit={(values, actions) => {
         setTimeout(() => {
