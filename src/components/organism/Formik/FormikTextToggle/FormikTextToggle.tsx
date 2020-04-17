@@ -26,18 +26,18 @@ interface CustomFormikTextToggleProps {
   row?: boolean;
 }
 
-class CustomFormikTextToggle extends React.PureComponent<
+export class CustomFormikTextToggle extends React.PureComponent<
   CustomFormikTextToggleProps & { formik: FormikProps<FormikValues> }
 > {
   componentDidMount = () => {
     this.props.formik.setFieldTouched(this.props.name, true);
   };
 
-  onChangeHandler = (event: React.SyntheticEvent<HTMLInputElement>) => {
+  onChange = () => {
     const { customOnChange, formik, name } = this.props;
     formik.setFieldValue(name, !formik.values[name]);
     formik.setFieldTouched(name, true);
-    customOnChange && customOnChange(name, !formik.values[name]);
+    if (customOnChange) customOnChange(name, !formik.values[name]);
   };
 
   render() {
@@ -65,7 +65,7 @@ class CustomFormikTextToggle extends React.PureComponent<
           id={textToggleId}
           name={name}
           value={values && values[name]}
-          onChange={this.onChangeHandler}
+          onChange={this.onChange}
           onBlur={handleBlur}
           trueOption={trueOption}
           falseOption={falseOption}

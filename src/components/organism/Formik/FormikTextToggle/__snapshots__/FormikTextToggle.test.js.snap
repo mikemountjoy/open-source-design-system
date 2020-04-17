@@ -216,15 +216,16 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
               spacing={1.5}
             >
               <FormikTextToggle
+                customOnChange={[Function]}
                 falseOption="False"
                 id="testId"
                 label="Test"
                 name="test"
-                onChange={[Function]}
                 trueOption="Yes"
                 width="5rem"
               >
                 <CustomFormikTextToggle
+                  customOnChange={[Function]}
                   falseOption="False"
                   formik={
                     Object {
@@ -273,7 +274,6 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                   id="testId"
                   label="Test"
                   name="test"
-                  onChange={[Function]}
                   trueOption="Yes"
                   width="5rem"
                 >
@@ -324,6 +324,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                           Test
                         </label>
                         <TextToggle
+                          customOnChange={[Function]}
                           falseOption="False"
                           formik={
                             Object {
@@ -423,6 +424,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                               >
                                 <Toggle
                                   checked={true}
+                                  customOnChange={[Function]}
                                   disabled={false}
                                   formik={
                                     Object {
@@ -477,6 +479,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                                 >
                                   <StyledComponent
                                     checked={true}
+                                    customOnChange={[Function]}
                                     disabled={false}
                                     formik={
                                       Object {
@@ -1665,16 +1668,17 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
             >
               <FormikTextToggle
                 className="testClassName"
+                customOnChange={[Function]}
                 falseOption="False"
                 id="testId"
                 label="Test"
                 name="test"
-                onChange={[Function]}
                 trueOption="Yes"
                 width="5rem"
               >
                 <CustomFormikTextToggle
                   className="testClassName"
+                  customOnChange={[Function]}
                   falseOption="False"
                   formik={
                     Object {
@@ -1723,7 +1727,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                   id="testId"
                   label="Test"
                   name="test"
-                  onChange={[Function]}
                   trueOption="Yes"
                   width="5rem"
                 >
@@ -1774,6 +1777,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                           Test
                         </label>
                         <TextToggle
+                          customOnChange={[Function]}
                           falseOption="False"
                           formik={
                             Object {
@@ -1873,6 +1877,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                               >
                                 <Toggle
                                   checked={true}
+                                  customOnChange={[Function]}
                                   disabled={false}
                                   formik={
                                     Object {
@@ -1927,6 +1932,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                                 >
                                   <StyledComponent
                                     checked={true}
+                                    customOnChange={[Function]}
                                     disabled={false}
                                     formik={
                                       Object {
@@ -3114,16 +3120,17 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
               spacing={1.5}
             >
               <FormikTextToggle
+                customOnChange={[Function]}
                 falseOption="False"
                 id="testId"
                 label="Test"
                 name="test"
-                onChange={[Function]}
                 row={false}
                 trueOption="Yes"
                 width="5rem"
               >
                 <CustomFormikTextToggle
+                  customOnChange={[Function]}
                   falseOption="False"
                   formik={
                     Object {
@@ -3172,7 +3179,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                   id="testId"
                   label="Test"
                   name="test"
-                  onChange={[Function]}
                   row={false}
                   trueOption="Yes"
                   width="5rem"
@@ -3224,6 +3230,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                           Test
                         </label>
                         <TextToggle
+                          customOnChange={[Function]}
                           falseOption="False"
                           formik={
                             Object {
@@ -3323,6 +3330,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                               >
                                 <Toggle
                                   checked={true}
+                                  customOnChange={[Function]}
                                   disabled={false}
                                   formik={
                                     Object {
@@ -3377,6 +3385,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                                 >
                                   <StyledComponent
                                     checked={true}
+                                    customOnChange={[Function]}
                                     disabled={false}
                                     formik={
                                       Object {

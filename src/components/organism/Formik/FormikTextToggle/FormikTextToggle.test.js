@@ -1,6 +1,6 @@
 import React from "react"
-import { mount } from "enzyme"
-import FormikTextToggle from "./FormikTextToggle"
+import { mount, shallow } from "enzyme"
+import FormikTextToggle, { CustomFormikTextToggle } from "./FormikTextToggle"
 import Form from "../Form"
 
 describe("FormikTextToggle Component Test", () => {
@@ -11,7 +11,17 @@ describe("FormikTextToggle Component Test", () => {
     trueOption: "Yes",
     falseOption: "False",
     id: "testId",
-    onChange: () => {},
+    customOnChange: () => {},
+  }
+
+  const formikSetFieldValueMockFn = jest.fn()
+  const formikSetFieldTouchedMockFn = jest.fn()
+  const mockFn = jest.fn()
+  const formikProps = {
+    values: { name: "" },
+    errors: { name: "" },
+    setFieldTouched: formikSetFieldValueMockFn,
+    setFieldValue: formikSetFieldTouchedMockFn,
   }
   it("Match last snapshot with base props", () => {
     const handleChange = jest.fn()
@@ -41,5 +51,21 @@ describe("FormikTextToggle Component Test", () => {
       </Form>,
     )
     expect(component).toMatchSnapshot()
+  })
+
+  it("check onChange function", () => {
+    const toggleComponent = shallow(
+      <CustomFormikTextToggle
+        {...baseProps}
+        formik={formikProps}
+        customOnChange={mockFn}
+        className="testClassName"
+      />,
+    )
+
+    toggleComponent.instance().onChange()
+    expect(formikSetFieldValueMockFn).toHaveBeenCalledWith("test", true)
+    expect(formikSetFieldTouchedMockFn).toHaveBeenCalledWith("test", true)
+    expect(mockFn).toHaveBeenCalledWith("test", true)
   })
 })
