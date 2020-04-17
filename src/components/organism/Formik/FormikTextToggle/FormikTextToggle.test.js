@@ -18,8 +18,8 @@ describe("FormikTextToggle Component Test", () => {
   const formikSetFieldTouchedMockFn = jest.fn()
   const mockFn = jest.fn()
   const formikProps = {
-    values: { name: "" },
-    errors: { name: "" },
+    values: { test: "" },
+    errors: { test: "" },
     setFieldTouched: formikSetFieldValueMockFn,
     setFieldValue: formikSetFieldTouchedMockFn,
   }
