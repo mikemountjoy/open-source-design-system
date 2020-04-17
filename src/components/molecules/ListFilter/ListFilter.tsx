@@ -86,7 +86,7 @@ class ListFilter extends React.PureComponent<IListFilter> {
           return item1.value.toLowerCase() > item2.value.toLowerCase() ? 1 : -1;
         } else if (isJSXElement(item1.value) && isJSXElement(item2.value)) {
           const item1Text = item1.value.props.children;
-          const item2Text = item1.value.props.children;
+          const item2Text = item2.value.props.children;
           if (typeof item1Text === "string" && typeof item2Text === "string") {
             return item1Text.toLowerCase() > item2Text.toLowerCase() ? 1 : -1;
           }
