@@ -11,6 +11,7 @@ describe("FormikTextToggle Component Test", () => {
     trueOption: "Yes",
     falseOption: "False",
     id: "testId",
+    onChange: () => {},
   }
   it("Match last snapshot with base props", () => {
     const handleChange = jest.fn()

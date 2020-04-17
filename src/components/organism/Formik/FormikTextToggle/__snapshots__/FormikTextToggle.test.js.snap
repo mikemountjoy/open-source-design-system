@@ -220,6 +220,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                 id="testId"
                 label="Test"
                 name="test"
+                onChange={[Function]}
                 trueOption="Yes"
                 width="5rem"
               >
@@ -272,6 +273,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                   id="testId"
                   label="Test"
                   name="test"
+                  onChange={[Function]}
                   trueOption="Yes"
                   width="5rem"
                 >
@@ -286,7 +288,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                            "componentId": "FormikTextToggle__Container-buycao-0",
                             "isStatic": false,
                             "lastClassName": "c1",
                             "rules": Array [
@@ -302,7 +304,7 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                           "displayName": "FormikTextToggle__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                          "styledComponentId": "FormikTextToggle__Container-buycao-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -369,7 +371,6 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                           }
                           id="testId-textToggle"
                           isDisabled={false}
-                          label="Test"
                           name="test"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -468,7 +469,6 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                                     }
                                   }
                                   id="testId-textToggle"
-                                  label="Test"
                                   name="test"
                                   onBlur={[Function]}
                                   onChange={[Function]}
@@ -546,7 +546,6 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                                     }
                                     forwardedRef={null}
                                     id="testId-textToggle"
-                                    label="Test"
                                     name="test"
                                     onBlur={[Function]}
                                     onChange={[Function]}
@@ -558,7 +557,6 @@ exports[`FormikTextToggle Component Test Match last snapshot with base props 1`]
                                       className="c3"
                                       disabled={false}
                                       id="testId-textToggle"
-                                      label="Test"
                                       name="test"
                                       onBlur={[Function]}
                                       onChange={[Function]}
@@ -1671,6 +1669,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                 id="testId"
                 label="Test"
                 name="test"
+                onChange={[Function]}
                 trueOption="Yes"
                 width="5rem"
               >
@@ -1724,6 +1723,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                   id="testId"
                   label="Test"
                   name="test"
+                  onChange={[Function]}
                   trueOption="Yes"
                   width="5rem"
                 >
@@ -1738,7 +1738,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                            "componentId": "FormikTextToggle__Container-buycao-0",
                             "isStatic": false,
                             "lastClassName": "c1",
                             "rules": Array [
@@ -1754,7 +1754,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                           "displayName": "FormikTextToggle__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                          "styledComponentId": "FormikTextToggle__Container-buycao-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1821,7 +1821,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                           }
                           id="testId-textToggle"
                           isDisabled={false}
-                          label="Test"
                           name="test"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -1920,7 +1919,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                                     }
                                   }
                                   id="testId-textToggle"
-                                  label="Test"
                                   name="test"
                                   onBlur={[Function]}
                                   onChange={[Function]}
@@ -1998,7 +1996,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                                     }
                                     forwardedRef={null}
                                     id="testId-textToggle"
-                                    label="Test"
                                     name="test"
                                     onBlur={[Function]}
                                     onChange={[Function]}
@@ -2010,7 +2007,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with classname passed 
                                       className="c3"
                                       disabled={false}
                                       id="testId-textToggle"
-                                      label="Test"
                                       name="test"
                                       onBlur={[Function]}
                                       onChange={[Function]}
@@ -3122,6 +3118,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                 id="testId"
                 label="Test"
                 name="test"
+                onChange={[Function]}
                 row={false}
                 trueOption="Yes"
                 width="5rem"
@@ -3175,6 +3172,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                   id="testId"
                   label="Test"
                   name="test"
+                  onChange={[Function]}
                   row={false}
                   trueOption="Yes"
                   width="5rem"
@@ -3190,7 +3188,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                            "componentId": "FormikTextToggle__Container-buycao-0",
                             "isStatic": false,
                             "lastClassName": "c1",
                             "rules": Array [
@@ -3206,7 +3204,7 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                           "displayName": "FormikTextToggle__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "FormikTextToggle__Container-sc-1m3xnkc-0",
+                          "styledComponentId": "FormikTextToggle__Container-buycao-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -3273,7 +3271,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                           }
                           id="testId-textToggle"
                           isDisabled={false}
-                          label="Test"
                           name="test"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -3372,7 +3369,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                                     }
                                   }
                                   id="testId-textToggle"
-                                  label="Test"
                                   name="test"
                                   onBlur={[Function]}
                                   onChange={[Function]}
@@ -3450,7 +3446,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                                     }
                                     forwardedRef={null}
                                     id="testId-textToggle"
-                                    label="Test"
                                     name="test"
                                     onBlur={[Function]}
                                     onChange={[Function]}
@@ -3462,7 +3457,6 @@ exports[`FormikTextToggle Component Test Matches snapshot with row = false 1`] =
                                       className="c3"
                                       disabled={false}
                                       id="testId-textToggle"
-                                      label="Test"
                                       name="test"
                                       onBlur={[Function]}
                                       onChange={[Function]}

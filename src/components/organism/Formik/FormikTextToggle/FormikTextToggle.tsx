@@ -15,7 +15,7 @@ const Container = styled.div<{ row: boolean }>`
 `;
 interface CustomFormikTextToggleProps {
   name: string;
-  onChange?(name: string, value: string): void;
+  onChange?(name: string, value: boolean): void;
   label?: JSX.Element | string;
   trueOption?: string;
   falseOption?: string;
@@ -33,10 +33,10 @@ class CustomFormikTextToggle extends React.PureComponent<
     this.props.formik.setFieldTouched(this.props.name, true);
   };
 
-  onChange = (value: string) => {
-    const { onChange, formik } = this.props;
-    onChange && onChange(this.props.name, value);
-    formik.setFieldValue(this.props.name, value);
+  onChange = (event: React.SyntheticEvent<HTMLInputElement>) => {
+    const { onChange, formik, name } = this.props;
+    onChange && onChange(name, !formik.values[name]);
+    formik.setFieldValue(name, !formik.values[name]);
   };
 
   render() {
