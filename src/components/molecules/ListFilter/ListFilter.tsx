@@ -3,13 +3,11 @@ import styled from "styled-components";
 import { ListContainer, ListItem } from "../List";
 import { colourPalette } from "../../../brandColours";
 
-const isString = (value: string | JSX.Element): value is string => {
-  return (value as string).length !== undefined;
-}  
+const isString = (value: string | JSX.Element): value is string => 
+  (value as string).length !== undefined; 
 
-const isJSXElement = (value: string | JSX.Element): value is JSX.Element => {
-  return (value as JSX.Element).props !== undefined;
-}
+const isJSXElement = (value: string | JSX.Element): value is JSX.Element => 
+  (value as JSX.Element).props !== undefined;
 
 const SearchWrapper = styled.div`
   border-bottom: 1px solid ${props => props.theme.primary.light.hex};
