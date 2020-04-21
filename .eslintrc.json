@@ -1,6 +1,6 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier", "prettier/react", "prettier/@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "extends": ["airbnb", "prettier", "prettier/react", "prettier/@typescript-eslint","plugin:@typescript-eslint/recommended"],
   "env": {
     "browser": true,
     "node": true,
@@ -16,7 +16,18 @@
     }
   },
   "rules": {
-    "prettier/prettier": "error",
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/interface-name": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/jsx-no-multiline-js": 0,
+    "@typescript-eslint/jsx-boolean-value": 0,
+    "@typescript-eslint/member-access": 0,
+    "@typescript-eslint/object-literal-sort-keys": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "quotes": [2, "double", { "avoidEscape": true }],
     "class-methods-use-this": 0,
     "import/imports-first": 0,
     "import/no-dynamic-require": 0,
