@@ -8,7 +8,7 @@ import Checkbox from "../../atoms/Checkbox"
 // Declare Container CSS with styled components
 const Container = styled.div`
   display: inline-block;
-  ${props => (props.disabled ? `opacity: 0.3;` : ``)}
+  ${props => (props.disabled ? "opacity: 0.3;" : "")}
   > div {
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ const Container = styled.div`
     }
     input,
     label {
-      ${props => (props.disabled ? `cursor:not-allowed !important;` : ``)}
+      ${props => (props.disabled ? "cursor:not-allowed !important;" : "")}
     }
   }
 `
