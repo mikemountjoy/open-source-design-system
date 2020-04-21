@@ -8,7 +8,7 @@
     "es6": true
   },
   "plugins": ["react", "jsx-a11y", "prettier", "@typescript-eslint", "import"],
-  "parserOptions": {Removes tslint, includes typescript-eslint/parser, adds old rules
+  "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
