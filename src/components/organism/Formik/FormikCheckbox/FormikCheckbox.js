@@ -6,13 +6,13 @@ import Label from "../../../atoms/Label"
 import Checkbox from "../../../atoms/Checkbox"
 
 const Container = styled.div`
-  ${props => (props.disabled ? `opacity: 0.3;` : ``)}
+  ${props => (props.disabled ? "opacity: 0.3;" : "")}
   display: flex;
   flex-direction: row;
   align-items: center;
   input,
   label {
-    ${props => (props.disabled ? `cursor:not-allowed !important;` : ``)}
+    ${props => (props.disabled ? "cursor:not-allowed !important;" : "")}
   }
 `
 
