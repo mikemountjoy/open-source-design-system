@@ -24,6 +24,8 @@ import {
   faUpload,
   faUserCircle,
   faUsers,
+  faGraduationCap,
+  faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // See list here: https://origin.fontawesome.com/icons?d=gallery&s=solid&m=free
@@ -55,6 +57,8 @@ library.add(faEnvelopeOpen);
 library.add(faEdit);
 library.add(faSearch);
 library.add(faCommentDots);
+library.add(faGraduationCap);
+library.add(faAngleDown);
 
 interface IIconContainer {
   rotateDegrees?: string;
