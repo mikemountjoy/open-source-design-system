@@ -82,7 +82,7 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)<IStyledFontAwesomeIcon>`
 `;
 StyledFontAwesomeIcon.displayName = "StyledFontAwesomeIcon";
 
-interface IIconWithTheme {
+export interface IIconWithTheme {
   name: IconProp;
   color?: string;
   shade?: string;

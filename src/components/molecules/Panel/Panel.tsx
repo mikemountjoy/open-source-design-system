@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components"
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { colourPalette } from "../../../brandColours"
 
-import Icon from "../../atoms/Icon"
+import Icon, { IIconWithTheme } from "../../atoms/Icon"
 
-const PanelButton = styled.button`
+export const PanelButton = styled.button`
 display: flex;
   flex-direction: row;
   align-items: center;
@@ -13,7 +14,7 @@ display: flex;
   margin: 0.5rem 0;
   text-decoration: none;
   border: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: ${props => props.theme.action.main.hex};
   path {
     fill: ${props => props.theme.action.main.hex};
@@ -25,9 +26,14 @@ display: flex;
       outline: none;
   }
 `
+PanelButton.defaultProps = {
+    theme: colourPalette.examplePalette,
+  }
+
 PanelButton.displayName = "PanelButton"
 
 const StyledIcon = styled(Icon)`
+transform: scale(0.8, 1.25);
     margin-right: 0.5rem;
 `
 StyledIcon.displayName = "StyledIcon"
@@ -36,12 +42,12 @@ interface IArrowIconProps {
     flipped: boolean;
 }
 
-const ArrowIcon = styled(Icon)<IArrowIconProps>`
+export const ArrowIcon = styled(Icon)<IArrowIconProps>`
     margin-left: 0.5rem;
     padding-top: 0.1rem;
     svg {
         transform: scaleY(${(props) => props.flipped ? -1 : 1});
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
     }
 `
 ArrowIcon.displayName = "ArrowIcon"

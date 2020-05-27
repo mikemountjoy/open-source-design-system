@@ -1,42 +1,50 @@
 import React from "react"
-import { shallow } from "enzyme"
+import { shallow, mount } from "enzyme"
 import toJson from "enzyme-to-json"
 import "jest-styled-components"
-import Panel from "./Panel"
+import Panel, { PanelButton, ArrowIcon } from "./Panel"
 
 describe("Panel", () => {
     const commonProps = {
         defaultOpen: false,
-        icon: "check",
         label: "open/close",
     }
-    it("should match the snapshot", () => {
+    it("should match the snapshot when no children or icon passed", () => {
         const componentWithoutChild = shallow(<Panel {...commonProps}/>)
         const tree = toJson(componentWithoutChild)
         expect(tree).toMatchSnapshot()
     })
+    it("should match the snapshot when icon passed", () => {
+        const customProps = {...commonProps, icon: "check"}
+        const componentWithoutChild = shallow(<Panel {...customProps}/>)
+        const tree = toJson(componentWithoutChild)
+        expect(tree).toMatchSnapshot()
+    })
     it("should show child content when the button is clicked", () => {
+        const customProps = {...commonProps, icon: "check"}
         const childProp = <p>Mock Content</p>;
-        const componentWithChild = shallow(<Panel {...commonProps}>{childProp}</Panel>)
+        const componentWithChild = shallow(<Panel {...customProps}>{childProp}</Panel>)
         expect(componentWithChild.state().open).toEqual(false)
         expect(componentWithChild.find("p").exists()).toEqual(false)
         componentWithChild.find("PanelButton").simulate("click")
         expect(componentWithChild.state().open).toEqual(true)
         expect(componentWithChild.find("p").exists()).toEqual(true)
     })
-    // it("should use the correct colours", () => {
-    //     const childProp = <p>Mock Content</p>;
-    //     const componentWithChild = shallow(<Panel {...commonProps}>{childProp}</Panel>)
-    //     console.log(componentWithChild.find("PanelButton").props())
-    //     expect(componentWithChild.find("PanelButton")).toHaveStyleRule("color", "#01579B")
-    // })
-    // it("should flip the arrow icon when button is clicked", () => {
-    //     const componentWithoutChild = shallow(<Panel {...commonProps}/>)
-    //     // console.log(componentWithoutChild.find("ArrowIcon").children().svg.debug())
-    //     // expect(componentWithoutChild.find("ArrowIcon")).toHaveStyleRule("transform", "scaleY(1)")
-    //     expect(componentWithoutChild.find("ArrowIcon").toHaveStyleRule("margin-left", "0.5rem")
-    //     componentWithoutChild.find("PanelButton").simulate("click")
-    //     // expect(componentWithoutChild.find("ArrowIcon")).toHaveStyleRule("transform", "scaleY(-1)")
-    // })
 })
-
+describe("PanelButton", () => {
+    it("uses the correct colours", () => {
+        const component = mount(<PanelButton />)
+        expect(component).toHaveStyleRule("color", "#743C8F")
+        expect(component).toHaveStyleRule("fill", "#743C8F", { modifier: "path"})
+    })
+})
+describe("ArrowIcon", () => {
+    it("uses the correct scale styling when flipped is false", () => {
+        const component = mount(<ArrowIcon name="chevron-down" size="1x" flipped={false}/>)
+        expect(component).toHaveStyleRule("transform", "scaleY(1)", { modifier: "svg"})
+    })
+    it("uses the correct scale styling when flipped is true", () => {
+        const component = mount(<ArrowIcon name="chevron-down" size="1x" flipped/>)
+        expect(component).toHaveStyleRule("transform", "scaleY(-1)", { modifier: "svg"})
+    })
+})
