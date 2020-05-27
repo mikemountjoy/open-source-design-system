@@ -29,6 +29,7 @@ import FormRadio from "./components/molecules/FormRadio"
 import { ListContainer, ListItem } from "./components/molecules/List"
 import ListFilter, { IListFilterItems } from "./components/molecules/ListFilter"
 import Modal from "./components/molecules/Modal"
+import Panel from "./components/molecules/Panel"
 import StepBar from "./components/molecules/StepBar"
 import StepDescription from "./components/molecules/StepDescription"
 import TimezoneSelect from "./components/molecules/TimezoneSelect"
@@ -90,6 +91,7 @@ export {
   ListFilter,
   IListFilterItems,
   Modal,
+  Panel,
   StepBar,
   StepDescription,
   TimezoneSelect,

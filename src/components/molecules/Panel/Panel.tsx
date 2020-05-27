@@ -1,12 +1,52 @@
 import React from "react";
 import styled from "styled-components"
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
-import Button from "../../atoms/Button"
 import Icon from "../../atoms/Icon"
 
+const PanelButton = styled.button`
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.5rem;
+  padding: 0;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  border: none;
+  font-size: 1rem;
+  color: ${props => props.theme.action.main.hex};
+  path {
+    fill: ${props => props.theme.action.main.hex};
+  }
+  :hover {
+    cursor: pointer;
+  }
+  :focus {
+      outline: none;
+  }
+`
+
+const StyledIcon = styled(Icon)`
+    margin-right: 0.5rem;
+`
+
+interface IArrowIconProps {
+    flipped: boolean;
+}
+
+const ArrowIcon = styled(Icon)<IArrowIconProps>`
+    margin-left: 0.5rem;
+    padding-top: 0.1rem;
+    svg {
+        transform: scaleY(${(props) => props.flipped ? -1 : 1});
+        transition: transform 0.5s ease-in-out;
+    }
+`
+
 interface IPanelProps {
-    icon: string;
-    label: string;
+    defaultOpen: boolean;
+    icon?: IconProp;
+    label: string | React.ReactNode; 
     children: React.ReactNode;
 }
 
@@ -14,21 +54,9 @@ interface IPanelState {
     open: boolean;
 }
 
-interface IArrowIconProps {
-    flipped: boolean;
-}
-
-const ArrowIcon = styled(Icon)<IArrowIconProps>`
-    margin-left: 1rem;
-    svg {
-        transform: scaleY(${(props) => props.flipped ? -1 : 1});
-        transition: transform 0.3s;
-    }
-`
-
 class Panel extends React.PureComponent<IPanelProps, IPanelState> {
     state: IPanelState = {
-        open: false,
+        open: this.props.defaultOpen,
     }
 
     toggleOpen = () => {
@@ -39,15 +67,14 @@ class Panel extends React.PureComponent<IPanelProps, IPanelState> {
 
     render(){
         return (
-            <div>
-                <Button onClick={this.toggleOpen}>
-                    <Icon name="graduation-cap" /> 
-                    Instructions
-                    <ArrowIcon name="angle-down" flipped={this.state.open} />
-                </Button>
-                {this.state.open && 
-                <div>Step 1: open the box</div>}
-            </div>
+            <>
+                <PanelButton onClick={this.toggleOpen}>
+                    {this.props.icon ? <StyledIcon name={this.props.icon} size="1x" /> : null }
+                    {this.props.label}
+                    <ArrowIcon name="chevron-down" size="1x" flipped={this.state.open} />
+                </PanelButton>
+                {this.state.open && this.props.children}
+            </>
         );
     }
 }
