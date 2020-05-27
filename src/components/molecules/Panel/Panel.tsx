@@ -25,10 +25,12 @@ display: flex;
       outline: none;
   }
 `
+PanelButton.displayName = "PanelButton"
 
 const StyledIcon = styled(Icon)`
     margin-right: 0.5rem;
 `
+StyledIcon.displayName = "StyledIcon"
 
 interface IArrowIconProps {
     flipped: boolean;
@@ -42,6 +44,7 @@ const ArrowIcon = styled(Icon)<IArrowIconProps>`
         transition: transform 0.5s ease-in-out;
     }
 `
+ArrowIcon.displayName = "ArrowIcon"
 
 interface IPanelProps {
     defaultOpen: boolean;

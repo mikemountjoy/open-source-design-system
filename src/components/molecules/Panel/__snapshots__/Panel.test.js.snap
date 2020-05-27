@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel Component Testing should match the snapshot 1`] = `
+<Fragment>
+  <PanelButton
+    onClick={[Function]}
+  >
+    <StyledIcon
+      name="check"
+      size="1x"
+    />
+    open/close
+    <ArrowIcon
+      flipped={false}
+      name="chevron-down"
+      size="1x"
+    />
+  </PanelButton>
+</Fragment>
+`;
+
+exports[`Panel should match the snapshot 1`] = `
+<Fragment>
+  <PanelButton
+    onClick={[Function]}
+  >
+    <StyledIcon
+      name="check"
+      size="1x"
+    />
+    open/close
+    <ArrowIcon
+      flipped={false}
+      name="chevron-down"
+      size="1x"
+    />
+  </PanelButton>
+</Fragment>
+`;
