@@ -1,3 +1,4 @@
-import Icon from "./Icon"
+import Icon, { IIconWithTheme } from "./Icon"
 
+export { IIconWithTheme }
 export default Icon
