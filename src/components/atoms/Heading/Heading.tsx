@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { colourPalette } from "../../../brandColours"
 
 interface IStyledHeadingProps {
   level: number;
@@ -13,21 +14,25 @@ const StyledHeading = styled.h1<IStyledHeadingProps>`
     switch (props.level) {
       case 1:
         return "3rem"
-      case 2:
-        return "2.5rem"
-      case 3:
-        return "2.0rem"
-      case 4:
-        return "1.5rem"
-      case 5:
-        return "1.25rem"
-      case 6: 
-        return "1.125rem"
-      default:
-        return "3rem"
-    }
-  }};
+        case 2:
+          return "2.5rem"
+          case 3:
+            return "2.0rem"
+            case 4:
+              return "1.5rem"
+              case 5:
+                return "1.25rem"
+                case 6: 
+                return "1.125rem"
+                default:
+                  return "3rem"
+                }
+              }};
 `
+
+StyledHeading.defaultProps = {
+  theme: colourPalette.examplePalette,
+}
 
 interface IHeadingProps {
   level?: 1 | 2 | 3 | 4 | 5 | 6;
