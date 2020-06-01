@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { colourPalette } from "../../../brandColours";
 
 interface IStyledHeadingProps {
-  level: number;
+  level?: 1 | 2 | 3 | 4 | 5 | 6;
 }
 
 const StyledHeading = styled.h1<IStyledHeadingProps>`
@@ -33,8 +33,7 @@ StyledHeading.defaultProps = {
   theme: colourPalette.examplePalette,
 }
 
-interface IHeadingProps {
-  level?: 1 | 2 | 3 | 4 | 5 | 6;
+interface IHeadingProps extends IStyledHeadingProps {
   children: React.ReactNode;
 }
 
