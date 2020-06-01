@@ -1,6 +1,6 @@
-import React from "react"
-import styled from "styled-components"
-import { colourPalette } from "../../../brandColours"
+import React from "react";
+import styled from "styled-components";
+import { colourPalette } from "../../../brandColours";
 
 interface IStyledHeadingProps {
   level: number;
@@ -13,21 +13,20 @@ const StyledHeading = styled.h1<IStyledHeadingProps>`
   font-size: ${props => {
     switch (props.level) {
       case 1:
-        return "3rem"
-        case 2:
-          return "2.5rem"
-          case 3:
-            return "2.0rem"
-            case 4:
-              return "1.5rem"
-              case 5:
-                return "1.25rem"
-                case 6: 
-                return "1.125rem"
-                default:
-                  return "3rem"
-                }
-              }};
+        return "3rem";
+      case 2:
+        return "2.5rem";
+      case 3:
+        return "2.0rem";
+      case 4:
+        return "1.5rem";
+      case 5:
+        return "1.25rem";
+      case 6: 
+        return "1.125rem";
+      default:
+        return "3rem";
+    }}};
 `
 
 StyledHeading.defaultProps = {
