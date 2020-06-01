@@ -14,9 +14,9 @@ const StyledHeading = styled.h1`
       case 2:
         return "2.25rem"
       case 3:
-        return "1.75rem"
+        return "1.5rem"
       case 4:
-        return "1.125rem"
+        return "1.25rem"
       default:
         return "3rem"
     }
