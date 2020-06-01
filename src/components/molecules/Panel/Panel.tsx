@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { colourPalette } from "../../../brandColours"
 
-import Icon, { IIconWithTheme } from "../../atoms/Icon"
+import Icon from "../../atoms/Icon"
 
 export const PanelButton = styled.button`
 display: flex;
@@ -14,7 +14,8 @@ display: flex;
   margin: 0.5rem 0;
   text-decoration: none;
   border: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  background-color: transparent;
   color: ${props => props.theme.action.main.hex};
   path {
     fill: ${props => props.theme.action.main.hex};

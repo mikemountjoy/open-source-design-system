@@ -34,4 +34,16 @@ describe("Heading test", () => {
     expect(component.find("h4").exists()).toBeTruthy()
     expect(component.find("h4").text()).toEqual("Hello")
   })
+
+  it("should render a h5 tag", () => {
+    const component = mount(<Heading level={5}>Hello</Heading>)
+    expect(component.find("h5").exists()).toBeTruthy()
+    expect(component.find("h5").text()).toEqual("Hello")
+  })
+
+  it("should render a h6 tag", () => {
+    const component = mount(<Heading level={6}>Hello</Heading>)
+    expect(component.find("h6").exists()).toBeTruthy()
+    expect(component.find("h6").text()).toEqual("Hello")
+  })
 })
