@@ -1,3 +1,13 @@
+# Changes to come
+If you intend to fork this open repo, I advise to wait. There are some major changes coming in the near near future which would make it awkward for you if you intend to use/contribute to this repo.
+
+The following changes are:
+- Name change to repo and npm package
+- Code of conduct
+- Contributing guidelines
+
+---
+
 # CRC Design System
 
 <!-- [![codecov](https://codecov.io/gh/Client-Relationship-Consultancy/design-system/branch/master/graph/badge.svg?token=1SiETTL2PR)](https://codecov.io/gh/Client-Relationship-Consultancy/design-system) [![Build Status](https://travis-ci.com/Client-Relationship-Consultancy/design-system.svg?token=CQ9Zb5xHzheSq3sjrYKj&branch=master)](https://travis-ci.com/Client-Relationship-Consultancy/design-system) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b221e55a31c348faa09c6740b5ca117b)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=Client-Relationship-Consultancy/design-system&utm_campaign=Badge_Grade) ![core size](https://img.shields.io/bundlephobia/min/emotion.svg?label=core%20size) -->
